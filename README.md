@@ -8,10 +8,9 @@ description: Welcome to the official documentations page, made for CDev Discord 
 
 ## Our Partners
 
-* [QBCore](https://discord.gg/qbcore)
+
 * [GKSPhone](https://discord.gg/XUck63E)
 * [PassionRP/Passion Gaming](https://discord.gg/passionrp)
-* [Scora Network](https://discord.gg/scora)
 * [K4MB1](https://discord.gg/JrjkacM)
 * [Lionh34rt](https://discord.gg/AWyTUEnGeN)
 * [1SKGAMING](https://www.1skgaming.com/discord)
