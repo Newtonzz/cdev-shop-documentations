@@ -12,8 +12,8 @@ The answer is no.
 
 Use **/bot update** to update your bot's information!
 
-![](../.gitbook/assets/9.gif)
+![Additionally, you can login to https://discord.com/developers and update your bot name, image and bio there at any given time.](../.gitbook/assets/9.gif)
 
-### Do you guys provide the source code as well?
+### Do I receive the source code upon purchase?
 
-The answer is no. Our bots are for rent-purposes.
+No, our bots are for rent only purposes intended.
