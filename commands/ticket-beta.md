@@ -98,7 +98,7 @@ Set a specific channel category for tickets.
 
 * **channel**:CHANNEL (optional) — A text channel.
 
-## ticket config archive\_scheme
+## ticket scheme archive
 
 Defines ticket channels behaviour after closing.
 
