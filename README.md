@@ -23,3 +23,7 @@ description: Welcome to the official documentations page, made for CDev Discord 
 * [Critical Scripts](https://tebex.criticalscripts.shop/)
 * [Renewed Scripts](https://renewed.tebex.io/)
 * [QC-Cloud](https://www.qc-cloud.net/)
+
+{% embed url="https://gta.clothing/" %}
+
+<figure><img src="https://cdn.discordapp.com/attachments/955140577203208253/1095462395159269500/durty-cloth-tool-logo.png" alt=""><figcaption><p>Durty Cloth Tool</p></figcaption></figure>
