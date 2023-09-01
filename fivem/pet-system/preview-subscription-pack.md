@@ -1,3 +1,22 @@
+---
+cover: ../../.gitbook/assets/Screenshot_18[1].png
+coverY: 26
+layout:
+  cover:
+    visible: true
+    size: hero
+  title:
+    visible: true
+  description:
+    visible: true
+  tableOfContents:
+    visible: true
+  outline:
+    visible: true
+  pagination:
+    visible: true
+---
+
 # Preview Subscription Pack
 
 ## Animals
