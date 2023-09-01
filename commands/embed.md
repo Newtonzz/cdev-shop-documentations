@@ -5,7 +5,7 @@
 Create a new embed.
 
 * **channel**:CHANNEL — A specific text channel to send the embed.
-* **description**:STRING — The description of the embed. (max. 4096 chars)
+* **use\_description**:STRING — The description of the embed. (max. 4096 chars)
 * **timestamp**:BOOLEAN — Include current time footer.
 * **color**:STRING — Hex color. (e.g. #121112, 0x7289DA)
 * **use\_message\_content**:BOOLEAN — Provide raw message.
@@ -22,6 +22,9 @@ Create a new embed.
 * **thumbnail\_image\_url**:STRING — A thumbnail URL of the embed. "thumbnail\_image" will be used if it was included.
 * **image**:undefined — An image of the embed.
 * **image\_url**:STRING — An image URL of the embed. "image" will be used if it was included.
+* **button\_url**:STRING — Provide a website redirect button below embed
+* **button\_url\_title**:STRING — Add a title on the website redirect button
+* **button\_url\_emoji**:STRING — Add an emoji on the website redirect button
 
 ## embed edit
 
@@ -30,7 +33,7 @@ Modify existing embed. This will and can overwrite your old/monitored-by-CDev em
 * **discord\_embed\_url**:STRING (optional) — A message URL.
 * **keep\_references**:BOOLEAN — Keep the old embed references, and modify the chosen only.
 * **channel**:CHANNEL — A specific text channel to send the embed.
-* **description**:STRING — The description of the embed. (max. 4096 chars)
+* **use\_description**:STRING — The description of the embed. (max. 4096 chars)
 * **timestamp**:BOOLEAN — Include current time footer.
 * **color**:STRING — Hex color. (e.g. #121112, 0x7289DA)
 * **use\_message\_content**:BOOLEAN — Provide raw message.
@@ -47,3 +50,6 @@ Modify existing embed. This will and can overwrite your old/monitored-by-CDev em
 * **thumbnail\_image\_url**:STRING — A thumbnail URL of the embed. "thumbnail\_image" will be used if it was included.
 * **image**:undefined — An image of the embed.
 * **image\_url**:STRING — An image URL of the embed. "image" will be used if it was included.
+* **button\_url**:STRING — Provide a website redirect button below embed
+* **button\_url\_title**:STRING — Add a title on the website redirect button
+* **button\_url\_emoji**:STRING — Add an emoji on the website redirect button

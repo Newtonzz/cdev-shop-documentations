@@ -18,6 +18,7 @@ Create a new custom command (up to 25 commands)
 * **via\_dm**:BOOLEAN — The response will be sent to the user who used the command.
 * **disable\_pings**:BOOLEAN — Disable ping triggers, including: @everyone, @here, @anyRole
 * **reply\_to\_source**:BOOLEAN — Use reply feature.
+* **embed**:BOOLEAN - Use Embedding
 
 ## custom\_cmd config edit
 
@@ -33,6 +34,7 @@ Update/edit the existing custom command.
 * **via\_dm**:BOOLEAN — The response will be sent to the user who used the command.
 * **disable\_pings**:BOOLEAN — Disable ping triggers, including: @everyone, @here, @anyRole
 * **reply\_to\_source**:BOOLEAN — Use reply feature.
+* **embed**:BOOLEAN - Use Embedding
 
 ## custom\_cmd config info
 

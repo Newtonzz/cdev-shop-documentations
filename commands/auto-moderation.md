@@ -1,31 +1,27 @@
 # Auto Moderation
 
-## automod info
+## automod phishing enable
 
-Display an information about auto moderation settings.
+Enable auto mod phishing feature.
 
-* **query**:STRING (optional) — A type of auto moderation.
+## automod phishing disable
 
-## automod reset
+Disable auto mod phishing feature.
 
-Reset specific or all server configuration. (BETA)
-
-* **query**:STRING (optional) — A type of server settings.
-
-## automod toggle
-
-Toggle specific settings.
-
-* **query**:STRING (optional) — A type of server settings.
-
-## automod alt\_prevention set
+## automod alt\_prevention enable
 
 Activate the Discord account alt prevention. Calculates based on their created date.
 
 * **age**:INTEGER (optional) — An account age to be declared as a limit to join the server. (\[Number] in day)
 * **type**:STRING (optional) — The execution.
+* **type**:STRING (optional) - Logging the execution
+* **channel**:CHANNEL — A guild channel. An alternative if specific channel doesn't appear in the select menu.
 
-## automod anti spam
+## automod alt\_prevention disable
+
+Disable the Discord account alt prevention feature.
+
+## automod spam enable
 
 Prevent users from "spamming" in your server. (Concept: don't send X messages in Y time)
 
@@ -35,3 +31,7 @@ Prevent users from "spamming" in your server. (Concept: don't send X messages in
 * **mute\_interval**:STRING — Mute timeout for "deleteMessageAndMute" action, if chosen. (e.g: 1 hour 42 minutes)
 * **warning**:BOOLEAN — Give a warning/success embed after execution.
 * **warning\_via\_dm**:BOOLEAN — DM the user about the reason of getting muted.
+
+## automod spam disable
+
+Disable the auto mod spam feature.

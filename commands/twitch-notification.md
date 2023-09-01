@@ -4,6 +4,12 @@
 
 Display Twitch notification subscription list.
 
+## twitch info
+
+Display information on the twitch username.
+
+**query**:USER — Twitch profile link or username
+
 ## twitch subscribe
 
 Subscribe Twitch streamer and notify the audience when the streamer is LIVE.
