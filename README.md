@@ -32,4 +32,8 @@ coverY: 0
 
 <figure><img src="https://cdn.discordapp.com/attachments/955140577203208253/1095462395159269500/durty-cloth-tool-logo.png" alt=""><figcaption></figcaption></figure>
 
+{% embed url="https://fragmentor.io/" %}
+
+<figure><img src=".gitbook/assets/Advertisment.png" alt=""><figcaption></figcaption></figure>
+
 Interested in joining the above list? Contact us today!
