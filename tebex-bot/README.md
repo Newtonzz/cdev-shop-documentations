@@ -10,4 +10,4 @@ description: >-
 
 
 
-<figure><img src="../.gitbook/assets/Advertisment.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/Advertisment.png" alt="https://fragmentor.io/"><figcaption><p><a href="https://fragmentor.io/">https://fragmentor.io/</a></p></figcaption></figure>
