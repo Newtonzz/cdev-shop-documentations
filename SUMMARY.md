@@ -34,6 +34,9 @@
   * [Pet Configuration](fivem/pet-system/pet-configuration.md)
   * [Misc Integrations](fivem/pet-system/misc-integrations.md)
   * [Preview Subscription Pack](fivem/pet-system/preview-subscription-pack.md)
+* [⚽ Soccer](fivem/soccer/README.md)
+  * [Configuration](fivem/soccer/configuration.md)
+  * [Editing Fields](fivem/soccer/editing-fields.md)
 
 ***
 
