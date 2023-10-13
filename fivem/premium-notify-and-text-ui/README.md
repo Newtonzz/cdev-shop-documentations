@@ -4,6 +4,10 @@ description: Standalone chat notification & text ui system
 
 # 🔔 Premium Notify & Text UI
 
+## SHOWCASE VIDEO
+
+{% embed url="https://www.youtube.com/watch?v=2uCZzCSBy0k" %}
+
 ## What is this resource?
 
 This resource provides you a more styled & premium look to your default notifications for your players, this also includes custom text UI for game specific actions.

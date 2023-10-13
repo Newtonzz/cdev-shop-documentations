@@ -4,6 +4,10 @@ description: Standalone advanced Soccer script
 
 # ⚽ Soccer
 
+## SHOWCASE VIDEO
+
+{% embed url="https://www.youtube.com/watch?v=VXSw-IM5KA8" %}
+
 ## What is this resource?
 
 This resource is a the most unique and well created entertainment script for your FiveM server, with custom in house made animations to compliment your gameplay.&#x20;

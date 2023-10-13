@@ -4,6 +4,10 @@ description: Standalone chat system with customizeable chat channels!
 
 # 💬 Chat System
 
+## SHOWCASE VIDEO
+
+{% embed url="https://www.youtube.com/watch?v=XVNz5jSJigY" %}
+
 ## What is this resource?
 
 cDev Chat is an excellent way to create custom chat channels with read/write permissions that are supported for jobs, permission groups & ace permissions.&#x20;

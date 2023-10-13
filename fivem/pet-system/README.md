@@ -4,11 +4,13 @@ description: Standalone advanced Pet System
 
 # 🐶 Pet System
 
+## SHOWCASE VIDEO
+
+{% embed url="https://youtu.be/1lFmzXXRy5Q" %}
+
 ## What is this resource?
 
 This resource is a companionship script that provides entertainment, customization of appearance and other refined details ([features listed here](https://fivem.cdev.shop/category/scripts)) that makes this the best pet script for your **FiveM** server.
-
-{% embed url="https://youtu.be/1lFmzXXRy5Q" %}
 
 ## INSTALLATION GUIDE
 
