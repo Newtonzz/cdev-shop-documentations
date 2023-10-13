@@ -4,7 +4,7 @@
 
 By default, the pet shop can be accessed from your pet bag menu. If you want to open the shop through another way, first disable the button in the config file by setting&#x20;
 
-<pre class="language-lua" data-title="cdev_pets/public/config/config.lua" data-full-width="false"><code class="lang-lua"><strong>WantPetShopButton = false,
+<pre class="language-lua" data-title="public/config/config.lua" data-full-width="false"><code class="lang-lua"><strong>WantPetShopButton = false,
 </strong></code></pre>
 
 &#x20;and then you need to trigger this event from your own script:
@@ -13,20 +13,28 @@ By default, the pet shop can be accessed from your pet bag menu. If you want to 
 TriggerEvent("cdev_pets:loadShop")
 ```
 
-## Example: using Target to load the shop
+## Enabling Ped Shop
+
+
 
 <figure><img src="../../.gitbook/assets/image (1).png" alt=""><figcaption></figcaption></figure>
 
+{% code title="public/config/config.lua" lineNumbers="true" %}
 ```lua
-    {
-        coords = vec3(-1043.8, -2688.55, 13.75), -- just random location
-        size = vec3(2.0, 2.0, 2.0),
-        rotation = 288.21,
-        event = 'cdev_pets:loadShop', -- the client event that triggers open shop
-        icon = 'fa-solid fa-dog',
-        label = 'Open Pet Shop',
+    PedShop = {
+
+        -- If true, it will create a pet shop to use as a pet shop.
+        WantPedShop = false,
+
+        -- Coords to define where the ped will spawn
+        PedCoords = vector4(-1281.44, -1414.52, 3.35, 125.32),
+
+        -- Parameter to define the ped model.
+        PedModel = "a_m_m_beach_01",
+
     },
 ```
+{% endcode %}
 
 ## Modifying Shop Items
 
