@@ -67,3 +67,4 @@ Shop items are available in `cdev_pets/public/config/shop.lua`&#x20;
   * textures
     * `["componentId"] = textureId`&#x20;
 * `vip` - If true and if VIP enabled in the config, item will have golden highlight and only be purchaseable if has VIP status
+* `canBeK9` - Determines if a pet is eligible to be bought as K9

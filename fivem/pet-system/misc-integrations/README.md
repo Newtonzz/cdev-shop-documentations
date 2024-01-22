@@ -55,3 +55,10 @@ TriggerEvent("cdev_pets:quickAction:cancel")
 TriggerEvent("cdev_pets:quickAction:bag")
 TriggerEvent("cdev_pets:quickAction:stand")
 ```
+
+## Attacking
+
+If you opt to disable attacking automatically when aiming at a ped, you can use the following export to start attacking a target:
+
+<pre class="language-lua"><code class="lang-lua"><strong>exports["cdev_pets"]:Attack(entity)
+</strong></code></pre>
