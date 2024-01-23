@@ -38,6 +38,9 @@
 * [⚽ Soccer](fivem/soccer/README.md)
   * [Configuration](fivem/soccer/configuration.md)
   * [Editing Fields](fivem/soccer/editing-fields.md)
+* [🎉 cDev Games](fivem/cdev-games/README.md)
+  * [OX Inventory](fivem/cdev-games/ox-inventory.md)
+  * [Copy of OX Inventory](fivem/cdev-games/copy-of-ox-inventory.md)
 
 ***
 
