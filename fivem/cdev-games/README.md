@@ -10,8 +10,7 @@ description: Questions, Truth or Dare & Spin the Bottle
 
 This resource provides quick and easy entertainment including three games
 
-* Truth or Dare
-* Spin the Bottle
+* Truth or Dare (by spinning a custom 3d model bottle)
 * Questions Game (configurable by choice in `config.lua`
 
 ## INSTALLATION GUIDE
@@ -27,6 +26,7 @@ Before you can use this resource, you'll need to make sure that you have the fol
 ### Step 2: Extract the files
 
 1. Extract the contents of the `cdev_cards.zip` folder and place the resulting folder in your server's resource directory.
+2. Head to `config.lua` and select your framework inventory (qb, ox or custom).
 
 {% hint style="warning" %}
 Make sure that cdev\_lib is started before cdev\_cards

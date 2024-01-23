@@ -41,6 +41,7 @@
 * [🎉 cDev Games](fivem/cdev-games/README.md)
   * [OX Inventory](fivem/cdev-games/ox-inventory.md)
   * [Copy of OX Inventory](fivem/cdev-games/copy-of-ox-inventory.md)
+  * [Exports](fivem/cdev-games/exports.md)
 
 ***
 
