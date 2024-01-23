@@ -8,7 +8,7 @@ description: Questions, Truth or Dare & Spin the Bottle
 
 ## What is this resource?
 
-This resource provides quick and easy entertainment including three games
+This resource provides quick and easy entertainment including two games
 
 * Truth or Dare (by spinning a custom 3d model bottle)
 * Questions Game (configurable by choice in `config.lua`
