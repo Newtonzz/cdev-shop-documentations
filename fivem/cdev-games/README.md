@@ -25,7 +25,7 @@ Before you can use this resource, you'll need to make sure that you have the fol
 
 ### Step 2: Extract the files
 
-1. Extract the contents of the `cdev_cards.zip` folder and place the resulting folder in your server's resource directory.
+1. Extract the contents of the `cdev_games.zip` folder and place the resulting folder in your server's resource directory.
 
 ### Step 3: Configure/Install the resource
 
@@ -34,10 +34,10 @@ Before you can use this resource, you'll need to make sure that you have the fol
 3. add the listed convars for your `server.cfg` below **after** your framework and inventory
 
 * `ensure cdev_lib`
-* `ensure cdev_cards`
+* `ensure cdev_games`
 
 {% hint style="warning" %}
-Make sure that cdev\_lib is started before cdev\_cards
+Make sure that cdev\_lib is started before cdev\_games
 {% endhint %}
 
 {% hint style="danger" %}
