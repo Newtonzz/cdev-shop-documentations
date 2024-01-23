@@ -40,7 +40,7 @@
   * [Editing Fields](fivem/soccer/editing-fields.md)
 * [🎉 cDev Games](fivem/cdev-games/README.md)
   * [OX Inventory](fivem/cdev-games/ox-inventory.md)
-  * [Copy of OX Inventory](fivem/cdev-games/copy-of-ox-inventory.md)
+  * [QB Inventory](fivem/cdev-games/qb-inventory.md)
   * [Exports](fivem/cdev-games/exports.md)
 
 ***

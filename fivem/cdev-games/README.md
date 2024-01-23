@@ -26,7 +26,15 @@ Before you can use this resource, you'll need to make sure that you have the fol
 ### Step 2: Extract the files
 
 1. Extract the contents of the `cdev_cards.zip` folder and place the resulting folder in your server's resource directory.
-2. Head to `config.lua` and select your framework inventory (qb, ox or custom).
+
+### Step 3: Configure/Install the resource
+
+1. Head to `config.lua` and select your framework inventory (qb, ox or custom).
+2. Add the inventory images & item data by checking the guide for [OX Inventory ](ox-inventory.md)or [QB Inventory](qb-inventory.md)&#x20;
+3. add the listed convars for your `server.cfg` below **after** your framework and inventory
+
+* `ensure cdev_lib`
+* `ensure cdev_cards`
 
 {% hint style="warning" %}
 Make sure that cdev\_lib is started before cdev\_cards
