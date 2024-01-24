@@ -62,3 +62,13 @@ If you opt to disable attacking automatically when aiming at a ped, you can use 
 
 <pre class="language-lua"><code class="lang-lua"><strong>exports["cdev_pets"]:Attack(entity)
 </strong></code></pre>
+
+## K9
+
+To determine what players can purchase K9s, you can modify the integration in cdev\_pets/public/server/api.lua in the function:
+
+```lua
+PetResourceAPI.IsPlayerAllowedToBuyK9
+```
+
+By default it checks for players who have the police job.
