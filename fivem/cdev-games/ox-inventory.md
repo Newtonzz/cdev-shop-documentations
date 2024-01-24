@@ -23,7 +23,7 @@ Add items to `ox_inventory/data/items.lua` like listed below
 		close = true,
 		client = {
 			image = "aboutme.png",
-			export = "cdev-cards.use",
+			export = "cdev_games.use",
 			type = 'aboutme'
 		}
 	},
@@ -36,7 +36,7 @@ Add items to `ox_inventory/data/items.lua` like listed below
 		close = true,
 		client = {
 			image = "fetish.png",
-			export = "cdev-cards.use",
+			export = "cdev_games.use",
 			type = 'fetish'
 		}
 	},
@@ -49,7 +49,7 @@ Add items to `ox_inventory/data/items.lua` like listed below
 		close = true,
 		client = {
 			image = "morally.png",
-			export = "cdev-cards.use",
+			export = "cdev_games.use",
 			type = 'morally'
 		}
 	},
@@ -62,7 +62,7 @@ Add items to `ox_inventory/data/items.lua` like listed below
 		close = true,
 		client = {
 			image = "sensualus.png",
-			export = "cdev-cards.use",
+			export = "cdev_games.use",
 			type = 'sensualus'
 		}
 	},
@@ -75,7 +75,7 @@ Add items to `ox_inventory/data/items.lua` like listed below
 		close = true,
 		client = {
 			image = "truthordare.png",
-			export = "cdev-cards.use",
+			export = "cdev_games.use",
 			type = 'truthordare'
 		}
 	},
@@ -88,7 +88,7 @@ Add items to `ox_inventory/data/items.lua` like listed below
 		close = true,
 		client = {
 			image = "would_you_rather.png",
-			export = "cdev-cards.use",
+			export = "cdev_games.use",
 			type = 'would_you_rather'
 		}
 	},

@@ -5,12 +5,12 @@
 You can easily integrate any of the below exports in a different resource to trigger a game.
 
 ```etlua
-exports["cDev-games"]:use("truthordare")
-exports["cDev-games"]:use("would_you_rather")
-exports["cDev-games"]:use("aboutme")
-exports["cDev-games"]:use("fetish")
-exports["cDev-games"]:use("morally")
-exports["cDev-games"]:use("morally")
-exports["cDev-games"]:use("sensualus")
+exports["cdev_games"]:use("truthordare")
+exports["cdev_games"]:use("would_you_rather")
+exports["cdev_games"]:use("aboutme")
+exports["cdev_games"]:use("fetish")
+exports["cdev_games"]:use("morally")
+exports["cdev_games"]:use("morally")
+exports["cdev_games"]:use("sensualus")
 ```
 
