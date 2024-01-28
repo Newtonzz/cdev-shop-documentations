@@ -72,3 +72,27 @@ PetResourceAPI.IsPlayerAllowedToBuyK9
 ```
 
 By default it checks for players who have the police job.
+
+### Bark
+
+```lua
+TriggerEvent("cdev_pets:barkAt", { entity = 0 }) 
+```
+
+## Play Emote
+
+If you opt to disable the target resource or for other reason you can trigger pet emotes from your own script with the following event:
+
+```lua
+TriggerEvent("cdev_pets:useEmote", { payload = { dict = "", anim = "" } }
+```
+
+The built in emotes that the pets play are Sit and Lay Down:
+
+```
+Sit:
+creatures@rottweiler@tricks@                sit_loop
+
+Lay Down:
+creatures@rottweiler@amb@sleep_in_kennel@   sleep_in_kennel
+```
