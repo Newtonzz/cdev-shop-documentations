@@ -11,7 +11,6 @@ exports["cdev_games"]:use("couplesquiz")
 exports["cdev_games"]:use("aboutme")
 exports["cdev_games"]:use("fetish")
 exports["cdev_games"]:use("morally")
-exports["cdev_games"]:use("morally")
 exports["cdev_games"]:use("sensualus")
 ```
 
