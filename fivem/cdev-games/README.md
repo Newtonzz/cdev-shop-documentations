@@ -12,6 +12,7 @@ This resource provides quick and easy entertainment including two games
 
 * Truth or Dare (by spinning a custom 3d model bottle)
 * Questions Game (configurable by choice in `config.lua`
+* Couples Quiz
 
 ## INSTALLATION GUIDE
 

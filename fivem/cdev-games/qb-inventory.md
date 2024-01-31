@@ -2,7 +2,7 @@
 description: Images & format to add to your inventory.
 ---
 
-# Copy of OX Inventory
+# QB Inventory
 
 ## Step one
 
@@ -91,5 +91,17 @@ Add items to `qb-core/shared/items.lua` like listed below
     ['shouldClose'] = true,
     ['combinable'] = nil,
     ['description'] = 'Would you Rather Box',
+},
+['couplesquiz'] = {
+    ['name'] = 'couplesquiz',
+    ['label'] = 'Couple Quiz Box',
+    ['weight'] = 100,
+    ['type'] = 'item',
+    ['image'] = 'couplesquiz.png',
+    ['unique'] = true,
+    ['useable'] = true,
+    ['shouldClose'] = true,
+    ['combinable'] = nil,
+    ['description'] = 'Couple Quiz Box',
 },
 ```

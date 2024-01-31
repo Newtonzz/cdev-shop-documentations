@@ -92,4 +92,17 @@ Add items to `ox_inventory/data/items.lua` like listed below
 			type = 'would_you_rather'
 		}
 	},
+	
+	["couplesquiz"] = {
+        	label = "Couples Quiz Box",
+        	weight = 100,
+        	consume = 0,
+        	stack = true,
+        	close = true,
+        	client = {
+            		image = "couplesquiz.png",
+            		export = "cdev_games.use",
+            		type = 'couplesquiz'
+        }
+    },
 ```
