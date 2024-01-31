@@ -19,7 +19,6 @@ coverY: 0
 ## Our Partners
 
 * [GKSPhone](https://discord.gg/XUck63E)
-* [PassionRP/Passion Gaming](https://discord.gg/passionrp)
 * [Lionh34rt](https://discord.gg/AWyTUEnGeN)
 * [1SKGAMING](https://www.1skgaming.com/discord)
 * [Illenium Studios](https://discord.illenium.dev/)
