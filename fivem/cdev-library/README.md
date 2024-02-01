@@ -17,7 +17,7 @@ Before you can use this resource, you'll need to make sure that you have the fol
 Double-check that these resources are installed and available on your server. If you're not sure whether you have them installed, you can check your server's resource list to confirm.
 
 {% hint style="warning" %}
-While mysql-async may be an option for connecting to a MySQL database, it is not recommended due to its outdated code and poor performance. It is generally better to use a more maintained and efficient resource, such as oxmysql, for database connections.
+While mysql-async may be an option for connecting to a MySQL database, it is not recommended due to its outdated code and poor performance. It is generally better to use a more maintained and efficient resource, such as oxmysql, for database connections. We will not provide support for mysql-async.
 {% endhint %}
 
 {% hint style="danger" %}

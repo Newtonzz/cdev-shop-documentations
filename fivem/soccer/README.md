@@ -20,6 +20,7 @@ Before you can use this resource, you'll need to make sure that you have the fol
 
 1. cdev\_lib <mark style="color:green;">(included with this resource)</mark>
 2. xsound [<mark style="color:orange;">(download here)</mark>](https://github.com/Xogy/xsound)
+3. PolyZone [(download here)](https://github.com/mkafrin/PolyZone/releases/tag/v2.6.1)
 
 **xsound is the audio resource integrated by default on this script, however you can integrate any audio resource in cdev\_lib.**
 
