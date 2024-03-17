@@ -1,4 +1,5 @@
 ---
+description: Get insight on what we offer for 12.99 on our Tebex!
 cover: ../../.gitbook/assets/Screenshot_18[1].png
 coverY: 26
 layout:
@@ -19,33 +20,119 @@ layout:
 
 # Preview Subscription Pack
 
-## Animals
+## Dog Breeds
+
+#### Bulldog
 
 <div>
 
-<figure><img src="../../.gitbook/assets/rott[1].png" alt=""><figcaption><p>Rottweiler</p></figcaption></figure>
+<figure><img src="../../.gitbook/assets/bull_01-removebg-preview.png" alt=""><figcaption></figcaption></figure>
 
  
 
-<figure><img src="../../.gitbook/assets/dobb[1].png" alt=""><figcaption><p>Dobermann</p></figcaption></figure>
+<figure><img src="../../.gitbook/assets/bull_03-removebg-preview.png" alt=""><figcaption></figcaption></figure>
 
  
 
-<figure><img src="../../.gitbook/assets/golden[3].png" alt=""><figcaption><p>Golden Retriever</p></figcaption></figure>
-
- 
-
-<figure><img src="../../.gitbook/assets/husky[1].png" alt=""><figcaption><p>Husky Gray</p></figcaption></figure>
-
- 
-
-<figure><img src="../../.gitbook/assets/husky2[1].png" alt=""><figcaption><p>Husky Caramel</p></figcaption></figure>
-
- 
-
-<figure><img src="../../.gitbook/assets/husky3[1].png" alt=""><figcaption><p>Husky White</p></figcaption></figure>
+<figure><img src="../../.gitbook/assets/bull_02-removebg-preview.png" alt=""><figcaption></figcaption></figure>
 
 </div>
+
+### Chow Chow
+
+<figure><img src="../../.gitbook/assets/chow-removebg-preview.png" alt="" width="340"><figcaption></figcaption></figure>
+
+### Dalmatian Dog
+
+<figure><img src="../../.gitbook/assets/dal-adult-removebg-preview.png" alt="" width="344"><figcaption></figcaption></figure>
+
+### Dobermann
+
+<div>
+
+<figure><img src="../../.gitbook/assets/dobb_01-removebg-preview.png" alt=""><figcaption></figcaption></figure>
+
+ 
+
+<figure><img src="../../.gitbook/assets/dobb_02-removebg-preview.png" alt=""><figcaption></figcaption></figure>
+
+ 
+
+<figure><img src="../../.gitbook/assets/dobb_03-removebg-preview.png" alt=""><figcaption></figcaption></figure>
+
+</div>
+
+### French Bulldog
+
+<div>
+
+<figure><img src="../../.gitbook/assets/frbull_01-removebg-preview.png" alt=""><figcaption></figcaption></figure>
+
+ 
+
+<figure><img src="../../.gitbook/assets/frbull_02-removebg-preview.png" alt=""><figcaption></figcaption></figure>
+
+ 
+
+<figure><img src="../../.gitbook/assets/frbull_03-removebg-preview.png" alt=""><figcaption></figcaption></figure>
+
+</div>
+
+### Golden Retriever
+
+<figure><img src="../../.gitbook/assets/golden-removebg-preview.png" alt="" width="342"><figcaption></figcaption></figure>
+
+### Husky
+
+<div>
+
+<figure><img src="../../.gitbook/assets/husky_0-removebg-preview.png" alt=""><figcaption></figcaption></figure>
+
+ 
+
+<figure><img src="../../.gitbook/assets/husky_02-removebg-preview.png" alt=""><figcaption></figcaption></figure>
+
+ 
+
+<figure><img src="../../.gitbook/assets/husky_03-removebg-preview.png" alt=""><figcaption></figcaption></figure>
+
+</div>
+
+### Pitbull (mini)
+
+<div>
+
+<figure><img src="../../.gitbook/assets/minipitt_01-removebg-preview.png" alt=""><figcaption></figcaption></figure>
+
+ 
+
+<figure><img src="../../.gitbook/assets/minipitt_02-removebg-preview.png" alt=""><figcaption></figcaption></figure>
+
+</div>
+
+### Pitbull
+
+<div>
+
+<figure><img src="../../.gitbook/assets/pitt_01-removebg-preview.png" alt=""><figcaption></figcaption></figure>
+
+ 
+
+<figure><img src="../../.gitbook/assets/pitt_02-removebg-preview.png" alt=""><figcaption></figcaption></figure>
+
+ 
+
+<figure><img src="../../.gitbook/assets/pitt_03-removebg-preview.png" alt=""><figcaption></figcaption></figure>
+
+</div>
+
+### German Shepherd
+
+<figure><img src="../../.gitbook/assets/shep_-removebg-preview.png" alt="" width="343"><figcaption></figcaption></figure>
+
+## Rottweiler
+
+<figure><img src="../../.gitbook/assets/rott-removebg-preview.png" alt="" width="343"><figcaption></figcaption></figure>
 
 ## Collars
 

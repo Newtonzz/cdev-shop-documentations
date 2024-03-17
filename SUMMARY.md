@@ -8,7 +8,7 @@
 * [🪑 Chairs & Beds](fivem/chairs-and-beds/README.md)
   * [Configuration](fivem/chairs-and-beds/configuration.md)
   * [Known Errors](fivem/chairs-and-beds/known-errors.md)
-* [⚖ cDev Library](fivem/cdev-library/README.md)
+* [⚖️ cDev Library](fivem/cdev-library/README.md)
   * [Configuration](fivem/cdev-library/configuration.md)
   * [QBCore Configuration](fivem/cdev-library/qbcore-configuration.md)
   * [ESX Configuration](fivem/cdev-library/esx-configuration.md)
@@ -105,7 +105,7 @@
 * [Server Verification](commands/server-verification.md)
 * [Welcome](commands/welcome.md)
 
-## 🛡 Others
+## 🛡️ Others
 
 * [FAQ](others/faq.md)
 
