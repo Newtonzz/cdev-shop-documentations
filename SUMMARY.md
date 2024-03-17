@@ -45,6 +45,7 @@
 
 ***
 
+* [🐶 Preview Subscription Pack](preview-subscription-pack.md)
 * [🛒 Tebex Bot](tebex-bot/README.md)
   * [Installation](tebex-bot/installation/README.md)
     * [Known Issues](tebex-bot/installation/known-issues.md)
