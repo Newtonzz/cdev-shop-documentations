@@ -2,7 +2,7 @@
 
 ### AddPersonalTransactionByPlayerSource <a href="#getitemcount" id="getitemcount"></a>
 
-Add Bank Balance to Personal Account By Player Source
+Add Personal Transaction by Player Source
 
 ```lua
 exports.cdev_banking:AddPersonalTransactionByPlayerSource(source, name, type, amount, to?)
@@ -18,7 +18,7 @@ exports.cdev_banking:AddPersonalTransactionByPlayerSource(source, name, type, am
 
 ### AddPersonalTransactionByPlayerIdentifier <a href="#getitemcount" id="getitemcount"></a>
 
-Add Bank Balance to Personal Account by Player Identifier
+Add Personal Transaction by Player Identifier
 
 ```lua
 exports.cdev_banking:AddPersonalTransactionByPlayerIdentifier(cid, name, type, amount, to?)
@@ -34,7 +34,7 @@ exports.cdev_banking:AddPersonalTransactionByPlayerIdentifier(cid, name, type, a
 
 ### AddTransactionByAccountId <a href="#getitemcount" id="getitemcount"></a>
 
-Add Bank Balance to Per Account by id
+Add Transaction by Account ID
 
 ```lua
 exports.cdev_banking:AddBankBalanceByAccountId(id, name, type, amount, to?)

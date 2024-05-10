@@ -2,7 +2,7 @@
 
 ### GetLoansByPlayerSource <a href="#getitemcount" id="getitemcount"></a>
 
-Remove Bank Balance to Personal Account by Player Source
+Get Loans by Player Source
 
 ```lua
 exports.cdev_banking:GetLoansByPlayerSource(source)
@@ -18,7 +18,7 @@ exports.cdev_banking:GetLoansByPlayerSource(source)
 
 ### GetLoansByPlayerIdentifier <a href="#getitemcount" id="getitemcount"></a>
 
-Remove Bank Balance to Personal Account by Player Source
+Get Loans by Player Identifier
 
 ```lua
 exports.cdev_banking:GetLoansByPlayerIdentifier(cid)
@@ -34,7 +34,7 @@ exports.cdev_banking:GetLoansByPlayerIdentifier(cid)
 
 ### GetLoansByAccountId <a href="#getitemcount" id="getitemcount"></a>
 
-Remove Bank Balance to Personal Account by Player Source
+Get Loans by Account ID
 
 ```lua
 exports.cdev_banking:GetLoansByAccountId(accountid)

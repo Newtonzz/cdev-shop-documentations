@@ -2,7 +2,7 @@
 
 ### DeletePersonalInvoiceByPlayerSource <a href="#getitemcount" id="getitemcount"></a>
 
-Remove Bank Balance to Personal Account by Player Source
+Delete Personal Invoice by Player Source
 
 ```lua
 exports.cdev_banking:DeletePersonalInvoiceByPlayerSource(source, invoiceid)
@@ -15,7 +15,7 @@ exports.cdev_banking:DeletePersonalInvoiceByPlayerSource(source, invoiceid)
 
 ### DeletePersonalInvoiceByPlayerIdentifier <a href="#getitemcount" id="getitemcount"></a>
 
-Remove Bank Balance to Personal Account by Player Source
+Delete Personal Invoice by Player Identifier
 
 ```lua
 exports.cdev_banking:DeletePersonalInvoiceByPlayerIdentifier(cid, invoiceid)
@@ -28,7 +28,7 @@ exports.cdev_banking:DeletePersonalInvoiceByPlayerIdentifier(cid, invoiceid)
 
 ### DeleteInvoiceByAccountId <a href="#getitemcount" id="getitemcount"></a>
 
-Remove Bank Balance to Personal Account by Player Source
+Delete Invoice by Account ID
 
 ```lua
 exports.cdev_banking:DeleteInvoiceByAccountId(accountid, invoiceid)

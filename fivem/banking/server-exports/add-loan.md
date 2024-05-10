@@ -2,7 +2,7 @@
 
 ### CreatePersonalLoanByPlayerSource <a href="#getitemcount" id="getitemcount"></a>
 
-Remove Bank Balance to Personal Account by Player Source
+Create Personal Loan by Player Source
 
 ```lua
 exports.cdev_banking:CreatePersonalLoanByPlayerSource(source, amount, time, onPaid, onNotPaid)
@@ -18,7 +18,7 @@ exports.cdev_banking:CreatePersonalLoanByPlayerSource(source, amount, time, onPa
 
 ### CreatePersonalLoanByPlayerIdentifier <a href="#getitemcount" id="getitemcount"></a>
 
-Remove Bank Balance to Personal Account by Player Source
+Create Personal Loan by Player Identifier
 
 ```lua
 exports.cdev_banking:CreatePersonalLoanByPlayerIdentifier(cid, amount, time, onPaid, onNotPaid)
@@ -34,7 +34,7 @@ exports.cdev_banking:CreatePersonalLoanByPlayerIdentifier(cid, amount, time, onP
 
 ### CreateLoanByAccountId <a href="#getitemcount" id="getitemcount"></a>
 
-Remove Bank Balance to Personal Account by Account Id
+Create Loan by Account ID
 
 ```lua
 exports.cdev_banking:CreatePersonalLoanByPlayerIdentifier(id, amount, time, onPaid, onNotPaid)
