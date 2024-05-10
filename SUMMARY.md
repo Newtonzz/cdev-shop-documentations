@@ -41,6 +41,22 @@
   * [OX Inventory](fivem/cdev-games/ox-inventory.md)
   * [QB Inventory](fivem/cdev-games/qb-inventory.md)
   * [Exports](fivem/cdev-games/exports.md)
+* [💰 Banking](fivem/banking/README.md)
+  * [Client Exports](fivem/banking/client-exports/README.md)
+    * [UI](fivem/banking/client-exports/ui.md)
+  * [Server Exports](fivem/banking/server-exports/README.md)
+    * [Get Accounts](fivem/banking/server-exports/get-accounts.md)
+    * [Get Account](fivem/banking/server-exports/get-account.md)
+    * [Add Bank Balance](fivem/banking/server-exports/add-bank-balance.md)
+    * [Remove Bank Balance](fivem/banking/server-exports/remove-bank-balance.md)
+    * [Get Loans](fivem/banking/server-exports/get-loans.md)
+    * [Add Loan](fivem/banking/server-exports/add-loan.md)
+    * [Remove Loan](fivem/banking/server-exports/remove-loan.md)
+    * [Get Invoices](fivem/banking/server-exports/get-invoices.md)
+    * [Add Invoice](fivem/banking/server-exports/add-invoice.md)
+    * [Remove Invoices](fivem/banking/server-exports/remove-invoices.md)
+    * [Add Transaction](fivem/banking/server-exports/add-transaction.md)
+  * [Types Definitions](fivem/banking/types-definitions.md)
 
 ***
 
