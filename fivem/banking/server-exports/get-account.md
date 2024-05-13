@@ -45,3 +45,35 @@ exports.cdev_banking:GetAccountByAccountId(id)
 Return:
 
 * Account: [`Account`](../types-definitions.md#account)
+
+***
+
+### GetJobAccountByJob <a href="#getitemcount" id="getitemcount"></a>
+
+Gets Job Account from the Job that was provided
+
+```lua
+exports.cdev_banking:GetJobAccountByJob(jobname)
+```
+
+* jobname: `string`
+
+Return:
+
+* Account: [`Account`](../types-definitions.md#account)
+
+***
+
+### GetGangAccountByGang <a href="#getitemcount" id="getitemcount"></a>
+
+Gets Gang Account from the Job that was provided
+
+```lua
+exports.cdev_banking:GetGangAccountByGang(gangname)
+```
+
+* gangname: `string`
+
+Return:
+
+* Account: [`Account`](../types-definitions.md#account)
