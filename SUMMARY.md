@@ -45,6 +45,7 @@
   * [Client Exports](fivem/banking/client-exports/README.md)
     * [UI](fivem/banking/client-exports/ui.md)
   * [Server Exports](fivem/banking/server-exports/README.md)
+    * [Create Account](fivem/banking/server-exports/create-account.md)
     * [Get Accounts](fivem/banking/server-exports/get-accounts.md)
     * [Get Account](fivem/banking/server-exports/get-account.md)
     * [Add Bank Balance](fivem/banking/server-exports/add-bank-balance.md)
