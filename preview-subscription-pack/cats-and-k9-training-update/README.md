@@ -88,6 +88,116 @@
 
 </div>
 
+### New Animations
+
+<div>
+
+<figure><img src="../../.gitbook/assets/4-removebg-preview.png" alt=""><figcaption><p>Animations: Big Dog</p></figcaption></figure>
+
+ 
+
+<figure><img src="../../.gitbook/assets/31-removebg-preview.png" alt=""><figcaption></figcaption></figure>
+
+</div>
+
+<div>
+
+<figure><img src="../../.gitbook/assets/7-removebg-preview.png" alt=""><figcaption></figcaption></figure>
+
+ 
+
+<figure><img src="../../.gitbook/assets/6-removebg-preview.png" alt=""><figcaption></figcaption></figure>
+
+ 
+
+<figure><img src="../../.gitbook/assets/5-removebg-preview_1.png" alt=""><figcaption></figcaption></figure>
+
+</div>
+
+<div>
+
+<figure><img src="../../.gitbook/assets/12-removebg-preview.png" alt=""><figcaption><p>Animations: Cat</p></figcaption></figure>
+
+ 
+
+<figure><img src="../../.gitbook/assets/11-removebg-preview.png" alt=""><figcaption></figcaption></figure>
+
+</div>
+
+<div>
+
+<figure><img src="../../.gitbook/assets/10-removebg-preview.png" alt=""><figcaption></figcaption></figure>
+
+ 
+
+<figure><img src="../../.gitbook/assets/9-removebg-preview.png" alt=""><figcaption></figcaption></figure>
+
+ 
+
+<figure><img src="../../.gitbook/assets/18-removebg-preview.png" alt=""><figcaption></figcaption></figure>
+
+ 
+
+<figure><img src="../../.gitbook/assets/17-removebg-preview.png" alt=""><figcaption></figcaption></figure>
+
+ 
+
+<figure><img src="../../.gitbook/assets/16-removebg-preview.png" alt=""><figcaption></figcaption></figure>
+
+ 
+
+<figure><img src="../../.gitbook/assets/15-removebg-preview.png" alt=""><figcaption></figcaption></figure>
+
+ 
+
+<figure><img src="../../.gitbook/assets/13-removebg-preview.png" alt=""><figcaption></figcaption></figure>
+
+</div>
+
+<div>
+
+<figure><img src="../../.gitbook/assets/23-removebg-preview.png" alt=""><figcaption><p>Animations: Small Dog</p></figcaption></figure>
+
+ 
+
+<figure><img src="../../.gitbook/assets/22-removebg-preview.png" alt=""><figcaption></figcaption></figure>
+
+</div>
+
+<div>
+
+<figure><img src="../../.gitbook/assets/21-removebg-preview.png" alt=""><figcaption></figcaption></figure>
+
+ 
+
+<figure><img src="../../.gitbook/assets/20-removebg-preview.png" alt=""><figcaption></figcaption></figure>
+
+ 
+
+<figure><img src="../../.gitbook/assets/19-removebg-preview.png" alt=""><figcaption></figcaption></figure>
+
+ 
+
+<figure><img src="../../.gitbook/assets/29-removebg-preview.png" alt=""><figcaption></figcaption></figure>
+
+ 
+
+<figure><img src="../../.gitbook/assets/28-removebg-preview.png" alt=""><figcaption></figcaption></figure>
+
+ 
+
+<figure><img src="../../.gitbook/assets/27-removebg-preview.png" alt=""><figcaption></figcaption></figure>
+
+ 
+
+<figure><img src="../../.gitbook/assets/26-removebg-preview.png" alt=""><figcaption></figcaption></figure>
+
+ 
+
+<figure><img src="../../.gitbook/assets/25-removebg-preview.png" alt=""><figcaption></figcaption></figure>
+
+</div>
+
 ### Pet Shop MLO (INCLUDED IN THE SUB)
 
 <div>
