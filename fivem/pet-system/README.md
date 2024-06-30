@@ -12,6 +12,10 @@ description: Standalone advanced Pet System
 
 This resource is a companionship script that provides entertainment, customization of appearance and other refined details ([features listed here](https://fivem.cdev.shop/category/scripts)) that makes this the best pet script for your **FiveM** server.
 
+## Instructional Video: Setting up Shops
+
+{% embed url="https://www.youtube.com/watch?v=-_eOmtHj4Vk" %}
+
 ## INSTALLATION GUIDE
 
 ### Step 1: Verify that you have the required dependencies installed
