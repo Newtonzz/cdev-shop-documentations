@@ -36,3 +36,11 @@ Make sure that cdev\_lib is started before cdev\_pets
 {% hint style="danger" %}
 **Do not modify the encrypted files in any way, as this may cause issues with the resource's functionality.**
 {% endhint %}
+
+{% hint style="warning" %}
+cDev Pets Version 2.5.0  requires users that already have this script running to run a query to add new columns to a table
+
+\
+`ALTER TABLE cdev_pets ADD sniff INT(11) NOT NULL, ADD resistance INT(11) NOT NULL, ADD agility INT(11) NOT NULL, ADD attack INT(11) NOT NULL;`
+{% endhint %}
+
