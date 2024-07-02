@@ -64,6 +64,7 @@
 * [🐶 Preview Subscription Pack](preview-subscription-pack/README.md)
   * [🐱 Cats & K9 Training update!](preview-subscription-pack/cats-and-k9-training-update/README.md)
     * [K9 Training Guide](preview-subscription-pack/cats-and-k9-training-update/k9-training-guide.md)
+    * [MLO: Collision fixes](preview-subscription-pack/cats-and-k9-training-update/mlo-collision-fixes.md)
 * [🛒 Tebex Bot](tebex-bot/README.md)
   * [Installation](tebex-bot/installation/README.md)
     * [Known Issues](tebex-bot/installation/known-issues.md)

@@ -224,7 +224,7 @@
 
  
 
-<figure><img src="../../.gitbook/assets/16a4a70e57b7d73612c2882859167d6f.jpg" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/16a4a70e57b7d73612c2882859167d6f (1).jpg" alt=""><figcaption></figcaption></figure>
 
  
 
