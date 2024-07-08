@@ -11,6 +11,10 @@ This guide provides detailed instructions for configuring the "Needs" script, en
 * **Status Values**: When hunger, thirst, puke, stress, and poop statuses are at 0, the ped is in optimal condition with no needs. Adverse conditions arise as these needs increase.
 * **Good Condition Indicators**: Hygiene, social, and energy values indicate a ped's good condition. Lower values increase the ped's vulnerability to their effects.
 
+**Clothing on PED (For showers and bathroom use)**
+
+You can modify and define the player's clothing to ensure they appear naked while peeing or using the shower. Lines 70 to 98 specify each part of the body and the corresponding numbers to change.
+
 #### Needs and Their Effects
 
 **Hunger**
