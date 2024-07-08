@@ -6,7 +6,7 @@ description: Standalone advanced Pet System
 
 ## SHOWCASE VIDEO
 
-{% embed url="https://youtu.be/1lFmzXXRy5Q" %}
+{% embed url="https://youtu.be/9perfvfwDF0" %}
 
 ## What is this resource?
 
