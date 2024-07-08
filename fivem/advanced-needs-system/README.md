@@ -4,7 +4,7 @@
 
 ## What is this resource?
 
-This resource is an advanced needs system to bring your character to life, with daily needs for hygiene, excercise, food, thirst and many more things your immersion experience will be unique and brings more to think about with the every day roaming your character does
+This advanced needs system is designed to bring your character to life, encompassing daily requirements such as hygiene, exercise, food, thirst, and more. This immersive experience adds depth and realism to your gameplay, giving you more to consider as your character navigates their daily activities.
 
 ## INSTALLATION GUIDE
 
