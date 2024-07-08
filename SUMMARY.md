@@ -58,6 +58,8 @@
     * [Remove Invoices](fivem/banking/server-exports/remove-invoices.md)
     * [Add Transaction](fivem/banking/server-exports/add-transaction.md)
   * [Types Definitions](fivem/banking/types-definitions.md)
+* [👩 Advanced Needs System](fivem/advanced-needs-system/README.md)
+  * [Configuration Guide](fivem/advanced-needs-system/configuration-guide.md)
 
 ***
 
