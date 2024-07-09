@@ -20,8 +20,6 @@ Before you can use this resource, you'll need to make sure that you have the fol
 
 1. cdev\_lib <mark style="color:green;">(included with this resource)</mark>
 
-**xsound is the audio resource integrated by default on this script, however you can integrate any audio resource in cdev\_lib.**
-
 ### Step 2: Extract the files
 
 1. Extract the contents of the `cdev_needs.zip` folder and place the resulting folder in your server's resource directory.
