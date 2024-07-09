@@ -60,6 +60,9 @@
   * [Types Definitions](fivem/banking/types-definitions.md)
 * [👩 Advanced Needs System](fivem/advanced-needs-system/README.md)
   * [Configuration Guide](fivem/advanced-needs-system/configuration-guide.md)
+  * [Exports](fivem/advanced-needs-system/exports/README.md)
+    * [Client Exports](fivem/advanced-needs-system/exports/client-exports.md)
+    * [Server Exports](fivem/advanced-needs-system/exports/server-exports.md)
 
 ***
 
