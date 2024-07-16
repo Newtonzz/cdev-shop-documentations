@@ -63,6 +63,7 @@
   * [Exports](fivem/advanced-needs-system/exports/README.md)
     * [Client Exports](fivem/advanced-needs-system/exports/client-exports.md)
     * [Server Exports](fivem/advanced-needs-system/exports/server-exports.md)
+  * [OX: Inventory Items](fivem/advanced-needs-system/ox-inventory-items.md)
 
 ***
 
