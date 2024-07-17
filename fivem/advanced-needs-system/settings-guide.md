@@ -4,9 +4,22 @@
 
 The configuration file is located at `cdev_needs/public/settings.`
 
-### Part 1: Configuring Needs and Their Effects
+<details>
 
-####
+<summary>Disable Components of the HUD</summary>
+
+Disable components from UI, allowing you to use any HUD.
+
+```lua
+	indicators = false,
+	informations = false,
+	speedometer = false,
+	notifys = false,
+```
+
+</details>
+
+### Part 1: Configuring Needs and Their Effects
 
 {% hint style="warning" %}
 **Important Notes**
@@ -24,8 +37,6 @@ You can modify and define the player's clothing to ensure they appear naked whil
 Lines 70 to 98 specify each part of the body and the corresponding numbers to change.
 
 </details>
-
-
 
 ## Needs and their effects
 
