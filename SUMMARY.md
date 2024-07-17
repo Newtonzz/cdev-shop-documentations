@@ -59,11 +59,13 @@
     * [Add Transaction](fivem/banking/server-exports/add-transaction.md)
   * [Types Definitions](fivem/banking/types-definitions.md)
 * [👩 Advanced Needs System](fivem/advanced-needs-system/README.md)
-  * [Configuration Guide](fivem/advanced-needs-system/configuration-guide.md)
+  * [Additional Steps: ESX](fivem/advanced-needs-system/additional-steps-esx.md)
+  * [Additional Steps: Creative V5](fivem/advanced-needs-system/additional-steps-creative-v5.md)
+  * [Additional Steps: OX Inventory](fivem/advanced-needs-system/additional-steps-ox-inventory.md)
+  * [Settings Guide](fivem/advanced-needs-system/settings-guide.md)
   * [Exports](fivem/advanced-needs-system/exports/README.md)
     * [Client Exports](fivem/advanced-needs-system/exports/client-exports.md)
     * [Server Exports](fivem/advanced-needs-system/exports/server-exports.md)
-  * [OX: Inventory Items](fivem/advanced-needs-system/ox-inventory-items.md)
 
 ***
 

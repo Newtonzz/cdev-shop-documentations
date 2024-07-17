@@ -1,48 +1,61 @@
 # Server Exports
 
-### `getStats(number src)`
+<details>
 
-Returns a table with the following values:
+<summary>getStats</summary>
 
-```lua
-{
-  hunger: number,
-  thirst: number,
-  energy: number,
-  stress: number,
-  pee: number,
-  poop: number,
-  hygiene: number,
-  social: number
-}
-```
+* **Description:** Obtain the player stats.
+* **Return:**&#x20;
+  * _Type_: <mark style="color:purple;">Table</mark>
+  * _Structure:_ \
+    {\
+    &#x20;   hunger: <mark style="color:purple;">number</mark>, \
+    &#x20;   thirst: <mark style="color:purple;">number</mark>, \
+    &#x20;   energy: <mark style="color:purple;">number</mark>,\
+    &#x20;   stress: <mark style="color:purple;">number</mark>, \
+    &#x20;   pee: <mark style="color:purple;">number</mark>, \
+    &#x20;   poop: <mark style="color:purple;">number</mark>, \
+    &#x20;   hygiene: <mark style="color:purple;">number</mark>, \
+    &#x20;   social: <mark style="color:purple;">number</mark> \
+    }     \
 
-**Parameters:**
+* **Parameters:**
+  * **src**
+    * _Type_: <mark style="color:purple;">Number</mark>
+    * _Description:_ Player source.
 
-* `src`: The source number.
+</details>
 
-#### `updateStats(number src, table<number> stats)`
+<details>
 
-Updates the player's stats.
+<summary>updateStats</summary>
 
-**Parameters:**
+* **Description:** Update the player's stats.
 
-* `src`: The source number.
-*   `stats`: A table containing the following keys and their respective values:
+<!---->
 
-    ```lua
-    {
-      hunger: number,
-      thirst: number,
-      energy: number,
-      stress: number,
-      pee: number,
-      poop: number,
-      hygiene: number,
-      social: number
-    }
-    ```
+* **Return:**&#x20;
+  * _Type_: <mark style="color:purple;">Boolean</mark>&#x20;
 
-**Returns:**
+<!---->
 
-* `boolean`: Whether the update was successful.
+* **Parameters:**
+  * **src**
+    * _Type_: <mark style="color:purple;">Number</mark>
+    * _Description:_ Player source.
+  * **stats**
+    * _Type_: <mark style="color:purple;">Table</mark>
+    * _Description:_ A table containing the following keys and their respective values.
+    * _Structure:_ \
+      {\
+      &#x20;   hunger: <mark style="color:purple;">number</mark>, \
+      &#x20;   thirst: <mark style="color:purple;">number</mark>, \
+      &#x20;   energy: <mark style="color:purple;">number</mark>,\
+      &#x20;   stress: <mark style="color:purple;">number</mark>, \
+      &#x20;   pee: <mark style="color:purple;">number</mark>, \
+      &#x20;   poop: <mark style="color:purple;">number</mark>, \
+      &#x20;   hygiene: <mark style="color:purple;">number</mark>, \
+      &#x20;   social: <mark style="color:purple;">number</mark> \
+      }    &#x20;
+
+</details>

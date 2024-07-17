@@ -1,4 +1,10 @@
-# OX: Inventory Items
+# Additional Steps: OX Inventory
+
+
+
+## Add these Items to the OX Inventory Item list
+
+* **File Path:** `ox_inventory/data/items`
 
 1. ```lua
    ["sleepingbag"] = {
@@ -14,4 +20,3 @@
    },
    ```
 
-Update: `@ox_inventory/data/items.lua;`

@@ -1,24 +1,54 @@
 # Client Exports
 
-#### `show()`
+<details>
 
-Displays the UI.
+<summary>show</summary>
 
-#### `hide()`
+_Description:_ Displays the UI.
 
-Hides the UI.
+</details>
 
-#### `toggle()`
+<details>
 
-Toggles the UI visibility.
+<summary>hide</summary>
 
-#### `notify(string _type, string title, string description, number duration)`
+_Description:_ Hides the UI.
 
-Shows a notification to the player.
+</details>
 
-**Parameters:**
+<details>
 
-* `_type`: The type of notification. Can be `success`, `error`, or `information`.
-* `title`: The title of the notification.
-* `description`: The description of the notification.
-* `duration`: The duration in milliseconds for which the notification should be displayed.
+<summary>toggle</summary>
+
+_Description:_ Toggles the UI visibility.
+
+</details>
+
+<details>
+
+<summary>notify</summary>
+
+* **\_type**
+  * _Type_: <mark style="color:purple;">String</mark>
+  * _Description:_ The type of notification. Can be `success`, `error`, or `information`.
+
+<!---->
+
+* **title**
+  * _Type_: <mark style="color:purple;">String</mark>
+  * _Description:_ The title of the notification.
+
+<!---->
+
+* **description**
+  * _Type_: <mark style="color:purple;">String</mark>
+  * _Description:_ The description of the notification.
+
+<!---->
+
+* **duration**
+  * _Type_: <mark style="color:purple;">Number</mark>
+  * _Description:_ The duration in milliseconds for which the notification should be displayed.
+
+</details>
+
