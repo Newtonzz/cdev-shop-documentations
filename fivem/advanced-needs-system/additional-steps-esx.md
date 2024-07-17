@@ -1,8 +1,8 @@
 # Additional Steps: ESX
 
-1. Copy the `ESX.zip` located in`cdev_needs/additional files`.\
+1. Copy the `ESX` paste located in`cdev_needs/additional files`.\
 
-2. Paste it into `cdev_needs/public` and use an unpacker like Winrar or 7zip to extract the zip (If asked to replace files, replace).\
+2. Paste it into `cdev_needs/public` (If asked to replace files, replace).\
 
 3. Delete the zip inside `cdev_needs/public`.\
 
