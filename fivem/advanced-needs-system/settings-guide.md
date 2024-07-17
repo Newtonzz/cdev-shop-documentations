@@ -10,12 +10,21 @@ The configuration file is located at `cdev_needs/public/settings.`
 
 Disable components from UI, allowing you to use any HUD.
 
-```lua
-	indicators = false,
-	informations = false,
-	speedometer = false,
-	notifys = false,
-```
+* Indicators
+  * _Type:_ <mark style="color:purple;">Boolean</mark>
+  * _Description:_ Disable the indicators.
+* Informations
+  * _Type:_ <mark style="color:purple;">Boolean</mark>
+  * _Description:_ Disable the informations.
+
+<!---->
+
+* Speedometer
+  * _Type:_ <mark style="color:purple;">Boolean</mark>
+  * _Description:_ Disable the speedometer.
+* Notifys
+  * _Type:_ <mark style="color:purple;">Boolean</mark>
+  * _Description:_ Disable the notifys.
 
 </details>
 
