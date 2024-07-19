@@ -9,13 +9,15 @@
 1. ```lua
    ["sleepingbag"] = {
        label = "Sleeping Bag",
+       stack = false,
        weight = 1000,
        description = "A sleeping bag.",
    },
 
    ["emptybottle"] = {
        label = "Water Bottle",
-       weight = 1000,
+       stack = true,
+       weight = 100,
        description = "An empty water bottle.",
    },
    ```
