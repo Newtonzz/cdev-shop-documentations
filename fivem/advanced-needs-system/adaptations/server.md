@@ -1,6 +1,6 @@
 # Server
 
-## How to adapt \`public\` to a non-supported inventory
+## How to adapt 'public' to a non-supported inventory
 
 Setting functions
 
