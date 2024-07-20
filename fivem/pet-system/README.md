@@ -25,8 +25,9 @@ This resource is a companionship script that provides entertainment, customizati
 Before you can use this resource, you'll need to make sure that you have the following resources installed:
 
 1. cdev\_lib <mark style="color:green;">(included with this resource)</mark>
-2. cdev\_pets\_assets <mark style="color:green;">(included with this resource)</mark>
-3. cdev\_pets\_assets2 <mark style="color:green;">(included with this resource)</mark>
+2. cdev\_pets <mark style="color:green;">(included with this resource)</mark>
+3. cdev\_pets\_assets <mark style="color:green;">(included with this resource)</mark>
+4. cdev\_pets\_assets2 <mark style="color:green;">(included with this resource)</mark>
 
 </details>
 
