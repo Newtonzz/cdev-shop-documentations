@@ -24,10 +24,23 @@ Before you can use this resource, you'll need to make sure that you have the fol
 
 1. cdev\_lib <mark style="color:green;">(included with this resource)</mark>
 2. cdev\_pets\_assets <mark style="color:green;">(included with this resource)</mark>
+3. cdev\_pets\_assets2 <mark style="color:green;">(included with this resource)</mark>
 
-**Additionally, if you have the subscription package you must start this resource INSTEAD of cdev\_pets\_assets:**
+**Additionally, if you have the subscription package you must start each animal individually.**
 
-* cdev\_pets\_assets\_premium
+* cdev\_dog\_bully
+* cdev\_dog\_dobb&#x20;
+* cdev\_dog\_chow&#x20;
+* cdev\_dog\_frbull&#x20;
+* cdev\_dog\_golden&#x20;
+* cdev\_dog\_husky&#x20;
+* cdev\_dog\_rott&#x20;
+* cdev\_dog\_shep&#x20;
+* cdev\_dog\_mal&#x20;
+* cdev\_dog\_pitt&#x20;
+* cdev\_dog\_dal&#x20;
+* cdev\_cat\_amer&#x20;
+* cdev\_cat\_turk
 
 ### Step 2: Extract the files
 
