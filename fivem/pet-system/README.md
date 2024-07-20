@@ -45,6 +45,25 @@ Before you can use this resource, you'll need to make sure that you have the fol
 ### Step 2: Extract the files
 
 1. Extract the contents of the `cdev-pets.zip` folder and place the resulting folder in your server's resource directory.
+2. Extract the contents of the `cdev_pets_assets` and `cdev_pets_assets2` folder and place the resulting folder in your server's resource directory.
+3. Extract the contents of the `cDev Pets Assets Premium - Rottweiler` , `cDev Pets Assets Premium - Dobbermann` and `cDev - Cat American` folder and place the resulting folder in your server's resource directory.
+4. Additional step if you have the Pets premium Subscription, extract the contents of the:\
+   \
+   `cDev Pets Assets Premium - Bully`\
+   `cDev Pets Assets Premium - Chow-Chow`\
+   `cDev Pets Assets Premium - Dobbermann`\
+   `cDev Pets Assets Premium - French Bulldog`\
+   `cDev Pets Assets Premium - Golden Retriever`\
+   `cDev Pets Assets Premium - Husky`\
+   `cDev Pets Assets Premium - Rottweiler`\
+   `cDev Pets Assets Premium - Shepherd`\
+   `cDev Pets Assets Premium - Belgian Malinois`\
+   `cDev Pets Assets Premium - Dalmation`\
+   `cDev Pets Assets Premium - Pittbull`\
+   `cDev Pets Assets Premium - Cat Turkish`\
+   `cDev - Cat American`\
+   \
+   folders and place the resulting folder in your server's resource directory.
 
 {% hint style="warning" %}
 Make sure that cdev\_lib is started before cdev\_pets
@@ -55,7 +74,7 @@ Make sure that cdev\_lib is started before cdev\_pets
 {% endhint %}
 
 {% hint style="warning" %}
-cDev Pets Version 2.5.0  requires users that already have this script running to run a query to add new columns to a table
+cDev Pets Version 2.5.0  requires users that already have this script running to run a query to add new columns to a table;
 
 \
 `ALTER TABLE cdev_pets ADD sniff INT(11) NOT NULL, ADD resistance INT(11) NOT NULL, ADD agility INT(11) NOT NULL, ADD attack INT(11) NOT NULL;`
