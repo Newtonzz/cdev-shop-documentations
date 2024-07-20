@@ -52,3 +52,26 @@ _Description:_ Toggles the UI visibility.
 
 </details>
 
+<details>
+
+<summary>getStats</summary>
+
+* **Description:** Obtain the player stats.
+
+<!---->
+
+* **Return:**&#x20;
+  * _Type_: <mark style="color:purple;">Table</mark>
+  * _Structure:_ \
+    {\
+    &#x20;   hunger: <mark style="color:purple;">number</mark>, \
+    &#x20;   thirst: <mark style="color:purple;">number</mark>, \
+    &#x20;   energy: <mark style="color:purple;">number</mark>,\
+    &#x20;   stress: <mark style="color:purple;">number</mark>, \
+    &#x20;   pee: <mark style="color:purple;">number</mark>, \
+    &#x20;   poop: <mark style="color:purple;">number</mark>, \
+    &#x20;   hygiene: <mark style="color:purple;">number</mark>, \
+    &#x20;   social: <mark style="color:purple;">number</mark> \
+    }    &#x20;
+
+</details>
