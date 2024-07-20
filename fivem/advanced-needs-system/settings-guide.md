@@ -1,6 +1,6 @@
 # Settings Guide
 
-### Where you will find the Settings
+Where you will find the Settings
 
 The configuration file is located at `cdev_needs/public/settings.`
 
@@ -27,6 +27,10 @@ Disable components from UI, allowing you to use any HUD.
   * _Description:_ Disable the notifys.
 
 </details>
+
+{% hint style="info" %}
+The "cooldownToApplyStats"; it is basically setting the time before the progress bar is full, as for example: let's say you eat an apple, after 4 seconds (default) it will fill up his progress bar of thristy.
+{% endhint %}
 
 ### Part 1: Configuring Needs and Their Effects
 
