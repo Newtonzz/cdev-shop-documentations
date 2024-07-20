@@ -18,7 +18,9 @@ This resource is a companionship script that provides entertainment, customizati
 
 ## INSTALLATION GUIDE
 
-### Step 1: Verify that you have the required dependencies installed
+<details>
+
+<summary>Step 1: Verify that you have the required dependencies installed</summary>
 
 Before you can use this resource, you'll need to make sure that you have the following resources installed:
 
@@ -26,28 +28,25 @@ Before you can use this resource, you'll need to make sure that you have the fol
 2. cdev\_pets\_assets <mark style="color:green;">(included with this resource)</mark>
 3. cdev\_pets\_assets2 <mark style="color:green;">(included with this resource)</mark>
 
-**Additionally, if you have the subscription package you must start each animal individually.**
+</details>
 
-* cdev\_dog\_bully
-* cdev\_dog\_dobb&#x20;
-* cdev\_dog\_chow&#x20;
-* cdev\_dog\_frbull&#x20;
-* cdev\_dog\_golden&#x20;
-* cdev\_dog\_husky&#x20;
-* cdev\_dog\_rott&#x20;
-* cdev\_dog\_shep&#x20;
-* cdev\_dog\_mal&#x20;
-* cdev\_dog\_pitt&#x20;
-* cdev\_dog\_dal&#x20;
-* cdev\_cat\_amer&#x20;
-* cdev\_cat\_turk
+<details>
 
-### Step 2: Extract the files
+<summary>Step 2: Extract the files</summary>
 
 1. Extract the contents of the `cdev-pets.zip` folder and place the resulting folder in your server's resource directory.
+
+<!---->
+
 2. Extract the contents of the `cdev_pets_assets` and `cdev_pets_assets2` folder and place the resulting folder in your server's resource directory.
+
+<!---->
+
 3. Extract the contents of the `cDev Pets Assets Premium - Rottweiler` , `cDev Pets Assets Premium - Dobbermann` and `cDev - Cat American` folder and place the resulting folder in your server's resource directory.
-4. Additional step if you have the Pets premium Subscription, extract the contents of the:\
+
+<!---->
+
+4. Additional step if you have the Pets Premium Sub, extract the contents of the:\
    \
    `cDev Pets Assets Premium - Bully`\
    `cDev Pets Assets Premium - Chow-Chow`\
@@ -64,6 +63,39 @@ Before you can use this resource, you'll need to make sure that you have the fol
    `cDev - Cat American`\
    \
    folders and place the resulting folder in your server's resource directory.
+
+</details>
+
+<details>
+
+<summary>Step 3: Ensure the files</summary>
+
+Your ensure should look like this if you have Pets Premium Sub;
+
+```lua
+ensure cdev_lib
+ensure cdev_pets
+ensure cdev_pets_assets
+ensure cdev_pets_assets2
+ensure cdev_dog_rott
+ensure cdev_dog_dobb
+ensure cdev_cat_amer
+
+--below is only for who has Pets Premium Sub--
+ensure cdev_dog_bully
+ensure cdev_dog_chow
+ensure cdev_dog_frbull
+ensure cdev_dog_golden
+ensure cdev_dog_husky
+ensure cdev_dog_rott
+ensure cdev_dog_shep
+ensure cdev_dog_mal
+ensure cdev_dog_dal
+ensure cdev_dog_turk
+ensure cdev_dog_pitt
+```
+
+</details>
 
 {% hint style="warning" %}
 Make sure that cdev\_lib is started before cdev\_pets
