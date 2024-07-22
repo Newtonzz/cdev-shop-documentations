@@ -6,7 +6,7 @@ description: Frequently asked questions about our Discord bot services
 
 <details>
 
-<summary><br>I've got this on my DM, what should I do?<br><br><img src="../.gitbook/assets/image (2).png" alt="" data-size="original"><br></summary>
+<summary><br>I've got this on my DM, what should I do?<br><br><img src="../.gitbook/assets/image (2) (1).png" alt="" data-size="original"><br></summary>
 
 If you are registering your bot to our services, meanwhile your bot is connected to other host, this will occur.
 

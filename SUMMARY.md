@@ -40,6 +40,7 @@
   * [API](fivem/soccer/api/README.md)
     * [Client](fivem/soccer/api/client.md)
     * [Server](fivem/soccer/api/server.md)
+  * [RCore: Addon](fivem/soccer/rcore-addon.md)
 * [🎉 cDev Games](fivem/cdev-games/README.md)
   * [OX Inventory](fivem/cdev-games/ox-inventory.md)
   * [QB Inventory](fivem/cdev-games/qb-inventory.md)
