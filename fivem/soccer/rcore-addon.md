@@ -4,7 +4,7 @@ description: 'Resource: FiveM Statistics & Achievement'
 
 # RCore: Addon
 
-[RCore Tebex Store](https://rcore.cz/)
+[https://store.rcore.cz/package/6273968](https://store.rcore.cz/package/6273968)
 
 ### Step 1: Head to configuration file located: cdev\_soccer/public/config.lua
 
