@@ -6,8 +6,6 @@ description: Get creative today on your FiveM Server!
 
 {% embed url="https://youtu.be/If9wrj0Q53E" %}
 
-Here's an improved version of the documentation, with clearer structure and instructions:
-
 ***
 
 ### What is this resource?
