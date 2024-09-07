@@ -75,10 +75,10 @@
     * [Server Exports](fivem/advanced-needs-system/exports/server-exports.md)
 * [🎉 Event Creator System](fivem/event-creator-system.md)
 * [🕺 Emote Menu](fivem/emote-menu/README.md)
-  * [How to Register a New Category!](fivem/emote-menu/how-to-register-a-new-category.md)
-  * [How to Register a New Animation!](fivem/emote-menu/how-to-register-a-new-animation.md)
-  * [How to Register a New Walkstyle!](fivem/emote-menu/how-to-register-a-new-walkstyle.md)
-  * [How to Register a New Expression!](fivem/emote-menu/how-to-register-a-new-expression.md)
+  * [Register a New Category!](fivem/emote-menu/register-a-new-category.md)
+  * [Register a New Animation!](fivem/emote-menu/register-a-new-animation.md)
+  * [Register a New Walkstyle!](fivem/emote-menu/register-a-new-walkstyle.md)
+  * [Register a New Expression!](fivem/emote-menu/register-a-new-expression.md)
 
 ***
 
