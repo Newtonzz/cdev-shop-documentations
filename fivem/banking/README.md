@@ -1,5 +1,6 @@
 ---
 description: Loan, bank accounts, card and payment systems with ATM's
+hidden: true
 ---
 
 # 💰 Banking
