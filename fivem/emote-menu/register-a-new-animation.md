@@ -5,7 +5,7 @@ description: >-
   down for a clearer understanding.
 ---
 
-# How to Register a New Animation!
+# Register a New Animation!
 
 ***
 
@@ -40,6 +40,7 @@ Animation Example
         config = {
             offset = { x = 0.5, y = 0.0, z = 0.0 },  -- Positional offset
             heading = 90.0,  -- Heading direction
+            freeze = false, -- freeze the player
             flags = {
                 controllable = true,  -- Player can control the character
                 loop = true,  -- Animation loops
@@ -143,6 +144,7 @@ Animation Example
 * **config**: `object` (optional)
   * **offset**: `object` (optional) - Positional offset of the animation (x, y, z).
   * **heading**: `number` (optional) - Heading for the animation.
+  * **freeze**: `boolean` (optional) - Freeze the Player while doing the animation.
   * **flags**: `object` (optional)
     * **controllable**: `boolean` - If the animation is player-controllable.
     * **loop**: `boolean` - Whether the animation loops.
@@ -181,6 +183,7 @@ Animation Example
   * **config**: `object` (optional)
     * **offset**: `object` (optional) - Positional offset of the animation (x, y, z).
     * **heading**: `number` (optional) - Heading for the animation.
+    * **freeze**: `boolean` (optional) - Freeze the Player while doing the animation.
     * **flags**: `object` (optional)
       * **controllable**: `boolean` - If the animation is player-controllable.
       * **loop**: `boolean` - Whether the animation loops.
