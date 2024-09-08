@@ -78,6 +78,7 @@ Animation Example
         config = {
             offset = { x = -0.5, y = 0.0, z = 0.0 },  -- Positional offset for second person
             heading = 270.0,  -- Heading for second person
+            freeze = false, -- freeze the player
             flags = {
                 controllable = false,  -- Not player-controllable
                 loop = false,  -- Animation does not loop
