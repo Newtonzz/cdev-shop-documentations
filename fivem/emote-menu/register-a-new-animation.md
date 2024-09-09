@@ -16,8 +16,8 @@ Animation Example
     id = "ultimate_sync_animation",  -- Unique animation identifier
     label = "Ultimate Sync Animation",  -- Display name for the animation
     category = "sharedanimations",  -- Animation category
-    thumbnailcdn = "http:/examplecdn/ultimate_sync_thumbnail",  -- CDN URL for thumbnail
-    -- thumbnail = "animation1"  -- Local path for the preview image (if hosted within the application)
+    thumbnailcdn = "http:/examplecdn/ultimate_sync_thumbnail",  -- CDN URL for thumbnail (optional)
+    -- thumbnail = "animation1"  -- Local path for the preview image (if hosted within the application) (optional)
     vip = false,  -- VIP-only animation (optional)
 
     syncedoptions = {

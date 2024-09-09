@@ -4,7 +4,7 @@ description: >-
   is quite simple, requiring just a few key fields.
 ---
 
-# How to Register a New Expression!
+# Register a New Expression!
 
 ***
 
@@ -14,7 +14,7 @@ Expression Example
 {
     id = "angry",  -- Unique expression identifier
     label = "Angry",  -- Display name for the expression
-    thumbnailcdn = CDEV_CDN .. "angry",  -- CDN URL for thumbnail (optional)
+     thumbnailcdn = "http:/examplecdn/ultimate_sync_thumbnail", -- CDN URL for thumbnail (optional)
     -- thumbnail = "expression_image"  -- Local path for the preview image (optional)
     expression = "mood_angry_1",  -- Animation expression
     category = "expressions",  -- Expression category

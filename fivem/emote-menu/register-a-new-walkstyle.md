@@ -4,7 +4,7 @@ description: >-
   quite simple, requiring just a few key fields.
 ---
 
-# How to Register a New Walkstyle!
+# Register a New Walkstyle!
 
 ***
 
@@ -16,7 +16,7 @@ Walkstyle Example
     label = "Lemar",  -- Display name for the walkstyle
     clipSet = "ANIM_GROUP_MOVE_LEMAR_ALLEY",  -- Animation clip set for the walkstyle
     category = "walkstyles",  -- Walkstyle category
-    thumbnailcdn = CDEV_CDN .. "lemar",  -- CDN URL for thumbnail (optional)
+     thumbnailcdn = "http:/examplecdn/ultimate_sync_thumbnail",   -- CDN URL for thumbnail (optional)
     -- thumbnail = "walkstyle_image"  -- Local path for the preview image (optional)
     vip = false,  -- VIP-only walkstyle (optional)
 }
