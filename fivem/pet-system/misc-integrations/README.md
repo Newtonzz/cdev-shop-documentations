@@ -96,3 +96,37 @@ creatures@rottweiler@tricks@                sit_loop
 Lay Down:
 creatures@rottweiler@amb@sleep_in_kennel@   sleep_in_kennel
 ```
+
+## AddPet EXPORT
+
+The `addpet` function adds a pet for a player or character, supporting both regular pets and K9 units.
+
+### Parameters
+
+* `PlayerId` (optional): Player's source ID.
+* `CharacterId` (optional): Character ID if PlayerId is not provided.
+* `petShopId` (required): ID of the pet from the pet shop.
+* `isK9` (optional, boolean): `true` if the pet is a K9 unit, `false` otherwise (default: `false`).
+* `petName` (required): Name of the pet.
+
+### Function Workflow
+
+1. Checks if data exists.
+2. Verifies that either `PlayerId` or `CharacterId` is provided.
+3. Looks up the pet's details from `petShopId`.
+4. If the pet is a K9, it assigns K9 skills like sniff and attack.
+5. Adds the pet to the database.
+6. If the pet is a K9, it gives the player a K9-related item.
+
+### Example
+
+```javascript
+exports.addpet({
+    PlayerId = 2,
+    petShopId = "pet_hottweiler",
+    isK9 = true,
+    petName = "Buddy"
+})
+```
+
+This will add a K9 pet named "Buddy" for the player with `PlayerId` 2.
