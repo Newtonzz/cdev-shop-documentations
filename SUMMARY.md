@@ -79,6 +79,7 @@
   * [Register a New Animation!](fivem/emote-menu/register-a-new-animation.md)
   * [Register a New Walkstyle!](fivem/emote-menu/register-a-new-walkstyle.md)
   * [Register a New Expression!](fivem/emote-menu/register-a-new-expression.md)
+  * [Exports](fivem/emote-menu/exports.md)
 
 ***
 
