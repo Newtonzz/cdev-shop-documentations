@@ -80,6 +80,7 @@
   * [Register a New Walkstyle!](fivem/emote-menu/register-a-new-walkstyle.md)
   * [Register a New Expression!](fivem/emote-menu/register-a-new-expression.md)
   * [Exports](fivem/emote-menu/exports.md)
+* [🧏 cDev ASL (American Sign Language)](fivem/cdev-asl-american-sign-language.md)
 
 ***
 
