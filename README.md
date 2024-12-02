@@ -13,8 +13,7 @@ coverY: 0
 * [**Gabz - The most popular maps on your FiveM server.**](https://discord.gg/gabz)
 * [**OTF Gaming**](https://discord.gg/lildurk)&#x20;
 * [**Trenches**](https://discord.gg/otf)
-
-
+* [rCore.cz](https://rcore.cz/)
 
 ## Our Partners
 
@@ -27,12 +26,6 @@ coverY: 0
 * [Theebu](https://discord.gg/SvxZj2h)
 * [Samuel's Development](https://discord.gg/samueldev)
 
-{% embed url="https://gta.clothing/" %}
-
 <figure><img src="https://cdn.discordapp.com/attachments/955140577203208253/1095462395159269500/durty-cloth-tool-logo.png" alt=""><figcaption></figcaption></figure>
-
-{% embed url="https://fragmentor.io/" %}
-
-<figure><img src=".gitbook/assets/Advertisment.png" alt=""><figcaption></figcaption></figure>
 
 Interested in joining the above list? Contact us today!
