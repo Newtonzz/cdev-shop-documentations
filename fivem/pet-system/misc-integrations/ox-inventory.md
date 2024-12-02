@@ -12,7 +12,7 @@ description: Integration for ox_inventory throwing the pet ball
 exports("IsHoldingBall", function()
     local pet = PetManagerClient.ownedPet
     return pet ~= nil and pet.state == PetState.FETCH
-end
+end)
 ```
 
 2. Next, navigate to ox\_inventory resource and locate the line `'client.interval = SetInterval(function',` then replace that function with the following code:
