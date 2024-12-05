@@ -21,7 +21,7 @@
   * [Setting up a Dealership](fivem/vehicle-shop/setting-up-a-dealership.md)
   * [Stock Management](fivem/vehicle-shop/stock-management.md)
   * [Vehicle Supply](fivem/vehicle-shop/vehicle-supply.md)
-  * [Troubleshooting](fivem/vehicle-shop/troubleshooting.md)
+  * [Troubleshooting](fivem/vehicle-shop/known-issues.md)
 * [💬 Chat System](fivem/chat-system.md)
 * [🔔 Premium Notify & Text UI](fivem/premium-notify-and-text-ui/README.md)
   * [Configuration](fivem/premium-notify-and-text-ui/configuration.md)
@@ -94,68 +94,6 @@
   * [Installation](tebex-bot/installation/README.md)
     * [Known Issues](tebex-bot/installation/known-issues.md)
     * [Bot Commands](tebex-bot/installation/bot-commands.md)
-
-## 🔞 Anti-NSFW
-
-* [🤖 Anti-NSFW: Grand Mirage (Version 3)](anti-nsfw/grand-mirage/README.md)
-  * [Bot Commands](anti-nsfw/grand-mirage/bot-commands.md)
-  * [📓 Privacy Policy](anti-nsfw/grand-mirage/privacy.md)
-  * [FAQ](anti-nsfw/grand-mirage/faq.md)
-
-## 💳 Purchase Bot
-
-* [🤖 Create Discord Bot](purchase-bot/create-discord-bot.md)
-* [Post-Purchase](purchase-bot/post-purchase.md)
-* [Invite](purchase-bot/invite.md)
-* [FAQ](purchase-bot/faq.md)
-
-## 🎦 cDev (Discord Bot) Showcase <a href="#cdev-bot-exhibit" id="cdev-bot-exhibit"></a>
-
-* [Dashboard Preview](cdev-bot-exhibit/dashboard-preview.md)
-* [Verification System](cdev-bot-exhibit/verification-system.md)
-* [Autoroles](cdev-bot-exhibit/autoroles.md)
-* [Form (NEW)](cdev-bot-exhibit/form.md)
-* [Review (NEW)](cdev-bot-exhibit/review.md)
-* [Suggestions (Updated)](cdev-bot-exhibit/suggestions.md)
-
-## 🤖 Commands
-
-* [Autoroles (Beta)](commands/autoroles-beta.md)
-* [Auto Moderation](commands/auto-moderation.md)
-* [Bot (Customer)](commands/bot-customer.md)
-* [Changelog](commands/changelog.md)
-* [Custom Commands](commands/custom-commands.md)
-* [Counter Feature](commands/counter-feature.md)
-* [Embed](commands/embed.md)
-* [FiveM (Server & CFX Status)](commands/fivem-server-and-cfx-status.md)
-* [Fun](commands/fun.md)
-* [Forms](commands/forms.md)
-* [General](commands/general.md)
-* [Giveaway](commands/giveaway.md)
-* [Goodbye](commands/goodbye.md)
-* [Help](commands/help.md)
-* [Info](commands/info.md)
-* [Moderation](commands/moderation.md)
-* [Role](commands/role.md)
-* [Moderation Logging](commands/moderation-logging.md)
-* [Reminder](commands/reminder.md)
-* [Select Menu: Roles](commands/select-menu-roles.md)
-* [Server Settings](commands/server-settings.md)
-* [Sticky](commands/sticky.md)
-* [Review](commands/review.md)
-* [Suggestions](commands/suggestions.md)
-* [Ticket (BETA)](commands/ticket-beta.md)
-* [Twitch Notification](commands/twitch-notification.md)
-* [Youtube Notification](commands/youtube-notification.md)
-* [Server Verification](commands/server-verification.md)
-* [Welcome](commands/welcome.md)
-
-## 🛡️ Others
-
-* [FAQ](others/faq.md)
-
-***
-
 * [Discord Server](https://discord.cdev.shop)
 * [cDev Discord Store](https://store.cdev.shop)
 * [FiveM Store](https://fivem.cdev.shop/)

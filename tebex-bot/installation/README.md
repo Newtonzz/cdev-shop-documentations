@@ -9,7 +9,7 @@ description: Detailed guide.
 
 * Discord Bot (click below for how-to)
 
-[create-discord-bot.md](../../purchase-bot/create-discord-bot.md "mention")&#x20;
+[Broken link](broken-reference "mention")&#x20;
 
 * A Tebex store & secret key
 
