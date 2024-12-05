@@ -38,9 +38,9 @@ Delete a specific coupon
 
 ## giftcard create
 
-* **expires\_at:**STRING - yyyy-mm-dd hh:mm:ss
-* **note:**STRING - Leave a gift card note
-* **amount:**INTEGER - Gift card amount
+* **expires\_at:**&#x53;TRING - yyyy-mm-dd hh:mm:ss
+* **note:**&#x53;TRING - Leave a gift card note
+* **amount:**&#x49;NTEGER - Gift card amount
 
 ## giftcard get
 
@@ -48,8 +48,8 @@ Retrieve a specific gift card
 
 ## giftcard topup
 
-* **id:**STRING - ID of gift card
-* **amount:**INTEGER - Amount to top up with
+* **id:**&#x53;TRING - ID of gift card
+* **amount:**&#x49;NTEGER - Amount to top up with
 
 ## listing
 
@@ -67,4 +67,4 @@ Transaction ID (TID)
 
 Retrieve the latest payments (up to 25 per embed)&#x20;
 
-* **page:**OPTION - Return the page number
+* **page:**&#x4F;PTION - Return the page number

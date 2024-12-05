@@ -37,17 +37,11 @@ Before you can use this resource, you'll need to make sure that you have the fol
 
 1. Extract the contents of the `cdev-pets.zip` folder and place the resulting folder in your server's resource directory.
 
-<!---->
-
-2. Extract the contents of the `cdev_pets_assets` and `cdev_pets_assets2` folder and place the resulting folder in your server's resource directory.
-
-<!---->
+2) Extract the contents of the `cdev_pets_assets` and `cdev_pets_assets2` folder and place the resulting folder in your server's resource directory.
 
 3. Extract the contents of the `cDev Pets Assets Premium - Rottweiler` , `cDev Pets Assets Premium - Dobbermann` and `cDev - Cat American` folder and place the resulting folder in your server's resource directory.
 
-<!---->
-
-4. Additional step if you have the Pets Premium Sub, extract the contents of the:\
+4) Additional step if you have the Pets Premium Sub, extract the contents of the:\
    \
    `cDev Pets Assets Premium - Bully`\
    `cDev Pets Assets Premium - Chow-Chow`\
@@ -71,35 +65,55 @@ Before you can use this resource, you'll need to make sure that you have the fol
 
 <summary>Step 3: Ensure the files</summary>
 
-Your ensure should look like this if you have Pets Premium Sub;
+### If you have the base Pets script, ensure like this:
+
+```
+ensure cdev_lib
+ensure cdev_pets_assets
+ensure cdev_pets_assets2
+ensure cdev_cat_amer
+ensure cdev_dog_rott
+ensure cdev_dog_dobb
+ensure cdev_pets
+```
+
+### If you have the Pets Premium Subscription, ensure like this:
 
 ```lua
 ensure cdev_lib
-ensure cdev_pets
 ensure cdev_pets_assets
 ensure cdev_pets_assets2
-ensure cdev_dog_rott
-ensure cdev_dog_dobb
 ensure cdev_cat_amer
-
---below is only for who has Pets Premium Sub--
+ensure cdev_cat_turk
 ensure cdev_dog_bully
 ensure cdev_dog_chow
+ensure cdev_dog_dal
+ensure cdev_dog_dobb
 ensure cdev_dog_frbull
 ensure cdev_dog_golden
 ensure cdev_dog_husky
+ensure cdev_dog_mal
+ensure cdev_dog_minipitt
+ensure cdev_dog_pitt
 ensure cdev_dog_rott
 ensure cdev_dog_shep
-ensure cdev_dog_mal
-ensure cdev_dog_dal
-ensure cdev_dog_turk
-ensure cdev_dog_pitt
+ensure cdev_pets
+
+[or]
+
+-- create a [cdev] folder, place cdev_lib and scripts in here 
+-- create a [cdev_assets] folder inside of [cdev]
+-- place assets, dogs, cats, and mlo inside this folder
+-- ensure like below:
+ensure cdev_lib
+ensure [cdev_assets]
+ensure [cdev]
 ```
 
 </details>
 
 {% hint style="warning" %}
-Make sure that cdev\_lib is started before cdev\_pets
+Make sure that cdev\_lib is always started before cdev\_pets
 {% endhint %}
 
 {% hint style="danger" %}

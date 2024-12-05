@@ -25,5 +25,5 @@ Set a sticky message feature in the current or specific text channel. (Markdown 
 
 Defines whether to offer ticket owner a feedback panel for support after closing the ticket
 
-* **query:**BOOLEAN - True or False
+* **query:**&#x42;OOLEAN - True or False
 * **custom-embed**:STRING — The description of the embed. (max. 4096 chars)\

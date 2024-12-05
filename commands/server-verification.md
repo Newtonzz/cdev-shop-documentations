@@ -13,7 +13,7 @@ Set a server verification role.
 Set a server captcha verification module.
 
 * **channel**:CHANNEL — A text channel to put a resend embed, in case the user DMs are closed.
-* **custom\_embed:**STRING - Customize the verification panel text.
+* **custom\_embed:**&#x53;TRING - Customize the verification panel text.
 
 ## verification role remove
 

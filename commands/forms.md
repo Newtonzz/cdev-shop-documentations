@@ -5,8 +5,8 @@
 Create a form
 
 * **form\_channel**:CHANNEL (required) — A text channel for the form panel.
-* **form\_result\_channel:**CHANNEL (required) - A text channel for the collected forms.
-* **title:**STRING - The title for the form
+* **form\_result\_channel:**&#x43;HANNEL (required) - A text channel for the collected forms.
+* **title:**&#x53;TRING - The title for the form
 * **embed\_description**:STRING — The description of the embed. (max. 4096 chars)
 * **embed\_color**:STRING — Hex color. (e.g. #121112, 0x7289DA)
 * **embed\_button\_label**:STRING — A label/title for the form panel button.

@@ -13,7 +13,7 @@ Ban a user from the server.
 
 Ban a user from outside the server
 
-* **user\_id:**USERID- A discord user ID
+* **user\_id:**&#x55;SERID- A discord user ID
 * **reason**:STRING (optional) — A reason why this user is banned (displayed in Audit Log)
 * **duration**:STRING — Mute expiration. (e.g: 1 hour 21 minutes)
 
@@ -29,7 +29,7 @@ Lock a specific text channel.
 
 * **channel**:CHANNEL (optional) — A text channel you want to lock.&#x20;
 * **duration**:STRING — Lock expiration. (e.g: 1 hour 21 minutes)
-* **message:**STRING - A message/announcement for the channel lockdown.
+* **message:**&#x53;TRING - A message/announcement for the channel lockdown.
 
 ## mod unlock
 

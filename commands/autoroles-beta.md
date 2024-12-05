@@ -4,7 +4,7 @@
 
 Toggle an ability to save and give roles to users who previously left and have rejoined the server.
 
-* **toggle:**BOOLEAN (required) - Allow the module to be turned on or off.
+* **toggle:**&#x42;OOLEAN (required) - Allow the module to be turned on or off.
 
 ## autoroles add
 

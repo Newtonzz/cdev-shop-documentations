@@ -33,8 +33,8 @@ Start a giveaway.
 * **prize**:STRING (optional) — A prize of the giveaway.
 * **channel**:CHANNEL (optional) — A text channel to start the giveaway.
 * **notify\_winner**:BOOLEAN — Notify the winner via DM.
-* **message\_during:**STRING - A message above embed during the giveaway, default is :tada:**Giveaway** :tada:
-* **message\_ended:**STRING - A message above embed after the giveaway ends, the default is :tada:**Giveaway Ended** :tada:
+* **message\_during:**&#x53;TRING - A message above embed during the giveaway, default is :tada:**Giveaway** :tada:
+* **message\_ended:**&#x53;TRING - A message above embed after the giveaway ends, the default is :tada:**Giveaway Ended** :tada:
 * **embed\_image**:undefined — An image of the embed.
 
 <figure><img src="https://cdev.is-pretty.cool/8vhKvve.png" alt=""><figcaption><p>Giveaway embed</p></figcaption></figure>

@@ -1,4 +1,8 @@
-# Known Issues
+---
+description: common issues that customers may experience & why
+---
+
+# Troubleshooting
 
 {% hint style="danger" %}
 ## I can't target any "tablet" or "management" prop after creating a shop
