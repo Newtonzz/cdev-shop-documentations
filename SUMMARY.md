@@ -32,6 +32,7 @@
   * [Item Configuration](fivem/pet-system/item-configuration.md)
   * [Pet Shop Configuration](fivem/pet-system/pet-shop-configuration.md)
   * [Pet Configuration](fivem/pet-system/pet-configuration.md)
+  * [K9 Training Guide](fivem/pet-system/k9-training-guide.md)
   * [Misc Integrations](fivem/pet-system/misc-integrations/README.md)
     * [OX Inventory](fivem/pet-system/misc-integrations/ox-inventory.md)
   * [Troubleshooting](fivem/pet-system/troubleshooting.md)
@@ -88,7 +89,6 @@
 
 * [🐶 Preview Subscription Pack](preview-subscription-pack/README.md)
   * [🐱 Cats & K9 Training update!](preview-subscription-pack/cats-and-k9-training-update/README.md)
-    * [K9 Training Guide](preview-subscription-pack/cats-and-k9-training-update/k9-training-guide.md)
     * [MLO: Collision fixes](preview-subscription-pack/cats-and-k9-training-update/mlo-collision-fixes.md)
 * [🛒 Tebex Bot](tebex-bot/README.md)
   * [Installation](tebex-bot/installation/README.md)

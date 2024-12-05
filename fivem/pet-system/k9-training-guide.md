@@ -1,18 +1,10 @@
----
-description: Below an in-depth guide to train your K9's!
----
-
 # K9 Training Guide
 
 ## Ramp
 
 The Ramp training technique is designed to improve your dog's agility by having them repeatedly go up and down a ramp.
 
-<div align="left">
-
-<figure><img src="../../.gitbook/assets/ramp.png" alt="" width="264"><figcaption></figcaption></figure>
-
-</div>
+<div align="left"><figure><img src="../../.gitbook/assets/ramp.png" alt="" width="264"><figcaption></figcaption></figure></div>
 
 **Procedure Set Up the Ramp**: Place the ramp in a safe and secure area where your dog has plenty of space to move around.
 
@@ -32,11 +24,7 @@ The Ramp training technique is designed to improve your dog's agility by having 
 
 Hoop training is designed to test your dog's ability to learn through trial and error, ultimately improving their agility and attack skills. A well-trained dog in these areas can effectively detain a suspect without causing harm, allowing law enforcement to make an arrest.
 
-<div align="left">
-
-<figure><img src="../../.gitbook/assets/hoop.png" alt="" width="264"><figcaption></figcaption></figure>
-
-</div>
+<div align="left"><figure><img src="../../.gitbook/assets/hoop.png" alt="" width="264"><figcaption></figcaption></figure></div>
 
 **Procedure Set Up the Hoop**: Place the hoop securely at an appropriate height for your dog to jump through.
 
@@ -56,11 +44,7 @@ Hoop training is designed to test your dog's ability to learn through trial and 
 
 Cones training is the foundational level of training for your K9. It is designed to improve your dog's stamina and endurance, enabling them to perform for longer periods without tiring.
 
-<div align="left">
-
-<figure><img src="../../.gitbook/assets/cone.png" alt="" width="183"><figcaption></figcaption></figure>
-
-</div>
+<div align="left"><figure><img src="../../.gitbook/assets/cone.png" alt="" width="183"><figcaption></figcaption></figure></div>
 
 **Procedure Set Up the Cones**: Arrange a series of cones in a straight line or a zigzag pattern.
 
@@ -94,11 +78,7 @@ Sniffing training is straightforward yet highly effective in developing your dog
 
 Dummy training is crucial for enhancing your K9's attack skills. This exercise involves timing how long it takes for your dog to successfully remove a leg from a dummy, helping develop precision and control in real-world scenarios.
 
-<div align="left">
-
-<figure><img src="../../.gitbook/assets/dummy.png" alt="" width="264"><figcaption></figcaption></figure>
-
-</div>
+<div align="left"><figure><img src="../../.gitbook/assets/dummy.png" alt="" width="264"><figcaption></figcaption></figure></div>
 
 **Procedure Set Up**: Secure a dummy in a safe training area.
 
