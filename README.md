@@ -6,7 +6,7 @@ coverY: 0
 
 # Intro
 
-[**Community Development/CDev**](https://discord.cdev.shop) is a collaborative of skilled developers, we have the in house experience in running community's, we understand running a community may be challenging at given times. Our primary focus has been creating the best useful resources such as our cDev bot, our vehicleshop & many other resources that are going to be coming for all of you.&#x20;
+[**Community Development/CDev**](https://discord.gg/cdev) is a collaborative of skilled developers, we have the in house experience in running community's, we understand running a community may be challenging at given times. Our primary focus has been creating the best useful resources such as our cDev bot, our vehicleshop & many other resources that are going to be coming for all of you.&#x20;
 
 ## cDev VIP's 💎
 
