@@ -4,6 +4,12 @@ description: common issues that customers may experience & why
 
 # Troubleshooting
 
+### Pets not spawning in?
+
+{% hint style="danger" %}
+Check to make sure you have an active CFX Element Club subscription: [HERE](https://portal.cfx.re/subscriptions)
+{% endhint %}
+
 ### \[cdev\_pets] (ERROR) Network control timeout for spawning pet, Please Try Again!
 
 <div align="center"><figure><img src="../../.gitbook/assets/image (3).png" alt=""><figcaption></figcaption></figure></div>

@@ -63,9 +63,9 @@ Before you can use this resource, you'll need to make sure that you have the fol
 
 <details>
 
-<summary>Step 3: Ensure the files</summary>
+<summary>Step 3: Ensure the files in your server.cfg</summary>
 
-### If you have the base Pets script, ensure like this:
+### If you have the base Pets script, ensure them in this order:
 
 ```
 ensure cdev_lib
@@ -77,7 +77,7 @@ ensure cdev_dog_dobb
 ensure cdev_pets
 ```
 
-### If you have the Pets Premium Subscription, ensure like this:
+### If you have the Pets Premium Subscription, ensure them in this order:
 
 ```lua
 ensure cdev_lib
@@ -112,8 +112,10 @@ ensure [cdev]
 
 </details>
 
-{% hint style="warning" %}
-Make sure that cdev\_lib is always started before cdev\_pets
+{% hint style="danger" %}
+To be able to stream the pets and clothing in game, you must have an active CFX Element Club Subscription!\
+\
+You can check [HERE](https://portal.cfx.re/subscriptions) to see any active subscriptions
 {% endhint %}
 
 {% hint style="danger" %}
