@@ -24,7 +24,6 @@ coverY: 0
 * [Renewed Scripts](https://discord.gg/AS2Y8TWejt)
 * [PataMods | Pata & Sarish](https://discord.gg/84musHr9mn)
 * [Theebu](https://discord.gg/SvxZj2h)
-* [Samuel's Development](https://discord.gg/samueldev)
 
 <figure><img src="https://cdn.discordapp.com/attachments/955140577203208253/1095462395159269500/durty-cloth-tool-logo.png" alt=""><figcaption></figcaption></figure>
 
