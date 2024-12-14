@@ -30,6 +30,7 @@
 * [🐶 Pet System](fivem/pet-system/README.md)
   * [Configuration](fivem/pet-system/configuration.md)
   * [Item Configuration](fivem/pet-system/item-configuration.md)
+  * [VIP Configuration](fivem/pet-system/vip-configuration.md)
   * [Pet Shop Configuration](fivem/pet-system/pet-shop-configuration.md)
   * [Pet Configuration](fivem/pet-system/pet-configuration.md)
   * [K9 Training Guide](fivem/pet-system/k9-training-guide.md)
