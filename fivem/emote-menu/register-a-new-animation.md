@@ -38,9 +38,11 @@ Animation Example
         anim = "source_anim",  -- Animation for the first person
         dict = "source_dict",  -- Animation dictionary
         config = {
-            offset = { x = 0.5, y = 0.0, z = 0.0 },  -- Positional offset
+            posOffset = { x = 0.0, y = 0.3, z = 0.0 },  -- Position offset for effect
+            rotOffset = { x = 0.0, y = 90.0, z = 90.0 },  -- Rotation offset for effect
             heading = 90.0,  -- Heading direction
             freeze = false, -- freeze the player
+            onfinishtptolastcoords = true -- tp to last coord in finish
             flags = {
                 controllable = true,  -- Player can control the character
                 loop = true,  -- Animation loops
@@ -143,7 +145,9 @@ Animation Example
 * **dict**: `string`\
   Animation dictionary.
 * **config**: `object` (optional)
-  * **offset**: `object` (optional) - Positional offset of the animation (x, y, z).
+  * **posOffset**: `object` (optional) - Positional offset of the animation (x, y, z).
+  * rosOffset: `object` (optional) - Rotation offset of the animation
+  * onfinishtptolastcoords: `boolean` (optional) - teleport to last coords on finish
   * **heading**: `number` (optional) - Heading for the animation.
   * **freeze**: `boolean` (optional) - Freeze the Player while doing the animation.
   * **flags**: `object` (optional)
