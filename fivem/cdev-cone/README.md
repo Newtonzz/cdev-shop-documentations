@@ -1,9 +1,5 @@
 # 🎴 cDev cOne
 
-Got it! Let's create a concise and structured documentation for your **cOne** script, similar to your ASL example. We'll use clear sections and code boxes to make it easy to read and understand.
-
-***
-
 ## cOne Script Documentation
 
 ### What is cOne?
