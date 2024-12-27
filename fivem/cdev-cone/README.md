@@ -2,6 +2,10 @@
 
 ## cOne Script Documentation
 
+{% embed url="https://youtu.be/mpLFPngEpSA" %}
+
+
+
 ### What is cOne?
 
 **cOne** is a customizable Uno-like game script designed for FiveM servers. It allows players to engage in a fun and interactive card game within your server environment. Whether you're adding a new activity for your community or enhancing your server's gameplay options, cOne provides flexibility and ease of use.
@@ -31,7 +35,7 @@
 * **Seat Customization:** Tailor seating arrangements and animations for an immersive experience.
 * **Prop Management:** Visual representation of decks and discard piles enhances gameplay realism.
 
-🎮 Keybnd Configurations
+🎮 Keybind Configurations
 
 * **Custom Actions:** Assign specific game actions to keyboard keys for intuitive control.
 * **Flexible Bindings:** Easily modify key assignments to suit your server’s needs.
