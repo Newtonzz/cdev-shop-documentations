@@ -87,6 +87,7 @@
 * [🧏 cDev ASL (American Sign Language)](fivem/cdev-asl-american-sign-language.md)
 * [🎴 cDev cOne](fivem/cdev-cone/README.md)
   * [Exports](fivem/cdev-cone/exports.md)
+  * [Admin Commands](fivem/cdev-cone/admin-commands.md)
 
 ***
 
