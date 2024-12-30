@@ -86,6 +86,7 @@
   * [Exports](fivem/emote-menu/exports.md)
 * [🧏 cDev ASL (American Sign Language)](fivem/cdev-asl-american-sign-language.md)
 * [🎴 cDev cOne](fivem/cdev-cone/README.md)
+  * [Ox Inventory](fivem/cdev-cone/ox-inventory.md)
   * [Exports](fivem/cdev-cone/exports.md)
   * [Admin Commands](fivem/cdev-cone/admin-commands.md)
 
