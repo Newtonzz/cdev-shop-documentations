@@ -2,9 +2,9 @@
 
 ## cOne Script Documentation
 
-{% embed url="https://youtu.be/mpLFPngEpSA" %}
 
 
+{% embed url="https://youtu.be/EsuKwUVgG1Y" %}
 
 ### What is cOne?
 
