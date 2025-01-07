@@ -1,10 +1,6 @@
 # Ox Inventory
 
-## OX Inventory
-
-How to add cOne to your ox\_inventory
-
-### Step one <a href="#step-one" id="step-one"></a>
+### Step one <a href="#step-two" id="step-two"></a>
 
 Add images to `ox_inventory/web/images`Images are available in the `images` folder of this resource.
 

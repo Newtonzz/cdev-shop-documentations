@@ -90,6 +90,11 @@
   * [Ox Inventory](fivem/cdev-cone/ox-inventory.md)
   * [Admin Commands](fivem/cdev-cone/admin-commands.md)
   * [Exports](fivem/cdev-cone/exports.md)
+* [🌬️ cDev Tarot](fivem/cdev-tarot/README.md)
+  * [QB Inventory](fivem/cdev-tarot/qb-inventory.md)
+  * [Ox Inventory](fivem/cdev-tarot/ox-inventory.md)
+  * [Admin Commands](fivem/cdev-tarot/admin-commands.md)
+  * [Exports](fivem/cdev-tarot/exports.md)
 
 ***
 

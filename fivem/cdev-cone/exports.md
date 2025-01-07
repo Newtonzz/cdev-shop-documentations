@@ -5,7 +5,7 @@
 #### **`createTable` (Client-Side)**
 
 **Description:**\
-Creates a new game table at the player's current position.
+Makes player go to Table Creation Mode!
 
 **Usage:**
 
