@@ -1,8 +1,6 @@
-# Informations;
+# Guide
 
-
-
-### [#default-stats](informations.md#default-stats "mention") Default Stats
+### [#default-stats](guide.md#default-stats "mention") Default Stats
 
 The script includes the following stats by default:
 

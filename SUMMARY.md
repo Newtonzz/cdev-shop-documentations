@@ -67,7 +67,7 @@
     * [Add Transaction](fivem/banking/server-exports/add-transaction.md)
   * [Types Definitions](fivem/banking/types-definitions.md)
 * [👩 Advanced Needs System](fivem/advanced-needs-system/README.md)
-  * [Informations;](fivem/advanced-needs-system/informations.md)
+  * [Guide](fivem/advanced-needs-system/guide.md)
   * [Customizations](fivem/advanced-needs-system/customizations/README.md)
     * [Stats](fivem/advanced-needs-system/customizations/stats.md)
     * [Actions](fivem/advanced-needs-system/customizations/actions.md)
