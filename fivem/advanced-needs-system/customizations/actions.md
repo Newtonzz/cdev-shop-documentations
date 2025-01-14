@@ -14,6 +14,8 @@ or directly in:
 
 ***
 
+
+
 <details>
 
 <summary>Actions with Animations</summary>
@@ -29,6 +31,8 @@ These actions include:
 * **washHands**
 
 </details>
+
+
 
 **Customization Options:**
 
@@ -52,7 +56,9 @@ poopInToilet = {
 
 ***
 
-**Other actions**
+
+
+## OTHER ACTIONS
 
 <details>
 
@@ -66,16 +72,16 @@ Passive actions include:
 
 </details>
 
-<details>
 
-<summary>Social Talking</summary>
+
+**Social Talking**
 
 Utilizes Mumble Voip to monitor player speech:
 
 * **DecreasePerMinuteNotTalking**: Reduces "social" stat per minute of silence (default: 0.02).
 * **IncreasePerTenSecondsTalking**: Increases "social" stat per 10 seconds of talking (default: 0.5).
 
-</details>
+
 
 **Social Areas**
 
