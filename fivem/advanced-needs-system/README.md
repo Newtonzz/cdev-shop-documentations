@@ -16,8 +16,6 @@ This resource is an advanced needs system designed to bring your character to li
 
 ### Step 1: Download the asset from your keymaster.
 
-1. cdev\_needs <mark style="color:green;">(included with this resource)</mark>
-
 ### Step 2: Extract the files
 
 1. Extract the contents of the `cdev_needs.zip` folder and place the resulting folder in your server's resource directory.
