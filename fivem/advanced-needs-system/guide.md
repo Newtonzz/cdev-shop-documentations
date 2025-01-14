@@ -1,6 +1,6 @@
 # Guide
 
-### [#default-stats](guide.md#default-stats "mention") Default Stats
+### Default Stats
 
 The script includes the following stats by default:
 
