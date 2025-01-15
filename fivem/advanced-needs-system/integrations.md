@@ -1,6 +1,21 @@
 # Integrations
 
-The script is designed for seamless integration with existing setups. All integration-related code can be found in:
 
-* **Client-Side:** `/public/client/integrations`
-* **Server-Side:** `/public/server/integrations`
+
+**Frameworks** (change in /public/server/integrations and /public/client/integrations)
+
+* QBCore
+* ESX
+* Standalone
+
+**Fuel System** (change in /public/server/integrations and /public/client/integrations)
+
+* Legacy Fuel (used by QBCore)
+* Quasar Fuel Station
+* GTA Native Fuel (Standalone)
+
+**Inventories** (change in /public/server/inventory.lua)
+
+* QBCore Inventory
+* Quasar Inventory
+* OX Inventory
