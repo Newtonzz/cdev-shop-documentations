@@ -34,6 +34,8 @@
   * [Pet Shop Configuration](fivem/pet-system/pet-shop-configuration.md)
   * [Pet Configuration](fivem/pet-system/pet-configuration.md)
   * [K9 Training Guide](fivem/pet-system/k9-training-guide.md)
+  * [Admin Commands](fivem/pet-system/admin-commands.md)
+  * [Exports](fivem/pet-system/exports.md)
   * [Misc Integrations](fivem/pet-system/misc-integrations/README.md)
     * [OX Inventory](fivem/pet-system/misc-integrations/ox-inventory.md)
   * [Troubleshooting](fivem/pet-system/troubleshooting.md)
