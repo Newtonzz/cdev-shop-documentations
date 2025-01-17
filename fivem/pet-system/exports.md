@@ -2,8 +2,6 @@
 
 ### Client-Side Exports
 
-Client-side exports are functions made available to other client scripts. They enable functionalities such as controlling pets, interacting with the UI, and managing pet states.
-
 #### TakeInPet
 
 **Description:**\
