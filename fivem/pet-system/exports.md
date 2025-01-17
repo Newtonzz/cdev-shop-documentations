@@ -204,8 +204,6 @@ exports.cdev_pets.spawnPet(petId, customCoordinates)
 
 ### Server-Side Exports
 
-Server-side exports are functions made available to other server scripts. They provide functionalities for managing pets, such as adding or deleting pets, and handling pet inventory.
-
 #### addpet
 
 **Description:**\
