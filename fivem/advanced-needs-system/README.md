@@ -6,7 +6,9 @@ description: In-depth immersion system
 
 Are you ready to give your character a truly immersive life experience, where self-care is as essential as it is in reality? Discover the cDev Advanced Needs System and provide your players with the depth and realism they deserve!
 
-{% embed url="https://youtube.com/watch?v=y_Izwx7F4BY" %}
+{% embed url="https://www.youtube.com/watch?v=ZzaqfGhWlyQ" %}
+
+
 
 ## What is this resource?
 
