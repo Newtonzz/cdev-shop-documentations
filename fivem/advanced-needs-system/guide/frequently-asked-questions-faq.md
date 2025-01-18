@@ -63,3 +63,7 @@ stressAreas = {
 ## 8. When the character goes to shower or pee/poop, they change clothes. How can I set them with the clothing/naked I want?
 
 To customize the clothing or naked appearance during actions like showering or using the bathroom, go to the `/public/config/config` file and find the "Clothing Presets" section. There, you can adjust the slot numbers for the clothing you want to apply. Once you set up the correct slot numbers, the game will automatically apply your chosen clothing or naked presets during these actions.
+
+## 9. How to interact with objects?
+
+To interact with objects, use the designated keybind "O". This keybind is set as the default in the script but can be customized in your FiveM keybind settings. That keybind open the entire config menu.
