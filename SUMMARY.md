@@ -72,6 +72,7 @@
   * [Guide](fivem/advanced-needs-system/guide/README.md)
     * [Frequently Asked Questions (FAQ)](fivem/advanced-needs-system/guide/frequently-asked-questions-faq.md)
   * [Customizations](fivem/advanced-needs-system/customizations/README.md)
+    * [Appearance](fivem/advanced-needs-system/customizations/appearance.md)
     * [Stats](fivem/advanced-needs-system/customizations/stats.md)
     * [Actions](fivem/advanced-needs-system/customizations/actions.md)
   * [Integrations](fivem/advanced-needs-system/integrations.md)

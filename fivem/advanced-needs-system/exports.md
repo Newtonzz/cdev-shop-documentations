@@ -12,7 +12,7 @@ TriggerClientEvent(source, 'cdev:hud:visibility', isVisible)
 
 -- Client-side
 TriggerEvent('cdev:hud:visibility', isVisible)
-exports["cdev_needs"]["hud"].setVisibility(isVisible)
+exports["cdev_needs"].setVisibility(isVisible)
 ```
 
 ***
@@ -20,7 +20,7 @@ exports["cdev_needs"]["hud"].setVisibility(isVisible)
 #### Stats Manipulation (Client-Side)
 
 ```lua
-local Needs = exports['cdev_needs']['stats']
+local Needs = exports['cdev_needs'].getNeeds()
 
 Needs.get(stat)
 Needs.set(stat, newValue)
@@ -33,7 +33,7 @@ Needs.sub(stat, decreaseAmount)
 #### Stats Manipulation (Server-Side)
 
 ```lua
-local Needs = exports['cdev_needs']['stats']
+local Needs = exports['cdev_needs'].getNeeds()
 
 Needs.get(source, stat)
 Needs.set(source, stat, newValue)
@@ -48,7 +48,7 @@ Needs.sub(source, stat, decreaseAmount)
 Register a callback for when a stat changes:
 
 ```lua
-local Needs = exports['cdev_needs']['stats']
+local Needs = exports['cdev_needs'].getNeeds()
 
 Needs.registerOnUpdate(stat, callback)
 
