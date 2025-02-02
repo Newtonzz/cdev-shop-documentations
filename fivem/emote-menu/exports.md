@@ -28,6 +28,22 @@ exports['cdev_emotemenu']:hideUI()
 
 ***
 
+#### BlockUIUsage
+
+**Description:** Blocks UI Usage
+
+**Parameters:**
+
+* `block` (boolean): Do you want the block or not
+
+**Usage:**
+
+```lua
+exports['cdev_emotemenu']:blockUIUsage(block)  
+```
+
+***
+
 #### showUI
 
 **Description:** Shows the UI.
