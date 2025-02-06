@@ -56,8 +56,6 @@
 
 1. Extract the contents of the cdev\_cOne folder and place the resulting folder in your server's resource directory.
 
-2) Extract the contents of the cdev\_cOne folder and place the resulting folder in your server's resource directory.
-
 </details>
 
 <details>
