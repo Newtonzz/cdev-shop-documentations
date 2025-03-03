@@ -13,7 +13,8 @@ coverY: 0
 * [**Gabz - The most popular maps on your FiveM server.**](https://discord.gg/gabz)
 * [**OTF Gaming**](https://discord.gg/lildurk)&#x20;
 * [**Trenches**](https://discord.gg/otf)
-* [rCore.cz](https://rcore.cz/)
+
+
 
 ## Our Partners
 
