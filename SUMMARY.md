@@ -93,6 +93,7 @@
   * [Register a New Walkstyle!](fivem/emote-menu/register-a-new-walkstyle.md)
   * [Register a New Expression!](fivem/emote-menu/register-a-new-expression.md)
   * [Exports](fivem/emote-menu/exports.md)
+  * [Hooks](fivem/emote-menu/hooks.md)
 * [🧏 cDev ASL (American Sign Language)](fivem/cdev-asl-american-sign-language.md)
 * [🎴 cDev cOne](fivem/cdev-cone/README.md)
   * [QB Inventory](fivem/cdev-cone/qb-inventory.md)
