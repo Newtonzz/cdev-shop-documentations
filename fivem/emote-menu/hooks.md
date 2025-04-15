@@ -63,22 +63,6 @@ exports['cdev_emotemenu']:removeHook('onAnimationStart', myCallback)
 
 ***
 
-### clearHooks
-
-Description: Removes all callback functions from a specific hook.
-
-Parameters:
-
-* hookName (string): The name of the hook to clear all callbacks from
-
-Usage:
-
-```lua
-exports['cdev_emotemenu']:clearHooks('onAnimationStart')
-```
-
-***
-
 ### callHook
 
 Description: Manually triggers a specific hook, executing all registered callbacks.
