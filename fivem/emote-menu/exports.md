@@ -1,13 +1,10 @@
 # Exports
 
-***
+## toggleUI
 
-### toggleUI
+Description: Toggles the visibility of the UI.
 
-**Description:**\
-Toggles the visibility of the UI.
-
-**Usage:**
+Usage:
 
 ```lua
 exports['cdev_emotemenu']:toggleUI()
@@ -15,12 +12,11 @@ exports['cdev_emotemenu']:toggleUI()
 
 ***
 
-### hideUI
+## hideUI
 
-**Description:**\
-Hides the UI.
+Description: Hides the UI.
 
-**Usage:**
+Usage:
 
 ```lua
 exports['cdev_emotemenu']:hideUI()
@@ -28,16 +24,15 @@ exports['cdev_emotemenu']:hideUI()
 
 ***
 
-### blockUIUsage
+## blockUIUsage
 
-**Description:**\
-Blocks UI usage.
+Description: Blocks UI usage.
 
-**Parameters:**
+Parameters:
 
-* **block** (`boolean`): Determines whether to block the UI usage (`true`) or allow it (`false`).
+* block (boolean): Determines whether to block the UI usage (true) or allow it (false).
 
-**Usage:**
+Usage:
 
 ```lua
 exports['cdev_emotemenu']:blockUIUsage(block)
@@ -45,12 +40,11 @@ exports['cdev_emotemenu']:blockUIUsage(block)
 
 ***
 
-### showUI
+## showUI
 
-**Description:**\
-Shows the UI.
+Description: Shows the UI.
 
-**Usage:**
+Usage:
 
 ```lua
 exports['cdev_emotemenu']:showUI()
@@ -58,22 +52,21 @@ exports['cdev_emotemenu']:showUI()
 
 ***
 
-### playAnimById
+## playAnimById
 
-**Description:**\
-Plays an animation by its ID.
+Description: Plays an animation by its ID.
 
-**Parameters:**
+Parameters:
 
-* **animId** (`number`): The ID of the animation to play.
-* **customCoords** (`table`, _optional_): Custom coordinates to play the animation at.
-* **customHeading** (`number`, _optional_): Custom heading to play the animation at.
-* **freezePlayer** (`boolean`, _optional_): Whether to freeze the player while playing the animation.
-* **oldCoords** (`table`, _optional_): The old coordinates of the player before playing the animation.
-* **forceLoop** (`boolean`, _optional_): Force the animation to loop.
-* **customPerson** (`string`, _optional_): The person/side to play the animation on (first or second person).
+* animId (number): The ID of the animation to play.
+* customCoords (table, optional): Custom coordinates to play the animation at.
+* customHeading (number, optional): Custom heading to play the animation at.
+* freezePlayer (boolean, optional): Whether to freeze the player while playing the animation.
+* oldCoords (table, optional): The old coordinates of the player before playing the animation.
+* forceLoop (boolean, optional): Force the animation to loop.
+* customPerson (string, optional): The person/side to play the animation on (first or second person).
 
-**Usage:**
+Usage:
 
 ```lua
 exports['cdev_emotemenu']:playAnimById(animId, customCoords, customHeading, freezePlayer, oldCoords, forceLoop, customPerson)
@@ -81,16 +74,15 @@ exports['cdev_emotemenu']:playAnimById(animId, customCoords, customHeading, free
 
 ***
 
-### setExpressionById
+## setExpressionById
 
-**Description:**\
-Sets a facial expression by its ID.
+Description: Sets a facial expression by its ID.
 
-**Parameters:**
+Parameters:
 
-* **expressionId** (`number`): The ID of the expression to set.
+* expressionId (number): The ID of the expression to set.
 
-**Usage:**
+Usage:
 
 ```lua
 exports['cdev_emotemenu']:setExpressionById(expressionId)
@@ -98,12 +90,11 @@ exports['cdev_emotemenu']:setExpressionById(expressionId)
 
 ***
 
-### resetExpression
+## resetExpression
 
-**Description:**\
-Resets the facial expression to the default.
+Description: Resets the facial expression to the default.
 
-**Usage:**
+Usage:
 
 ```lua
 exports['cdev_emotemenu']:resetExpression()
@@ -111,12 +102,11 @@ exports['cdev_emotemenu']:resetExpression()
 
 ***
 
-### initializeExpression
+## initializeExpression
 
-**Description:**\
-Initializes the facial expression system.
+Description: Initializes the facial expression system.
 
-**Usage:**
+Usage:
 
 ```lua
 exports['cdev_emotemenu']:initializeExpression()
@@ -124,16 +114,15 @@ exports['cdev_emotemenu']:initializeExpression()
 
 ***
 
-### getExpression
+## getExpression
 
-**Description:**\
-Retrieves the current facial expression ID.
+Description: Retrieves the current facial expression ID.
 
-**Returns:**
+Returns:
 
-* (`number`): The ID of the current expression.
+* (number): The ID of the current expression.
 
-**Usage:**
+Usage:
 
 ```lua
 local expressionId = exports['cdev_emotemenu']:getExpression()
@@ -141,16 +130,15 @@ local expressionId = exports['cdev_emotemenu']:getExpression()
 
 ***
 
-### setWalkStyleById
+## setWalkStyleById
 
-**Description:**\
-Sets a walk style by its ID.
+Description: Sets a walk style by its ID.
 
-**Parameters:**
+Parameters:
 
-* **walkStyleId** (`number`): The ID of the walk style to set.
+* walkStyleId (number): The ID of the walk style to set.
 
-**Usage:**
+Usage:
 
 ```lua
 exports['cdev_emotemenu']:setWalkStyleById(walkStyleId)
@@ -158,12 +146,11 @@ exports['cdev_emotemenu']:setWalkStyleById(walkStyleId)
 
 ***
 
-### resetWalkStyle
+## resetWalkStyle
 
-**Description:**\
-Resets the walk style to the default.
+Description: Resets the walk style to the default.
 
-**Usage:**
+Usage:
 
 ```lua
 exports['cdev_emotemenu']:resetWalkStyle()
@@ -171,12 +158,11 @@ exports['cdev_emotemenu']:resetWalkStyle()
 
 ***
 
-### initializeWalkStyle
+## initializeWalkStyle
 
-**Description:**\
-Initializes the walk style system.
+Description: Initializes the walk style system.
 
-**Usage:**
+Usage:
 
 ```lua
 exports['cdev_emotemenu']:initializeWalkStyle()
@@ -184,16 +170,15 @@ exports['cdev_emotemenu']:initializeWalkStyle()
 
 ***
 
-### getWalkStyle
+## getWalkStyle
 
-**Description:**\
-Retrieves the current walk style ID.
+Description: Retrieves the current walk style ID.
 
-**Returns:**
+Returns:
 
-* (`number`): The ID of the current walk style.
+* (number): The ID of the current walk style.
 
-**Usage:**
+Usage:
 
 ```lua
 local walkStyleId = exports['cdev_emotemenu']:getWalkStyle()
@@ -201,12 +186,11 @@ local walkStyleId = exports['cdev_emotemenu']:getWalkStyle()
 
 ***
 
-### cancelAnim
+## cancelAnim
 
-**Description:**\
-Cancels the current animation.
+Description: Cancels the current animation.
 
-**Usage:**
+Usage:
 
 ```lua
 exports['cdev_emotemenu']:cancelAnim()
@@ -214,16 +198,15 @@ exports['cdev_emotemenu']:cancelAnim()
 
 ***
 
-### isAnimRunning
+## isAnimRunning
 
-**Description:**\
-Checks if an animation is currently running.
+Description: Checks if an animation is currently running.
 
-**Returns:**
+Returns:
 
-* (`boolean`): `true` if an animation is running; otherwise, `false`.
+* (boolean): true if an animation is running; otherwise, false.
 
-**Usage:**
+Usage:
 
 ```lua
 local isRunning = exports['cdev_emotemenu']:isAnimRunning()
@@ -231,16 +214,15 @@ local isRunning = exports['cdev_emotemenu']:isAnimRunning()
 
 ***
 
-### blockAnimationUsage
+## blockAnimationUsage
 
-**Description:**\
-Blocks or unblocks animation usage.
+Description: Blocks or unblocks animation usage.
 
-**Parameters:**
+Parameters:
 
-* **block** (`boolean`): Set to `true` to block animations, or `false` to unblock them.
+* block (boolean): Set to true to block animations, or false to unblock them.
 
-**Usage:**
+Usage:
 
 ```lua
 exports['cdev_emotemenu']:blockAnimationUsage(block)
@@ -248,22 +230,21 @@ exports['cdev_emotemenu']:blockAnimationUsage(block)
 
 ***
 
-### registerAnimation
+## registerAnimation
 
-**Description:**\
-Registers a new animation.
+Description: Registers a new animation.
 
-**Parameters:**
+Parameters:
 
-* **data** (`table`): A table containing animation data with the following fields:
-  * **id** (`number`): The ID of the animation.
-  * **category** (`string`): The category of the animation.
-  * **thumbnail** (`string`): The path to the thumbnail image.
-  * **label** (`string`): The display label for the animation.
-  * **firstperson** (`table`): Contains `dict` and `anim` for the animation.
-  * **vip** (`boolean`, _optional_): Indicates if the animation is VIP-only.
+* data (table): A table containing animation data with the following fields:
+  * id (number): The ID of the animation.
+  * category (string): The category of the animation.
+  * thumbnail (string): The path to the thumbnail image.
+  * label (string): The display label for the animation.
+  * firstperson (table): Contains dict and anim for the animation.
+  * vip (boolean, optional): Indicates if the animation is VIP-only.
 
-**Usage:**
+Usage:
 
 ```lua
 exports['cdev_emotemenu']:registerAnimation({
@@ -281,17 +262,16 @@ exports['cdev_emotemenu']:registerAnimation({
 
 ***
 
-### toggleExtraActionBlock
+## toggleExtraActionBlock
 
-**Description:**\
-Enables or disables (blocks/unblocks) the usage of a specific extra action (e.g., prone, handsup, crouch, point, ragdoll).
+Description: Enables or disables (blocks/unblocks) the usage of a specific extra action (e.g., prone, handsup, crouch, point, ragdoll).
 
-**Parameters:**
+Parameters:
 
-* **action** (`'prone' | 'handsup' | 'crouch' | 'point' | 'ragdoll'`): The action to control.
-* **toggle** (`boolean`): Set to `true` to block the action or `false` to unblock it.
+* action ('prone' | 'handsup' | 'crouch' | 'point' | 'ragdoll'): The action to control.
+* toggle (boolean): Set to true to block the action or false to unblock it.
 
-**Usage:**
+Usage:
 
 ```lua
 exports['cdev_emotemenu']:toggleExtraActionBlock('handsup', true)
@@ -299,20 +279,19 @@ exports['cdev_emotemenu']:toggleExtraActionBlock('handsup', true)
 
 ***
 
-### isExtraActionDisabled
+## isExtraActionDisabled
 
-**Description:**\
-Checks whether a specific extra action is currently disabled.
+Description: Checks whether a specific extra action is currently disabled.
 
-**Parameters:**
+Parameters:
 
-* **action** (`'prone' | 'handsup' | 'crouch' | 'point' | 'ragdoll'`): The action to check.
+* action ('prone' | 'handsup' | 'crouch' | 'point' | 'ragdoll'): The action to check.
 
-**Returns:**
+Returns:
 
-* (`boolean`): `true` if the action is disabled; otherwise, `false`.
+* (boolean): true if the action is disabled; otherwise, false.
 
-**Usage:**
+Usage:
 
 ```lua
 local isDisabled = exports['cdev_emotemenu']:isExtraActionDisabled('handsup')
@@ -323,11 +302,9 @@ print("Is handsup disabled? ", isDisabled)
 
 ## BlockIdleAnimation
 
-### Description:
+Description: Blocks the idle animation from playing automatically.
 
-Blocks the idle animation from playing automatically.
-
-### Usage:
+Usage:
 
 ```lua
 exports['cdev_emotemenu']:BlockIdleAnimation()
@@ -337,11 +314,9 @@ exports['cdev_emotemenu']:BlockIdleAnimation()
 
 ## UnblockIdleAnimation
 
-### Description:
+Description: Unblocks the idle animation, allowing it to play automatically again.
 
-Unblocks the idle animation, allowing it to play automatically again.
-
-### Usage:
+Usage:
 
 ```lua
 exports['cdev_emotemenu']:UnblockIdleAnimation()
@@ -351,9 +326,8 @@ exports['cdev_emotemenu']:UnblockIdleAnimation()
 
 ### Notes
 
-* **Installation:**\
-  Ensure that the **cdev\_emotemenu** resource is properly installed and running on your server. Replace `'cdev_emotemenu'` with the appropriate resource name if it differs.
-* **Optional Parameters:**\
-  Optional parameters can be omitted or set to `nil`.
-* **Reference:**\
-  Consult the resource documentation for specific IDs and available animations.
+Installation: Ensure that the cdev\_emotemenu resource is properly installed and running on your server. Replace 'cdev\_emotemenu' with the appropriate resource name if it differs.
+
+Optional Parameters: Optional parameters can be omitted or set to nil.
+
+Reference: Consult the resource documentation for specific IDs and available animations.
