@@ -321,6 +321,34 @@ print("Is handsup disabled? ", isDisabled)
 
 ***
 
+## BlockIdleAnimation
+
+### Description:
+
+Blocks the idle animation from playing automatically.
+
+### Usage:
+
+```lua
+exports['cdev_emotemenu']:BlockIdleAnimation()
+```
+
+***
+
+## UnblockIdleAnimation
+
+### Description:
+
+Unblocks the idle animation, allowing it to play automatically again.
+
+### Usage:
+
+```lua
+exports['cdev_emotemenu']:UnblockIdleAnimation()
+```
+
+***
+
 ### Notes
 
 * **Installation:**\
