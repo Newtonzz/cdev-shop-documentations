@@ -39,7 +39,7 @@ The cDev Emote Menu is a powerful enhancement of the standard emote menu, transf
 * **VIP Functionality:**\
   Server owners can lock specific animations behind a VIP system (function is not escrowed). Discord integration is supported for easy management.
 * **Extensive Animation Library:**\
-  With over 8,000 animations including: Adult animation, couple dances, couple poses, car animations (to interact inside the car), car couples animations, couple interactions, couple carry, solo poses, solo animations, police animations, dances, pet (characther) shared animations or alone, walk styles, idles, adult animation (gay, lesbian, heterosexual).
+  With over 8,000 animations including: Couple dances, couple poses, car animations (to interact inside the car), car couples animations, couple interactions, couple carry, solo poses, solo animations, police animations, dances, pet (characther) shared animations or alone, walk styles, idles.
 * **Expression System:**\
   Players can express themselves with custom facial expressions that are saved between restarts.
 * **Walk Styles:**\
@@ -71,9 +71,7 @@ Before you can use this resource, you'll need to make sure that you have the fol
 
 1. Extract the contents of the `cdev-emotemenu.zip` folder and place the resulting folder in your server's resource directory.
 
-<!---->
-
-2. Extract the contents of the `cdev_emotemenu`folder and place the resulting folder in your server's resource directory.
+2) Extract the contents of the `cdev_emotemenu`folder and place the resulting folder in your server's resource directory.
 
 </details>
 
