@@ -16,7 +16,7 @@ Add items to `ox_inventory/data/items.lua` like listed below
 		stack = true,
 		close = true,
 		client = {
-			image = "cone.png",
+			image = "conedeck.png",
 			export = "cdev_cOne.createTableOXItem",
 		}
 	},
