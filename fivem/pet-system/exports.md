@@ -220,7 +220,7 @@ exports("addpet", function (data) ... end)
 ```lua
 exports.cdev_pets.addpet({
     PlayerId = playerId,
-    petShopId = "shop123",
+    petShopId = "pet_hottweiler", -- Example
     isK9 = true,
     petName = "Rex"
 })
@@ -230,7 +230,9 @@ exports.cdev_pets.addpet({
 
 * `data` (table): Contains the following keys:
   * `PlayerId` (number): The player's server ID.
-  * `petShopId` (string): Identifier of the pet shop from which the pet is being added.
+  * `petShopId` (string): **Pet Identification for the Pet Shop**\
+    You can find each pet's `PetShopId` in the `shop.lua` file, located at:\
+    `cdev_pets/public/config/shop.lua`.
   * `isK9` (boolean): Indicates if the pet is a K9 (police dog).
   * `petName` (string): Name of the pet.
 
