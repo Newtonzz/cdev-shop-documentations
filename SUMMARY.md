@@ -46,6 +46,7 @@
     * [pets.lua](fivem/pet-system/config-files-pets/pets.lua.md)
     * [shop.lua](fivem/pet-system/config-files-pets/shop.lua.md)
   * [Migrate to Clothing V2](fivem/pet-system/migrate-to-clothing-v2.md)
+  * [FAQ](fivem/pet-system/faq.md)
 * [⚽ Soccer](fivem/soccer/README.md)
   * [Configuration](fivem/soccer/configuration.md)
   * [Editing Fields](fivem/soccer/editing-fields.md)
