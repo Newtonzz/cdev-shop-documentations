@@ -32,7 +32,7 @@ Before installing the CDEV Event Creator, ensure you have the following dependen
 2. Download all 3 assets folders ( `cDev Event Creator - Prop Pack 01,02 and 03`) in [portal.cfx](https://portal.cfx.re/)
 3. Copy the cdev\_lib inside FiveM server's `resources` directory
 4. Create a new folder Called `[cdev]` inside FiveM server's `resources` directory and place `cdev_eventcreator` inside this `[cdev]` folder
-5. Create a new fodler Called `[cdev_assets]` FiveM server's `resources` directory and place `cdev_propevent01 , cdev_propevent02 and cdev_propevent03` inside `[cdev_assets]` folder
+5. Create a new folder Called `[cdev_assets]` inside FiveM server's `resources` directory and place `cdev_propevent01 , cdev_propevent02 and cdev_propevent03` inside `[cdev_assets]` folder
 6.  Add the following lines to your `server.cfg` to ensure the resources load correctly:
 
     ```plaintext
