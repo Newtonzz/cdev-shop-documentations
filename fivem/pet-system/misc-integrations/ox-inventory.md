@@ -15,7 +15,7 @@ exports("IsHoldingBall", function()
 end)
 ```
 
-2. Next, navigate to ox\_inventory resource and locate the line `'client.interval = SetInterval(function',` then replace that function with the following code:
+2. Next, navigate to `ox_inventory/client.lua` and locate the line `'client.interval = SetInterval(function',` then replace that function with the following code:
 
 ```etlua
 client.interval = SetInterval(function()
@@ -93,4 +93,20 @@ client.interval = SetInterval(function()
 		end
 	end
 end, 200)
+```
+
+3. Now navegate to `ox_inventory/data/items.lua` file and add the following code at the end
+
+```
+["baseball"] = {
+	label = "BaseBall for Pet",
+	weight = 1,
+	consume = 0,
+	stack = false,
+	close = true,
+	client = {
+		image = "baseball.png",
+		event = "cdev_pets:useBall",
+	}
+},
 ```
