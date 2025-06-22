@@ -49,10 +49,10 @@ Translations can be modified or added in:
 
 #### ✨ Effects:
 
-* **Hunger is Too Low**:
-  * The character performs a belly-rubbing animation, accompanied by stomach growling sounds and hunger-related audio cues at regular intervals.
+* **Thrist is Too Low**:
+  * When the character's thirst level drops below 10, they will start stumbling and moving with an unsteady gait, simulating the physical weakness caused by severe dehydration. This is represented by a drunk-like movement animation. The effect persists until the thirst level rises above 10, at which point the character's movement returns to normal.
 * **Overeating**:
-  * If the character consumes food when their hunger level is already at 100, they will experience vomiting, complete with realistic animations and sounds for immersive gameplay.
+  * If the character consumes a drink when their thirst level is already at 100, they will experience vomiting, complete with realistic animations and sounds for immersive gameplay.
 
 
 
