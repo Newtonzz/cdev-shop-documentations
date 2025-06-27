@@ -93,3 +93,27 @@ After that, when you click to buy the pet, if it is a <mark style="color:yellow;
 <figure><img src="../../.gitbook/assets/FiveM_GTAProcess_C7AZyPNlqE.gif" alt=""><figcaption></figcaption></figure>
 
 If you want to change the required job or add more jobs allowed to buy the K9 and its accessories, follow this tutorial: [Here](faq.md#how-can-i-add-another-job-to-use-the-k9-pet)
+
+## Does the VIP system work only for clothes and accessories ?
+
+***
+
+No, the VIP system works for any item listed in the file: <kbd>cdev\_pets > public > config > shop.lua</kbd>
+
+Inside this file, you just need to add `vip = true` to any item you want to make VIP-only. If the item doesn't already have it, here’s an example of how to add VIP to the dogs:
+
+```lua
+{
+        PetShopId = "pet_hottweiler",
+        key = "pet_chop",
+        label = "Hottweiler",
+        hasFemale = true,
+        vip = true, -- Add this Line
+        price = 5000,
+        category = "pet_category_pets",
+        description = "A Hottweiler",
+        canBeK9 = true,
+}, 
+```
+
+⚠  <mark style="color:red;">**If you change the**</mark>**&#x20;**<kbd>**isPremiumPackage**</kbd>**&#x20;**<mark style="color:red;">**variable for any pet, I suggest you revert it to avoid potential issues in the future**</mark>
