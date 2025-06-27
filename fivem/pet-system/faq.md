@@ -2,6 +2,8 @@
 
 ## How can I add another job to use the K9 pet?
 
+***
+
 You can add another job by configuring the `IsPlayerAllowedToBuyK9` function, which you can find in the file `cdev_pets > public > server > api.lua`.
 
 Suppose the other job you want to add is named **Xerif**, then the code will look like this:
@@ -20,9 +22,13 @@ end
 
 ## How stop Dog Attack?
 
+***
+
 After the pet starts attacking the player or NPC, keep holding the G key until it obeys your command to stop attacking.
 
-## I changed the keybinds in the config, but they didn’t change in-game. How do I fix this? ?
+## I changed the keybinds in the config, but they didn’t change in-game. How do I fix this?
+
+***
 
 For anyone who joined before the change, you’ll need to clear the keybinds saved in your FiveM cfg file.
 
@@ -44,6 +50,8 @@ After clearing these lines, restart FiveM. The new keybinds from your server’s
 
 ## Where is the Pet MLO location?
 
+***
+
 ```
 Location coords : vec3(85.74, -204.44, 54.49)
 ```
@@ -51,6 +59,8 @@ Location coords : vec3(85.74, -204.44, 54.49)
 <figure><img src="../../.gitbook/assets/Location.png" alt=""><figcaption></figcaption></figure>
 
 ## Is there a way to disable the pet store in the TAB menu?
+
+***
 
 Yes! You can disable the shop button in the pet bag menu (TAB) by editing the `config.lua` file:
 
