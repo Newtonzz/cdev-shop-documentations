@@ -16,101 +16,62 @@ This resource is a companionship script that provides entertainment, customizati
 
 {% embed url="https://www.youtube.com/watch?v=-_eOmtHj4Vk" %}
 
-## INSTALLATION GUIDE
+### Installation Guide
 
-<details>
+***
 
-<summary>Step 1: Verify that you have the required dependencies installed</summary>
+{% stepper %}
+{% step %}
+## Install all resource dependencies
 
-Before you can use this resource, you'll need to make sure that you have the following resources installed:
+Make sure you have all of the following resources installed:
 
-1. cdev\_lib <mark style="color:green;">(included with this resource)</mark>
-2. cdev\_pets <mark style="color:green;">(included with this resource)</mark>
-3. cdev\_pets\_assets <mark style="color:green;">(included with this resource)</mark>
-4. cdev\_pets\_assets2 <mark style="color:green;">(included with this resource)</mark>
+* cdev\_lib <mark style="color:green;">(Include with cdev\_pets)</mark>
+* cdev\_pets
+* cdev\_pets\_assets <mark style="color:green;">(Include with cdev\_pets)</mark>
+* cdev\_pets\_assets2  <mark style="color:green;">(Include with cdev\_pets)</mark>
+{% endstep %}
 
-</details>
+{% step %}
+## Organizing Your Resource Folders
 
-<details>
+🚩 <mark style="color:red;">**Correct folder organization is essential for everything to work properly.**</mark>
 
-<summary>Step 2: Extract the files</summary>
+➤ Step 1: Create the `[cdev]` folder. Inside your server's `resources` folder and Place **only** the following resource inside:
 
-1. Extract the contents of the `cdev-pets.zip` folder and place the resulting folder in your server's resource directory.
+* cdev\_pets
 
-2) Extract the contents of the `cdev_pets_assets` and `cdev_pets_assets2` folder and place the resulting folder in your server's resource directory.
+➤ Step 2: Create the `[cdev_assets]` folder till inside your server’s `resources` folder, Inside `[cdev_assets]`, place the following assets:
 
-3. Extract the contents of the `cDev Pets Assets Premium - Rottweiler` , `cDev Pets Assets Premium - Dobbermann` and `cDev - Cat American` folder and place the resulting folder in your server's resource directory.
+* cdev\_cat\_amer
+* cdev\_dog\_dobb
+* cdev\_dog\_rott
+* cdev\_pets\_assets
+* cdev\_pets\_assets2
 
-4) Additional step if you have the Pets Premium Sub, extract the contents of the:\
-   \
-   `cDev Pets Assets Premium - Bully`\
-   `cDev Pets Assets Premium - Chow-Chow`\
-   `cDev Pets Assets Premium - Dobbermann`\
-   `cDev Pets Assets Premium - French Bulldog`\
-   `cDev Pets Assets Premium - Golden Retriever`\
-   `cDev Pets Assets Premium - Husky`\
-   `cDev Pets Assets Premium - Rottweiler`\
-   `cDev Pets Assets Premium - Shepherd`\
-   `cDev Pets Assets Premium - Belgian Malinois`\
-   `cDev Pets Assets Premium - Dalmation`\
-   `cDev Pets Assets Premium - Pittbull`\
-   `cDev Pets Assets Premium - Cat Turkish`\
-   `cDev - Cat American`\
-   \
-   folders and place the resulting folder in your server's resource directory.
+⚠ <mark style="color:yellow;">If you have the</mark> <mark style="color:yellow;"></mark><mark style="color:yellow;">**subscription**</mark> <mark style="color:yellow;"></mark><mark style="color:yellow;">package, include any additional assets here as well.</mark>
 
-</details>
+➤ Step 3: Add `cdev_lib` to the Resources Root
 
-<details>
+**Below is an example screenshot showing the correct folder structure:**
 
-<summary>Step 3: Ensure the files in your server.cfg</summary>
+<div align="left"><figure><img src="../../.gitbook/assets/folcders.png" alt=""><figcaption></figcaption></figure></div>
+{% endstep %}
 
-### If you have the base Pets script, ensure them in this order:
+{% step %}
+## Server.cfg Configuration
 
-```
-ensure cdev_lib
-ensure cdev_pets_assets
-ensure cdev_pets_assets2
-ensure cdev_cat_amer
-ensure cdev_dog_rott
-ensure cdev_dog_dobb
-ensure cdev_pets
-```
+This resource must always be started **after your&#x20;**<mark style="color:yellow;">**framework**</mark>**&#x20;and any&#x20;**<mark style="color:yellow;">**other**</mark>**&#x20;required resources**.
 
-### If you have the Pets Premium Subscription, ensure them in this order:
+It is essential to follow the correct startup order to ensure proper functionality and avoid conflicts.
 
-```lua
-ensure cdev_lib
-ensure cdev_pets_assets
-ensure cdev_pets_assets2
-ensure cdev_cat_amer
-ensure cdev_cat_turk
-ensure cdev_dog_bully
-ensure cdev_dog_chow
-ensure cdev_dog_dal
-ensure cdev_dog_dobb
-ensure cdev_dog_frbull
-ensure cdev_dog_golden
-ensure cdev_dog_husky
-ensure cdev_dog_mal
-ensure cdev_dog_minipitt
-ensure cdev_dog_pitt
-ensure cdev_dog_rott
-ensure cdev_dog_shep
-ensure cdev_pets
+**Below is an example screenshot showing the recommended startup order:**
 
-[or]
+<div align="left"><figure><img src="../../.gitbook/assets/cfg.png" alt=""><figcaption></figcaption></figure></div>
+{% endstep %}
+{% endstepper %}
 
--- create a [cdev] folder, place cdev_lib and scripts in here 
--- create a [cdev_assets] folder inside of [cdev]
--- place assets, dogs, cats, and mlo inside this folder
--- ensure like below:
-ensure cdev_lib
-ensure [cdev_assets]
-ensure [cdev]
-```
-
-</details>
+***
 
 {% hint style="danger" %}
 To be able to stream the pets and clothing in game, you must have an active CFX Element Club Subscription!\
