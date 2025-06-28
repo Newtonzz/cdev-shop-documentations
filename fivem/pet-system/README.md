@@ -14,6 +14,8 @@ This resource is a companionship script that provides entertainment, customizati
 
 ## Instructional Video: Setting up Shops
 
+📝 **Creating Shop Command:** `/pscreator`
+
 {% embed url="https://www.youtube.com/watch?v=-_eOmtHj4Vk" %}
 
 ### Installation Guide
