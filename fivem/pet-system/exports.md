@@ -16,7 +16,7 @@ exports("TakeInPet", TakeInPet)
 **Usage:**
 
 ```lua
-exports.cdev_pets.TakeInPet()
+exports.cdev_pets:TakeInPet()
 ```
 
 **Parameters:**
@@ -50,7 +50,7 @@ exports("ForceTakeInPet", ForceTakeInPet)
 **Usage:**
 
 ```lua
-exports.cdev_pets.ForceTakeInPet()
+exports.cdev_pets:ForceTakeInPet()
 ```
 
 **Parameters:**
@@ -83,7 +83,7 @@ exports("Attack", Attack)
 **Usage:**
 
 ```lua
-exports.cdev_pets.Attack(targetPed)
+exports.cdev_pets:Attack(targetPed)
 ```
 
 **Parameters:**
@@ -116,7 +116,7 @@ exports("CanEnterVehicle", function(vehicle) ... end)
 **Usage:**
 
 ```lua
-local canEnter = exports.cdev_pets.CanEnterVehicle(vehicle)
+local canEnter = exports.cdev_pets:CanEnterVehicle(vehicle)
 ```
 
 **Parameters:**
@@ -148,7 +148,7 @@ exports("CanExitVehicle", function(vehicle) ... end)
 **Usage:**
 
 ```lua
-local canExit = exports.cdev_pets.CanExitVehicle(vehicle)
+local canExit = exports.cdev_pets:CanExitVehicle(vehicle)
 ```
 
 **Parameters:**
@@ -181,7 +181,7 @@ exports("spawnPet", function(id, customCoords) ... end)
 **Usage:**
 
 ```lua
-exports.cdev_pets.spawnPet(petId, customCoordinates)
+exports.cdev_pets:spawnPet(petId, customCoordinates)
 ```
 
 **Parameters:**
@@ -218,7 +218,7 @@ exports("addpet", function (data) ... end)
 **Usage:**
 
 ```lua
-exports.cdev_pets.addpet({
+exports.cdev_pets:addpet({
     PlayerId = playerId,
     petShopId = "pet_hottweiler", -- Example
     isK9 = true,
@@ -263,7 +263,7 @@ exports("givepetitem", function (data) ... end)
 **Usage:**
 
 ```lua
-exports.cdev_pets.givepetitem({
+exports.cdev_pets:givepetitem({
     PlayerId = playerId,
     item = "ball",
     quantity = 3
@@ -303,7 +303,7 @@ exports("delpet", function (data) ... end)
 **Usage:**
 
 ```lua
-exports.cdev_pets.delpet({
+exports.cdev_pets:delpet({
     PlayerId = playerId,
     petId = 101
 })
@@ -342,7 +342,7 @@ exports("isPetOutBySource", function (source) ... end)
 **Usage:**
 
 ```lua
-local isOut = exports.cdev_pets.isPetOutBySource(playerId)
+local isOut = exports.cdev_pets:isPetOutBySource(playerId)
 ```
 
 **Parameters:**
