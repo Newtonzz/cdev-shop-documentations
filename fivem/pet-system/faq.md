@@ -117,3 +117,22 @@ Inside this file, you just need to add `vip = true` to any item you want to make
 ```
 
 ⚠  <mark style="color:red;">**If you change the**</mark>**&#x20;**<kbd>**isPremiumPackage**</kbd>**&#x20;**<mark style="color:red;">**variable for any pet, I suggest you revert it to avoid potential issues in the future**</mark>
+
+## After I start the assets folder this crash happens how fix ?
+
+***
+
+<div><figure><img src="../../.gitbook/assets/image (5).png" alt=""><figcaption></figcaption></figure> <figure><img src="../../.gitbook/assets/Pool Size.png" alt=""><figcaption></figcaption></figure></div>
+
+This happen because you got limit addons texture or other limit you can have in one server for fix this you have some options
+
+1. Remove some others texture like cars , new maps , clothes ..
+2. Increase TxdStore inside sever.cfg ( This is not recommend) `increase_pool_size "TxdStore" 26000`
+
+3.Use different games force build to receive more space for addons we recomended use 3258 `sv_enforceGameBuild 3258`
+
+You can check more about Game Build [here](https://docs.fivem.net/docs/server-manual/server-commands/#sv_enforcegamebuild-build)
+
+You can read more inside this documentation and check all limits [here](https://docs.fivem.net/docs/server-manual/server-commands/#increase_pool_size-poolname-increase)
+
+⚠ <mark style="color:red;">**Changing the gamebuild won’t necessarily free up more space, but it will remove updates, which can help allocate more addons. Keep in mind that by using an older gamebuild version, any GTA V updates included in that build will be lost, and clothing slots as well as other limits in GTA V will change, which can negatively affect other resources on your server.**</mark>
