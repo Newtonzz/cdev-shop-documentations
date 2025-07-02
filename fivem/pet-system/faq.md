@@ -139,6 +139,8 @@ You can read more inside this documentation and check all limits [here](https://
 
 ## Where are the images from shop of the pets, clothes, and accessories located ?
 
+***
+
 All the images that appear in the store menu are located inside the **cdev\_lib** resource:
 
 <kbd>**cdev\_lib > nui > dist > pets > inventory**</kbd>
