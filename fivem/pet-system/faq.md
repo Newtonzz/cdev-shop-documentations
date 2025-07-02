@@ -136,3 +136,28 @@ You can check more about Game Build [here](https://docs.fivem.net/docs/server-ma
 You can read more inside this documentation and check all limits [here](https://docs.fivem.net/docs/server-manual/server-commands/#increase_pool_size-poolname-increase)
 
 ⚠ <mark style="color:red;">**Changing the gamebuild won’t necessarily free up more space, but it will remove updates, which can help allocate more addons. Keep in mind that by using an older gamebuild version, any GTA V updates included in that build will be lost, and clothing slots as well as other limits in GTA V will change, which can negatively affect other resources on your server.**</mark>
+
+## Where are the images from shop of the pets, clothes, and accessories located ?
+
+All the images that appear in the store menu are located inside the **cdev\_lib** resource:
+
+<kbd>**cdev\_lib > nui > dist > pets > inventory**</kbd>
+
+The cdev\_lib use the <mark style="color:yellow;">**KEY**</mark> variable inside the file: <kbd>cdev\_pets > public > config > shop.lua</kbd>  to look up the images in the folder mentioned above.
+
+Example:&#x20;
+
+```lua
+ {
+        PetShopId = "pet_hottweiler",
+        key = "pet_chop", -- This Key is reference for images inside the folder lib
+        label = "Hottweiler",
+        hasFemale = true,
+        price = 5000,
+        category = "pet_category_pets",
+        description = "A Hottweiler",
+        canBeK9 = true,
+    },
+```
+
+⚠ <mark style="color:red;">**The images must have the**</mark><kbd>**.webp**</kbd>**&#x20;**<mark style="color:red;">**extension. Any changes inside this folder are not recommended unless you have experience.**</mark>
