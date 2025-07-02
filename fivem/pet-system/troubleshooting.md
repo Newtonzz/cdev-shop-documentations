@@ -1,5 +1,6 @@
 ---
 description: common issues that customers may experience & why
+hidden: true
 ---
 
 # Troubleshooting
