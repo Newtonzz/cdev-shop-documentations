@@ -51,7 +51,13 @@ Make sure you have all of the following resources installed:
 * cdev\_pets\_assets
 * cdev\_pets\_assets2
 
-⚠ <mark style="color:yellow;">If you have the</mark> <mark style="color:yellow;"></mark><mark style="color:yellow;">**subscription**</mark> <mark style="color:yellow;"></mark><mark style="color:yellow;">package, include any additional assets here as well.</mark>
+⚠ <mark style="color:yellow;">**If you have the subscription package, then you will receive some additional resources, and your**</mark> <kbd>**\[cdev\_assets]**</kbd> <mark style="color:yellow;">**folder should contain the following resources.**</mark>
+
+* cdev\_petshop
+* cdev\_pets\_assets
+* cdev\_pets\_assets2
+* cdev\_dog\_pets
+* cdev\_cat\_pets
 
 ➤ Step 3: Add `cdev_lib` to the Resources Root
 
