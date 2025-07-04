@@ -2,20 +2,6 @@
 description: Get insight on what we offer for 12.99 on our Tebex!
 cover: ../.gitbook/assets/Screenshot_18[1].png
 coverY: 26
-layout:
-  cover:
-    visible: true
-    size: hero
-  title:
-    visible: true
-  description:
-    visible: true
-  tableOfContents:
-    visible: true
-  outline:
-    visible: true
-  pagination:
-    visible: true
 ---
 
 # 🐶 Preview Subscription Pack
@@ -24,19 +10,7 @@ layout:
 
 #### Bulldog
 
-<div>
-
-<figure><img src="../.gitbook/assets/bull_01-removebg-preview.png" alt=""><figcaption></figcaption></figure>
-
- 
-
-<figure><img src="../.gitbook/assets/bull_03-removebg-preview.png" alt=""><figcaption></figcaption></figure>
-
- 
-
-<figure><img src="../.gitbook/assets/bull_02-removebg-preview.png" alt=""><figcaption></figcaption></figure>
-
-</div>
+<div><figure><img src="../.gitbook/assets/bull_01-removebg-preview.png" alt=""><figcaption></figcaption></figure> <figure><img src="../.gitbook/assets/bull_03-removebg-preview.png" alt=""><figcaption></figcaption></figure> <figure><img src="../.gitbook/assets/bull_02-removebg-preview.png" alt=""><figcaption></figcaption></figure></div>
 
 ### Chow Chow
 
@@ -48,35 +22,11 @@ layout:
 
 ### Dobermann
 
-<div>
-
-<figure><img src="../.gitbook/assets/dobb_01-removebg-preview.png" alt=""><figcaption></figcaption></figure>
-
- 
-
-<figure><img src="../.gitbook/assets/dobb_02-removebg-preview.png" alt=""><figcaption></figcaption></figure>
-
- 
-
-<figure><img src="../.gitbook/assets/dobb_03-removebg-preview.png" alt=""><figcaption></figcaption></figure>
-
-</div>
+<div><figure><img src="../.gitbook/assets/dobb_01-removebg-preview.png" alt=""><figcaption></figcaption></figure> <figure><img src="../.gitbook/assets/dobb_02-removebg-preview.png" alt=""><figcaption></figcaption></figure> <figure><img src="../.gitbook/assets/dobb_03-removebg-preview.png" alt=""><figcaption></figcaption></figure></div>
 
 ### French Bulldog
 
-<div>
-
-<figure><img src="../.gitbook/assets/frbull_01-removebg-preview.png" alt=""><figcaption></figcaption></figure>
-
- 
-
-<figure><img src="../.gitbook/assets/frbull_02-removebg-preview.png" alt=""><figcaption></figcaption></figure>
-
- 
-
-<figure><img src="../.gitbook/assets/frbull_03-removebg-preview.png" alt=""><figcaption></figcaption></figure>
-
-</div>
+<div><figure><img src="../.gitbook/assets/frbull_01-removebg-preview.png" alt=""><figcaption></figcaption></figure> <figure><img src="../.gitbook/assets/frbull_02-removebg-preview.png" alt=""><figcaption></figcaption></figure> <figure><img src="../.gitbook/assets/frbull_03-removebg-preview.png" alt=""><figcaption></figcaption></figure></div>
 
 ### Golden Retriever
 
@@ -84,47 +34,15 @@ layout:
 
 ### Husky
 
-<div>
-
-<figure><img src="../.gitbook/assets/husky_0-removebg-preview.png" alt=""><figcaption></figcaption></figure>
-
- 
-
-<figure><img src="../.gitbook/assets/husky_02-removebg-preview.png" alt=""><figcaption></figcaption></figure>
-
- 
-
-<figure><img src="../.gitbook/assets/husky_03-removebg-preview.png" alt=""><figcaption></figcaption></figure>
-
-</div>
+<div><figure><img src="../.gitbook/assets/husky_0-removebg-preview.png" alt=""><figcaption></figcaption></figure> <figure><img src="../.gitbook/assets/husky_02-removebg-preview.png" alt=""><figcaption></figcaption></figure> <figure><img src="../.gitbook/assets/husky_03-removebg-preview.png" alt=""><figcaption></figcaption></figure></div>
 
 ### Pitbull (mini)
 
-<div>
-
-<figure><img src="../.gitbook/assets/minipitt_01-removebg-preview.png" alt=""><figcaption></figcaption></figure>
-
- 
-
-<figure><img src="../.gitbook/assets/minipitt_02-removebg-preview.png" alt=""><figcaption></figcaption></figure>
-
-</div>
+<div><figure><img src="../.gitbook/assets/minipitt_01-removebg-preview.png" alt=""><figcaption></figcaption></figure> <figure><img src="../.gitbook/assets/minipitt_02-removebg-preview.png" alt=""><figcaption></figcaption></figure></div>
 
 ### Pitbull
 
-<div>
-
-<figure><img src="../.gitbook/assets/pitt_01-removebg-preview.png" alt=""><figcaption></figcaption></figure>
-
- 
-
-<figure><img src="../.gitbook/assets/pitt_02-removebg-preview.png" alt=""><figcaption></figcaption></figure>
-
- 
-
-<figure><img src="../.gitbook/assets/pitt_03-removebg-preview.png" alt=""><figcaption></figcaption></figure>
-
-</div>
+<div><figure><img src="../.gitbook/assets/pitt_01-removebg-preview.png" alt=""><figcaption></figcaption></figure> <figure><img src="../.gitbook/assets/pitt_02-removebg-preview.png" alt=""><figcaption></figcaption></figure> <figure><img src="../.gitbook/assets/pitt_03-removebg-preview.png" alt=""><figcaption></figcaption></figure></div>
 
 ### German Shepherd
 
@@ -136,589 +54,69 @@ layout:
 
 ## Collars
 
-<div>
-
-<figure><img src="../.gitbook/assets/blackcollarstrass.png" alt=""><figcaption><p>black collar strass</p></figcaption></figure>
-
- 
-
-<figure><img src="../.gitbook/assets/allblackcollar.png" alt=""><figcaption><p>all black collar</p></figcaption></figure>
-
- 
-
-<figure><img src="../.gitbook/assets/goldcollar.png" alt=""><figcaption><p>gold collar</p></figcaption></figure>
-
- 
-
-<figure><img src="../.gitbook/assets/whitecollar.png" alt=""><figcaption><p>white collar</p></figcaption></figure>
-
- 
-
-<figure><img src="../.gitbook/assets/greenneon.png" alt=""><figcaption><p>green neon collar</p></figcaption></figure>
-
- 
-
-<figure><img src="../.gitbook/assets/gunner.png" alt=""><figcaption><p>gunner collar</p></figcaption></figure>
-
- 
-
-<figure><img src="../.gitbook/assets/neon.png" alt=""><figcaption><p>neon collar</p></figcaption></figure>
-
- 
-
-<figure><img src="../.gitbook/assets/red.png" alt=""><figcaption><p>red collar</p></figcaption></figure>
-
-</div>
+<div><figure><img src="../.gitbook/assets/blackcollarstrass.png" alt=""><figcaption><p>black collar strass</p></figcaption></figure> <figure><img src="../.gitbook/assets/allblackcollar.png" alt=""><figcaption><p>all black collar</p></figcaption></figure> <figure><img src="../.gitbook/assets/goldcollar.png" alt=""><figcaption><p>gold collar</p></figcaption></figure> <figure><img src="../.gitbook/assets/whitecollar.png" alt=""><figcaption><p>white collar</p></figcaption></figure> <figure><img src="../.gitbook/assets/greenneon.png" alt=""><figcaption><p>green neon collar</p></figcaption></figure> <figure><img src="../.gitbook/assets/gunner.png" alt=""><figcaption><p>gunner collar</p></figcaption></figure> <figure><img src="../.gitbook/assets/neon.png" alt=""><figcaption><p>neon collar</p></figcaption></figure> <figure><img src="../.gitbook/assets/red.png" alt=""><figcaption><p>red collar</p></figcaption></figure></div>
 
 ## Bandanas
 
-<div>
-
-<figure><img src="../.gitbook/assets/pinkbandana.png" alt=""><figcaption><p>pink bandana</p></figcaption></figure>
-
- 
-
-<figure><img src="../.gitbook/assets/orangebandana.png" alt=""><figcaption><p>orange bandana</p></figcaption></figure>
-
- 
-
-<figure><img src="../.gitbook/assets/greycollarbandana.png" alt=""><figcaption><p>white bandana</p></figcaption></figure>
-
- 
-
-<figure><img src="../.gitbook/assets/greencollarbandana.png" alt=""><figcaption><p>green bandana</p></figcaption></figure>
-
- 
-
-<figure><img src="../.gitbook/assets/bluebandana.png" alt=""><figcaption><p>blue pandana</p></figcaption></figure>
-
- 
-
-<figure><img src="../.gitbook/assets/whitecollarbandana.png" alt=""><figcaption><p>grey bandana</p></figcaption></figure>
-
- 
-
-<figure><img src="../.gitbook/assets/redcollarbandana.png" alt=""><figcaption><p>light red bandana</p></figcaption></figure>
-
- 
-
-<figure><img src="../.gitbook/assets/redbandana.png" alt=""><figcaption><p>dark red bandana</p></figcaption></figure>
-
-</div>
+<div><figure><img src="../.gitbook/assets/pinkbandana.png" alt=""><figcaption><p>pink bandana</p></figcaption></figure> <figure><img src="../.gitbook/assets/orangebandana.png" alt=""><figcaption><p>orange bandana</p></figcaption></figure> <figure><img src="../.gitbook/assets/greycollarbandana.png" alt=""><figcaption><p>white bandana</p></figcaption></figure> <figure><img src="../.gitbook/assets/greencollarbandana.png" alt=""><figcaption><p>green bandana</p></figcaption></figure> <figure><img src="../.gitbook/assets/bluebandana.png" alt=""><figcaption><p>blue pandana</p></figcaption></figure> <figure><img src="../.gitbook/assets/whitecollarbandana.png" alt=""><figcaption><p>grey bandana</p></figcaption></figure> <figure><img src="../.gitbook/assets/redcollarbandana.png" alt=""><figcaption><p>light red bandana</p></figcaption></figure> <figure><img src="../.gitbook/assets/redbandana.png" alt=""><figcaption><p>dark red bandana</p></figcaption></figure></div>
 
 ## Hoodies
 
-<div>
-
-<figure><img src="../.gitbook/assets/whitebrownhoodie.png" alt=""><figcaption><p>white brown hoodie</p></figcaption></figure>
-
- 
-
-<figure><img src="../.gitbook/assets/purplehoodie.png" alt=""><figcaption><p>purple hoodie</p></figcaption></figure>
-
- 
-
-<figure><img src="../.gitbook/assets/purplecamohoodie.png" alt=""><figcaption><p>purple camo hoodie</p></figcaption></figure>
-
- 
-
-<figure><img src="../.gitbook/assets/pinkhoodie.png" alt=""><figcaption><p>pink hoodie</p></figcaption></figure>
-
- 
-
-<figure><img src="../.gitbook/assets/pinkcamohoodie.png" alt=""><figcaption><p>pink camo hoodie</p></figcaption></figure>
-
- 
-
-<figure><img src="../.gitbook/assets/oragecamohoodie.png" alt=""><figcaption><p>orange camo hoodie</p></figcaption></figure>
-
- 
-
-<figure><img src="../.gitbook/assets/lightyellowhoodie.png" alt=""><figcaption><p>light yellow hoodie</p></figcaption></figure>
-
- 
-
-<figure><img src="../.gitbook/assets/lightpinkhoodie.png" alt=""><figcaption><p>light pink hoodie</p></figcaption></figure>
-
- 
-
-<figure><img src="../.gitbook/assets/greendothoodie.png" alt=""><figcaption><p>green dot hoodie</p></figcaption></figure>
-
- 
-
-<figure><img src="../.gitbook/assets/greencamohoodie.png" alt=""><figcaption><p>green camo hoodie</p></figcaption></figure>
-
- 
-
-<figure><img src="../.gitbook/assets/camohoodie.png" alt=""><figcaption><p>camo hoodie</p></figcaption></figure>
-
- 
-
-<figure><img src="../.gitbook/assets/bluecamohoodie.png" alt=""><figcaption><p>blue camo hoodie</p></figcaption></figure>
-
- 
-
-<figure><img src="../.gitbook/assets/yellowhoodie.png" alt=""><figcaption><p>yellow hoodie</p></figcaption></figure>
-
- 
-
-<figure><img src="../.gitbook/assets/whitehoodie.png" alt=""><figcaption><p>white hoodie</p></figcaption></figure>
-
- 
-
-<figure><img src="../.gitbook/assets/pajama.png" alt=""><figcaption></figcaption></figure>
-
- 
-
-<figure><img src="../.gitbook/assets/pajama.png" alt=""><figcaption></figcaption></figure>
-
-</div>
+<div><figure><img src="../.gitbook/assets/whitebrownhoodie.png" alt=""><figcaption><p>white brown hoodie</p></figcaption></figure> <figure><img src="../.gitbook/assets/purplehoodie.png" alt=""><figcaption><p>purple hoodie</p></figcaption></figure> <figure><img src="../.gitbook/assets/purplecamohoodie.png" alt=""><figcaption><p>purple camo hoodie</p></figcaption></figure> <figure><img src="../.gitbook/assets/pinkhoodie.png" alt=""><figcaption><p>pink hoodie</p></figcaption></figure> <figure><img src="../.gitbook/assets/pinkcamohoodie.png" alt=""><figcaption><p>pink camo hoodie</p></figcaption></figure> <figure><img src="../.gitbook/assets/oragecamohoodie.png" alt=""><figcaption><p>orange camo hoodie</p></figcaption></figure> <figure><img src="../.gitbook/assets/lightyellowhoodie.png" alt=""><figcaption><p>light yellow hoodie</p></figcaption></figure> <figure><img src="../.gitbook/assets/lightpinkhoodie.png" alt=""><figcaption><p>light pink hoodie</p></figcaption></figure> <figure><img src="../.gitbook/assets/greendothoodie.png" alt=""><figcaption><p>green dot hoodie</p></figcaption></figure> <figure><img src="../.gitbook/assets/greencamohoodie.png" alt=""><figcaption><p>green camo hoodie</p></figcaption></figure> <figure><img src="../.gitbook/assets/camohoodie.png" alt=""><figcaption><p>camo hoodie</p></figcaption></figure> <figure><img src="../.gitbook/assets/bluecamohoodie.png" alt=""><figcaption><p>blue camo hoodie</p></figcaption></figure> <figure><img src="../.gitbook/assets/yellowhoodie.png" alt=""><figcaption><p>yellow hoodie</p></figcaption></figure> <figure><img src="../.gitbook/assets/whitehoodie.png" alt=""><figcaption><p>white hoodie</p></figcaption></figure> <figure><img src="../.gitbook/assets/pajama.png" alt=""><figcaption></figcaption></figure> <figure><img src="../.gitbook/assets/pajama.png" alt=""><figcaption></figcaption></figure></div>
 
 ## Boots 1/2
 
-<div>
-
-<figure><img src="../.gitbook/assets/bluesnowboots.png" alt=""><figcaption><p>blue snowboots</p></figcaption></figure>
-
- 
-
-<figure><img src="../.gitbook/assets/bluedarklightboots.png" alt=""><figcaption><p>blue darklight boots</p></figcaption></figure>
-
- 
-
-<figure><img src="../.gitbook/assets/bluebootslong.png" alt=""><figcaption><p>blue boots long</p></figcaption></figure>
-
- 
-
-<figure><img src="../.gitbook/assets/blueboots.png" alt=""><figcaption><p>blue boots</p></figcaption></figure>
-
- 
-
-<figure><img src="../.gitbook/assets/beigeboots.png" alt=""><figcaption><p>beige boots</p></figcaption></figure>
-
- 
-
-<figure><img src="../.gitbook/assets/yellowsnowboots.png" alt=""><figcaption><p>yellow snow boots</p></figcaption></figure>
-
- 
-
-<figure><img src="../.gitbook/assets/yelloworangeboots.png" alt=""><figcaption><p>yellow orange boots</p></figcaption></figure>
-
- 
-
-<figure><img src="../.gitbook/assets/yellowbootsshort.png" alt=""><figcaption><p>yellow boots short</p></figcaption></figure>
-
- 
-
-<figure><img src="../.gitbook/assets/yellowbootslong.png" alt=""><figcaption><p>yellow boots long</p></figcaption></figure>
-
- 
-
-<figure><img src="../.gitbook/assets/yellowboots.png" alt=""><figcaption><p>yellow boots</p></figcaption></figure>
-
- 
-
-<figure><img src="../.gitbook/assets/snowbootspurple.png" alt=""><figcaption><p>snow boots purple</p></figcaption></figure>
-
- 
-
-<figure><img src="../.gitbook/assets/snowbootsgray.png" alt=""><figcaption><p>snow boots gray</p></figcaption></figure>
-
- 
-
-<figure><img src="../.gitbook/assets/snowbootsblue.png" alt=""><figcaption><p>snow boots blue</p></figcaption></figure>
-
- 
-
-<figure><img src="../.gitbook/assets/redbootslong.png" alt=""><figcaption><p>red boots long</p></figcaption></figure>
-
-</div>
+<div><figure><img src="../.gitbook/assets/bluesnowboots.png" alt=""><figcaption><p>blue snowboots</p></figcaption></figure> <figure><img src="../.gitbook/assets/bluedarklightboots.png" alt=""><figcaption><p>blue darklight boots</p></figcaption></figure> <figure><img src="../.gitbook/assets/bluebootslong.png" alt=""><figcaption><p>blue boots long</p></figcaption></figure> <figure><img src="../.gitbook/assets/blueboots.png" alt=""><figcaption><p>blue boots</p></figcaption></figure> <figure><img src="../.gitbook/assets/beigeboots.png" alt=""><figcaption><p>beige boots</p></figcaption></figure> <figure><img src="../.gitbook/assets/yellowsnowboots.png" alt=""><figcaption><p>yellow snow boots</p></figcaption></figure> <figure><img src="../.gitbook/assets/yelloworangeboots.png" alt=""><figcaption><p>yellow orange boots</p></figcaption></figure> <figure><img src="../.gitbook/assets/yellowbootsshort.png" alt=""><figcaption><p>yellow boots short</p></figcaption></figure> <figure><img src="../.gitbook/assets/yellowbootslong.png" alt=""><figcaption><p>yellow boots long</p></figcaption></figure> <figure><img src="../.gitbook/assets/yellowboots.png" alt=""><figcaption><p>yellow boots</p></figcaption></figure> <figure><img src="../.gitbook/assets/snowbootspurple.png" alt=""><figcaption><p>snow boots purple</p></figcaption></figure> <figure><img src="../.gitbook/assets/snowbootsgray.png" alt=""><figcaption><p>snow boots gray</p></figcaption></figure> <figure><img src="../.gitbook/assets/snowbootsblue.png" alt=""><figcaption><p>snow boots blue</p></figcaption></figure> <figure><img src="../.gitbook/assets/redbootslong.png" alt=""><figcaption><p>red boots long</p></figcaption></figure></div>
 
 ## Boots 2/2
 
-<div>
-
-<figure><img src="../.gitbook/assets/redboots.png" alt=""><figcaption><p>red boots</p></figcaption></figure>
-
- 
-
-<figure><img src="../.gitbook/assets/pinkyellowbootslong.png" alt=""><figcaption><p>pink yellow boots long</p></figcaption></figure>
-
- 
-
-<figure><img src="../.gitbook/assets/pinkwhitesnowboots.png" alt=""><figcaption><p>pink white snow boots</p></figcaption></figure>
-
- 
-
-<figure><img src="../.gitbook/assets/pinkwhiteboots.png" alt=""><figcaption><p>pink white boots</p></figcaption></figure>
-
- 
-
-<figure><img src="../.gitbook/assets/pinksnowboots.png" alt=""><figcaption><p>pink snow boots</p></figcaption></figure>
-
- 
-
-<figure><img src="../.gitbook/assets/pinkbootslong.png" alt=""><figcaption><p>pink boots long</p></figcaption></figure>
-
- 
-
-<figure><img src="../.gitbook/assets/pinkboots.png" alt=""><figcaption><p>pink boots</p></figcaption></figure>
-
- 
-
-<figure><img src="../.gitbook/assets/lightblueboots.png" alt=""><figcaption><p>light blue boots</p></figcaption></figure>
-
- 
-
-<figure><img src="../.gitbook/assets/greywhitesnowboots.png" alt=""><figcaption><p>grey white snow boots</p></figcaption></figure>
-
- 
-
-<figure><img src="../.gitbook/assets/greysnowboots.png" alt=""><figcaption><p>grey snow boots</p></figcaption></figure>
-
- 
-
-<figure><img src="../.gitbook/assets/greenwhiteboots.png" alt=""><figcaption><p>green white boots</p></figcaption></figure>
-
- 
-
-<figure><img src="../.gitbook/assets/greenboots.png" alt=""><figcaption><p>green boots</p></figcaption></figure>
-
- 
-
-<figure><img src="../.gitbook/assets/darkgreensnowboots.png" alt=""><figcaption><p>dark green snow boots</p></figcaption></figure>
-
- 
-
-<figure><img src="../.gitbook/assets/darkbluesnowboots.png" alt=""><figcaption><p>dark blue snow boots</p></figcaption></figure>
-
-</div>
+<div><figure><img src="../.gitbook/assets/redboots.png" alt=""><figcaption><p>red boots</p></figcaption></figure> <figure><img src="../.gitbook/assets/pinkyellowbootslong.png" alt=""><figcaption><p>pink yellow boots long</p></figcaption></figure> <figure><img src="../.gitbook/assets/pinkwhitesnowboots.png" alt=""><figcaption><p>pink white snow boots</p></figcaption></figure> <figure><img src="../.gitbook/assets/pinkwhiteboots.png" alt=""><figcaption><p>pink white boots</p></figcaption></figure> <figure><img src="../.gitbook/assets/pinksnowboots.png" alt=""><figcaption><p>pink snow boots</p></figcaption></figure> <figure><img src="../.gitbook/assets/pinkbootslong.png" alt=""><figcaption><p>pink boots long</p></figcaption></figure> <figure><img src="../.gitbook/assets/pinkboots.png" alt=""><figcaption><p>pink boots</p></figcaption></figure> <figure><img src="../.gitbook/assets/lightblueboots.png" alt=""><figcaption><p>light blue boots</p></figcaption></figure> <figure><img src="../.gitbook/assets/greywhitesnowboots.png" alt=""><figcaption><p>grey white snow boots</p></figcaption></figure> <figure><img src="../.gitbook/assets/greysnowboots.png" alt=""><figcaption><p>grey snow boots</p></figcaption></figure> <figure><img src="../.gitbook/assets/greenwhiteboots.png" alt=""><figcaption><p>green white boots</p></figcaption></figure> <figure><img src="../.gitbook/assets/greenboots.png" alt=""><figcaption><p>green boots</p></figcaption></figure> <figure><img src="../.gitbook/assets/darkgreensnowboots.png" alt=""><figcaption><p>dark green snow boots</p></figcaption></figure> <figure><img src="../.gitbook/assets/darkbluesnowboots.png" alt=""><figcaption><p>dark blue snow boots</p></figcaption></figure></div>
 
 ## Sneakers
 
 
 
-<div>
-
-<figure><img src="../.gitbook/assets/sneakerspurple.png" alt=""><figcaption><p>Purple Sneakers</p></figcaption></figure>
-
- 
-
-<figure><img src="../.gitbook/assets/sneakersgreen.png" alt=""><figcaption><p>Green Sneakers</p></figcaption></figure>
-
- 
-
-<figure><img src="../.gitbook/assets/sneakersblue.png" alt=""><figcaption><p>Blue Sneakers</p></figcaption></figure>
-
-</div>
+<div><figure><img src="../.gitbook/assets/sneakerspurple.png" alt=""><figcaption><p>Purple Sneakers</p></figcaption></figure> <figure><img src="../.gitbook/assets/sneakersgreen.png" alt=""><figcaption><p>Green Sneakers</p></figcaption></figure> <figure><img src="../.gitbook/assets/sneakersblue.png" alt=""><figcaption><p>Blue Sneakers</p></figcaption></figure></div>
 
 ## Misc Hoodies/Vests/Sweaters
 
-<div>
-
-<figure><img src="../.gitbook/assets/pajama.png" alt=""><figcaption><p>pajamas</p></figcaption></figure>
-
- 
-
-<figure><img src="../.gitbook/assets/trouble.png" alt=""><figcaption><p>trouble hoodie</p></figcaption></figure>
-
- 
-
-<figure><img src="../.gitbook/assets/camovest.png" alt=""><figcaption><p>camo vest</p></figcaption></figure>
-
- 
-
-<figure><img src="../.gitbook/assets/suit.png" alt=""><figcaption><p>dog suit</p></figcaption></figure>
-
- 
-
-<figure><img src="../.gitbook/assets/pinksweater.png" alt=""><figcaption><p>pink sweater</p></figcaption></figure>
-
- 
-
-<figure><img src="../.gitbook/assets/greensweater.png" alt=""><figcaption><p>green sweater</p></figcaption></figure>
-
- 
-
-<figure><img src="../.gitbook/assets/blacksweater.png" alt=""><figcaption><p>black sweater</p></figcaption></figure>
-
- 
-
-<figure><img src="../.gitbook/assets/redsweater.png" alt=""><figcaption><p>red sweater</p></figcaption></figure>
-
-</div>
+<div><figure><img src="../.gitbook/assets/pajama.png" alt=""><figcaption><p>pajamas</p></figcaption></figure> <figure><img src="../.gitbook/assets/trouble.png" alt=""><figcaption><p>trouble hoodie</p></figcaption></figure> <figure><img src="../.gitbook/assets/camovest.png" alt=""><figcaption><p>camo vest</p></figcaption></figure> <figure><img src="../.gitbook/assets/suit.png" alt=""><figcaption><p>dog suit</p></figcaption></figure> <figure><img src="../.gitbook/assets/pinksweater.png" alt=""><figcaption><p>pink sweater</p></figcaption></figure> <figure><img src="../.gitbook/assets/greensweater.png" alt=""><figcaption><p>green sweater</p></figcaption></figure> <figure><img src="../.gitbook/assets/blacksweater.png" alt=""><figcaption><p>black sweater</p></figcaption></figure> <figure><img src="../.gitbook/assets/redsweater.png" alt=""><figcaption><p>red sweater</p></figcaption></figure></div>
 
 ## Capes
 
-<div>
-
-<figure><img src="../.gitbook/assets/plaidsailorcape.png" alt=""><figcaption><p>plaid sailor cape</p></figcaption></figure>
-
- 
-
-<figure><img src="../.gitbook/assets/pinksailorcape.png" alt=""><figcaption><p>pink sailor cape</p></figcaption></figure>
-
- 
-
-<figure><img src="../.gitbook/assets/graysailorcape (1).png" alt=""><figcaption><p>gray sailor cape</p></figcaption></figure>
-
- 
-
-<figure><img src="../.gitbook/assets/camosailorcape.png" alt=""><figcaption><p>camo sailor cape</p></figcaption></figure>
-
- 
-
-<figure><img src="../.gitbook/assets/blacksailorcape (2).png" alt=""><figcaption><p>black sailor cape</p></figcaption></figure>
-
-</div>
+<div><figure><img src="../.gitbook/assets/plaidsailorcape.png" alt=""><figcaption><p>plaid sailor cape</p></figcaption></figure> <figure><img src="../.gitbook/assets/pinksailorcape.png" alt=""><figcaption><p>pink sailor cape</p></figcaption></figure> <figure><img src="../.gitbook/assets/graysailorcape (1).png" alt=""><figcaption><p>gray sailor cape</p></figcaption></figure> <figure><img src="../.gitbook/assets/camosailorcape.png" alt=""><figcaption><p>camo sailor cape</p></figcaption></figure> <figure><img src="../.gitbook/assets/blacksailorcape (2).png" alt=""><figcaption><p>black sailor cape</p></figcaption></figure></div>
 
 ## Bows
 
-<div>
-
-<figure><img src="../.gitbook/assets/pinkbow.png" alt=""><figcaption><p>pink bow</p></figcaption></figure>
-
- 
-
-<figure><img src="../.gitbook/assets/greenplaidbow.png" alt=""><figcaption><p>green plaid bow</p></figcaption></figure>
-
- 
-
-<figure><img src="../.gitbook/assets/flowersdarkbow.png" alt=""><figcaption><p>flowers dark bow</p></figcaption></figure>
-
- 
-
-<figure><img src="../.gitbook/assets/bluelinesbow.png" alt=""><figcaption><p>blue lines bow</p></figcaption></figure>
-
- 
-
-<figure><img src="../.gitbook/assets/pinkheartsbow.png" alt=""><figcaption><p>pink hearts bow</p></figcaption></figure>
-
-</div>
+<div><figure><img src="../.gitbook/assets/pinkbow.png" alt=""><figcaption><p>pink bow</p></figcaption></figure> <figure><img src="../.gitbook/assets/greenplaidbow.png" alt=""><figcaption><p>green plaid bow</p></figcaption></figure> <figure><img src="../.gitbook/assets/flowersdarkbow.png" alt=""><figcaption><p>flowers dark bow</p></figcaption></figure> <figure><img src="../.gitbook/assets/bluelinesbow.png" alt=""><figcaption><p>blue lines bow</p></figcaption></figure> <figure><img src="../.gitbook/assets/pinkheartsbow.png" alt=""><figcaption><p>pink hearts bow</p></figcaption></figure></div>
 
 ## Head Apparel
 
-<div>
-
-<figure><img src="../.gitbook/assets/redsailorcap.png" alt=""><figcaption><p>red sailor cap</p></figcaption></figure>
-
- 
-
-<figure><img src="../.gitbook/assets/policecap.png" alt=""><figcaption><p>police cap</p></figcaption></figure>
-
- 
-
-<figure><img src="../.gitbook/assets/medicalcap.png" alt=""><figcaption><p>medical cap</p></figcaption></figure>
-
- 
-
-<figure><img src="../.gitbook/assets/kapolicecap.png" alt=""><figcaption><p>ka police cap</p></figcaption></figure>
-
- 
-
-<figure><img src="../.gitbook/assets/bluesailorcap.png" alt=""><figcaption><p>blue sailor cap</p></figcaption></figure>
-
- 
-
-<figure><img src="../.gitbook/assets/halowingsgold.png" alt=""><figcaption><p>halo wings gold</p></figcaption></figure>
-
- 
-
-<figure><img src="../.gitbook/assets/halowingssilverblack.png" alt=""><figcaption><p>halo wings silver black</p></figcaption></figure>
-
- 
-
-<figure><img src="../.gitbook/assets/halowingsgoldwhite.png" alt=""><figcaption><p>halo wings gold white</p></figcaption></figure>
-
- 
-
-<figure><img src="../.gitbook/assets/halowingsgoldpink.png" alt=""><figcaption><p>halo wings gold pink</p></figcaption></figure>
-
-</div>
+<div><figure><img src="../.gitbook/assets/redsailorcap.png" alt=""><figcaption><p>red sailor cap</p></figcaption></figure> <figure><img src="../.gitbook/assets/policecap.png" alt=""><figcaption><p>police cap</p></figcaption></figure> <figure><img src="../.gitbook/assets/medicalcap.png" alt=""><figcaption><p>medical cap</p></figcaption></figure> <figure><img src="../.gitbook/assets/kapolicecap.png" alt=""><figcaption><p>ka police cap</p></figcaption></figure> <figure><img src="../.gitbook/assets/bluesailorcap.png" alt=""><figcaption><p>blue sailor cap</p></figcaption></figure> <figure><img src="../.gitbook/assets/halowingsgold.png" alt=""><figcaption><p>halo wings gold</p></figcaption></figure> <figure><img src="../.gitbook/assets/halowingssilverblack.png" alt=""><figcaption><p>halo wings silver black</p></figcaption></figure> <figure><img src="../.gitbook/assets/halowingsgoldwhite.png" alt=""><figcaption><p>halo wings gold white</p></figcaption></figure> <figure><img src="../.gitbook/assets/halowingsgoldpink.png" alt=""><figcaption><p>halo wings gold pink</p></figcaption></figure></div>
 
 ## Sunglasses
 
-<div>
-
-<figure><img src="../.gitbook/assets/redsunglasses.png" alt=""><figcaption><p>red sun glasses</p></figcaption></figure>
-
- 
-
-<figure><img src="../.gitbook/assets/pinksunglasses.png" alt=""><figcaption><p>pink sun glasses</p></figcaption></figure>
-
- 
-
-<figure><img src="../.gitbook/assets/blacksunglasses.png" alt=""><figcaption><p>black sun glasses</p></figcaption></figure>
-
- 
-
-<figure><img src="../.gitbook/assets/whitesunglasses.png" alt=""><figcaption><p>white sun glasses</p></figcaption></figure>
-
-</div>
+<div><figure><img src="../.gitbook/assets/redsunglasses.png" alt=""><figcaption><p>red sun glasses</p></figcaption></figure> <figure><img src="../.gitbook/assets/pinksunglasses.png" alt=""><figcaption><p>pink sun glasses</p></figcaption></figure> <figure><img src="../.gitbook/assets/blacksunglasses.png" alt=""><figcaption><p>black sun glasses</p></figcaption></figure> <figure><img src="../.gitbook/assets/whitesunglasses.png" alt=""><figcaption><p>white sun glasses</p></figcaption></figure></div>
 
 ## Props
 
-<div>
-
-<figure><img src="../.gitbook/assets/prop1.png" alt=""><figcaption><p>funny prop 1</p></figcaption></figure>
-
- 
-
-<figure><img src="../.gitbook/assets/prop2.png" alt=""><figcaption><p>funny prop 2</p></figcaption></figure>
-
- 
-
-<figure><img src="../.gitbook/assets/prop3.png" alt=""><figcaption><p>funny prop 3</p></figcaption></figure>
-
- 
-
-<figure><img src="../.gitbook/assets/prop4.png" alt=""><figcaption><p>funny prop 4</p></figcaption></figure>
-
- 
-
-<figure><img src="../.gitbook/assets/policepatch.png" alt=""><figcaption><p>police patch</p></figcaption></figure>
-
- 
-
-<figure><img src="../.gitbook/assets/rescuepatch.png" alt=""><figcaption><p>rescue patch</p></figcaption></figure>
-
- 
-
-<figure><img src="../.gitbook/assets/securitypatch.png" alt=""><figcaption><p>security patch</p></figcaption></figure>
-
- 
-
-<figure><img src="../.gitbook/assets/servicepatch.png" alt=""><figcaption><p>service patch</p></figcaption></figure>
-
- 
-
-<figure><img src="../.gitbook/assets/sheriffpatch.png" alt=""><figcaption><p>sheriff patch</p></figcaption></figure>
-
-</div>
+<div><figure><img src="../.gitbook/assets/prop1.png" alt=""><figcaption><p>funny prop 1</p></figcaption></figure> <figure><img src="../.gitbook/assets/prop2.png" alt=""><figcaption><p>funny prop 2</p></figcaption></figure> <figure><img src="../.gitbook/assets/prop3.png" alt=""><figcaption><p>funny prop 3</p></figcaption></figure> <figure><img src="../.gitbook/assets/prop4.png" alt=""><figcaption><p>funny prop 4</p></figcaption></figure> <figure><img src="../.gitbook/assets/policepatch.png" alt=""><figcaption><p>police patch</p></figcaption></figure> <figure><img src="../.gitbook/assets/rescuepatch.png" alt=""><figcaption><p>rescue patch</p></figcaption></figure> <figure><img src="../.gitbook/assets/securitypatch.png" alt=""><figcaption><p>security patch</p></figcaption></figure> <figure><img src="../.gitbook/assets/servicepatch.png" alt=""><figcaption><p>service patch</p></figcaption></figure> <figure><img src="../.gitbook/assets/sheriffpatch.png" alt=""><figcaption><p>sheriff patch</p></figcaption></figure></div>
 
 ## Leashes
 
-<div>
-
-<figure><img src="../.gitbook/assets/leashgreen.png" alt="" width="375"><figcaption><p>Green Leash</p></figcaption></figure>
-
- 
-
-<figure><img src="../.gitbook/assets/leash_black.png" alt="" width="321"><figcaption><p>Black Leash</p></figcaption></figure>
-
-</div>
+<div><figure><img src="../.gitbook/assets/leashgreen.png" alt="" width="375"><figcaption><p>Green Leash</p></figcaption></figure> <figure><img src="../.gitbook/assets/leash_black.png" alt="" width="321"><figcaption><p>Black Leash</p></figcaption></figure></div>
 
 ## Bowls
 
-<div>
-
-<figure><img src="../.gitbook/assets/silverbowl.png" alt=""><figcaption><p>silver bowl</p></figcaption></figure>
-
- 
-
-<figure><img src="../.gitbook/assets/redbowl.png" alt=""><figcaption><p>red bowl</p></figcaption></figure>
-
- 
-
-<figure><img src="../.gitbook/assets/greenbowl.png" alt=""><figcaption><p>green bowl</p></figcaption></figure>
-
- 
-
-<figure><img src="../.gitbook/assets/graybowl.png" alt=""><figcaption><p>gray bowl</p></figcaption></figure>
-
- 
-
-<figure><img src="../.gitbook/assets/brownbowl.png" alt=""><figcaption><p>brown bowl</p></figcaption></figure>
-
- 
-
-<figure><img src="../.gitbook/assets/bluebowl.png" alt=""><figcaption><p>blue bowl</p></figcaption></figure>
-
-</div>
+<div><figure><img src="../.gitbook/assets/silverbowl.png" alt=""><figcaption><p>silver bowl</p></figcaption></figure> <figure><img src="../.gitbook/assets/redbowl.png" alt=""><figcaption><p>red bowl</p></figcaption></figure> <figure><img src="../.gitbook/assets/greenbowl.png" alt=""><figcaption><p>green bowl</p></figcaption></figure> <figure><img src="../.gitbook/assets/graybowl.png" alt=""><figcaption><p>gray bowl</p></figcaption></figure> <figure><img src="../.gitbook/assets/brownbowl.png" alt=""><figcaption><p>brown bowl</p></figcaption></figure> <figure><img src="../.gitbook/assets/bluebowl.png" alt=""><figcaption><p>blue bowl</p></figcaption></figure></div>
 
 ## Beds
 
-<div>
-
-<figure><img src="../.gitbook/assets/bedwood.png" alt=""><figcaption><p>wood bed</p></figcaption></figure>
-
- 
-
-<figure><img src="../.gitbook/assets/bedplaid.png" alt=""><figcaption><p>plaid bed</p></figcaption></figure>
-
- 
-
-<figure><img src="../.gitbook/assets/bedold.png" alt=""><figcaption><p>old bed</p></figcaption></figure>
-
- 
-
-<figure><img src="../.gitbook/assets/bedmodern.png" alt=""><figcaption><p>modern bed</p></figcaption></figure>
-
- 
-
-<figure><img src="../.gitbook/assets/bedmaster.png" alt=""><figcaption><p>master bed</p></figcaption></figure>
-
- 
-
-<figure><img src="../.gitbook/assets/bedgold.png" alt=""><figcaption><p>gold bed</p></figcaption></figure>
-
- 
-
-<figure><img src="../.gitbook/assets/bedcream.png" alt=""><figcaption><p>cream bed</p></figcaption></figure>
-
- 
-
-<figure><img src="../.gitbook/assets/bedbones.png" alt=""><figcaption><p>bones bed</p></figcaption></figure>
-
-</div>
+<div><figure><img src="../.gitbook/assets/bedwood.png" alt=""><figcaption><p>wood bed</p></figcaption></figure> <figure><img src="../.gitbook/assets/bedplaid.png" alt=""><figcaption><p>plaid bed</p></figcaption></figure> <figure><img src="../.gitbook/assets/bedold.png" alt=""><figcaption><p>old bed</p></figcaption></figure> <figure><img src="../.gitbook/assets/bedmodern.png" alt=""><figcaption><p>modern bed</p></figcaption></figure> <figure><img src="../.gitbook/assets/bedmaster.png" alt=""><figcaption><p>master bed</p></figcaption></figure> <figure><img src="../.gitbook/assets/bedgold.png" alt=""><figcaption><p>gold bed</p></figcaption></figure> <figure><img src="../.gitbook/assets/bedcream.png" alt=""><figcaption><p>cream bed</p></figcaption></figure> <figure><img src="../.gitbook/assets/bedbones.png" alt=""><figcaption><p>bones bed</p></figcaption></figure></div>
 
 ## Food/Care
 
-<div>
-
-<figure><img src="../.gitbook/assets/pettreat1.png" alt=""><figcaption><p>pet treat 1</p></figcaption></figure>
-
- 
-
-<figure><img src="../.gitbook/assets/pettreat2.png" alt=""><figcaption><p>pet treat 2</p></figcaption></figure>
-
- 
-
-<figure><img src="../.gitbook/assets/pettreat3.png" alt=""><figcaption><p>pet treat 3</p></figcaption></figure>
-
- 
-
-<figure><img src="../.gitbook/assets/petfood1.png" alt=""><figcaption><p>pet food 1</p></figcaption></figure>
-
- 
-
-<figure><img src="../.gitbook/assets/petfood2.png" alt=""><figcaption><p>pet food 2</p></figcaption></figure>
-
- 
-
-<figure><img src="../.gitbook/assets/petfood3.png" alt=""><figcaption><p>pet food 3</p></figcaption></figure>
-
- 
-
-<figure><img src="../.gitbook/assets/dogfood.png" alt=""><figcaption><p>dog food</p></figcaption></figure>
-
- 
-
-<figure><img src="../.gitbook/assets/cleanwater.png" alt=""><figcaption><p>clean water</p></figcaption></figure>
-
- 
-
-<figure><img src="../.gitbook/assets/petmedlow.png" alt=""><figcaption><p>ped medkit  low</p></figcaption></figure>
-
- 
-
-<figure><img src="../.gitbook/assets/petmedmed.png" alt=""><figcaption><p>pet medkit medium</p></figcaption></figure>
-
- 
-
-<figure><img src="../.gitbook/assets/petmedhigh.png" alt=""><figcaption><p>pet medkit high</p></figcaption></figure>
-
-</div>
+<div><figure><img src="../.gitbook/assets/pettreat1.png" alt=""><figcaption><p>pet treat 1</p></figcaption></figure> <figure><img src="../.gitbook/assets/pettreat2.png" alt=""><figcaption><p>pet treat 2</p></figcaption></figure> <figure><img src="../.gitbook/assets/pettreat3.png" alt=""><figcaption><p>pet treat 3</p></figcaption></figure> <figure><img src="../.gitbook/assets/petfood1.png" alt=""><figcaption><p>pet food 1</p></figcaption></figure> <figure><img src="../.gitbook/assets/petfood2.png" alt=""><figcaption><p>pet food 2</p></figcaption></figure> <figure><img src="../.gitbook/assets/petfood3.png" alt=""><figcaption><p>pet food 3</p></figcaption></figure> <figure><img src="../.gitbook/assets/dogfood.png" alt=""><figcaption><p>dog food</p></figcaption></figure> <figure><img src="../.gitbook/assets/cleanwater.png" alt=""><figcaption><p>clean water</p></figcaption></figure> <figure><img src="../.gitbook/assets/petmedlow.png" alt=""><figcaption><p>ped medkit  low</p></figcaption></figure> <figure><img src="../.gitbook/assets/petmedmed.png" alt=""><figcaption><p>pet medkit medium</p></figcaption></figure> <figure><img src="../.gitbook/assets/petmedhigh.png" alt=""><figcaption><p>pet medkit high</p></figcaption></figure></div>
 
 {% code lineNumbers="true" %}
 ```excel-formula

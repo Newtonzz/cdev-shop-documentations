@@ -1,16 +1,5 @@
 ---
 description: Get insight on what we offer for 12.99 on our Tebex!
-layout:
-  title:
-    visible: true
-  description:
-    visible: true
-  tableOfContents:
-    visible: true
-  outline:
-    visible: true
-  pagination:
-    visible: true
 ---
 
 # 🐶 Dogs: Winter Update

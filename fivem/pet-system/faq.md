@@ -166,6 +166,8 @@ Example:&#x20;
 
 ## Pets not spawning in?
 
+***
+
 {% hint style="danger" %}
 Check to make sure you have an active CFX Element Club subscription: [HERE](https://portal.cfx.re/subscriptions)
 {% endhint %}
@@ -177,3 +179,64 @@ Check to make sure you have an active CFX Element Club subscription: [HERE](http
 {% hint style="danger" %}
 If you have an anti-cheat, it may be blocking the pet events, please check with your AC provider on how you can resolve this
 {% endhint %}
+
+## After I updated cdev\_pets to version 2.9.3 or (Higher), I can no longer open the store manager how can i fix?
+
+***
+
+<figure><img src="../../.gitbook/assets/Error When Try open Manager.png" alt=""><figcaption></figcaption></figure>
+
+⚠ <mark style="color:red;">**This error happens because in the new updates, some**</mark>**&#x20;**<mark style="color:yellow;">**items**</mark>**&#x20;**<mark style="color:red;">**were**</mark>**&#x20;**<mark style="color:yellow;">**renamed**</mark>**&#x20;**<mark style="color:red;">**and problematic items were also**</mark>**&#x20;**<mark style="color:yellow;">**removed**</mark>**&#x20;**<mark style="color:red;">**from the**</mark>**&#x20;`items.lua`&#x20;**<mark style="color:red;">**and**</mark>**&#x20;`shop.lua`&#x20;**<mark style="color:red;">**files. Additionally, we replaced all the**</mark>**&#x20;**<mark style="color:yellow;">**images**</mark>**&#x20;**<mark style="color:red;">**as well. To fix this issue with the store, simply clear the tables in the database listed below and fully restart the server.**</mark>
+
+### List of tables to empty
+
+* cdev\_pets\_petshops\_sales
+* cdev\_pets\_petshops\_sell\_prices
+* cdev\_pets\_petshops\_stock
+
+### Example Video using <mark style="color:yellow;">HeidiSQL ( version: 12.10.0.7000)</mark>&#x20;
+
+<div align="left"><figure><img src="../../.gitbook/assets/heidisql_HIy3VGXBQi.gif" alt=""><figcaption></figcaption></figure></div>
+
+⚠ <mark style="color:red;">**In addition to the issue above, it can also happen that when a player opens the**</mark>**&#x20;**<kbd>**/petbag**</kbd>**&#x20;**<mark style="color:red;">**or the**</mark>**&#x20;**<kbd>**TAB**</kbd><mark style="color:red;">**menu and tries to spawn certain pets, a similar error will occur. I’ll use the**</mark>**&#x20;**<mark style="color:yellow;">**Golden Retriever**</mark>**&#x20;**<mark style="color:red;">**pet as an example, which had some changes made to it.**</mark>
+
+### This is what happens when you try to spawn a pet whose models were changed or that was removed.
+
+<div align="left"><figure><img src="../../.gitbook/assets/FiveM_GTAProcess_fIeZZGPrKZ.gif" alt=""><figcaption></figcaption></figure></div>
+
+#### Client Side Error (F8 Console)
+
+<div align="left"><figure><img src="../../.gitbook/assets/Client Error Pet.png" alt=""><figcaption></figcaption></figure></div>
+
+#### Server Side Error (Prompt or TxAdmin Console)
+
+<figure><img src="../../.gitbook/assets/Server Errror Pet.png" alt=""><figcaption></figcaption></figure>
+
+### Now I’ll explain how to fix this problem if you updated the version and this is happening to your players who had the old pets.
+
+In the database image below, in the `cdev_pets` table, you’ll need to modify two columns: the first is the `KEY` column and the second is the `PETSHOPID` column, as shown in the image below.
+
+<figure><img src="../../.gitbook/assets/You go change this.png" alt=""><figcaption></figcaption></figure>
+
+First, let’s find the new names for the <mark style="color:yellow;">Golden Retriever</mark>, which we’re using as an example. You’ll start by opening the `shop.lua` file located in the folder `cdev_pets > public > config > shop.lua`, and you’ll find the Golden Retriever code just like in the example below.
+
+```lua
+    {
+        PetShopId = "pet_gold", -- Here is the (petshopid) column
+        key = "pet_gold", -- And Here is the (key) column
+        label = "Golden Retriever",
+        isPremiumPackage = true,
+        price = 5000,
+        category = "pet_category_pets",
+        description = "A Golden Retriever",
+        canBeK9 = true,
+    },
+```
+
+Now that we have the new strings, we’re going to update them in the database, and the result will look like the image below.
+
+<figure><img src="../../.gitbook/assets/NewStrings.png" alt=""><figcaption></figcaption></figure>
+
+<mark style="color:yellow;">After all the changes, you will</mark> shut down <mark style="color:yellow;">and</mark> restart <mark style="color:yellow;">the server, and the pet on your client or your player’s client will be working normally.</mark>
+
+⚠ <mark style="color:red;">**Just a reminder: if you don’t have experience, I recommend not modifying the tables to avoid any serious issues with your server, such as data loss.**</mark>
