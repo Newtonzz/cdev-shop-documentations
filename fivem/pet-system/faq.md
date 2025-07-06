@@ -186,9 +186,21 @@ If you have an anti-cheat, it may be blocking the pet events, please check with 
 
 <figure><img src="../../.gitbook/assets/Error When Try open Manager.png" alt=""><figcaption></figcaption></figure>
 
-⚠ <mark style="color:red;">**This error happens because in the new updates, some**</mark>**&#x20;**<mark style="color:yellow;">**items**</mark>**&#x20;**<mark style="color:red;">**were**</mark>**&#x20;**<mark style="color:yellow;">**renamed**</mark>**&#x20;**<mark style="color:red;">**and problematic items were also**</mark>**&#x20;**<mark style="color:yellow;">**removed**</mark>**&#x20;**<mark style="color:red;">**from the**</mark>**&#x20;`items.lua`&#x20;**<mark style="color:red;">**and**</mark>**&#x20;`shop.lua`&#x20;**<mark style="color:red;">**files. Additionally, we replaced all the**</mark>**&#x20;**<mark style="color:yellow;">**images**</mark>**&#x20;**<mark style="color:red;">**as well. To fix this issue with the store, simply clear the tables in the database listed below and fully restart the server.**</mark>
+✅ <mark style="color:yellow;">**Please note: if you’re not yet using the resource on your production server, and it’s not an issue for you to delete all the cdev\_pets tables, the best practice is to remove them entirely and recreate the shop. This will fix all existing problems and help avoid any future issues.**</mark>\
 
-✅ <mark style="color:green;">**Keep in mind that if you are not yet using the resource on your production server, it is highly recommended that you delete all the**</mark>**&#x20;**<kbd>**cdev\_pets**</kbd>**&#x20;**<mark style="color:green;">**tables in your database and recreate the shop. This will solve all problems and prevent any future issues.**</mark>
+
+### List of all tables to delete <mark style="color:red;">(Only delete everything if you have no problem losing all previously recorded data.)</mark>
+
+* cdev\_pets
+* cdev\_pets\_petshops
+* cdev\_pets\_petshops\_employees
+* cdev\_pets\_petshops\_sales
+* cdev\_pets\_petshops\_sell\_prices
+* cdev\_pets\_petshops\_stock
+
+\
+\
+⚠ <mark style="color:red;">**This error happens because in the new updates, some**</mark>**&#x20;**<mark style="color:yellow;">**items**</mark>**&#x20;**<mark style="color:red;">**were**</mark>**&#x20;**<mark style="color:yellow;">**renamed**</mark>**&#x20;**<mark style="color:red;">**and problematic items were also**</mark>**&#x20;**<mark style="color:yellow;">**removed**</mark>**&#x20;**<mark style="color:red;">**from the**</mark>**&#x20;`items.lua`&#x20;**<mark style="color:red;">**and**</mark>**&#x20;`shop.lua`&#x20;**<mark style="color:red;">**files. Additionally, we replaced all the**</mark>**&#x20;**<mark style="color:yellow;">**images**</mark>**&#x20;**<mark style="color:red;">**as well. To fix this issue with the store, simply clear the tables in the database listed below and fully restart the server.**</mark>
 
 ### List of tables to empty
 
