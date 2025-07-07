@@ -77,6 +77,34 @@ It is essential to follow the correct startup order to ensure proper functionali
 
 <div align="left"><figure><img src="../../.gitbook/assets/cfg.png" alt=""><figcaption></figcaption></figure></div>
 {% endstep %}
+
+{% step %}
+### Cdev\_lib Configuration
+
+For the pet system and the connection between your <mark style="color:yellow;">framework</mark> and the resources to work correctly, you need to configure the `cdev_lib` resource properly according to your <mark style="color:yellow;">framework</mark>. For more details, click the link below to follow the instructions.
+
+{% tabs %}
+{% tab title="ESX" %}
+{% content-ref url="../cdev-library/esx-configuration.md" %}
+[esx-configuration.md](../cdev-library/esx-configuration.md)
+{% endcontent-ref %}
+{% endtab %}
+
+{% tab title="QBCore/QBOX" %}
+{% content-ref url="../cdev-library/qbcore-qbox-configuration.md" %}
+[qbcore-qbox-configuration.md](../cdev-library/qbcore-qbox-configuration.md)
+{% endcontent-ref %}
+{% endtab %}
+
+{% tab title="Custom Framework" %}
+{% content-ref url="../cdev-library/advanced-customization.md" %}
+[advanced-customization.md](../cdev-library/advanced-customization.md)
+{% endcontent-ref %}
+{% endtab %}
+{% endtabs %}
+
+
+{% endstep %}
 {% endstepper %}
 
 ***

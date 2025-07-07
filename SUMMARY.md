@@ -10,7 +10,7 @@
   * [Known Errors](fivem/chairs-and-beds/known-errors.md)
 * [⚖️ cDev Library](fivem/cdev-library/README.md)
   * [Configuration](fivem/cdev-library/configuration.md)
-  * [QBCore Configuration](fivem/cdev-library/qbcore-configuration.md)
+  * [QBCore/QBox Configuration](fivem/cdev-library/qbcore-qbox-configuration.md)
   * [ESX Configuration](fivem/cdev-library/esx-configuration.md)
   * [Advanced Customization](fivem/cdev-library/advanced-customization.md)
   * [Permissions](fivem/cdev-library/permissions.md)

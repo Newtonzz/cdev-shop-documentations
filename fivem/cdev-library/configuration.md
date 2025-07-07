@@ -18,5 +18,10 @@ Each property has its own description so you can understand what it does.
 
 For additional framework-specific configuration please visit:
 
-* [QBCore Configuration](qbcore-configuration.md)
-* [ESX Configuration](esx-configuration.md)
+{% content-ref url="qbcore-qbox-configuration.md" %}
+[qbcore-qbox-configuration.md](qbcore-qbox-configuration.md)
+{% endcontent-ref %}
+
+{% content-ref url="esx-configuration.md" %}
+[esx-configuration.md](esx-configuration.md)
+{% endcontent-ref %}

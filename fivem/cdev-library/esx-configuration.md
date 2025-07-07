@@ -25,3 +25,7 @@ Unless you have modified core aspects of your framework you don't have to worry 
 <mark style="color:orange;">(Optional)</mark> Read more about permissions:
 
 * [Permissions](permissions.md)
+
+## Example of how the `config.lua` file will look for the <mark style="color:yellow;">ESX</mark> framework
+
+<figure><img src="../../.gitbook/assets/Lib Config.png" alt=""><figcaption></figcaption></figure>
