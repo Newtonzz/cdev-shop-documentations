@@ -48,6 +48,18 @@ rbind cdev_pets KEYBOARD TAB "+petbag"
 
 After clearing these lines, restart FiveM. The new keybinds from your server’s config will then load correctly.
 
+## Is it necessary to add the items that are inside the items.lua file to my inventory?
+
+***
+
+No, and it won’t work if you try to add them. The pet system has its own inventory already integrated with the <mark style="color:yellow;">**cdev\_pets**</mark> resource. So regarding the items, you don’t need to do any configuration or add them to your own inventory system, since it is completely separate and has its own inventory system.
+
+The only item you _can_ add to your framework’s inventory if you want is the **baseball** item. For more information on how to add it, you can read the documentation at the link below.
+
+{% content-ref url="misc-integrations/ox-inventory.md" %}
+[ox-inventory.md](misc-integrations/ox-inventory.md)
+{% endcontent-ref %}
+
 ## Where is the Pet MLO location?
 
 ***
