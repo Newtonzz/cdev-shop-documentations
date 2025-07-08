@@ -26,6 +26,134 @@ end
 
 After the pet starts attacking the player or NPC, keep holding the G key until it obeys your command to stop attacking.
 
+## Is it possible to add a pet Add-ON to the Pets system? And How Add ?
+
+***
+
+Yes, it’s possible to add a pet <mark style="color:yellow;">Add-on</mark> or even a <mark style="color:yellow;">native GTA V</mark> animal. However, below you can find a list of functions that will be compatible and others that will not be compatible with Add-on pets or native GTA V animals.
+
+\
+⚠  <mark style="color:yellow;">**Attention:**</mark> <mark style="color:red;">**Issues with animations related to positioning, Add-on crashes and other problems with added pets (not including ours) are not covered by our support.**</mark>
+
+| Appears                                              | Actions                                 | Accessories                | Care                   |
+| ---------------------------------------------------- | --------------------------------------- | -------------------------- | ---------------------- |
+| --------------------                                 | Follow, Cuddle, Pet Stats, Animations ✅ | Leash, Beds, Bwols, Toys ✅ | Food, Liquid, Health ✅ |
+| Collar, Clothes, Shoes, Head, Patch, Glasse, Maks  ⛔ | K9 Functions (Sniff, Training)  ⛔       | -------------------        | --------------------   |
+
+### How install new pet Add-on or retail pet from GTAV
+
+{% stepper %}
+{% step %}
+### Add the animal’s photo to the shop.
+
+⚠ <mark style="color:yellow;">**Recommended size:**</mark>**&#x20;237 x 168**
+
+⚠ <mark style="color:yellow;">**To make sure the image works correctly in the shop, please use the**</mark> WEBP <mark style="color:yellow;">format for the photo.</mark>
+
+⚠ <mark style="color:yellow;">**The file name (the animal’s photo) must match exactly the**</mark> <mark style="color:red;">**KEY**</mark>**&#x20;**<mark style="color:yellow;">**variable name defined in**</mark>**&#x20;**<kbd>**cdev\_pets > public > config > shop.lua**</kbd><mark style="color:yellow;">**.**</mark>
+
+**Add the photo in the&#x20;**<mark style="color:yellow;">**cdev\_lib**</mark>**&#x20;resource under the path:&#x20;**<kbd>**cdev\_lib > nui > dist > pets > inventory**</kbd>**.**
+{% endstep %}
+
+{% step %}
+### Creating the animal
+
+**You will add a line by copying from another animal inside the&#x20;**<mark style="color:yellow;">**pets.lua**</mark>**&#x20;file located in the folder&#x20;**<kbd>**cdev\_pets > public > config > pets.lua**</kbd>**.**
+
+**Example (Using a native pet from GTAV):**
+
+```lua
+    ["a_c_westy"] = { -- Change 
+        Item = "a_c_westy", -- Change
+        LeashSettings = { -- No touch
+            Bone = 39317, -- No touch
+            BoneName = "SKEL_Neck1", -- No touch
+            BoneOffset = vector3(0.0, 0.15, -0.1), -- No touch
+        },
+        FloatingUISettings = { -- No touch
+            Bone = 31086, -- No touch
+            Offset = vector3(0.0, 0.0, 0.6), -- No touch
+            MenuOffset = vector3(0.0, 0.05, 0.4), -- No touch
+            BalloonOffset = vector3(0.0, 0.0, 1.0), -- No touch
+            StatsOffset = vector3(-0.2, 0.0, -0.1) -- No touch
+        },
+        CameraCloseSettings = { -- No touch
+            Bone = 31086, -- No touch
+            Offset = vector3(0.3, 1.2, 0.5), -- No touch
+            Rotation = vector3(0.0, 0.0, 160.0), -- No touch
+        },
+        BallSettings = { -- No touch
+            Enable = true, -- No touch
+            AttachBone = 46240, -- No touch
+            AttachBoneOffset = vector3(0.14, 0.0, 0.05), -- No touch
+        },
+        Animations = DogAnims["SmallDog"], -- Change
+    },
+```
+
+**Explanation of the part that needs to be changed:**
+
+<mark style="color:blue;">**\["**</mark><mark style="color:yellow;">**a\_c\_westy**</mark><mark style="color:blue;">**"]**</mark>: Inside the key, instead of <kbd>**a\_c\_westy**</kbd>, you will put the name of the <mark style="color:yellow;">resource (the pet add-on folder you are adding)</mark> Or, if the pet is from GTAV, you should only use the ped name as shown on the website.
+
+\
+<mark style="color:blue;">**Item = "**</mark><mark style="color:yellow;">**a\_c\_westy**</mark><mark style="color:blue;">**"**</mark>: Here you will enter the spawn name of the ped. For an add-on file, you can find it inside the <mark style="color:yellow;">**peds.meta**</mark> file in the section marked as <kbd>\<Name>a\_c\_westy\</Name></kbd>.
+
+<mark style="color:blue;">**Animations = DogAnims\["**</mark><mark style="color:yellow;">**SmallDog**</mark><mark style="color:blue;">**"],**</mark> : In this part, where it says <mark style="color:yellow;">**SmallDog**</mark>, you should choose based on the size and category. There are three options: <mark style="color:yellow;">**BigDog**</mark> (for large dogs), <mark style="color:yellow;">**SmallDog**</mark> (for small dogs), and <mark style="color:yellow;">**Cat**</mark> (for cats).
+{% endstep %}
+
+{% step %}
+### Adding the new created pet for sale in the shop
+
+**You will copy the line below and paste it inside the&#x20;**<mark style="color:yellow;">**shop.lua**</mark>**&#x20;file located in the folder&#x20;**<kbd>**cdev\_pets > public > config > shop.lua.**</kbd>
+
+```lua
+{
+    PetShopId = "a_c_westy", -- Change
+    key = "a_c_westy", -- Change
+    hasFemale = false, -- No touch
+    label = "Yorkshire GTAV", -- Change
+    isPremiumPackage = false, -- No touch
+    price = 5000, -- Change (If you want a different price)
+    category = "pet_category_pets", -- Not touch
+    description = "A YorkShire GTAV", -- Change
+},
+```
+
+**Explanation of the part that needs to be changed:**
+
+<mark style="color:blue;">PetShopId = "</mark><mark style="color:yellow;">a\_c\_westy</mark><mark style="color:blue;">"</mark>: Identification name that will be recorded after the purchase in the shop.
+
+<mark style="color:blue;">key = "</mark><mark style="color:yellow;">a\_c\_westy</mark><mark style="color:blue;">"</mark>:  Same name given to the <mark style="color:yellow;">**Item**</mark> variable in the<kbd>**pet.lua**</kbd> file, and it will also be used to retrieve the <mark style="color:yellow;">photo</mark> file inside <kbd>**cdev\_lib**</kbd>.
+
+<mark style="color:blue;">label = "</mark><mark style="color:yellow;">Yorkshire GTAV</mark><mark style="color:blue;">"</mark>: Animal name displayed in the shop.
+
+<mark style="color:blue;">description = "</mark><mark style="color:yellow;">A Yorkhire GTAV</mark><mark style="color:blue;">"</mark>: Description of the animal that will be sold in the shop.
+{% endstep %}
+
+{% step %}
+### Adding the new animal to items exclusive to certain types and sizes of animals
+
+Some items in the <mark style="color:yellow;">**items.lua**</mark> file located in <kbd>**cdev\_pets > public > config > items.lua**</kbd> have exclusivity settings to prevent issues related to the animal’s size and category. For your new animal to be able to purchase these items, you need to add it to the <mark style="color:red;">**limited**</mark> variable.
+
+Example item (dogbaga) : \
+\
+⚠ <mark style="color:red;">**You will add the name you used in the variable**</mark> **`Item = "a_c_westy"`&#x20;**<mark style="color:red;">**located in the file:**</mark>**&#x20;**<kbd>**cdev\_pets > public > config > pets.lua**</kbd>**.**\
+\
+**Before add:**
+
+```lua
+limited = { "pet_frbul", "pet_minpit", "pet_pug", "pet_shusky", "pet_york", "pet_poodle", "pet_chiua", "pet_dash" },
+```
+
+\
+**After add:**
+
+```lua
+limited = { "pet_frbul", "pet_minpit", "pet_pug", "pet_shusky", "pet_york", "pet_poodle", "pet_chiua", "pet_dash", "a_c_westy" },
+```
+{% endstep %}
+{% endstepper %}
+
 ## I changed the keybinds in the config, but they didn’t change in-game. How do I fix this?
 
 ***
