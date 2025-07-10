@@ -6,7 +6,7 @@ description: Questions, Truth or Dare & Spin the Bottle
 
 ## SHOWCASE VIDEO
 
-[https://youtu.be/NNdx1886pNw](https://youtu.be/NNdx1886pNw)
+{% embed url="https://youtu.be/NNdx1886pNw" %}
 
 ## What is this resource?
 
