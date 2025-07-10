@@ -4,7 +4,9 @@ description: Questions, Truth or Dare & Spin the Bottle
 
 # 🎉 cDev Games
 
-## SHOWCASE VIDEO COMING
+## SHOWCASE VIDEO
+
+[https://youtu.be/NNdx1886pNw](https://youtu.be/NNdx1886pNw)
 
 ## What is this resource?
 
@@ -21,8 +23,6 @@ This resource provides quick and easy entertainment including two games
 Before you can use this resource, you'll need to make sure that you have the following resources installed:
 
 1. cdev\_lib <mark style="color:green;">(included with this resource)</mark>
-
-**xsound is the audio resource integrated by default on this script, however you can integrate any audio resource in cdev\_lib.**
 
 ### Step 2: Extract the files
 
