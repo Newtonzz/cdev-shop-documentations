@@ -94,6 +94,7 @@
   * [Register a New Animation!](fivem/emote-menu/register-a-new-animation.md)
   * [Register a New Walkstyle!](fivem/emote-menu/register-a-new-walkstyle.md)
   * [Register a New Expression!](fivem/emote-menu/register-a-new-expression.md)
+  * [Media Lib](fivem/emote-menu/media-lib.md)
   * [Exports](fivem/emote-menu/exports.md)
   * [Hooks](fivem/emote-menu/hooks.md)
 * [🧏 cDev ASL (American Sign Language)](fivem/cdev-asl-american-sign-language.md)
