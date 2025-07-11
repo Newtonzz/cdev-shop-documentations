@@ -41,10 +41,6 @@ The **Public ASL Script** is a powerful tool designed to enhance communication f
 
 1. Extract the contents of the cdev\_signlanguage folder and place the resulting folder in your server's resource directory.
 
-<!---->
-
-2. Extract the contents of the cdev\_signlanguage folder and place the resulting folder in your server's resource directory.
-
 </details>
 
 <details>
