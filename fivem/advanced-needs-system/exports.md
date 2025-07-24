@@ -2,17 +2,12 @@
 
 #### HUD Visibility
 
-Control HUD visibility via server or client triggers:
+Control HUD visibility via client-sde :
 
 ```lua
-local isVisible = true
-
--- Server-side
-TriggerClientEvent(source, 'cdev:hud:visibility', isVisible)
-
--- Client-side
-TriggerEvent('cdev:hud:visibility', isVisible)
-exports["cdev_needs"].setVisibility(isVisible)
+local UI = exports['cdev_needs']:getUI()
+UI.setVisibility(false)
+UI.setCompassVisibility(false)
 ```
 
 ***
