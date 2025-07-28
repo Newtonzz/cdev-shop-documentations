@@ -295,7 +295,7 @@ Press the <mark style="color:yellow;">F8</mark> key to open the Client console i
 
 ⚠ <mark style="color:red;">**If you don’t have this option in the**</mark>**&#x20;**<mark style="color:yellow;">**F8 menu**</mark><mark style="color:red;">**, you need to change your FiveM**</mark>**&#x20;version**<mark style="color:red;">**. Go to the**</mark>**&#x20;**<mark style="color:yellow;">**gear**</mark>**&#x20;**<mark style="color:red;">**icon right after opening**</mark>**&#x20;**<kbd>**FiveM Settings > Game > Update Channel**</kbd>**&#x20;**<mark style="color:red;">**and switch it to**</mark>**&#x20;**<mark style="color:yellow;">**Latest (Unstable)**</mark><mark style="color:red;">**.**</mark>
 
-<figure><img src="../../.gitbook/assets/image (7).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (8).png" alt=""><figcaption></figcaption></figure>
 
 ## Where are the images from shop of the pets, clothes, and accessories located ?
 
