@@ -277,6 +277,14 @@ You can read more inside this documentation and check all limits [here](https://
 
 ⚠ <mark style="color:red;">**Changing the gamebuild won’t necessarily free up more space, but it will remove updates, which can help allocate more addons. Keep in mind that by using an older gamebuild version, any GTA V updates included in that build will be lost, and clothing slots as well as other limits in GTA V will change, which can negatively affect other resources on your server.**</mark>
 
+{% hint style="info" %}
+**You can also access the&#x20;**<mark style="color:red;">**tool**</mark>**&#x20;that&#x20;**<mark style="color:yellow;">**FiveM**</mark>**&#x20;provides to check how much&#x20;**<mark style="color:yellow;">**%**</mark>**&#x20;is being used in the&#x20;**<kbd>**TxDStore Pool**</kbd>**, which is related to textures, by following the image below. Keep in mind that the full pets assets package only uses around&#x20;**<mark style="color:yellow;">**7.30%**</mark>**&#x20;because all of them are optimized to the maximum possible. Also remember that a large portion, at least&#x20;**<mark style="color:red;">**15 to 20%**</mark>**, comes from the default&#x20;**<mark style="color:yellow;">**GTA V**</mark>**.**
+{% endhint %}
+
+Press the <mark style="color:yellow;">F8</mark> key to open the Client console in order to access the tool below.
+
+<div align="left"><figure><img src="../../.gitbook/assets/image.png" alt=""><figcaption></figcaption></figure></div>
+
 ## Where are the images from shop of the pets, clothes, and accessories located ?
 
 ***
