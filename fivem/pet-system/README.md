@@ -51,7 +51,7 @@ Make sure you have all of the following resources installed:
 * cdev\_pets\_assets
 * cdev\_pets\_assets2
 
-⚠ <mark style="color:yellow;">**If you have the subscription package, then you will receive some additional resources, and your**</mark> <kbd>**\[cdev\_assets]**</kbd> <mark style="color:yellow;">**folder should contain the following resources.**</mark>
+⚠ <mark style="color:yellow;">**If you have the subscription package, then you will receive some additional resources, and your**</mark> <kbd>**\[cdev\_assets]**</kbd> <mark style="color:yellow;">**folder should contain**</mark>**&#x20;**<mark style="color:red;">**only**</mark>**&#x20;**<mark style="color:yellow;">**the following resources.**</mark>
 
 * cdev\_petshop
 * cdev\_pets\_assets
