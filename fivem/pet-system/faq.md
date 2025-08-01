@@ -26,6 +26,32 @@ end
 
 After the pet starts attacking the player or NPC, keep holding the G key until it obeys your command to stop attacking.
 
+## My K9 dog is not dealing damage to the player it was ordered to attack how fix it?
+
+***
+
+⚠  <mark style="color:yellow;">**Attention:**</mark>**&#x20;**<mark style="color:red;">**Your**</mark>**&#x20;**<mark style="color:yellow;">**K9**</mark>**&#x20;**<mark style="color:red;">**will not deal damage to the player because the setting**</mark>**&#x20;**<kbd>**EnableAttackUpdate**</kbd><mark style="color:red;">**is enabled in the configuration file:**</mark>\
+`cdev_pets > public > config > config.lua` (lines 39–40).
+
+**With this setting&#x20;**<mark style="color:yellow;">**enabled**</mark>**, only&#x20;**<mark style="color:yellow;">**K9**</mark>**&#x20;pets are&#x20;**<mark style="color:red;">**allowed to attack**</mark>**, and they will&#x20;**<mark style="color:yellow;">**only target players**</mark>**. However, they will not cause any&#x20;**<mark style="color:red;">**damage**</mark>**&#x20;— they will simply&#x20;**<mark style="color:yellow;">**knock the player down and immobilize**</mark>**&#x20;them, making the behavior more realistic, just like a real-life K9 unit.**
+
+**Now, if you want the pet to deal damage to the player, you will need to make some changes in the file**\
+`cdev_pets > public > config > config.lua` **as shown below.**
+
+```lua
+    -- if true, pets can only attack players
+    -- if false, pets can attack any entity
+    EnablePetToOnlyAttackPlayers = false, or EnablePetToOnlyAttackPlayers = true,
+
+    -- If true, will enable the new attack update with the police being the only that can use this feature and train the dog
+    -- If true, only the K9 will be able to attack, and it won’t deal damage to players — it will only knock them down and immobilize them to make it more realistic.
+    -- If false, will reverse to old one
+    -- If This is true need EnablePetToOnlyAttackPlayers to be true
+    EnableAttackUpdate = false,
+```
+
+⚠  <mark style="color:yellow;">**Attention:**</mark>**&#x20;**<mark style="color:red;">**Keep in mind that if you disable the EnableAttackUpdate setting, all pets will be able to attack, removing the exclusivity of the**</mark>**&#x20;**<mark style="color:yellow;">**K9**</mark>**&#x20;**<mark style="color:red;">**pet.**</mark>
+
 ## Is it possible to add a pet Add-ON to the Pets system? And How Add ?
 
 ***
