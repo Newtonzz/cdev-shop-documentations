@@ -260,6 +260,80 @@ After that, when you click to buy the pet, if it is a <mark style="color:yellow;
 
 If you want to change the required job or add more jobs allowed to buy the K9 and its accessories, follow this tutorial: [Here](faq.md#how-can-i-add-another-job-to-use-the-k9-pet)
 
+## How to use the K9 pet's Sniff action ?
+
+***
+
+{% hint style="success" %}
+**The Sniff action can be used on both&#x20;**<mark style="color:yellow;">**players**</mark>**&#x20;and&#x20;**<mark style="color:yellow;">**vehicles**</mark>**. For players, it will search only the player's&#x20;**<mark style="color:yellow;">**inventory**</mark>**, while for vehicles, it will search both the&#x20;**<mark style="color:yellow;">**glovebox**</mark>**&#x20;and the&#x20;**<mark style="color:yellow;">**trunk**</mark>**.**
+{% endhint %}
+
+⚠ <mark style="color:red;">**To use the**</mark>**&#x20;**<mark style="color:yellow;">**Sniff**</mark>**&#x20;**<mark style="color:red;">**feature, you first need to have a**</mark>**&#x20;**<mark style="color:yellow;">**K9 category pet**</mark><mark style="color:red;">**. You can see how to get a**</mark>**&#x20;**<mark style="color:yellow;">**K9**</mark>**&#x20;**<mark style="color:red;">**pet**</mark> [**HERE**](https://docs.cdev.shop/fivem/pet-system/faq#how-can-i-buy-a-k9-pet-and-k9-items)<mark style="color:red;">**.**</mark>
+
+<figure><img src="../../.gitbook/assets/FiveM_GTAProcess_wrVKoMGHQm-_online-video-cutter.com_.gif" alt=""><figcaption></figcaption></figure>
+
+### How to configure the items that the dog will sniff?
+
+Access the file `config.lua` located in the folder `cdev_pets > public > config > config.lua`.
+
+First, enable the `SearchEnabled` function so that everything works correctly on <mark style="color:yellow;">line 382</mark>:
+
+```lua
+SearchEnabled = true
+```
+
+Now, go to <mark style="color:yellow;">lines</mark> <mark style="color:yellow;">390</mark> to <mark style="color:yellow;">398</mark> and configure the items for each category as shown in the example below. These will be the items that the dog will search for and identify as <mark style="color:yellow;">illegal</mark>.
+
+<pre class="language-lua"><code class="lang-lua">DrugItems = {
+    "phone",
+<strong>},
+</strong>MoneyItems = {
+    "water_bottle",
+},
+WeaponItems = {
+    "sandwich",
+},
+</code></pre>
+
+### How Sniff system work and Sniff Skill Level?
+
+**The level determines the chance you have to perform the Sniff action successfully so lets use image bellow to example:**
+
+<div align="left"><figure><img src="../../.gitbook/assets/Sniff Level.png" alt=""><figcaption></figcaption></figure></div>
+
+In this case, I have a 20% chance for the K9 dog to successfully find the items. You can change the <mark style="color:yellow;">`DefaultLevel`</mark>and <mark style="color:yellow;">`MinLevel`</mark> in the `config.lua` file located in the folder `cdev_pets > public > config > config.lua` (<mark style="color:yellow;">lines 314</mark> and <mark style="color:yellow;">317</mark>), as shown below.
+
+```lua
+sniff = {
+    -- Level the k9 starts at
+    DefaultLevel = 20,
+    -- Minimum level the k9 can be at
+    -- if 0 then it will be impossible to sniff
+    MinimiumLevel = 1,
+    -- How much the sniff level increases per successful sniff
+    LevelIncrease = 5,
+    -- How much of the skill it will take out
+    TakeOut = 5,
+},
+```
+
+**Now lets explain how the Sniff System Works to better understand the Sniff system, here’s a step-by-step explanation:**
+
+1. **First** – When you trigger the Sniff action near a vehicle, the system will start scanning the **DrugItems** configuration we set up earlier, regardless of where you clicked to activate Sniff.
+   * It will first check the **GloveBox**, reading the vehicle’s plate and verifying in the database if any of the configured items are stored there.
+   * If it finds an item, it will trigger the **Try Sniff** action, which determines success based on your pet’s level (as explained earlier).
+   * If nothing is found in the GloveBox, it will proceed to search the **Trunk** for the configured **DrugItems**.
+   * If it finds something in the Trunk, the dog will bark and perform a spinning animation.
+2. **Second** – If no items from the **DrugItems** list are found, the system will then check the **MoneyItems** list, following the same process:
+   * First, it searches the **GloveBox**, then the **Trunk**.
+   * If an item is found, the dog will sit and bark.
+3. **Third** – If no items from either the **DrugItems** or **MoneyItems** lists are found, the system will move on to check the **WeaponItems** list.
+4. **Four** **and final -** The system works the same way if you use the Sniff action on a player, but it will only check the player's inventory.
+
+***
+
+Do you want me to also **add formatting for code examples** in the documentation so it’s easier for developers to configure the item lists? That would make it even more user-friendly.
+
 ## Does the VIP system work only for clothes and accessories ?
 
 ***
