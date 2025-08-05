@@ -35,7 +35,7 @@ Make sure you have all of the following resources installed:
 
 **Below is an example screenshot showing the correct folder structure:**
 
-<div align="left"><figure><img src="../../.gitbook/assets/image (3).png" alt=""><figcaption></figcaption></figure></div>
+<div align="left"><figure><img src="../../.gitbook/assets/image (3) (1).png" alt=""><figcaption></figcaption></figure></div>
 {% endstep %}
 
 {% step %}

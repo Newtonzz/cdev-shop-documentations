@@ -22,6 +22,10 @@ This resource provides quick and easy entertainment including two games
 [installation-guide-qbcore-framework.md](installation-guide-qbcore-framework.md)
 {% endcontent-ref %}
 
+{% content-ref url="installation-guide-qbox-framework.md" %}
+[installation-guide-qbox-framework.md](installation-guide-qbox-framework.md)
+{% endcontent-ref %}
+
 {% content-ref url="installation-guide-esx-framework.md" %}
 [installation-guide-esx-framework.md](installation-guide-esx-framework.md)
 {% endcontent-ref %}

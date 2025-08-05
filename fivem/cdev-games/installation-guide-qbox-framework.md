@@ -2,7 +2,7 @@
 hidden: true
 ---
 
-# Installation Guide ESX Framework
+# Installation Guide QBox Framework
 
 {% stepper %}
 {% step %}
@@ -35,7 +35,7 @@ Make sure you have all of the following resources installed:
 
 **Below is an example screenshot showing the correct folder structure:**
 
-<div align="left"><figure><img src="../../.gitbook/assets/image (3).png" alt=""><figcaption></figcaption></figure></div>
+<div align="left"><figure><img src="../../.gitbook/assets/image.png" alt=""><figcaption></figcaption></figure></div>
 {% endstep %}
 
 {% step %}
@@ -47,7 +47,7 @@ It is essential to follow the correct startup order to ensure proper functionali
 
 **Below is an example screenshot showing the recommended startup order:**
 
-<div align="left"><figure><img src="../../.gitbook/assets/image (1) (1).png" alt=""><figcaption></figcaption></figure></div>
+<div align="left"><figure><img src="../../.gitbook/assets/image (1).png" alt=""><figcaption></figcaption></figure></div>
 {% endstep %}
 
 {% step %}
@@ -56,9 +56,9 @@ It is essential to follow the correct startup order to ensure proper functionali
 For the game system and the connection between your <mark style="color:yellow;">framework</mark> and the resources to work correctly, you need to configure the `cdev_lib` resource properly according to your <mark style="color:yellow;">framework</mark>. For more details, click the link below to follow the instructions.
 
 {% tabs %}
-{% tab title="ESX" %}
-{% content-ref url="../cdev-library/esx-configuration.md" %}
-[esx-configuration.md](../cdev-library/esx-configuration.md)
+{% tab title="QBox" %}
+{% content-ref url="../cdev-library/qbcore-qbox-configuration.md" %}
+[qbcore-qbox-configuration.md](../cdev-library/qbcore-qbox-configuration.md)
 {% endcontent-ref %}
 {% endtab %}
 {% endtabs %}
@@ -69,7 +69,7 @@ For the game system and the connection between your <mark style="color:yellow;">
 
 🚩 <mark style="color:red;">To work correctly,</mark> <mark style="color:yellow;">**cdev\_games**</mark> <mark style="color:red;">requires the proper configuration of the inventory and framework in the</mark> `config.lua` <mark style="color:red;">file located in the</mark> `cdev_games` <mark style="color:red;">folder.</mark>\ <mark style="color:red;">Below is how the file should be configured to ensure everything functions properly.</mark>
 
-<figure><img src="../../.gitbook/assets/image (2) (1).png" alt=""><figcaption></figcaption></figure>
+<div align="left"><figure><img src="../../.gitbook/assets/image (2).png" alt=""><figcaption></figcaption></figure></div>
 
 {% hint style="danger" %}
 **If you're using a different&#x20;**<mark style="color:yellow;">**inventory**</mark>**, change the settings according to your custom inventory.**
@@ -80,7 +80,7 @@ For the game system and the connection between your <mark style="color:yellow;">
 ### Configuring the items and images in ox\_inventory
 
 {% tabs %}
-{% tab title="Ox Iventory" %}
+{% tab title="OX Inventory" %}
 {% content-ref url="ox-inventory.md" %}
 [ox-inventory.md](ox-inventory.md)
 {% endcontent-ref %}

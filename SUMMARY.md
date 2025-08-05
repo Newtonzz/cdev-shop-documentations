@@ -64,6 +64,7 @@
   * [Exports](fivem/cdev-games/exports.md)
   * [Installation Guide ESX Framework](fivem/cdev-games/installation-guide-esx-framework.md)
   * [Installation Guide QBCore Framework](fivem/cdev-games/installation-guide-qbcore-framework.md)
+  * [Installation Guide QBox Framework](fivem/cdev-games/installation-guide-qbox-framework.md)
 * [💰 Banking](fivem/banking/README.md)
   * [Client Exports](fivem/banking/client-exports/README.md)
     * [UI](fivem/banking/client-exports/ui.md)
