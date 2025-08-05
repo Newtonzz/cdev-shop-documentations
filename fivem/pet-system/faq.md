@@ -248,6 +248,214 @@ and set it to:
 WantPetShopButton = false
 ```
 
+## How do I change the colors of the menu ?
+
+***
+
+⚠ <mark style="color:red;">**Before making any changes, make a full backup of the cdev\_lib and cdev\_pets folders. If you don't have experience with development or modifying code, it is not**</mark>**&#x20;**<mark style="color:yellow;">**recommended**</mark>**&#x20;**<mark style="color:red;">**that you follow these steps.**</mark>
+
+### Changing Bag Pets Menu `cdev_lib > dist > css > app.xxxx.css`
+
+
+
+<div align="left"><figure><img src="../../.gitbook/assets/image (10).png" alt="" width="180"><figcaption></figcaption></figure></div>
+
+***
+
+{% hint style="info" %}
+<mark style="color:red;">**(Header)**</mark> **`#1f1f22`**
+{% endhint %}
+
+Formatted CSS Search For
+
+```css
+.ct-container-menu .ct-menu-app .menu-app .ct-header-menu-app .header-menu-app
+```
+
+Minified CSS Search For&#x20;
+
+<pre class="language-css"><code class="lang-css"><strong>padding:3rem;width:100%;background:#1f1f22;border-top-left-radius:2rem;border-top-right-radius:2rem;flex-direction:row;gap:1rem;align-items:center;justify-content:center
+</strong></code></pre>
+
+
+
+***
+
+{% hint style="info" %}
+<mark style="color:yellow;">**(Body)**</mark>**&#x20;`#161619`**
+{% endhint %}
+
+Formatted CSS Search For
+
+```css
+.ct-container-menu .ct-menu-app .menu-app .ct-body-menu-app .body-menu-app
+```
+
+Minified CSS Search For&#x20;
+
+{% code fullWidth="false" %}
+```css
+width:100%;padding:2rem;flex-direction:column;gap:1.2rem;max-height:40rem;overflow:auto;background:#161619
+```
+{% endcode %}
+
+***
+
+{% hint style="info" %}
+<mark style="color:green;">**(Footer)**</mark>**&#x20;`#1f1f22`**
+{% endhint %}
+
+Formatted CSS Search For
+
+```css
+.ct-container-menu .ct-menu-app .menu-app .ct-footer-menu-app .footer-menu-app
+```
+
+Minified CSS Search For&#x20;
+
+```css
+padding:2rem;width:100%;background:#1f1f22;border-bottom-left-radius:2rem;border-bottom-right-radius:2rem
+```
+
+***
+
+### Changing Main Shop Pets Menu `cdev_lib > dist > css > app.xxxx.css`
+
+<figure><img src="../../.gitbook/assets/image (13).png" alt=""><figcaption></figcaption></figure>
+
+***
+
+{% hint style="info" %}
+<mark style="color:red;">(</mark><mark style="color:red;">**Side Bar Item Menu)**</mark>**&#x20;Selected `#7289da` Not Selected `#1f1f22`**
+{% endhint %}
+
+<mark style="color:yellow;">Selected</mark> Formatted CSS Search For
+
+<pre class="language-css"><code class="lang-css"><strong>.ct-container-shop .ct-shop-app .shop-app .ct-body-shop-app .body-shop-app .ct-left-body-shop-app .left-body-shop-app .ct-menu-left-body-shop-app .menu-left-body-shop-app .ct-body-menu-left-body-shop-app .body-menu-left-body-shop-app .ct-item-menu-left-body-shop-app .item-menu-left-body-shop-app.selected
+</strong></code></pre>
+
+<mark style="color:yellow;">Selected</mark> Minified CSS Search For&#x20;
+
+```css
+background:#7289da!important
+```
+
+<mark style="color:$success;">Not Selected</mark> Formatted CSS Search For
+
+```
+.ct-container-shop .ct-shop-app .shop-app .ct-body-shop-app .body-shop-app .ct-left-body-shop-app .left-body-shop-app .ct-menu-left-body-shop-app .menu-left-body-shop-app .ct-body-menu-left-body-shop-app .body-menu-left-body-shop-app .ct-item-menu-left-body-shop-app .item-menu-left-body-shop-app
+```
+
+<mark style="color:$success;">Not Selected</mark> Minified CSS Search For&#x20;
+
+```css
+display:flex;width:100%;height:-moz-fit-content;height:fit-content;align-items:center;padding:2rem;cursor:pointer;background:#1f1f22
+```
+
+***
+
+{% hint style="info" %}
+<mark style="color:yellow;">**(Side Bar Background)**</mark> **`#d9d9d9`**
+{% endhint %}
+
+Formatted CSS Search For
+
+```css
+.ct-container-shop .ct-shop-app .shop-app .ct-body-shop-app .body-shop-app .ct-left-body-shop-app .left-body-shop-app .ct-menu-left-body-shop-app .menu-left-body-shop-app
+```
+
+Minified CSS Search For&#x20;
+
+```css
+display:flex;width:100%;height:100%;background:#d9d9d9;flex-direction:column
+```
+
+***
+
+{% hint style="info" %}
+<mark style="color:orange;">**(Background)**</mark> **`#161619`**
+{% endhint %}
+
+Formatted CSS Search For
+
+```css
+.ct-container-shop .ct-shop-app .shop-app
+```
+
+Minified CSS Search For&#x20;
+
+```css
+display:flex;width:100%;height:100%;align-items:center;background:#161619;padding:2rem 4rem;gap:2rem;flex-direction:column
+```
+
+***
+
+{% hint style="info" %}
+<mark style="color:blue;">**(Text Hrizontal menu)**</mark>**&#x20;Selected `#7289da` Not Selected `#000`**
+{% endhint %}
+
+<mark style="color:yellow;">Selected</mark> Formatted CSS Search For
+
+```css
+ p.text-title-item-sub-menu-top-right-body-shop-app.selected
+```
+
+<mark style="color:yellow;">Selected</mark> Minified CSS Search For&#x20;
+
+```css
+p.text-title-item-sub-menu-top-right-body-shop-app.selected{color:#7289da}
+```
+
+<mark style="color:$success;">Not Selected</mark> Formatted CSS Search For
+
+```
+p.text-title-item-sub-menu-top-right-body-shop-app
+```
+
+<mark style="color:$success;">Not Selected</mark> Minified CSS Search For&#x20;
+
+```css
+p.text-title-item-sub-menu-top-right-body-shop-app{font-size:1.5rem;text-transform:uppercase;color:#000}
+```
+
+***
+
+{% hint style="info" %}
+<mark style="color:green;">**(Background Horizontal Bar)**</mark>`#d9d9d9`
+{% endhint %}
+
+Formatted CSS Search For
+
+```css
+top-right-body-shop-app
+```
+
+Minified CSS Search For&#x20;
+
+```css
+right-body-shop-app{display:flex;width:100%;height:100%;align-items:center;padding:2rem 3rem;background:#d9d9d9}
+```
+
+***
+
+{% hint style="info" %}
+**(Pagination Menu)**  **Selected `#`**`7289da`  Not Selected `No Background`
+{% endhint %}
+
+Formatted CSS Search For
+
+```css
+item-pagination actualPage
+```
+
+Minified CSS Search For&#x20;
+
+```css
+.item-pagination.actualPage{border-color:transparent;background:#7289da}
+```
+
+***
+
 ## How can i buy a K9 pet and K9 items ?
 
 ***
