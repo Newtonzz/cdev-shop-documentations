@@ -52,7 +52,7 @@
 
 <details>
 
-<summary>Step 1: Extract the files</summary>
+<summary><mark style="color:$info;"><strong>Step 1: Extract the files</strong></mark></summary>
 
 1. Extract the contents of the cdev\_cOne folder and place the resulting folder in your server's resource directory.
 
@@ -60,11 +60,11 @@
 
 <details>
 
-<summary>Step 2: Ensure the files</summary>
+<summary><mark style="color:$info;"><strong>Step 2: Ensure the files</strong></mark></summary>
 
-Your ensure should look like this in your `server.cfg`
+**Your ensure should look like this in your `server.cfg`**
 
-```lua
+```
 ensure cdev_cOne
 ```
 
@@ -72,8 +72,8 @@ ensure cdev_cOne
 
 <details>
 
-<summary>Step 3: Make Necessary Changes in Config</summary>
+<summary><mark style="color:$info;"><strong>Step 3: Make Necessary Changes in Config</strong></mark></summary>
 
-You should look in your  `public/shared/config.cfg` and make the necessary changes
+**You should look in your `public/shared/config.cfg` and make the necessary changes**
 
 </details>

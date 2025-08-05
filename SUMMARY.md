@@ -62,6 +62,8 @@
   * [OX Inventory](fivem/cdev-games/ox-inventory.md)
   * [QB Inventory](fivem/cdev-games/qb-inventory.md)
   * [Exports](fivem/cdev-games/exports.md)
+  * [Installation Guide ESX Framework](fivem/cdev-games/installation-guide-esx-framework.md)
+  * [Installation Guide QBCore Framework](fivem/cdev-games/installation-guide-qbcore-framework.md)
 * [💰 Banking](fivem/banking/README.md)
   * [Client Exports](fivem/banking/client-exports/README.md)
     * [UI](fivem/banking/client-exports/ui.md)

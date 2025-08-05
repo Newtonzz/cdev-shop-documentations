@@ -570,7 +570,7 @@ Inside this file, you just need to add `vip = true` to any item you want to make
 
 ***
 
-<div><figure><img src="../../.gitbook/assets/image (5).png" alt=""><figcaption></figcaption></figure> <figure><img src="../../.gitbook/assets/Pool Size.png" alt=""><figcaption></figcaption></figure></div>
+<div><figure><img src="../../.gitbook/assets/image (5) (1).png" alt=""><figcaption></figcaption></figure> <figure><img src="../../.gitbook/assets/Pool Size.png" alt=""><figcaption></figcaption></figure></div>
 
 This happen because you got limit addons texture or other limit you can have in one server for fix this you have some options
 
@@ -599,7 +599,7 @@ You can read more inside this documentation and check all limits [here](https://
 
 Press the <mark style="color:yellow;">F8</mark> key to open the Client console in order to access the tool below.
 
-<div align="left"><figure><img src="../../.gitbook/assets/image.png" alt=""><figcaption></figcaption></figure></div>
+<div align="left"><figure><img src="../../.gitbook/assets/image (6).png" alt=""><figcaption></figcaption></figure></div>
 
 ⚠ <mark style="color:red;">**If you don’t have this option in the**</mark>**&#x20;**<mark style="color:yellow;">**F8 menu**</mark><mark style="color:red;">**, you need to change your FiveM**</mark>**&#x20;version**<mark style="color:red;">**. Go to the**</mark>**&#x20;**<mark style="color:yellow;">**gear**</mark>**&#x20;**<mark style="color:red;">**icon right after opening**</mark>**&#x20;**<kbd>**FiveM Settings > Game > Update Channel**</kbd>**&#x20;**<mark style="color:red;">**and switch it to**</mark>**&#x20;**<mark style="color:yellow;">**Latest (Unstable)**</mark><mark style="color:red;">**.**</mark>
 
@@ -642,7 +642,7 @@ Check to make sure you have an active CFX Element Club subscription: [HERE](http
 
 ## \[cdev\_pets] (ERROR) Network control timeout for spawning pet, Please Try Again!
 
-<div align="center"><figure><img src="../../.gitbook/assets/image (3).png" alt=""><figcaption></figcaption></figure></div>
+<div align="center"><figure><img src="../../.gitbook/assets/image (3) (1).png" alt=""><figcaption></figcaption></figure></div>
 
 {% hint style="danger" %}
 If you have an anti-cheat, it may be blocking the pet events, please check with your AC provider on how you can resolve this

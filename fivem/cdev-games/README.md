@@ -18,24 +18,13 @@ This resource provides quick and easy entertainment including two games
 
 ## INSTALLATION GUIDE
 
-### Step 1: Verify that you have the required dependencies installed
+{% content-ref url="installation-guide-qbcore-framework.md" %}
+[installation-guide-qbcore-framework.md](installation-guide-qbcore-framework.md)
+{% endcontent-ref %}
 
-Before you can use this resource, you'll need to make sure that you have the following resources installed:
-
-1. cdev\_lib <mark style="color:green;">(included with this resource)</mark>
-
-### Step 2: Extract the files
-
-1. Extract the contents of the `cdev_games.zip` folder and place the resulting folder in your server's resource directory.
-
-### Step 3: Configure/Install the resource
-
-1. Head to `config.lua` and select your framework inventory (qb, ox or custom).
-2. Add the inventory images & item data by checking the guide for [OX Inventory ](ox-inventory.md)or [QB Inventory](qb-inventory.md)&#x20;
-3. add the listed convars for your `server.cfg` below **after** your framework and inventory
-
-* `ensure cdev_lib`
-* `ensure cdev_games`
+{% content-ref url="installation-guide-esx-framework.md" %}
+[installation-guide-esx-framework.md](installation-guide-esx-framework.md)
+{% endcontent-ref %}
 
 {% hint style="warning" %}
 Make sure that cdev\_lib is started before cdev\_games
