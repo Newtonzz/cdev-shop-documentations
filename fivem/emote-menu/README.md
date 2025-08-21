@@ -6,9 +6,7 @@ description: >-
 
 # 🕺 Emote Menu
 
-***
-
-### What is the cDev Emote Menu?
+What is the cDev Emote Menu?
 
 The cDev Emote Menu is a powerful enhancement of the standard emote menu, transforming it into an advanced animation player for FiveM servers. With a host of unique features, including an in-game Animation Builder, Sequence Creator, and Position Selector, it offers an immersive experience with an extensive library of custom animations.
 
@@ -88,6 +86,12 @@ ensure cdev_emotemenu
 ```
 
 </details>
+
+## Media Lib (<mark style="color:yellow;">no need to ensure</mark>) is just a tool for developers.
+
+{% content-ref url="media-lib.md" %}
+[media-lib.md](media-lib.md)
+{% endcontent-ref %}
 
 {% hint style="warning" %}
 Make sure that cdev\_lib is started before cdev\_emotemenu
