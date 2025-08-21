@@ -69,9 +69,9 @@ Before you can use this resource, you'll need to make sure that you have the fol
 
 <summary>Step 2: Extract the files</summary>
 
-1. Extract the contents of the `cdev-emotemenu.zip` folder and place the resulting folder in your server's resource directory.
+1. Extract the contents of the `cdev-emotemenu.pack.zip` folder and place the resulting folder in your server's resource directory.
 
-2) Extract the contents of the `cdev_emotemenu`folder and place the resulting folder in your server's resource directory.
+2) Extract the contents of the `cdev_emotemenuassets.pack.zip`folder and place the resulting folder in your server's resource directory.
 
 </details>
 
@@ -82,6 +82,7 @@ Before you can use this resource, you'll need to make sure that you have the fol
 Your ensure should look like this in your `server.cfg`
 
 ```lua
+ensure cdev_emotemenuassets
 ensure cdev_lib
 ensure cdev_emotemenu
 ```
