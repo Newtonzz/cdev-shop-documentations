@@ -26,6 +26,21 @@ end
 
 After the pet starts attacking the player or NPC, keep holding the G key until it obeys your command to stop attacking.
 
+## Issue with DrawText for players in Asia how Fix it?
+
+***
+
+**To fix the DrawText issue, go to `cdev_lib > public > config > config.lua` (lines 31 and 32) and change them to match the code below exactly.**
+
+<figure><img src="../../.gitbook/assets/Erro.png" alt=""><figcaption></figcaption></figure>
+
+> ```lua
+> DrawTextConfig = {
+>         OverrideDrawtextFont = true,
+>         OverrideDrawtextFontId = 4
+>     },
+> ```
+
 ## My K9 dog is not dealing damage to the player it was ordered to attack how fix it?
 
 ***
