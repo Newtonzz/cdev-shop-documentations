@@ -50,30 +50,10 @@
 
 ## Installation Guide
 
-<details>
+{% content-ref url="installation-guide-ox-inventory.md" %}
+[installation-guide-ox-inventory.md](installation-guide-ox-inventory.md)
+{% endcontent-ref %}
 
-<summary><mark style="color:$info;"><strong>Step 1: Extract the files</strong></mark></summary>
-
-1. Extract the contents of the cdev\_cOne folder and place the resulting folder in your server's resource directory.
-
-</details>
-
-<details>
-
-<summary><mark style="color:$info;"><strong>Step 2: Ensure the files</strong></mark></summary>
-
-**Your ensure should look like this in your `server.cfg`**
-
-```
-ensure cdev_cOne
-```
-
-</details>
-
-<details>
-
-<summary><mark style="color:$info;"><strong>Step 3: Make Necessary Changes in Config</strong></mark></summary>
-
-**You should look in your `public/shared/config.cfg` and make the necessary changes**
-
-</details>
+{% content-ref url="installation-guide-qb-inventory.md" %}
+[installation-guide-qb-inventory.md](installation-guide-qb-inventory.md)
+{% endcontent-ref %}
