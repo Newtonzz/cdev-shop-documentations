@@ -47,6 +47,8 @@
     * [shop.lua](fivem/pet-system/config-files-pets/shop.lua.md)
   * [Migrate to Clothing V2](fivem/pet-system/migrate-to-clothing-v2.md)
   * [FAQ](fivem/pet-system/faq.md)
+  * [How integrate Jobs with Pets QBCore](fivem/pet-system/how-integrate-jobs-with-pets-qbcore.md)
+  * [How integrate Jobs with Pets QBox](fivem/pet-system/how-integrate-jobs-with-pets-qbox.md)
 * [⚽ Soccer](fivem/soccer/README.md)
   * [Configuration](fivem/soccer/configuration.md)
   * [Editing Fields](fivem/soccer/editing-fields.md)

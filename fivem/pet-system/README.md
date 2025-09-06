@@ -105,6 +105,28 @@ For the pet system and the connection between your <mark style="color:yellow;">f
 
 
 {% endstep %}
+
+{% step %}
+### (Optional) If you use any multijob or want full integration
+
+{% tabs %}
+{% tab title="Qbcore" %}
+{% content-ref url="how-integrate-jobs-with-pets-qbcore.md" %}
+[how-integrate-jobs-with-pets-qbcore.md](how-integrate-jobs-with-pets-qbcore.md)
+{% endcontent-ref %}
+{% endtab %}
+
+{% tab title="Qbox" %}
+{% content-ref url="how-integrate-jobs-with-pets-qbox.md" %}
+[how-integrate-jobs-with-pets-qbox.md](how-integrate-jobs-with-pets-qbox.md)
+{% endcontent-ref %}
+{% endtab %}
+{% endtabs %}
+
+{% hint style="danger" %}
+**It is necessary to follow the steps exactly as shown for the names to work.**
+{% endhint %}
+{% endstep %}
 {% endstepper %}
 
 ***
