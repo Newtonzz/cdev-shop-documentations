@@ -45,19 +45,25 @@ Make sure you have all of the following resources installed:
 
 ➤ Step 2: Create the `[cdev_assets]` folder till inside your server’s `resources` folder, Inside `[cdev_assets]`, place the following assets:
 
+⚠ <mark style="color:yellow;">**If you have the**</mark> [<mark style="color:blue;">**Pet Subscription DLC Package**</mark>](https://fivem.cdev.shop/package/5756559)<mark style="color:yellow;">**, you must place inside the**</mark>**&#x20;`[cdev_assets]`&#x20;**<mark style="color:yellow;">**folder**</mark>**&#x20;**<mark style="color:red;">**only**</mark>**&#x20;**<mark style="color:yellow;">**the resources folders that are under the**</mark>**&#x20;**<mark style="color:red;">**(Have Pets Subscription)**</mark>**&#x20;**<mark style="color:yellow;">**tab bellow.**</mark>
+
+{% tabs %}
+{% tab title="Don't have Pets Subscription" %}
 * cdev\_cat\_amer
 * cdev\_dog\_dobb
 * cdev\_dog\_rott
 * cdev\_pets\_assets
 * cdev\_pets\_assets2
+{% endtab %}
 
-⚠ <mark style="color:yellow;">**If you have the subscription package, then you will receive some additional resources, and your**</mark> <kbd>**\[cdev\_assets]**</kbd> <mark style="color:yellow;">**folder should contain**</mark>**&#x20;**<mark style="color:red;">**only**</mark>**&#x20;**<mark style="color:yellow;">**the following resources.**</mark>
-
+{% tab title="Have Pets Subscription" %}
 * cdev\_petshop
 * cdev\_pets\_assets
 * cdev\_pets\_assets2
 * cdev\_dog\_pets
 * cdev\_cat\_pets
+{% endtab %}
+{% endtabs %}
 
 ➤ Step 3: Add `cdev_lib` to the Resources Root
 
