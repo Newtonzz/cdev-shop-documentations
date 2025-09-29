@@ -67,3 +67,115 @@ To customize the clothing or naked appearance during actions like showering or u
 ## 9. How to interact with objects?
 
 To interact with objects, use the designated keybind "O". This keybind is set as the default in the script but can be customized in your FiveM keybind settings. That keybind open the entire config menu.
+
+## 9. How can I completely remove a need?
+
+⚠ <mark style="color:red;">**In this guide, we will use the**</mark>**&#x20;**<mark style="color:yellow;">**bladder**</mark>**&#x20;**<mark style="color:red;">**and**</mark>**&#x20;**<mark style="color:yellow;">**poop**</mark>**&#x20;**<mark style="color:red;">**needs as examples of how to disable them.**</mark>
+
+### 9.1. Disabling the synchronization of the chosen status to be removed.
+
+#### 9.1.1 - To disable it, you need to open the **`config.lua`** file located in the folder **`cdev_needs > public > config > config.lua`**. Inside the <mark style="color:yellow;">**Config.Stats**</mark> category, on <mark style="color:red;">line 9</mark>, look for <mark style="color:yellow;">**bladder**</mark> and <mark style="color:yellow;">**poop**</mark> and set **`Enable = false` like the code example bellow.**
+
+```lua
+Config.Stats = {
+    bladder = {
+        Enabled = false, -- Change here
+        Options = {
+            DecreaseEverySeconds = 60 * 5,
+            DecreaseAmount = 1,
+        }
+    },
+    poop = {
+        Enabled = false, -- Change here
+        Options = {
+            DecreaseEverySeconds = 60 * 5,
+            DecreaseAmount = 1,
+        }
+    },
+}
+```
+
+#### 9.1.2 - Now we will remove the <mark style="color:yellow;">bladder</mark> and <mark style="color:yellow;">poop</mark> from the HUD visually. We will navigate to th&#x65;**`hud.lua`** file located in the folder **`cdev_needs > public > config > hud.lua`**. If there isn’t already a local variable created with the name <mark style="color:yellow;">**hiddenStat**</mark>, just create one as shown in the code below. Then, look inside the <mark style="color:yellow;">**Appearance > Stats**</mark> category and change <mark style="color:red;">**defaultStatVisibility**</mark> to <mark style="color:red;">**hiddenStat**</mark>.
+
+```lua
+-- If dosent exist this inside your code add this line after line 6
+local hiddenStat = {
+    min = 0,
+    max = 0,
+    showInVehicle = false,
+    showOnFoot = false
+}
+
+-- Now example code inside the Appearence > Stats category
+Appearance = {
+        Variants = {
+            Hud = "AroundHUD",
+            Speedometer = "minimal-circle", 
+            Compass = "minimal",            
+            Microphone =
+            "glowing-circle"    
+        },
+        Stats = {
+            health = {
+                order = 1,
+                icon = "heart",
+                color = "#ff4c4c",
+                visibility = defaultStatVisibility,
+            },
+            bladder = {
+                order = 6,
+                icon = "bladder",
+                color = "#f6c343",
+                visibility = hiddenStat -- Change defaultStatVisibility to hiddenStat
+            },
+            poop = {
+                order = 7,
+                icon = "toilet 2",
+                color = "#c3681c",
+                visibility = hiddenStat -- Change defaultStatVisibility to hiddenStat
+            },
+        },
+    }
+```
+
+#### 9.1.3 - Now, in this specific case of <mark style="color:yellow;">bladder</mark> and <mark style="color:yellow;">poop</mark>, they have an <mark style="color:$success;">action</mark> in the in-game <mark style="color:red;">**O menu**</mark>. If your need does not have one, you don’t <mark style="color:red;">need to follow this step</mark>. So, we will remove the action for <mark style="color:yellow;">bladder</mark> and <mark style="color:yellow;">poop</mark>. You will open the **`open-actions.lua`** file located in the folder **`cdev_needs > public > client > open-actions.lua`**, then look for the <mark style="color:yellow;">**ActionsMenu.addAction**</mark> code. Using the **stat** variable inside the function for you search what needs you want remove in this case <mark style="color:yellow;">bladder</mark> and <mark style="color:yellow;">poop</mark>, you will comment out the entire function and save the file, just as shown in the code below.
+
+```lua
+-- Add Comment lines in all this lines for not appear more the actions inside the action menu
+-- local nearestToiletProp = PropUtils.getNearestPropOfKind(Config.Offsets.toilets, 5.0)
+    -- local nearestToiletLocation = PropUtils.isNearbyAnyOfLocations(Config.Actions.poopInToilet.Locations, 5.0)
+
+    -- if nearestToiletProp or nearestToiletLocation then
+    --     ActionsMenu.addAction({
+    --         name = "pee",
+    --         description = Config.i18n.actions.pee.toilet,
+    --         stat = "bladder",
+    --         command = "pee"
+    --     })
+
+    --     ActionsMenu.addAction({
+    --         name = "poop",
+    --         description = Config.i18n.actions.poop.toilet,
+    --         stat = "poop",
+    --         command = "poop"
+    --     })
+    -- else
+    --     ActionsMenu.addAction({
+    --         name = "pee",
+    --         description = Config.i18n.actions.pee.floor,
+    --         stat = "bladder",
+    --         command = "pee"
+    --     })
+
+    --     ActionsMenu.addAction({
+    --         name = "poop",
+    --         description = Config.i18n.actions.poop.floor,
+    --         stat = "poop",
+    --         command = "poop"
+    --     })
+    -- end
+```
+
+{% hint style="danger" %}
+<mark style="color:yellow;">**Attention:**</mark> <mark style="color:yellow;">If your server has already run at least once and players have already made their configurations, they will need to run the</mark> **`/needs reset`** <mark style="color:yellow;">command so their settings</mark> <mark style="color:$success;">synchronize</mark> <mark style="color:yellow;">with the new default configuration made inside the</mark> <mark style="color:$success;">**cdev\_needs**</mark> <mark style="color:yellow;">resource.</mark>
+{% endhint %}
