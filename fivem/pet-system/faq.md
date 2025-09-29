@@ -71,7 +71,9 @@ After the pet starts attacking the player or NPC, keep holding the G key until i
 
 ***
 
-Yes, it’s possible to add a pet <mark style="color:yellow;">Add-on</mark> or even a <mark style="color:yellow;">native GTA V</mark> animal. However, below you can find a list of functions that will be compatible and others that will not be compatible with Add-on pets or native GTA V animals.
+Yes, it’s possible to add a pet <mark style="color:yellow;">Add-on</mark> or even a <mark style="color:red;">some</mark> <mark style="color:yellow;">native GTA V</mark> animal. However, below you can find a list of functions that will be compatible and others that will not be compatible with Add-on pets or native GTA V animals.
+
+⚠  <mark style="color:yellow;">**Attention:**</mark> <mark style="color:red;">**You will only be able to add pets (Add-on or native) that belong to the Dog or Cat category. Other pets, such as**</mark>**&#x20;**<mark style="color:yellow;">**a\_c\_chickenhawk, a\_c\_chimp, a\_c\_fish, a\_c\_hen, a\_c\_pig, a\_c\_rat**</mark><mark style="color:red;">**, cannot be added — your pet will not have any movements and will also die instantly**</mark>.
 
 \
 ⚠  <mark style="color:yellow;">**Attention:**</mark> <mark style="color:red;">**Issues with animations related to positioning, Add-on crashes and other problems with added pets (not including ours) are not covered by our support.**</mark>
