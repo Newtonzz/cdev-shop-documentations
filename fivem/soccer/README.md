@@ -14,23 +14,17 @@ This resource is a the most unique and well created entertainment script for you
 
 ## INSTALLATION GUIDE
 
-### Step 1: Verify that you have the required dependencies installed
+{% content-ref url="installation-guide-qbcore-framework.md" %}
+[installation-guide-qbcore-framework.md](installation-guide-qbcore-framework.md)
+{% endcontent-ref %}
 
-Before you can use this resource, you'll need to make sure that you have the following resources installed:
+{% content-ref url="installation-guide-qbox-framework.md" %}
+[installation-guide-qbox-framework.md](installation-guide-qbox-framework.md)
+{% endcontent-ref %}
 
-1. cdev\_lib <mark style="color:green;">(included with this resource)</mark>
-2. xsound [<mark style="color:orange;">(download here)</mark>](https://github.com/Xogy/xsound)
-3. PolyZone [(download here)](https://github.com/mkafrin/PolyZone/releases/tag/v2.6.1)
-
-**xsound is the audio resource integrated by default on this script, however you can integrate any audio resource in cdev\_lib.**
-
-### Step 2: Extract the files
-
-1. Extract the contents of the `cdev_soccer.zip` folder and place the resulting folder in your server's resource directory.
-
-{% hint style="warning" %}
-Make sure that cdev\_lib is started before cdev\_soccer
-{% endhint %}
+{% content-ref url="installation-guide-esx-framework.md" %}
+[installation-guide-esx-framework.md](installation-guide-esx-framework.md)
+{% endcontent-ref %}
 
 {% hint style="danger" %}
 **Do not modify the encrypted files in any way, as this may cause issues with the resource's functionality.**
