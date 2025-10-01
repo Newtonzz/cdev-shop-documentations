@@ -605,7 +605,7 @@ You can read more inside this documentation and check all limits [here](https://
 {% hint style="info" %}
 **You can also access the&#x20;**<mark style="color:red;">**tool**</mark>**&#x20;that&#x20;**<mark style="color:yellow;">**FiveM**</mark>**&#x20;provides to check how much&#x20;**<mark style="color:yellow;">**%**</mark>**&#x20;is being used in the&#x20;**<kbd>**TxDStore Pool**</kbd>**, which is related to textures, by following the image below. Also remember that a large portion, at least&#x20;**<mark style="color:red;">**15 to 20%**</mark>**, comes from the default&#x20;**<mark style="color:yellow;">**GTA V**</mark>**.**\
 \
-**The full list of pet assets below uses a total of&#x20;**<mark style="color:yellow;">**7.29%**</mark>**&#x20;of the&#x20;**<kbd>**TxDStore**</kbd>**:**
+**The full list of pet assets below uses a total of&#x20;**<mark style="color:yellow;">**8.81%**</mark>**&#x20;of the&#x20;**<kbd>**TxDStore**</kbd>**:**
 
 * cdev\_petshop
 * cdev\_pets\_assets
