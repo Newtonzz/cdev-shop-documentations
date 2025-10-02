@@ -179,3 +179,56 @@ Appearance = {
 {% hint style="danger" %}
 <mark style="color:yellow;">**Attention:**</mark> <mark style="color:yellow;">If your server has already run at least once and players have already made their configurations, they will need to run the</mark> **`/needs reset`** <mark style="color:yellow;">command so their settings</mark> <mark style="color:$success;">synchronize</mark> <mark style="color:yellow;">with the new default configuration made inside the</mark> <mark style="color:$success;">**cdev\_needs**</mark> <mark style="color:yellow;">resource.</mark>
 {% endhint %}
+
+## 10. How can I customize the HUD and save it for everyone?
+
+#### 10.1 - First, we will go to the `config.lua` file located inside the folder `cdev_needs > public > config > config.lua` (<mark style="color:yellow;">Line 4</mark>) and enable Debug and start the server.
+
+```lua
+// Example
+Config = {
+    Framework = "qb", 
+    LogLevel = "info",
+    Debug = true, -- Enable this
+    UseMySQL = true,
+    Locale = "en",
+}
+```
+
+#### 10.2 - Now you will edit your <mark style="color:yellow;">HUD</mark> by pressing the <mark style="color:yellow;">O</mark> key and then clicking on the gear icon. This will open the edit mode, and you can customize it however you like, just as shown in the video below (For exit from Edit Click <mark style="color:red;">Tanks!</mark> or press <mark style="color:yellow;">ESC</mark>).
+
+<figure><img src="../../../.gitbook/assets/FiveM_GTAProcess_3LWysgB9NA (online-video-cutter.com).gif" alt=""><figcaption></figcaption></figure>
+
+#### 10.3 - Now we will copy these settings using the command `/needs copy` to modify the `hud.lua` file located in the folder `cdev_needs > public > config > hud.lua`, so that all players will have this customization. Follow the steps in the video below.&#x20;
+
+{% hint style="info" %}
+**First, you will type the command `needs copy` in the&#x20;**<mark style="color:yellow;">**F8**</mark>**&#x20;console or `/needs copy` in the normal chat. Then you will copy everything inside the window that will open using Windows&#x20;**<mark style="color:yellow;">**CTRL + C**</mark>**.**
+{% endhint %}
+
+<figure><img src="../../../.gitbook/assets/FiveM_GTAProcess_ptygQr2kN3 (online-video-cutter.com).gif" alt=""><figcaption></figcaption></figure>
+
+{% hint style="danger" %}
+⚠  <mark style="color:yellow;">**Attention:**</mark>**&#x20;Remember that if a player joins and their HUD remains the old one, they need to run `/needs reset` to synchronize the HUD with the new configuration. This command will only be necessary if the player has&#x20;**<mark style="color:yellow;">**already joined**</mark>**&#x20;the server at least once before you made these changes.**
+{% endhint %}
+
+#### 10.4 - Now with the file copied, you need to be careful and copy it exactly as shown in the example video below. First, you will copy the objects inside the <mark style="color:yellow;">Positions</mark> object, and then the <mark style="color:yellow;">appearance</mark>.
+
+{% hint style="danger" %}
+<mark style="color:yellow;">**Attention:**</mark>**&#x20;Be very careful with&#x20;**<mark style="color:yellow;">**commas (,)**</mark>**&#x20;and&#x20;**<mark style="color:yellow;">**brackets ( { } )**</mark>**, otherwise you will get errors in your code. The&#x20;**<mark style="color:yellow;">**comma (,)**</mark>**&#x20;for the&#x20;**<mark style="color:$success;">**Compass**</mark>**&#x20;is absolutely essential, so don’t forget to include it.**
+{% endhint %}
+
+<figure><img src="../../../.gitbook/assets/Code_h4de8Htruv.gif" alt=""><figcaption></figcaption></figure>
+
+{% hint style="danger" %}
+<mark style="color:yellow;">**Attention:**</mark>**&#x20;If inside the&#x20;**<mark style="color:yellow;">**Appearance > Variants**</mark>**&#x20;object the&#x20;**<mark style="color:yellow;">**Microphone**</mark>**&#x20;is&#x20;**<mark style="color:green;">**missing**</mark>**, copy it from the backup code and add it back into the code, then change it to the one you had selected in the settings, as shown in the video below.**
+{% endhint %}
+
+<figure><img src="../../../.gitbook/assets/Code_oN46OhPf0G.gif" alt=""><figcaption></figcaption></figure>
+
+#### 10.5 - Now we will <mark style="color:yellow;">start</mark> the server, and inside the server we will type `needs reset` in the <mark style="color:yellow;">F8 console</mark> or `/needs reset` in the <mark style="color:yellow;">chat</mark> to <mark style="color:green;">synchronize</mark> the settings with the code, just as shown in the video below.
+
+<figure><img src="../../../.gitbook/assets/FiveM_GTAProcess_SlcwrAou6x-_online-video-cutter.com_.gif" alt=""><figcaption></figcaption></figure>
+
+{% hint style="danger" %}
+<mark style="color:yellow;">**Attention:**</mark>**&#x20;If it doesn’t look exactly the same, it means some configuration is&#x20;**<mark style="color:yellow;">**missing**</mark>**. You can&#x20;**<mark style="color:yellow;">**manually**</mark>**&#x20;fix it later inside the `hud.lua` file. Remember that whenever you change the `hud.lua` file, all players who have&#x20;**<mark style="color:yellow;">**already joined the server**</mark>**&#x20;need to run the&#x20;**<mark style="color:yellow;">**/needs reset**</mark>**&#x20;command.**
+{% endhint %}
