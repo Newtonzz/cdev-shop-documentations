@@ -33,5 +33,5 @@ Add items to `ox_inventory/data/items.lua` like listed below
 		export = "cdev_tarot.createDeckOXItem",
 		type = 'major'
 	}
-}
+},
 ```
