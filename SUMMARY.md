@@ -105,6 +105,8 @@
   * [Media Lib](fivem/emote-menu/media-lib.md)
   * [Exports](fivem/emote-menu/exports.md)
   * [Hooks](fivem/emote-menu/hooks.md)
+  * [🆕 (NEW) Features](fivem/emote-menu/new-features/README.md)
+    * [🎭Group Animation System](fivem/emote-menu/new-features/group-animation-system.md)
 * [🧏 cDev ASL (American Sign Language)](fivem/cdev-asl-american-sign-language.md)
 * [🎴 cDev cOne](fivem/cdev-cone/README.md)
   * [Admin Commands](fivem/cdev-cone/admin-commands.md)
