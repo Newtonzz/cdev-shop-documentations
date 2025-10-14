@@ -87,6 +87,12 @@ ensure cdev_emotemenu
 
 </details>
 
+## &#x20;🆕 New Features
+
+{% content-ref url="new-features/" %}
+[new-features](new-features/)
+{% endcontent-ref %}
+
 ## Media Lib (<mark style="color:yellow;">no need to ensure</mark>) is just a tool for developers.
 
 {% content-ref url="media-lib.md" %}
