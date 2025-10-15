@@ -73,7 +73,7 @@ For the game system and the connection between your <mark style="color:yellow;">
 
 🚩 <mark style="color:red;">To work correctly,</mark> <mark style="color:yellow;">**cdev\_soccer**</mark> <mark style="color:red;">requires the proper configuration of the polyzone in the</mark> `config.lua` <mark style="color:red;">file located in the</mark> `cdev_soccer > public > config > config.lua` <mark style="color:red;">folder.</mark>\ <mark style="color:red;">Below is how the file should be configured to ensure everything functions properly.</mark>
 
-<div align="left"><figure><img src="../../.gitbook/assets/image.png" alt=""><figcaption></figcaption></figure></div>
+<div align="left"><figure><img src="../../.gitbook/assets/image (12).png" alt=""><figcaption></figcaption></figure></div>
 {% endstep %}
 
 {% step %}

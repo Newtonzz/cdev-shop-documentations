@@ -34,4 +34,4 @@ Unless you have modified core aspects of your framework you don't have to worry 
 
 ## Example of how the `config.lua` file will look for the <mark style="color:yellow;">QBOX</mark> framework
 
-<figure><img src="../../.gitbook/assets/image (6) (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (6) (1) (1).png" alt=""><figcaption></figcaption></figure>

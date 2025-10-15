@@ -17,7 +17,7 @@ TriggerEvent("cdev_pets:loadShop")
 
 
 
-<figure><img src="../../.gitbook/assets/image (1) (1) (1) (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (1) (1) (1) (1) (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
 
 {% code title="public/config/config.lua" lineNumbers="true" %}
 ```lua
