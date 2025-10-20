@@ -50,7 +50,7 @@ The **Veterinary System** introduces complete pet healthcare to your server. Vet
 **Permission: `/pscreator` command need admin permission inside `server.cfg` or `permissions.cfg` file example image bellow**
 {% endhint %}
 
-<div align="left"><figure><img src="../../../.gitbook/assets/image.png" alt=""><figcaption></figcaption></figure></div>
+<div align="left"><figure><img src="../../../.gitbook/assets/image (3).png" alt=""><figcaption></figcaption></figure></div>
 
 ***
 

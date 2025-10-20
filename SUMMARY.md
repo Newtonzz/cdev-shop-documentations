@@ -34,6 +34,7 @@
   * [Configuration](fivem/pet-system/configuration.md)
   * [🆕 (NEW) Features](fivem/pet-system/new-features/README.md)
     * [🩺 Veterinary System](fivem/pet-system/new-features/veterinary-system.md)
+    * [🎮 Pet Manager (Admin Tool)](fivem/pet-system/new-features/pet-manager-admin-tool.md)
   * [Item Configuration](fivem/pet-system/item-configuration.md)
   * [VIP Configuration](fivem/pet-system/vip-configuration.md)
   * [Pet Shop Configuration](fivem/pet-system/pet-shop-configuration.md)
