@@ -47,7 +47,7 @@ It is essential to follow the correct startup order to ensure proper functionali
 
 **Below is an example screenshot showing the recommended startup order:**
 
-<div align="left"><figure><img src="../../.gitbook/assets/image (1) (1) (1) (1).png" alt=""><figcaption></figcaption></figure></div>
+<div align="left"><figure><img src="../../.gitbook/assets/image (1) (1) (1) (1) (1).png" alt=""><figcaption></figcaption></figure></div>
 {% endstep %}
 
 {% step %}
