@@ -61,6 +61,7 @@ Make sure you have all of the following resources installed:
 * cdev\_pets\_assets
 * cdev\_pets\_assets2
 * cdev\_dog\_pets
+* cdev\_dog\_pets2
 * cdev\_cat\_pets
 {% endtab %}
 {% endtabs %}
