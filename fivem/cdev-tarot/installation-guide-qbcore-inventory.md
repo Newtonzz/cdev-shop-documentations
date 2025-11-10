@@ -2,7 +2,7 @@
 hidden: true
 ---
 
-# Installation Guide OX Inventory
+# Installation Guide QBCore Inventory
 
 {% stepper %}
 {% step %}
@@ -32,7 +32,7 @@ It is essential to follow the correct startup order to ensure proper functionali
 
 **Below is an example screenshot showing the recommended startup order:**
 
-<div align="left"><figure><img src="../../.gitbook/assets/image (2).png" alt=""><figcaption></figcaption></figure></div>
+<div align="left"><figure><img src="../../.gitbook/assets/image.png" alt=""><figcaption></figcaption></figure></div>
 {% endstep %}
 
 {% step %}
@@ -40,68 +40,25 @@ It is essential to follow the correct startup order to ensure proper functionali
 
 🚩 <mark style="color:red;">**To work correctly,**</mark> <mark style="color:yellow;">cdev\_tarot</mark> <mark style="color:red;">**requires the proper configuration of the inventory in the**</mark>**&#x20;`config.lua`&#x20;**<mark style="color:red;">**file located in the**</mark>**&#x20;`cdev_tarot > public > shared`&#x20;**<mark style="color:red;">**folder. Below is how the file should be configured to ensure everything functions properly.**</mark>
 
-<figure><img src="../../.gitbook/assets/image (1) (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (1).png" alt=""><figcaption></figcaption></figure>
 {% endstep %}
 
 {% step %}
-### Setup Item and Images inside Ox Inventory
+### Setup Item and Images inside QBCore Inventory
 
 **Step One**
 
-Add images to `ox_inventory/web/images` Images are available in the `cdev_tarot > images` folder of this resource.
+Add images to `qb-inventory/html/images` Images are available in the `cdev_tarot > images` folder of this resource.
 
 **Step Two**
 
-Add item to `ox_inventory/data/items.lua` like listed bellow.
+Add item to `qb-core/shared/items.lua` like listed bellow.
 
 ```lua
-["tarotminordeck"] = {
-    label = "Tarot Minor Deck",
-    weight = 100,
-    consume = 1,
-    stack = true,
-    close = true,
-    client = {
-        image = "tarotminordeck.png",
-        export = "cdev_tarot.createDeckOXItem",
-        type = 'minor'
-    }
-},
-
-["tarotmajordeck"] = {
-    label = "Tarot Major Deck",
-    weight = 100,
-    consume = 1,
-    stack = true,
-    close = true,
-    client = {
-        image = "tarotmajordeck.png",
-        export = "cdev_tarot.createDeckOXItem",
-        type = 'major'
-    }
-},
-["tarotmixeddeck"] = {
-    label = "Tarot Mixed Deck",
-    weight = 100,
-    consume = 1,
-    stack = true,
-    close = true,
-    client = {
-        image = "tarotmixeddeck.png",
-        export = "cdev_tarot.createDeckOXItem",
-        type = 'mixed'
-    }
-},
+-- Cdev Tarot
+tarotminordeck               = { name = 'tarotminordeck', label = 'Tarot Minor Deck', weight = 100, type = 'item', image = 'tarotminordeck.png', unique = false, useable = true, shouldClose = true, description = 'Tarot Deck' },
+tarotmajordeck               = { name = 'tarotmajordeck', label = 'Tarot Major Deck', weight = 100, type = 'item', image = 'tarotmajordeck.png', unique = false, useable = true, shouldClose = true, description = 'Tarot Deck' },
+tarotmixeddeck               = { name = 'tarotmixeddeck', label = 'Tarot Mixed Deck', weight = 100, type = 'item', image = 'tarotmixeddeck.png', unique = false, useable = true, shouldClose = true, description = 'Tarot Deck' },
 ```
-{% endstep %}
-
-{% step %}
-
-
-
-{% endstep %}
-
-{% step %}
-
 {% endstep %}
 {% endstepper %}

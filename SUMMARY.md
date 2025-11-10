@@ -122,11 +122,10 @@
   * [Installation Guide OX Inventory](fivem/cdev-cone/installation-guide-ox-inventory.md)
   * [Installation Guide QB Inventory](fivem/cdev-cone/installation-guide-qb-inventory.md)
 * [🌬️ cDev Tarot](fivem/cdev-tarot/README.md)
-  * [QB Inventory](fivem/cdev-tarot/qb-inventory.md)
-  * [Ox Inventory](fivem/cdev-tarot/ox-inventory.md)
   * [Admin Commands](fivem/cdev-tarot/admin-commands.md)
   * [Exports](fivem/cdev-tarot/exports.md)
   * [Installation Guide OX Inventory](fivem/cdev-tarot/installation-guide-ox-inventory.md)
+  * [Installation Guide QBCore Inventory](fivem/cdev-tarot/installation-guide-qbcore-inventory.md)
 
 ***
 

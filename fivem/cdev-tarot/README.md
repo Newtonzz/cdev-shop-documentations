@@ -98,32 +98,10 @@ The Tarot script weaves together a perfect blend of traditional card mysticism a
 
 ## Installation Guide
 
-<details>
+{% content-ref url="installation-guide-ox-inventory.md" %}
+[installation-guide-ox-inventory.md](installation-guide-ox-inventory.md)
+{% endcontent-ref %}
 
-<summary>Step 1: Extract the files</summary>
-
-1. Extract the contents of the cdev\_tarot folder and place the resulting folder in your server's resource directory.
-
-2) Extract the contents of the cdev\_tarot folder and place the resulting folder in your server's resource directory.
-
-</details>
-
-<details>
-
-<summary>Step 2: Ensure the files</summary>
-
-Your ensure should look like this in your `server.cfg`
-
-```lua
-ensure cdev_tarot
-```
-
-</details>
-
-<details>
-
-<summary>Step 3: Make Necessary Changes in Config</summary>
-
-You should look in your  `public/shared/config.cfg` and make the necessary changes
-
-</details>
+{% content-ref url="installation-guide-qbcore-inventory.md" %}
+[installation-guide-qbcore-inventory.md](installation-guide-qbcore-inventory.md)
+{% endcontent-ref %}
