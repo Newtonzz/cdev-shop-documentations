@@ -11,3 +11,5 @@
 * `type` (`string`): The type of deck to create. Accepted values:
   * `"major"`
   * `"minor"`
+  * `"mixed"`
+

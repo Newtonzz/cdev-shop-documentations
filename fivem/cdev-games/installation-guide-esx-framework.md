@@ -47,7 +47,7 @@ It is essential to follow the correct startup order to ensure proper functionali
 
 **Below is an example screenshot showing the recommended startup order:**
 
-<div align="left"><figure><img src="../../.gitbook/assets/image (1) (1) (1) (1) (1) (1).png" alt=""><figcaption></figcaption></figure></div>
+<div align="left"><figure><img src="../../.gitbook/assets/image (1) (1) (1) (1) (1) (1) (1).png" alt=""><figcaption></figcaption></figure></div>
 {% endstep %}
 
 {% step %}
@@ -69,7 +69,7 @@ For the game system and the connection between your <mark style="color:yellow;">
 
 🚩 <mark style="color:red;">To work correctly,</mark> <mark style="color:yellow;">**cdev\_games**</mark> <mark style="color:red;">requires the proper configuration of the inventory and framework in the</mark> `config.lua` <mark style="color:red;">file located in the</mark> `cdev_games` <mark style="color:red;">folder.</mark>\ <mark style="color:red;">Below is how the file should be configured to ensure everything functions properly.</mark>
 
-<figure><img src="../../.gitbook/assets/image (2) (1) (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (2) (1) (1) (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
 
 {% hint style="danger" %}
 **If you're using a different&#x20;**<mark style="color:yellow;">**inventory**</mark>**, change the settings according to your custom inventory.**

@@ -201,7 +201,7 @@ Health: 0% ❌ Dead Hunger: 0% ❌ Starving Thirst: 0% ❌ Dehydrated Loyalty: 3
 
 **Confirmation Dialog:**
 
-![](<../../../.gitbook/assets/image (2).png>)
+![](<../../../.gitbook/assets/image (2) (1).png>)
 
 **Audit Logging Discord:** \[INFO] Admin PlayerName (ID: 42) deleted pet ID: 27
 
@@ -264,7 +264,7 @@ Health: 0% ❌ Dead Hunger: 0% ❌ Starving Thirst: 0% ❌ Dehydrated Loyalty: 3
 **For the permission system to work correctly, the player must be registered in the server file `server.cfg` or `permissions.cfg` with&#x20;**<mark style="color:yellow;">**group.admin command allow**</mark>**, as shown in the image bellow**
 {% endhint %}
 
-<div align="left"><figure><img src="../../../.gitbook/assets/image.png" alt=""><figcaption></figcaption></figure></div>
+<div align="left"><figure><img src="../../../.gitbook/assets/image (2).png" alt=""><figcaption></figcaption></figure></div>
 
 ***
 
@@ -368,7 +368,7 @@ Health: 0% ❌ Dead Hunger: 0% ❌ Starving Thirst: 0% ❌ Dehydrated Loyalty: 3
 
 #### Menu Hierarchy
 
-![](<../../../.gitbook/assets/image (1).png>)
+![](<../../../.gitbook/assets/image (1) (1).png>)
 
 ***
 

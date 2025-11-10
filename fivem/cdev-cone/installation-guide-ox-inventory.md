@@ -76,6 +76,12 @@ Add item to `ox_inventory/data/items.lua` like listed bellow.
 {% endstep %}
 
 {% step %}
+###
+
+
+{% endstep %}
+
+{% step %}
 ### Using the card cOne Deck in-game
 
 <figure><img src="../../.gitbook/assets/Give Ox.gif" alt=""><figcaption></figcaption></figure>

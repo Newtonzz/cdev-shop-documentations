@@ -9,10 +9,12 @@
 * `type` (`string`): The type of deck to create. Accepted values:
   * `"major"`
   * `"minor"`
+  * `"mixed"`
 
 **Usage:**
 
 ```lua
 exports['cdev_tarot']:createDeck("minor")
 exports['cdev_tarot']:createDeck("major")
+exports['cdev_tarot']:createDeck("mixed")
 ```

@@ -126,6 +126,7 @@
   * [Ox Inventory](fivem/cdev-tarot/ox-inventory.md)
   * [Admin Commands](fivem/cdev-tarot/admin-commands.md)
   * [Exports](fivem/cdev-tarot/exports.md)
+  * [Installation Guide OX Inventory](fivem/cdev-tarot/installation-guide-ox-inventory.md)
 
 ***
 
