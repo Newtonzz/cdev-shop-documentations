@@ -49,20 +49,24 @@ Make sure you have all of the following resources installed:
 
 {% tabs %}
 {% tab title="Don't have Pets Subscription" %}
-* cdev\_cat\_amer
-* cdev\_dog\_dobb
-* cdev\_dog\_rott
-* cdev\_pets\_assets
-* cdev\_pets\_assets2
+| CFX Portal Name                       | Folder Name (after download) |
+| ------------------------------------- | ---------------------------- |
+| cDev - Cat American                   | cdev\_cat\_amer              |
+| cDev Pets Assets Premium - Dobbermann | cdev\_dog\_dobb              |
+| cDev Pets Assets Premium - Rottweiler | cdev\_dog\_rott              |
+| cDev Pets Assets                      | cdev\_pets\_assets           |
+| cDev Pets Assets 2                    | cdev\_pets\_assets2          |
 {% endtab %}
 
 {% tab title="Have Pets Subscription" %}
-* cdev\_petshop
-* cdev\_pets\_assets
-* cdev\_pets\_assets2
-* cdev\_dog\_pets
-* cdev\_dog\_pets2
-* cdev\_cat\_pets
+| CFX Portal Name                  | Folder Name (after download) |
+| -------------------------------- | ---------------------------- |
+| cDev Pets Assets Compiled Dogs   | cdev\_dog\_pets              |
+| cDev Pets Assets Compiled Dogs 2 | cdev\_dog\_pets2             |
+| cDev Pets Assets Compiled Cats   | cdev\_cat\_pets              |
+| cDev Pets Assets                 | cdev\_pets\_assets           |
+| cDev Pets Assets 2               | cdev\_pets\_assets2          |
+| cDev PetShop                     | cdev\_petshop                |
 {% endtab %}
 {% endtabs %}
 
