@@ -231,6 +231,244 @@ The only item you _can_ add to your framework’s inventory if you want is the *
 [ox-inventory.md](misc-integrations/ox-inventory.md)
 {% endcontent-ref %}
 
+***
+
+## Discord Webhook Logs (Pets & Shops)
+
+***
+
+CDev Pets sends several events to Discord using:
+
+```lua
+clib_Logs.discord(<title>, <fields>)
+```
+
+Below you can find a complete list of all available webhook log types, when they are triggered, and which fields are included.
+
+{% tabs %}
+{% tab title="🐾 Pet Logs" %}
+#### **Pet Delete - Permission Denied**
+
+**When it fires**\
+Triggered when a player tries to delete a pet but does **not** have permission.
+
+| Field      | Description          |
+| ---------- | -------------------- |
+| Player     | Name of the player   |
+| Identifier | Character identifier |
+
+***
+
+#### **Pet Deleted**
+
+**When it fires**\
+Triggered when an admin successfully deletes a pet.
+
+| Field      | Description                |
+| ---------- | -------------------------- |
+| Admin      | Admin name and server ID   |
+| Identifier | Owner character identifier |
+| Pet ID     | ID of the deleted pet      |
+{% endtab %}
+
+{% tab title="🏪 Shop Management Logs" %}
+#### **Created Shop**
+
+**When it fires**\
+Triggered when a player creates a new shop.
+
+| Field         | Description                    |
+| ------------- | ------------------------------ |
+| Identifier    | Creator’s character identifier |
+| Player        | Creator’s character name       |
+| Shop Name     | Name of the created shop       |
+| Shop Location | JSON location / blip data      |
+
+***
+
+#### **Deleted Shop**
+
+**When it fires**\
+Triggered when a shop is deleted.
+
+| Field      | Description                                    |
+| ---------- | ---------------------------------------------- |
+| Identifier | Character identifier of the player deleting it |
+| Player     | Player who deleted the shop                    |
+| Shop Name  | Deleted shop name                              |
+{% endtab %}
+
+{% tab title="👥 Employee Management Logs" %}
+{% hint style="warning" %}
+`{shop}` is automatically replaced with the shop name in the log title.
+{% endhint %}
+
+#### **{shop} Added Employee**
+
+**When it fires**\
+Triggered when a new employee is added to a shop.
+
+| Field            | Description                       |
+| ---------------- | --------------------------------- |
+| Identifier       | Player performing the action      |
+| Player           | Player name performing the action |
+| Added Identifier | Identifier of new employee        |
+| Added Player     | Name of new employee              |
+| Role             | Employee role (Employee/Boss)     |
+
+***
+
+#### **{shop} Fired Employee**
+
+**When it fires**\
+Triggered when an employee is removed.
+
+| Field            | Description                            |
+| ---------------- | -------------------------------------- |
+| Identifier       | Player performing the action           |
+| Player           | Player name performing the action      |
+| Fired Identifier | Character identifier of removed player |
+| Fired Player     | Name of removed employee               |
+{% endtab %}
+
+{% tab title="💰 Shop Vault Logs" %}
+{% hint style="warning" %}
+`{shop}` is automatically replaced with the shop name in the log title.
+{% endhint %}
+
+#### **\[{shop}] Deposited vault money**
+
+**When it fires**\
+Triggered when money is deposited into the shop vault.
+
+| Field            | Description             |
+| ---------------- | ----------------------- |
+| Identifier       | Player depositing money |
+| Player           | Player name             |
+| Amount           | Deposited amount        |
+| New Total Amount | New vault balance       |
+
+***
+
+#### **\[{shop}] Withdrawn vault money**
+
+**When it fires**\
+Triggered when money is taken out of the vault.
+
+| Field            | Description              |
+| ---------------- | ------------------------ |
+| Identifier       | Player withdrawing money |
+| Player           | Player name              |
+| Amount           | Withdrawn amount         |
+| New Total Amount | New vault balance        |
+
+***
+
+#### **\[{shop}] Removed vault money**
+
+**When it fires**\
+Triggered when money is removed by a system/admin action.
+
+| Field            | Description           |
+| ---------------- | --------------------- |
+| Identifier       | Player removing money |
+| Player           | Player name           |
+| Amount           | Amount removed        |
+| New Total Amount | New vault balance     |
+{% endtab %}
+
+{% tab title="📦 Shop Stock Logs" %}
+{% hint style="warning" %}
+`{shop}` is automatically replaced with the shop name in the log title.
+{% endhint %}
+
+#### **\[{shop}] Added stock**
+
+**When it fires**\
+Triggered when items are added to shop inventory.
+
+| Field      | Description         |
+| ---------- | ------------------- |
+| Identifier | Player adding stock |
+| Player     | Player name         |
+| Item       | Item ID             |
+| Amount     | Quantity added      |
+
+***
+
+#### **\[{shop}] Removed stock**
+
+**When it fires**\
+Triggered when items are removed from stock.
+
+| Field      | Description           |
+| ---------- | --------------------- |
+| Identifier | Player removing stock |
+| Player     | Player name           |
+| Item       | Item ID               |
+| Amount     | Quantity removed      |
+
+***
+
+#### **\[{shop}] Bought stock**
+
+**When it fires**\
+Triggered when a player purchases stock for the shop.
+
+| Field      | Description                 |
+| ---------- | --------------------------- |
+| Identifier | Player buying stock         |
+| Player     | Player name                 |
+| Items      | JSON with items and amounts |
+| Price      | Total purchase price        |
+
+***
+
+#### **\[{shop}] Updated stock price**
+
+**When it fires**\
+Triggered when a shop item price is modified.
+
+| Field      | Description           |
+| ---------- | --------------------- |
+| Identifier | Player updating price |
+| Player     | Player name           |
+| Item       | Item ID               |
+| Price      | New item price        |
+{% endtab %}
+
+{% tab title="🐕 Vet Table Logs" %}
+{% hint style="warning" %}
+`{shop}` is automatically replaced with the shop name in the log title.
+{% endhint %}
+
+#### **\[{shop}] Updated vet tables**
+
+**When it fires**\
+Triggered when the list of vet tables is updated.
+
+| Field        | Description              |
+| ------------ | ------------------------ |
+| Identifier   | Player updating          |
+| Player       | Player name              |
+| Tables Count | New amount of vet tables |
+
+***
+
+#### **\[{shop}] Removed vet table**
+
+**When it fires**\
+Triggered when a vet table is removed.
+
+| Field      | Description           |
+| ---------- | --------------------- |
+| Identifier | Player removing table |
+| Player     | Player name           |
+{% endtab %}
+{% endtabs %}
+
+***
+
 ## Where is the Pet MLO location?
 
 ***
