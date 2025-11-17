@@ -9,236 +9,331 @@ description: >-
 
 ***
 
-Animation Example
+### Required Fields <a href="#required-fields" id="required-fields"></a>
+
+| Field                         | Type    | Description                                   | Example                               |
+| ----------------------------- | ------- | --------------------------------------------- | ------------------------------------- |
+| `id`                          | string  | Unique internal name                          | `"wavehand"`                          |
+| `label`                       | string  | Name visible in list/UI                       | `"Wave Hand"`                         |
+| `category`                    | string  | Animation category (e.g. `generalanimations`) | `"generalanimations"`                 |
+| `vip`                         | boolean | `true` or `false`: requires VIP to use?       | `false`                               |
+| `thumbnailcdn` or `thumbnail` | string  | Animation preview image (CDN URL or local)    | `"cdnurl/anim.webp"` or `"local.png"` |
+| `firstperson`                 | object  | See “Animation Config” below                  | `{ ... }`                             |
+
+***
+
+### Animation Config (`firstperson`/`secondperson`) <a href="#undefined" id="undefined"></a>
+
+### Basic Structure
+
+```lua
+firstperson = {
+    dict = "animation_dictionary",
+    anim = "animation_name",
+    config = { ... }           -- optional, see below
+}
+```
+
+### Main Options (inside `config`)
+
+| Setting                  | Type                | Description                                   | Example                             |
+| ------------------------ | ------------------- | --------------------------------------------- | ----------------------------------- |
+| `posOffset`              | object `{x=,y=,z=}` | Moves animation position                      | `{ x=0, y=0, z=0 }`                 |
+| `heading`                | number              | Facing direction (degrees)                    | `90.0`                              |
+| `freeze`                 | boolean             | Freeze in place during animation?             | `true`                              |
+| `onfinishtptolastcoords` | boolean             | Teleports back to original position on finish | `true`                              |
+| `allowPedTypes`          | array               | Restrict to certain ped types                 | `{ "bigdogs", "default" }`          |
+| `flags`                  | object              | Animation behavior flags, see below           | `{ loop=true, controllable=false }` |
+| `props`                  | array               | Attach props to bones, see props section      | `[ { ... } ]`                       |
+| `ptfx`                   | object              | Particle effect config, see ptfx section      | `{ ... }`                           |
+
+***
+
+### Flags (inside `config.flags`)
+
+| Key              | Type   | Description                                |
+| ---------------- | ------ | ------------------------------------------ |
+| `loop`           | bool   | Repeat animation until stopped             |
+| `controllable`   | bool   | Allow player to move while animating       |
+| `customduration` | number | Animation duration (ms) (overrides native) |
+| `customflag`     | number | GTA anim flag (e.g. 49 for controllable)   |
+
+***
+
+### Props (inside `config.props`)
+
+| Key         | Type           | Description                              |
+| ----------- | -------------- | ---------------------------------------- |
+| `model`     | string         | Model name (prop)                        |
+| `bone`      | number         | Bone to attach (e.g. 28422 = right hand) |
+| `posOffset` | object {x,y,z} | Position offset                          |
+| `rotOffset` | object {x,y,z} | Rotation offset                          |
+
+***
+
+### PTFX (inside `config.ptfx`)
+
+| Key            | Type              | Description                    |
+| -------------- | ----------------- | ------------------------------ |
+| `asset`        | string            | Particle dictionary            |
+| `name`         | string            | Particle asset name            |
+| `posOffset`    | object {x,y,z}    | Offset position                |
+| `rotOffset`    | object {x,y,z}    | Offset rotation                |
+| `scale`        | number            | Scale                          |
+| `bone`         | number (optional) | Attach to bone                 |
+| `color`        | object {r,g,b}    | RGB color (optional)           |
+| `canhold`      | boolean           | Maintainable effect (optional) |
+| `attachtoprop` | boolean           | Attach to prop (optional)      |
+
+***
+
+### Synchronized Animations <a href="#synchronized-animations" id="synchronized-animations"></a>
+
+If the animation uses two players:
+
+* Add a `secondperson` block (same structure as `firstperson`).
+* Add `syncedoptions` for positioning, heading, and initiator role.
+
+```lua
+syncedoptions = {
+    sourceoffset = { x=, y=, z= },
+    targetoffset = { x=, y=, z= },
+    sourceheading = 0.0,
+    targetheading = 180.0,
+    initiatorRole = "first",   -- optional: "first"|"second"
+}
+```
+
+* `initiatorRole` is optional; if set, forces the initiator to be either first or second person.
+
+***
+
+### Rules <a href="#rules" id="rules"></a>
+
+Rules restrict when/where the animation can be played, or UI context features.
+
+| Key              | Type    | Description                                 |
+| ---------------- | ------- | ------------------------------------------- |
+| blockVehicle     | boolean | Block animation if in a vehicle             |
+| blockFoot        | boolean | Block animation if on foot (out of vehicle) |
+| blockSetPosition | boolean | Hide UI "Set Position" (context menu)       |
+
+```lua
+rules = {
+    blockVehicle = true,
+    blockSetPosition = true,
+}
+```
+
+{% hint style="warning" %}
+_Only define these if the value is `true`._
+{% endhint %}
+
+***
+
+### Full Example <a href="#full-example" id="full-example"></a>
 
 ```lua
 {
-    id = "ultimate_sync_animation",  -- Unique animation identifier
-    label = "Ultimate Sync Animation",  -- Display name for the animation
-    category = "sharedanimations",  -- Animation category
-    thumbnailcdn = "http:/examplecdn/ultimate_sync_thumbnail",  -- CDN URL for thumbnail (optional)
-    -- thumbnail = "animation1"  -- Local path for the preview image (if hosted within the application) (optional)
-    vip = false,  -- VIP-only animation (optional)
+    -- ============================================
+    -- REQUIRED FIELDS
+    -- ============================================
+    
+    id = "complete_example",              -- REQUIRED: Unique animation ID
+    label = "Complete Example",           -- REQUIRED: Display name in UI
+    category = "generalanimations",       -- REQUIRED: Animation category
+    vip = false,                          -- REQUIRED: true = VIP only, false = everyone
+    thumbnailcdn = CDEV_CDN .. "example.webp",  -- REQUIRED (or use 'thumbnail' below): Preview image URL
 
-    syncedoptions = {
-        sourceoffset = { x = 1.0, y = 0.0, z = 0.0 },  -- Position offset for first person
-        targetoffset = { x = -1.0, y = 0.0, z = 0.0 },  -- Position offset for second person
-        sourceheading = 180.0,  -- Heading for first person
-        targetheading = 0.0,  -- Heading for second person
-    },
+    -- ============================================
+    -- OPTIONAL TOP-LEVEL FIELDS
+    -- ============================================
+    
+    thumbnail = "example.png",            -- OPTIONAL: Local path (use this OR thumbnailcdn, not both)
+    canIdle = true,                       -- OPTIONAL: Can be used as idle animation
 
-    rules = {
-        blockFoot = true,
-        blockSetPosition = true,
-        blockVehicle = false, 
-        -- Additional rules can be added in the public/shared/api
-    },
-
+    -- ============================================
+    -- FIRST PERSON ANIMATION (REQUIRED)
+    -- ============================================
+    
     firstperson = {
-        anim = "source_anim",  -- Animation for the first person
-        dict = "source_dict",  -- Animation dictionary
-        config = {
-            posOffset = { x = 0.0, y = 0.3, z = 0.0 },  -- Position offset for effect
-            rotOffset = { x = 0.0, y = 90.0, z = 90.0 },  -- Rotation offset for effect
-            heading = 90.0,  -- Heading direction
-            freeze = false, -- freeze the player
-            onfinishtptolastcoords = true -- tp to last coord in finish
-            flags = {
-                controllable = true,  -- Player can control the character
-                loop = true,  -- Animation loops
-                customduration = 10000,  -- Custom duration for the animation
+        dict = "anim@mp_player_intcelebrationfemale@air_guitar",  -- REQUIRED: Animation dictionary
+        anim = "air_guitar",                                       -- REQUIRED: Animation clip name
+        
+        allowPedTypes = {"default", "bigdogs"},  -- OPTIONAL: Restrict to specific ped types (default only if not set)
+        
+        config = {  -- OPTIONAL: All settings below are optional
+            
+            -- ========== POSITION & ROTATION ==========
+            posOffset = { x = 0.0, y = 0.5, z = 0.0 },     -- OPTIONAL: Position offset from current coords
+            heading = 180.0,                                -- OPTIONAL: Character facing direction (0-360 degrees)
+            freeze = true,                                  -- OPTIONAL: Freeze player position during animation
+            onfinishtptolastcoords = true,                 -- OPTIONAL: Teleport back to start position when done
+            
+            -- ========== ANIMATION FLAGS ==========
+            flags = {  -- OPTIONAL: Control animation behavior
+                loop = true,                    -- OPTIONAL: Loop animation infinitely
+                controllable = true,            -- OPTIONAL: Player can move while animating
+                customduration = 10000,         -- OPTIONAL: Duration in milliseconds (overrides native length)
+                customflag = 49,                -- OPTIONAL: Native GTA flag (49 = controllable, advanced use)
             },
-            props = {  -- Props attached to the first person
+            
+            -- ========== PROPS (ATTACHED OBJECTS) ==========
+            props = {  -- OPTIONAL: Array of objects to attach
                 {
-                    bone = 57005,  -- Bone ID
-                    model = "prop_phone_ing",  -- Prop model
-                    posOffset = { x = 0.15, y = 0.1, z = 0.05 },  -- Positional offset for prop
-                    rotOffset = { x = 0.0, y = -90.0, z = 10.0 },  -- Rotational offset for prop
-                }
+                    model = "prop_npc_phone_02",                     -- REQUIRED (if using props): Model name
+                    bone = 28422,                                    -- REQUIRED (if using props): Bone ID (28422 = right hand)
+                    posOffset = { x = 0.0, y = 0.0, z = 0.03 },     -- OPTIONAL: Position offset from bone
+                    rotOffset = { x = 50.0, y = 90.0, z = 0.0 },    -- OPTIONAL: Rotation offset
+                },
+                {
+                    model = "prop_cs_ciggy_01",                      -- Second prop example
+                    bone = 60309,                                    -- 60309 = left hand
+                    posOffset = { x = 0.0, y = 0.0, z = 0.0 },
+                    rotOffset = { x = 0.0, y = 0.0, z = 0.0 },
+                },
             },
-            ptfx = {  -- Particle effect configuration
-                asset = "scr_amb_chop",  -- Particle effect asset
-                canhold = true,  -- Can hold the particle effect
-                name = "ent_anim_dog_peeing",  -- Particle effect name
-                posOffset = { x = 0.0, y = 0.3, z = 0.0 },  -- Position offset for effect
-                rotOffset = { x = 0.0, y = 90.0, z = 90.0 },  -- Rotation offset for effect
-                scale = 1.5,  -- Particle effect scale
+            
+            -- ========== PTFX (PARTICLE EFFECTS) ==========
+            ptfx = {  -- OPTIONAL: Particle effect configuration
+                asset = "scr_rcbarry2",                              -- REQUIRED (if using ptfx): Effect dictionary
+                name = "scr_clown_appears",                          -- REQUIRED (if using ptfx): Effect name
+                posOffset = { x = 0.0, y = 0.0, z = 0.5 },          -- OPTIONAL: Position offset
+                rotOffset = { x = 0.0, y = 0.0, z = 0.0 },          -- OPTIONAL: Rotation offset
+                scale = 1.5,                                         -- OPTIONAL: Effect scale/size
+                bone = 28422,                                        -- OPTIONAL: Attach to bone (if not set, attaches to ped center)
+                color = { r = 255, g = 100, b = 50 },               -- OPTIONAL: RGB color (0-255 each)
+                canhold = true,                                      -- OPTIONAL: Effect can be maintained/held
+                attachtoprop = false,                                -- OPTIONAL: Attach to prop instead of ped
             },
-        },
-        attachtootherperson = true,  -- Attach to second person
-        attachbone = 11816,  -- Bone ID for attachment
-        attachcoordsoffset = { x = 0.1, y = 0.2, z = 0.3 },  -- Coordinate offset for attachment
-        attachrotoffset = { x = 10.0, y = 0.0, z = 90.0 },  -- Rotation offset for attachment
-        allowPedTypes = {
-            'bigdogs'  -- Allowed Ped types (optional)
         }
     },
-
-    secondperson = {  -- Second person configuration (optional)
-        anim = "target_anim",  -- Animation for second person
-        dict = "target_dict",  -- Animation dictionary for second person
-        config = {
-            offset = { x = -0.5, y = 0.0, z = 0.0 },  -- Positional offset for second person
-            heading = 270.0,  -- Heading for second person
-            freeze = false, -- freeze the player
+    
+    -- ============================================
+    -- SECOND PERSON (OPTIONAL - FOR SYNCED ANIMS)
+    -- ============================================
+    
+    secondperson = {  -- OPTIONAL: Only needed for synchronized animations (2 players)
+        dict = "anim@mp_player_intcelebrationmale@air_guitar",
+        anim = "air_guitar",
+        
+        allowPedTypes = {"default"},  -- OPTIONAL: Same as firstperson
+        
+        config = {  -- OPTIONAL: Same structure as firstperson.config
+            posOffset = { x = 0.0, y = 0.0, z = 0.0 },
+            heading = 0.0,
+            freeze = true,
+            onfinishtptolastcoords = true,
+            
             flags = {
-                controllable = false,  -- Not player-controllable
-                loop = false,  -- Animation does not loop
-                customduration = 8000,  -- Custom animation duration
+                loop = true,
+                controllable = false,
+                customduration = 10000,
             },
-            props = {  -- Props for second person
+            
+            props = {
                 {
-                    bone = 60309,  -- Bone ID
-                    model = "prop_umbrella_01",  -- Prop model
-                    posOffset = { x = 0.2, y = 0.1, z = -0.2 },  -- Positional offset for prop
-                    rotOffset = { x = 45.0, y = 0.0, z = 0.0 },  -- Rotational offset for prop
-                }
+                    model = "prop_beer_logopen",
+                    bone = 28422,
+                    posOffset = { x = 0.0, y = 0.0, z = 0.0 },
+                    rotOffset = { x = 0.0, y = 0.0, z = 0.0 },
+                },
             },
-            ptfx = {  -- Particle effects configuration
-                asset = "scr_bike_shot",
-                canhold = false,  -- Cannot hold this particle effect
-                name = "ent_anim_bike_tiresmoke",
-                posOffset = { x = 0.0, y = -0.1, z = 0.0 },  -- Positional offset
-                rotOffset = { x = 0.0, y = 0.0, z = 0.0 },  -- Rotational offset
-                scale = 0.8,  -- Particle effect scale
-            }
-        },
-        attachtootherperson = true,  -- Attach to first person
-        attachbone = 11816,  -- Bone ID for attachment
-        attachcoordsoffset = { x = 0.2, y = 0.2, z = 0.3 },  -- Coordinate offset for attachment
-        attachrotoffset = { x = 15.0, y = 5.0, z = 90.0 },  -- Rotation offset for attachment
-        allowPedTypes = {
-            'bigdogs'  -- Allowed Ped types (optional)
+            
+            ptfx = {
+                asset = "core",
+                name = "exp_grd_bzgas_smoke",
+                posOffset = { x = 0.0, y = 0.0, z = 0.0 },
+                rotOffset = { x = 0.0, y = 0.0, z = 0.0 },
+                scale = 1.0,
+            },
         }
-    }
+    },
+    
+    -- ============================================
+    -- SYNCED OPTIONS (OPTIONAL - FOR SYNCED ANIMS)
+    -- ============================================
+    
+    syncedoptions = {  -- OPTIONAL: Only needed if using secondperson
+        sourceoffset = { x = 0.0, y = 0.5, z = 0.0 },    -- OPTIONAL: Position offset for first player
+        targetoffset = { x = 0.0, y = -0.5, z = 0.0 },   -- OPTIONAL: Position offset for second player
+        sourceheading = 90.0,                             -- OPTIONAL: Heading for first player (0-360)
+        targetheading = 270.0,                            -- OPTIONAL: Heading for second player (0-360)
+        initiatorRole = "first",                          -- OPTIONAL: "first" or "second" - forces initiator position
+                                                          --           (if not set, player can choose freely)
+    },
+    
+    -- ============================================
+    -- RULES (OPTIONAL - BLOCKING CONDITIONS)
+    -- ============================================
+    
+    rules = {  -- OPTIONAL: Control when/where animation can be used
+        blockVehicle = true,        -- OPTIONAL: Block if player is in a vehicle
+        blockFoot = true,           -- OPTIONAL: Block if player is on foot (outside vehicle)
+        blockSetPosition = true,    -- OPTIONAL: Hide "Set Position & Play" option in context menu (UI only)
+    },
 }
-
 ```
 
 ***
 
-#### Field Definitions
+### Fully Field Summary <a href="#field-summary" id="field-summary"></a>
 
-* **id**: `string`\
-  Unique identifier for the animation.
-* **label**: `string`\
-  User-friendly name for the animation.
-* **category**: `string`\
-  Category for the animation, such as shared, dances, or other.
-* **thumbnailcdn**: `string`\
-  URL pointing to the animation's preview image hosted on a CDN.
-* **thumbnail**: `string`\
-  Local path for the preview image if hosted within the application (alternative to `thumbnailcdn`).
-* **vip**: `boolean` (optional)\
-  Indicates if the animation is VIP-only.
-* **canIdle**: `boolean` (optional)\
-  Indicates if the animation can be idled.
-
-***
-
-#### First Person Animation Configuration
-
-* **firstperson**: `object`\
-  Configuration for the first-person animation.
-* **anim**: `string`\
-  Animation name.
-* **dict**: `string`\
-  Animation dictionary.
-* **config**: `object` (optional)
-  * **posOffset**: `object` (optional) - Positional offset of the animation (x, y, z).
-  * rosOffset: `object` (optional) - Rotation offset of the animation
-  * onfinishtptolastcoords: `boolean` (optional) - teleport to last coords on finish
-  * **heading**: `number` (optional) - Heading for the animation.
-  * **freeze**: `boolean` (optional) - Freeze the Player while doing the animation.
-  * **flags**: `object` (optional)
-    * **controllable**: `boolean` - If the animation is player-controllable.
-    * **loop**: `boolean` - Whether the animation loops.
-    * **customduration**: `number` (optional) - Custom duration for the animation.
-    * **props**: `array` (optional) - List of props attached to the character.
-      * **bone**: `number` - Bone ID for prop attachment.
-      * **model**: `string` - Model name for the prop.
-      * **posOffset**: `object` - Positional offset for the prop (x, y, z).
-      * **rotOffset**: `object` - Rotational offset for the prop (x, y, z).
-    *   **ptfx**: `object` (optional) - Particle effects configuration.
-
-        * **asset**: `string` - Particle effect asset or dictionary.
-        * **canhold**: `boolean` - Whether the particle effect can be held.
-        * **name**: `string` - Particle effect name.
-        * **posOffset**: `object` - Positional offset for the effect (x, y, z).
-        * **rotOffset**: `object` - Rotational offset for the effect (x, y, z).
-        * **scale**: `number` - Scale of the particle effect.                                                     &#x20;
-
-        **allowPedTypes**: `array` (optional)\
-        List of allowed Ped types for either the first or second person in the animation.
-
-        * Example: `'bigdogs'` or `'smallpeds'`
-
-
+| Field                           | Location      | Required?                       | Description                   |
+| ------------------------------- | ------------- | ------------------------------- | ----------------------------- |
+| `id`                            | Root          | ✅ **REQUIRED**                  | Unique animation identifier   |
+| `label`                         | Root          | ✅ **REQUIRED**                  | Display name shown in UI      |
+| `category`                      | Root          | ✅ **REQUIRED**                  | Animation category            |
+| `vip`                           | Root          | ✅ **REQUIRED**                  | VIP requirement (true/false)  |
+| `thumbnailcdn` or `thumbnail`   | Root          | ✅ **REQUIRED** (one of them)    | Preview image                 |
+| `canIdle`                       | Root          | ❌ Optional                      | Can be used as idle animation |
+| `firstperson`                   | Root          | ✅ **REQUIRED**                  | First person animation config |
+| `firstperson.dict`              | firstperson   | ✅ **REQUIRED**                  | Animation dictionary          |
+| `firstperson.anim`              | firstperson   | ✅ **REQUIRED**                  | Animation clip name           |
+| `firstperson.allowPedTypes`     | firstperson   | ❌ Optional                      | Allowed ped types             |
+| `firstperson.config`            | firstperson   | ❌ Optional                      | Configuration block           |
+| `config.posOffset`              | config        | ❌ Optional                      | Position offset               |
+| `config.heading`                | config        | ❌ Optional                      | Character direction           |
+| `config.freeze`                 | config        | ❌ Optional                      | Freeze in place               |
+| `config.onfinishtptolastcoords` | config        | ❌ Optional                      | Teleport back on finish       |
+| `config.flags`                  | config        | ❌ Optional                      | Animation behavior flags      |
+| `flags.loop`                    | flags         | ❌ Optional                      | Loop infinitely               |
+| `flags.controllable`            | flags         | ❌ Optional                      | Player can move               |
+| `flags.customduration`          | flags         | ❌ Optional                      | Duration override (ms)        |
+| `flags.customflag`              | flags         | ❌ Optional                      | Native GTA flag               |
+| `config.props`                  | config        | ❌ Optional                      | Attached objects array        |
+| `props[].model`                 | props         | ✅ **REQUIRED** (if using props) | Prop model name               |
+| `props[].bone`                  | props         | ✅ **REQUIRED** (if using props) | Bone ID to attach             |
+| `props[].posOffset`             | props         | ❌ Optional                      | Prop position offset          |
+| `props[].rotOffset`             | props         | ❌ Optional                      | Prop rotation offset          |
+| `config.ptfx`                   | config        | ❌ Optional                      | Particle effect config        |
+| `ptfx.asset`                    | ptfx          | ✅ **REQUIRED** (if using ptfx)  | Effect dictionary             |
+| `ptfx.name`                     | ptfx          | ✅ **REQUIRED** (if using ptfx)  | Effect name                   |
+| `ptfx.posOffset`                | ptfx          | ❌ Optional                      | Effect position offset        |
+| `ptfx.rotOffset`                | ptfx          | ❌ Optional                      | Effect rotation offset        |
+| `ptfx.scale`                    | ptfx          | ❌ Optional                      | Effect scale                  |
+| `ptfx.bone`                     | ptfx          | ❌ Optional                      | Attach to bone                |
+| `ptfx.color`                    | ptfx          | ❌ Optional                      | RGB color                     |
+| `ptfx.canhold`                  | ptfx          | ❌ Optional                      | Can be held                   |
+| `ptfx.attachtoprop`             | ptfx          | ❌ Optional                      | Attach to prop                |
+| `secondperson`                  | Root          | ❌ Optional (for synced)         | Second player config          |
+| `syncedoptions`                 | Root          | ❌ Optional (for synced)         | Sync positioning              |
+| `syncedoptions.sourceoffset`    | syncedoptions | ❌ Optional                      | First player offset           |
+| `syncedoptions.targetoffset`    | syncedoptions | ❌ Optional                      | Second player offset          |
+| `syncedoptions.sourceheading`   | syncedoptions | ❌ Optional                      | First player heading          |
+| `syncedoptions.targetheading`   | syncedoptions | ❌ Optional                      | Second player heading         |
+| `syncedoptions.initiatorRole`   | syncedoptions | ❌ Optional                      | Force initiator position      |
+| `rules`                         | Root          | ❌ Optional                      | Blocking rules                |
+| `rules.blockVehicle`            | rules         | ❌ Optional                      | Block in vehicle              |
+| `rules.blockFoot`               | rules         | ❌ Optional                      | Block on foot                 |
+| `rules.blockSetPosition`        | rules         | ❌ Optional                      | Hide UI option                |
 
 ***
 
-#### Second Person Animation Configuration (Optional)
+### Ped Types <a href="#ped-types" id="ped-types"></a>
 
-* **secondperson**: `object` (optional)\
-  Configuration for the second person animation.
-  * **anim**: `string`\
-    Animation for the second person.
-  * **dict**: `string`\
-    Animation dictionary for the second person.
-  * **config**: `object` (optional)
-    * **offset**: `object` (optional) - Positional offset of the animation (x, y, z).
-    * **heading**: `number` (optional) - Heading for the animation.
-    * **freeze**: `boolean` (optional) - Freeze the Player while doing the animation.
-    * **flags**: `object` (optional)
-      * **controllable**: `boolean` - If the animation is player-controllable.
-      * **loop**: `boolean` - Whether the animation loops.
-      * **customduration**: `number` (optional) - Custom duration for the animation.
-    * **props**: `array` (optional) - List of props attached to the character.
-      * **bone**: `number` - Bone ID for prop attachment.
-      * **model**: `string` - Model name for the prop.
-      * **posOffset**: `object` - Positional offset for the prop (x, y, z).
-      * **rotOffset**: `object` - Rotational offset for the prop (x, y, z).
-    *   **ptfx**: `object` (optional) - Particle effects configuration.
-
-        * **asset**: `string` - Particle effect asset or dictionary.
-        * **canhold**: `boolean` - Whether the particle effect can be held.
-        * **name**: `string` - Particle effect name.
-        * **posOffset**: `object` - Positional offset for the effect (x, y, z).
-        * **rotOffset**: `object` - Rotational offset for the effect (x, y, z).
-        * **scale**: `number` - Scale of the particle effect.
-
-        **allowPedTypes**: `array` (optional)\
-        List of allowed Ped types for either the first or second person in the animation.
-
-        * Example: `'bigdogs'` or `'smallpeds'`
-
-***
-
-#### Synced Animation Configuration
-
-* **syncedoptions**: `object` (optional)\
-  Settings for synchronized animations between multiple characters.
-  * **sourceoffset**: `object`\
-    Position offset for the first person in the sync.
-  * **targetoffset**: `object`\
-    Position offset for the second person in the sync.
-  * **sourceheading**: `number`\
-    Heading for the first person in the sync.
-  * **targetheading**: `number`\
-    Heading for the second person in the sync.
-
-***
-
-#### Rules (Optional)
-
-* **rules**: `object` (optional)\
-  Additional rules for the animation.
-  * **blockFoot**: `boolean`\
-    Block foot movement while the animation is playing.
-  * **blockSetPosition**: `boolean`\
-    Block the ability to set position during the animation.
-  * **blockVehicle**: `boolean`\
-    Block vehicle interactions during the animation.
+* Use `allowPedTypes` in config to restrict the animation (e.g. to `"default"`, `"bigdogs"`, etc.)
+* If omitted, only `"default"` (human peds) is allowed by default.
 
 ***
 

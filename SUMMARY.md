@@ -106,6 +106,7 @@
 * [🎉 Event Creator System](fivem/event-creator-system.md)
 * [🕺 Emote Menu](fivem/emote-menu/README.md)
   * [Register a New Category!](fivem/emote-menu/register-a-new-category.md)
+  * [Backup Register a New Animation!](fivem/emote-menu/backup-register-a-new-animation.md)
   * [Register a New Animation!](fivem/emote-menu/register-a-new-animation.md)
   * [Register a New Walkstyle!](fivem/emote-menu/register-a-new-walkstyle.md)
   * [Register a New Expression!](fivem/emote-menu/register-a-new-expression.md)
