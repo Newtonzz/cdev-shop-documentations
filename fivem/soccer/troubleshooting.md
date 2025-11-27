@@ -14,8 +14,7 @@ Please check with your AC provider on how you can resolve this
 ### Soccer ball prop not spawning
 
 {% hint style="danger" %}
-This is also usually due to Anti-Cheat, please whitelist the ball prop:\
-
+This is also usually due to Anti-Cheat, please whitelist the ball prop:<br>
 {% endhint %}
 
 

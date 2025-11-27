@@ -37,6 +37,7 @@
     * [🎮 Pet Manager (Admin Tool)](fivem/pet-system/new-features/pet-manager-admin-tool.md)
     * [🏠 Routing Bucket System](fivem/pet-system/new-features/routing-bucket-system.md)
     * [🐾 Pet Transfer System](fivem/pet-system/new-features/pet-transfer-system.md)
+    * [🗺️ Show Blip on Map](fivem/pet-system/new-features/show-blip-on-map.md)
   * [Item Configuration](fivem/pet-system/item-configuration.md)
   * [VIP Configuration](fivem/pet-system/vip-configuration.md)
   * [Pet Shop Configuration](fivem/pet-system/pet-shop-configuration.md)

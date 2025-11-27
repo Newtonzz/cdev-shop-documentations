@@ -126,8 +126,7 @@ FallbackIcons = {
 
 {% hint style="info" %}
 **To have access to the** <mark style="color:$success;">chat</mark> **command, you need to have added the** <mark style="color:yellow;">ACE permission</mark> **for the** <mark style="color:yellow;">admin</mark> <mark style="color:red;">group</mark>**, and your account must belong to the** <mark style="color:yellow;">admin</mark> <mark style="color:red;">group</mark>**.**\
-\
-
+<br>
 {% endhint %}
 
 <figure><img src="../../.gitbook/assets/FiveM_GTAProcess_LnPmIEUSl0-_online-video-cutter.com_.gif" alt=""><figcaption></figcaption></figure>

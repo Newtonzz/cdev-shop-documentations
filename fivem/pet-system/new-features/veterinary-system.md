@@ -228,8 +228,7 @@ The **Veterinary System** introduces complete pet healthcare to your server. Vet
 
 {% hint style="warning" %}
 **File Location:** `public/config/config.lua`\
-**Section:** `PlayerShop.Veterinary`\
-
+**Section:** `PlayerShop.Veterinary`<br>
 
 **Debug Modes Enable:** Yes (`cdev_lib > public > config > config.lua` and `cdev_pets > public > config > config.lua`)\
 **Restart Required:** Yes both resources first >  (`restart cdev_lib`) and after ( `ensure cdev_pets)`

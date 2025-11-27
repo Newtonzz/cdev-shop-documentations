@@ -9,7 +9,7 @@ description: Detailed guide.
 
 * Discord Bot (click below for how-to)
 
-[Broken link](broken-reference "mention")&#x20;
+[Broken link](/broken/pages/TG5Bq2UZVKDlrGRpH0oV "mention")&#x20;
 
 * A Tebex store & secret key
 

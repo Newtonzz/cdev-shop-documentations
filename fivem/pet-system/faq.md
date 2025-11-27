@@ -909,8 +909,7 @@ If you have an anti-cheat, it may be blocking the pet events, please check with 
 
 <figure><img src="../../.gitbook/assets/Error When Try open Manager.png" alt=""><figcaption></figcaption></figure>
 
-✅ <mark style="color:yellow;">**Please note: if you’re not yet using the resource on your production server, and it’s not an issue for you to delete all the cdev\_pets tables, the best practice is to remove them entirely and recreate the shop. This will fix all existing problems and help avoid any future issues.**</mark>\
-
+✅ <mark style="color:yellow;">**Please note: if you’re not yet using the resource on your production server, and it’s not an issue for you to delete all the cdev\_pets tables, the best practice is to remove them entirely and recreate the shop. This will fix all existing problems and help avoid any future issues.**</mark><br>
 
 ### List of all tables to delete <mark style="color:red;">(Only delete everything if you have no problem losing all previously recorded data.)</mark>
 
