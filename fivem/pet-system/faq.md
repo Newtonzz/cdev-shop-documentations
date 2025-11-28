@@ -41,6 +41,196 @@ After the pet starts attacking the player or NPC, keep holding the G key until i
 >     },
 > ```
 
+***
+
+## **How Pet Stamina System Work ?**
+
+***
+
+{% hint style="info" %}
+Stamina represents your pet’s physical energy. It is consumed when the pet performs activities and regenerated only under specific conditions.
+{% endhint %}
+
+### 📍 Where are stamina settings located?
+
+All stamina-related configuration values can be found here:
+
+```
+cdev_pets/public/config/config.lua
+```
+
+***
+
+### ⚙️ Stamina Configuration Values
+
+```lua
+StaminaDecreaseFollowingPerTick = 4,
+StaminaDecreaseFromFetch = 4,
+StaminaIncreaseWhileSleepingPerTick = 2,
+StaminaChangeWhileSleepingNotify = 1,
+StaminaDecreaseWhenAttacking = 5,
+```
+
+***
+
+### ⏱️ How often does stamina update? (AI Tick)
+
+Stamina does **not** update every second.\
+It updates based on the server’s AI Tick system:
+
+```lua
+AI = {
+    TickFrequency = 60, -- in seconds
+}
+```
+
+#### 🔎 Meaning:
+
+**Stamina is updated only once every 60 seconds (1 minute).**
+
+Whether the pet is following, sleeping, or performing an action, stamina will only change at each tick.
+
+***
+
+## 😴 How Stamina Regenerates
+
+Stamina increases **only** when the pet is properly sleeping in its bed.
+
+#### Regeneration Rate:
+
+```lua
+StaminaIncreaseWhileSleepingPerTick = 2
+```
+
+| State               | Stamina Change | Amount            |
+| ------------------- | -------------- | ----------------- |
+| **Sleeping in bed** | Increase       | **+2 per minute** |
+
+#### ⚠️ Important Requirement
+
+{% hint style="danger" %}
+**You (the owner) must remain near the pet while it sleeps.**\
+If you move too far away, the pet may leave the sleeping state and stamina will stop regenerating.
+{% endhint %}
+
+{% hint style="warning" %}
+**If your pet is very** <mark style="color:$success;">hungry</mark> **or very** <mark style="color:$success;">thirsty</mark>**, it will lose stamina — even while sleeping.**
+{% endhint %}
+
+***
+
+## 📉 Stamina Consumption (Default Config)
+
+Below is a complete list of all actions that reduce stamina.
+
+***
+
+### 🐕 Following
+
+| Action              | Stamina Change    | Value             |
+| ------------------- | ----------------- | ----------------- |
+| Following the owner | Decrease per tick | **–4 per minute** |
+
+***
+
+### 🎾 Fetching (Toy/Ball)
+
+```lua
+StaminaDecreaseFromFetch = 4
+```
+
+| Action      | Stamina Change    |
+| ----------- | ----------------- |
+| Fetch a toy | **–4 per action** |
+
+***
+
+### 🐺 Attacking
+
+```lua
+StaminaDecreaseWhenAttacking = 5
+```
+
+| Action | Stamina Change    |
+| ------ | ----------------- |
+| Attack | **–5 per action** |
+
+***
+
+## 🎓 Training Activities
+
+Training stamina costs are configured here:
+
+```lua
+training = {
+    Cones = { StaminaDecrease = 5 },
+    Ramp  = { StaminaDecrease = 7 },
+    Dummy = { StaminaDecrease = 7 },
+    Hoop  = { StaminaDecrease = 7 }
+}
+```
+
+#### Training Stamina Costs
+
+| Training                   | Stamina Cost |
+| -------------------------- | ------------ |
+| **Cones**                  | –5           |
+| **Ramp**                   | –7           |
+| **Dummy (Practice Dummy)** | –7           |
+| **Hoop (Ring)**            | –7           |
+
+***
+
+## 💤 Tired State (Stamina = 0)
+
+When stamina reaches **0**, the pet becomes **Tired**.
+
+Effects:
+
+* Cannot attack
+* Cannot train
+* Cannot fetch
+* Cannot perform demanding actions
+* May whine or show tired mood
+* Must sleep to recover stamina
+
+***
+
+## 📘 Complete Stamina Overview (Summary Table)
+
+| Situation           | Change | Amount                | Notes                  |
+| ------------------- | ------ | --------------------- | ---------------------- |
+| Pet sleeping in bed | +      | **+2 / minute**       | Owner must stay close  |
+| Pet following owner | –      | **–4 / minute**       | Tick = 60s             |
+| Fetch toy           | –      | **–4 / action**       | Instant                |
+| Attack              | –      | **–5 / action**       | Instant                |
+| Cones training      | –      | **–5**                | Requires stamina       |
+| Ramp training       | –      | **–7**                | Requires stamina       |
+| Dummy training      | –      | **–7**                | Requires stamina       |
+| Hoop training       | –      | **–7**                | Requires stamina       |
+| Stamina minimum     | 0      | Pet becomes **Tired** | Cannot perform actions |
+
+***
+
+## 🛠 Balancing Tips (Optional)
+
+| Goal                                 | Change                                         |
+| ------------------------------------ | ---------------------------------------------- |
+| Faster stamina recovery              | Increase `StaminaIncreaseWhileSleepingPerTick` |
+| Slower stamina drain while following | Lower `StaminaDecreaseFollowingPerTick`        |
+| Faster stat updates                  | Reduce `AI.TickFrequency` (use with caution)   |
+
+***
+
+## 💡 Additional Notes
+
+* Stamina is clamped between **0 and 100**.
+* Notifications are sent every time **increase**.
+* Stamina changes happen at **tick intervals**, not instantly.
+* The pet must be truly _inside_ the bed’s interaction area to start sleeping.
+
+***
+
 ## My K9 dog is not dealing damage to the player it was ordered to attack how fix it?
 
 ***
