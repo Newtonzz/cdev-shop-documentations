@@ -60,7 +60,7 @@ Each configuration file is straightforward and well-documented for ease of use.
 
 **Setup**
 
-1. Ensure `debug = true` is set in your `server.cfg`, or assign the `event_creator` job (modifiable in the config) to yourself.
+1. Ensure `debug = true` is set in your `cdev_eventcreator > public > config > config.lua`, or assign the `event_creator` job (modifiable in the config) to yourself.
 2. With debug mode enabled, job requirements are bypassed, allowing you to use the resource freely.
 
 **Creating an Event**
