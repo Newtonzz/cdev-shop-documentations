@@ -45,3 +45,14 @@ You can update your resources inside [Portal CFX](https://portal.cfx.re/)
 [show-blip-on-map.md](show-blip-on-map.md)
 {% endcontent-ref %}
 
+{% hint style="danger" %}
+For the new features to work correctly, the resources listed below must be updated to the versions indicated.\
+**cdev\_pets**  <mark style="color:yellow;">^3.3.1</mark>\
+\
+You can update your resources inside [Portal CFX](https://portal.cfx.re/)
+{% endhint %}
+
+{% content-ref url="pet-movement-and-follow-system.md" %}
+[pet-movement-and-follow-system.md](pet-movement-and-follow-system.md)
+{% endcontent-ref %}
+
