@@ -1,3 +1,7 @@
+---
+hidden: true
+---
+
 # 🌬️ cDev Tarot
 
 {% embed url="https://www.youtube.com/watch?t=&v=CUuNgZ69bl0" %}

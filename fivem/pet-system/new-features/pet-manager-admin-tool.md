@@ -368,7 +368,7 @@ Health: 0% ❌ Dead Hunger: 0% ❌ Starving Thirst: 0% ❌ Dehydrated Loyalty: 3
 
 #### Menu Hierarchy
 
-![](<../../../.gitbook/assets/image (1) (1) (1).png>)
+![](<../../../.gitbook/assets/image (1) (1) (1) (1).png>)
 
 ***
 

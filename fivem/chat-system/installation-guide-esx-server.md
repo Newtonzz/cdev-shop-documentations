@@ -41,7 +41,7 @@ hidden: true
 
 **Below is an example screenshot showing the correct folder structure:**
 
-![](<../../.gitbook/assets/image (1) (1) (1) (1) (1).png>)
+![](<../../.gitbook/assets/image (1) (1) (1) (1) (1) (1).png>)
 {% endstep %}
 
 {% step %}

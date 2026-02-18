@@ -32,7 +32,7 @@ It is essential to follow the correct startup order to ensure proper functionali
 
 **Below is an example screenshot showing the recommended startup order:**
 
-<div align="left"><figure><img src="../../.gitbook/assets/image.png" alt=""><figcaption></figcaption></figure></div>
+<div align="left"><figure><img src="../../.gitbook/assets/image (1).png" alt=""><figcaption></figcaption></figure></div>
 {% endstep %}
 
 {% step %}
@@ -40,7 +40,7 @@ It is essential to follow the correct startup order to ensure proper functionali
 
 🚩 <mark style="color:red;">**To work correctly,**</mark> <mark style="color:yellow;">cdev\_tarot</mark> <mark style="color:red;">**requires the proper configuration of the inventory in the**</mark>**&#x20;`config.lua`&#x20;**<mark style="color:red;">**file located in the**</mark>**&#x20;`cdev_tarot > public > shared`&#x20;**<mark style="color:red;">**folder. Below is how the file should be configured to ensure everything functions properly.**</mark>
 
-<figure><img src="../../.gitbook/assets/image (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (1) (1).png" alt=""><figcaption></figcaption></figure>
 {% endstep %}
 
 {% step %}

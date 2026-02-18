@@ -131,6 +131,15 @@
   * [Exports](fivem/cdev-tarot/exports.md)
   * [Installation Guide OX Inventory](fivem/cdev-tarot/installation-guide-ox-inventory.md)
   * [Installation Guide QBCore Inventory](fivem/cdev-tarot/installation-guide-qbcore-inventory.md)
+* [cDev Ches](fivem/cdev-ches/README.md)
+  * [⚙️ Installation Guide](fivem/cdev-ches/installation-guide.md)
+  * [Configurations](fivem/cdev-ches/configurations.md)
+  * [Commands](fivem/cdev-ches/commands.md)
+  * [Exports](fivem/cdev-ches/exports/README.md)
+    * [Shared](fivem/cdev-ches/exports/shared.md)
+    * [Client](fivem/cdev-ches/exports/client.md)
+    * [Server](fivem/cdev-ches/exports/server.md)
+  * [Integrations](fivem/cdev-ches/integrations.md)
 
 ***
 

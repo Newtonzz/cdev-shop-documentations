@@ -70,7 +70,7 @@ For the game system and the connection between your <mark style="color:yellow;">
 
 ➤ Step 1: 🚩 <mark style="color:red;">To work correctly,</mark> <mark style="color:yellow;">**cdev\_soccer**</mark> <mark style="color:red;">requires the proper configuration of the polyzone in the</mark> `config.lua` <mark style="color:red;">file located in the</mark> `cdev_soccer > public > config > config.lua` <mark style="color:red;">folder.</mark>\ <mark style="color:red;">Below is how the file should be configured to ensure everything functions properly.</mark>
 
-<div align="left"><figure><img src="../../.gitbook/assets/image (1) (1) (1) (1) (1) (1).png" alt=""><figcaption></figcaption></figure></div>
+<div align="left"><figure><img src="../../.gitbook/assets/image (1) (1) (1) (1) (1) (1) (1).png" alt=""><figcaption></figcaption></figure></div>
 
 ➤ Step 2: <mark style="color:red;">**As in the case of**</mark>**&#x20;**<mark style="color:yellow;">**QBox**</mark><mark style="color:red;">**, we use**</mark>**&#x20;`ox_lib`&#x20;**<mark style="color:red;">**to mark the**</mark>**&#x20;**<mark style="color:yellow;">**zones**</mark><mark style="color:red;">**, it is necessary to enable the**</mark>**&#x20;`ox_lib`** <mark style="color:$success;">**dependency**</mark>**&#x20;**<mark style="color:red;">**inside the**</mark>**&#x20;**<mark style="color:yellow;">**fxmanifest.lua**</mark>**&#x20;**<mark style="color:red;">**file located in the**</mark>**&#x20;**<mark style="color:yellow;">**cdev\_soccer**</mark>**&#x20;**<mark style="color:red;">**folder. Leave the file exactly as shown in the picture bellow.**</mark>
 
