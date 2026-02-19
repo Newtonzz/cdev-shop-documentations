@@ -140,6 +140,7 @@
     * [Client](fivem/cdev-ches/exports/client.md)
     * [Server](fivem/cdev-ches/exports/server.md)
   * [Integrations](fivem/cdev-ches/integrations.md)
+  * [FAQs](fivem/cdev-ches/faqs.md)
 
 ***
 

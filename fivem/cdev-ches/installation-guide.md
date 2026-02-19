@@ -29,7 +29,13 @@ description: Step by step instructions to install this resource
 {% endstep %}
 
 {% step %}
-### Create a new subfolder or extract folder to server's root
+### Install cDev\_Chess and create a new subfolder or extract folder to server's root
+
+### Install resource from [Portal](https://portal.cfx.re/assets/granted-assets)
+
+**After installing, you should get a zip file with the name shown below.**
+
+* <mark style="color:yellow;">cdev\_chess.pack.zip</mark>
 
 {% hint style="info" %}
 Create a new subfolder optional step, but is _highly recommended_.
@@ -154,105 +160,83 @@ The item name must match `ChessConfig.Item.name` (default: `chess_board`). Follo
 4. Save the file and perform a full server restart. Failure to perform a full restart after installation will cause errors.
 {% endtab %}
 {% endtabs %}
+
+{% hint style="danger" %}
+**If you have a&#x20;**<mark style="color:yellow;">**custom framework, custom notify, custom inventory, and custom target**</mark>**, please read our configuration documentation so you can understand how to adapt it by clicking the link below.**
+{% endhint %}
+
+{% content-ref url="configurations.md" %}
+[configurations.md](configurations.md)
+{% endcontent-ref %}
 {% endstep %}
 
 {% step %}
-###
-
-
-{% endstep %}
-{% endstepper %}
+### ⭐ **In-Game Preview**
 
 {% tabs %}
-{% tab title="Ox Inventory" %}
+{% tab title="Player One (Owner Board / White Piece)" %}
+#### Using the Chess Board from Inventory
 
+<figure><img src="../../.gitbook/assets/FiveM_GTAProcess_GqIW1LATE7.gif" alt=""><figcaption></figcaption></figure>
 
-{% stepper %}
-{% step %}
-### Install resource from [Portal](https://portal.cfx.re/assets/granted-assets)
+#### Mathing Settings (Only For White Piece Player)
 
-**After installing, you should get a zip file with the name shown below.**
+<figure><img src="../../.gitbook/assets/FiveM_GTAProcess_FfMdDXvDEe.gif" alt=""><figcaption></figcaption></figure>
 
-* <mark style="color:yellow;">cdev\_cOne.pack.zip</mark>
-{% endstep %}
+#### Starting a Chess Match
 
-{% step %}
-### Create the folder and extract the zip inside it.
-
-➤ Step 1: Create the <kbd><mark style="color:red;">cdev\_cOne<mark style="color:red;"></kbd> folder.
-
-➤ Step 2: Extract the contents of <mark style="color:yellow;">cdev\_cOne.pack.zip</mark> into the <kbd><mark style="color:red;">cdev\_cOne<mark style="color:red;"></kbd> folder.
-
-{% hint style="danger" %}
-**It is extremely essential that the folder has the exact same name as above, otherwise the resource will not work properly.**
-{% endhint %}
-{% endstep %}
-
-{% step %}
-### Server.cfg Configuration
-
-This resource must always be started **after your&#x20;**<mark style="color:yellow;">**framework**</mark>**&#x20;and any&#x20;**<mark style="color:yellow;">**other**</mark>**&#x20;required resources**.
-
-It is essential to follow the correct startup order to ensure proper functionality and avoid conflicts.
-
-**Below is an example screenshot showing the recommended startup order:**
-
-<div align="left"><figure><img src="../../.gitbook/assets/image (14).png" alt=""><figcaption></figcaption></figure></div>
-{% endstep %}
-
-{% step %}
-### Cdev\_cOne Configuration
-
-🚩 <mark style="color:red;">**To work correctly, cdev\_cOne requires the proper configuration of the inventory in the**</mark>**&#x20;`config.lua`&#x20;**<mark style="color:red;">**file located in the**</mark>**&#x20;`cdev_cOne > public > shared`&#x20;**<mark style="color:red;">**folder. Below is how the file should be configured to ensure everything functions properly.**</mark>
-
-<figure><img src="../../.gitbook/assets/image (15).png" alt=""><figcaption></figcaption></figure>
-
-{% hint style="danger" %}
-<mark style="color:yellow;">**Attention:**</mark>**&#x20;the Language configuration is set to&#x20;**<mark style="color:yellow;">**EN**</mark>**&#x20;by default because we don’t have other translation files. If you change it to another language without creating the file in the folder&#x20;**<kbd><mark style="color:yellow;">**cdev\_cOne > data > languages**<mark style="color:yellow;"></kbd>**, it will not work.**
-{% endhint %}
-{% endstep %}
-
-{% step %}
-### Setup Item and Images inside Ox Inventory
-
-**Step One**
-
-Add images to `ox_inventory/web/images` Images are available in the `cdev_cOne > images` folder of this resource.
-
-**Step Two**
-
-Add item to `ox_inventory/data/items.lua` like listed bellow.
-
-```lua
-["conedeck"] = {
-	label = "cOne Deck",
-	weight = 100,
-	consume = 1,
-	stack = true,
-	close = true,
-	client = {
-		image = "conedeck.png",
-		export = "cdev_cOne.createTableOXItem",
-	}
-},
-```
-{% endstep %}
-
-{% step %}
-###
-
-
-{% endstep %}
-
-{% step %}
-### Using the card cOne Deck in-game
-
-<figure><img src="../../.gitbook/assets/Give Ox.gif" alt=""><figcaption></figcaption></figure>
-{% endstep %}
-{% endstepper %}
+<figure><img src="../../.gitbook/assets/FiveM_GTAProcess_sDf8vdeZ3o.gif" alt=""><figcaption></figcaption></figure>
 {% endtab %}
 
-{% tab title="Qb Inventory" %}
+{% tab title="Player Two ( Member / Black Piece )" %}
+#### Joining as Opponent
 
+<figure><img src="../../.gitbook/assets/FiveM_cl2_GTAProcess_yVIXiDzK5Y.gif" alt=""><figcaption></figcaption></figure>
+
+#### Player Two Turn
+
+<figure><img src="../../.gitbook/assets/FiveM_cl2_GTAProcess_8ENCqzMVXE.gif" alt=""><figcaption></figcaption></figure>
+{% endtab %}
+
+{% tab title="Admin Commands" %}
+#### Chess admin
+
+```
+/chessadmin
+```
+
+<figure><img src="../../.gitbook/assets/FiveM_GTAProcess_uDxMxRu3TP.gif" alt=""><figcaption></figcaption></figure>
+
+#### Chess Place
+
+```
+/chess place
+```
+
+<figure><img src="../../.gitbook/assets/FiveM_GTAProcess_bW7ovpqZrj.gif" alt=""><figcaption></figcaption></figure>
+
+#### Chess Delete
+
+```
+/chess delete
+```
+
+<figure><img src="../../.gitbook/assets/FiveM_GTAProcess_8DUFNDecav.gif" alt=""><figcaption></figcaption></figure>
+{% endtab %}
+
+{% tab title="Features" %}
+#### Game Leaderboard
+
+<figure><img src="../../.gitbook/assets/FiveM_GTAProcess_5RCYlMi3zv.gif" alt=""><figcaption></figcaption></figure>
+
+#### Match History
+
+<figure><img src="../../.gitbook/assets/FiveM_GTAProcess_MrDr0sYAbs.gif" alt=""><figcaption></figcaption></figure>
+
+#### User Profile Settings
+
+<figure><img src="../../.gitbook/assets/FiveM_GTAProcess_R1VVBXDzuH.gif" alt=""><figcaption></figcaption></figure>
 {% endtab %}
 {% endtabs %}
+{% endstep %}
+{% endstepper %}

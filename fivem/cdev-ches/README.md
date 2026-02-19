@@ -54,7 +54,7 @@ icon: game-board
 
 </details>
 
-## Installation Guide
+## Installation Guide & Others
 
 {% content-ref url="installation-guide.md" %}
 [installation-guide.md](installation-guide.md)
@@ -64,32 +64,20 @@ icon: game-board
 [configurations.md](configurations.md)
 {% endcontent-ref %}
 
-***
+{% content-ref url="commands.md" %}
+[commands.md](commands.md)
+{% endcontent-ref %}
 
-#### Installation & Configuration
+{% content-ref url="exports/" %}
+[exports](exports/)
+{% endcontent-ref %}
 
-👉 Installation & Configuration
+{% content-ref url="integrations.md" %}
+[integrations.md](integrations.md)
+{% endcontent-ref %}
 
-***
-
-#### Configuration
-
-👉 Configuration
-
-***
-
-#### Commands, Events & Exports
-
-👉 Commands, Events & Exports
+{% content-ref url="faqs.md" %}
+[faqs.md](faqs.md)
+{% endcontent-ref %}
 
 ***
-
-#### Integrations
-
-👉 Integrations
-
-***
-
-#### FAQs
-
-👉 FAQs
