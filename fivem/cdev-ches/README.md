@@ -4,6 +4,8 @@ icon: game-board
 
 # cDev Ches
 
+<figure><img src="../../.gitbook/assets/ChatGPT Image Feb 23, 2026, 11_19_58 AM.png" alt=""><figcaption></figcaption></figure>
+
 ## Introduction
 
 {% hint style="info" %}
@@ -18,7 +20,7 @@ icon: game-board
 
 ## Showcase
 
-**Video Here**
+**Video Soon**
 
 ## **Features**
 
@@ -50,6 +52,7 @@ icon: game-board
   * &#x20;Includes customizable labels, icons, key bindings, sync radius, and performance-based rescan settings.
 * **⏱ Timer Support:** Optional chess clock system with configurable time controls and **Fischer increment** support per match.
 * **🎨 Customization:** Players can personalize their profile with a custom display name and avatar URL, along with configurable match time settings.
+* **🎨 Customization Themes:** Server owners can personalize their UI themes using the default themes or create their own custom theme.
 * **🛠 Admin Tools:** Includes a `/chessadmin` panel to manage placed boards, teleport to active tables, and remove boards when needed.
 
 </details>

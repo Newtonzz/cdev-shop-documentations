@@ -199,6 +199,111 @@ Colors and sizes for selected pieces, valid moves, hover effects, etc. See `conf
 | ------------------------ | ------ | ------- | ----------------------------------------------- |
 | `Timer.IncrementSeconds` | number | `0`     | Fischer increment per move. `0` = no increment. |
 
+### Custom Themes
+
+With this feature from the **cdev\_chess** resource, you can customize and create multiple UI themes for a better experience on your server.
+
+#### Themes Configs (`public/shared/config.lua`)
+
+{% hint style="info" %}
+* **`default`** — CDEV Chess look (dark panels, red accents).
+* **`cdev`** — CDEV brand style (cdev\_lib palette: #161619, #1f1f22, #7289DA blue accent, #5f6369 muted text, #0abc5c success).
+* **`dark`** — Darker variant.
+* **`light`** — Light background and dark text.
+* **`custom`** — Template with empty values; fill in the colors you want. Any empty value falls back to **default**.
+{% endhint %}
+
+```lua
+-- UI theme (colors only). Options: "default", "cdev", "dark", "light", "custom".
+-- "custom" uses public/shared/themes.json "custom" entry; fill in values and leave others empty to fall back to default.
+-- Only the server owner can change this; players cannot change theme in-game.
+Theme = "cdev",
+```
+
+#### Themes Config File (`public/shared/themes.json`)
+
+### ✏️ How to create a new theme
+
+#### Option A: Use the `custom` template
+
+1. Set **`Theme = "custom"`** in `config.lua`.
+2. Open **`public/shared/themes.json`**.
+3. Find the **`custom`** object.
+4. Fill in the color values you want (hex, e.g. `#1a1a1a`, or CSS like `rgba(255,255,255,0.08)`).
+5. Leave a key empty (`""`) to use the **default** value for that key.
+6. Save and restart the resource.
+
+#### Option B: Add a new theme to the JSON
+
+1. In **`public/shared/themes.json`**, copy the **`default`** (or another) block.
+2. Add a new key at the same level as `default`, e.g. **`mytheme`**:
+
+```json
+"mytheme": {
+  "bg": "#0d0d0d",
+  "bgRow": "#1a1a1a",
+  ...
+}
+```
+
+3. In **`config.lua`** set **`Theme = "mytheme"`**.
+4. Restart the resource.
+
+### 📋 Theme keys (what each color changes)
+
+| Key                      | What it changes                                       |
+| ------------------------ | ----------------------------------------------------- |
+| **bg**                   | Main panel background (all menus)                     |
+| **bgRow**                | Rows and cards (rating row, player panels, list rows) |
+| **bgInput**              | Input fields and stat boxes                           |
+| **bgHover**              | Hover state for buttons and rows                      |
+| **border**               | Panel and card borders                                |
+| **borderSubtle**         | Dividers, input borders                               |
+| **borderActive**         | Active tab / selected border                          |
+| **red**                  | Accent (rating, timer, links, highlights)             |
+| **redDark**              | Dark red (selected option, delete button)             |
+| **redBtn**               | Primary button (Start Game, Save, Apply)              |
+| **redBtnHover**          | Primary button hover                                  |
+| **redGlow**              | Glow behind “You” panel and selected option           |
+| **redGlowOuter**         | Box-shadow for that glow (full CSS value)             |
+| **text**                 | Primary text                                          |
+| **textSecondary**        | Secondary text                                        |
+| **textMuted**            | Muted labels                                          |
+| **textDim**              | Dim text (hints, placeholders)                        |
+| **gold**                 | Rank 1 / gold medal in ranking                        |
+| **bronze**               | Rank 2–3 / bronze in ranking                          |
+| **scrollbarThumb**       | Scrollbar thumb color                                 |
+| **scrollbarThumbHover**  | Scrollbar thumb hover                                 |
+| **scrollbarThumbActive** | Scrollbar thumb active                                |
+| **success**              | Win / success (e.g. match history badge)              |
+| **error**                | Loss / error                                          |
+| **warning**              | Draw / neutral                                        |
+| **iconBtnHover**         | Icon button hover background                          |
+| **keyBg**                | Key hint background (e.g. \[E], \[ESC])               |
+| **whitePanelBorder**     | White player panel border in match                    |
+| **hudPanelBg**           | Game HUD panel background                             |
+| **hudPanelBorder**       | Game HUD panel border                                 |
+| **hudActiveBorder**      | Game HUD active (current turn) border                 |
+| **hudCenterBg**          | Game HUD center (turn label) background               |
+| **moveFromBg**           | Last move “from” square in HUD                        |
+| **moveToBg**             | Last move “to” square in HUD                          |
+| **moveToText**           | Last move “to” square text color                      |
+| **controlsBg**           | HUD controls container background                     |
+| **controlsBorder**       | HUD controls border                                   |
+| **kbdBg**                | HUD keyboard key background                           |
+| **gameOverOverlay**      | Game over banner gradient (full CSS value)            |
+
+***
+
+{% hint style="warning" %}
+### ⚠️ Important
+
+* **Only colors** can be changed; icons and layout are fixed.
+* **Server-side only**: theme is chosen in config; players cannot change it in-game.
+* Use **hex** (`#1a1a1a`) or **CSS** (`rgba(255,255,255,0.08)`) for values.
+* For **`redGlowOuter`** and **`gameOverOverlay`** use the full CSS value (e.g. box-shadow or gradient) as in **default**.
+{% endhint %}
+
 ### Custom Framework, Inventory, Notify & Target
 
 DEV Chess uses a **bridge system** for framework, inventory, notifications, and target. By default it auto-detects supported systems. If you use a **custom** or unsupported system, you can add support by editing the bridge files.
