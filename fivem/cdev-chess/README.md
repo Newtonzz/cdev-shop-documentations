@@ -2,7 +2,7 @@
 icon: game-board
 ---
 
-# cDev Ches
+# cDev Chess
 
 <figure><img src="../../.gitbook/assets/ChatGPT Image Feb 23, 2026, 11_19_58 AM.png" alt=""><figcaption></figcaption></figure>
 
@@ -16,7 +16,7 @@ icon: game-board
 
 ## Purchase the Script
 
-{% embed url="https://fivem.cdev.shop/category/scripts" %}
+{% embed url="https://fivem.cdev.shop/package/7299719" %}
 
 ## Showcase
 
