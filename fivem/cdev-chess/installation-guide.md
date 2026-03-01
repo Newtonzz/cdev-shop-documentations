@@ -237,7 +237,13 @@ The item name must match `ChessConfig.Item.name` (default: `chess_board`). Follo
 #### User Profile Settings
 
 <figure><img src="../../.gitbook/assets/FiveM_GTAProcess_R1VVBXDzuH.gif" alt=""><figcaption></figcaption></figure>
+
+#### Promotion Pawn
+
+<figure><img src="../../.gitbook/assets/FiveM_GTAProcess_Q7ikNDii06.gif" alt=""><figcaption></figcaption></figure>
 {% endtab %}
 {% endtabs %}
+
+
 {% endstep %}
 {% endstepper %}

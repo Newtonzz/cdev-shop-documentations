@@ -179,6 +179,12 @@ Board and piece models. Must match stream files. Do not change unless replacing 
 
 ***
 
+### Promotion System
+
+<table><thead><tr><th width="229">Option</th><th>Type</th><th>Default</th><th>Description</th></tr></thead><tbody><tr><td><code>Promotion.confirmKey</code></td><td>string</td><td><code>"Enter"</code></td><td>Confirm Promotion Selected.</td></tr><tr><td><code>Promotion.cycleLabel</code></td><td>string</td><td><code>"Scroll"</code></td><td>Label in Hint (e.g. "Scroll", "Mouse Wheel")</td></tr><tr><td><code>Promotion.cycleKeyNext</code></td><td>string</td><td><code>"ArrowDown"</code></td><td>Optional Extra: Key for next piece</td></tr><tr><td><code>Promotion.cycleKeyPrev</code></td><td>string</td><td><code>"ArrowUp"</code></td><td>Optional Extra: Key for prev piece</td></tr><tr><td><code>Promotion.cancelKey</code></td><td>string</td><td><code>"Backspace"</code></td><td>Cancel promotion.</td></tr></tbody></table>
+
+***
+
 ### Outline & Markers
 
 Colors and sizes for selected pieces, valid moves, hover effects, etc. See `config.lua` for full details.

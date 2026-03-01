@@ -29,6 +29,7 @@ icon: game-board
 <summary>Features List</summary>
 
 * ♟️ Customized and Optimized Chessboard and Chess Pieces Props with the Highest Quality
+* 🔃 **Promotion Piece:** Complete system with a UI for pawn promotion when the pawn reaches the other side of the board.
 * 🏁 **Physical Chess Boards** — Place chess boards in the world using the `chess_board` item or via admin commands.
 * 🎮 Pre-Game Lobby screen where players can review match details before starting , displays player names, ratings, selected sides, leadborad, player settings and match settings.
 *   🏆 ELO Rating & Badge System
