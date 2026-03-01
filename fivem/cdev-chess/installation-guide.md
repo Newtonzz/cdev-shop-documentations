@@ -98,10 +98,11 @@ The item name must match `ChessConfig.Item.name` (default: `chess_board`). Follo
     weight = 500,
     stack = false,
     close = true,
-    description = 'A portable chess board to play with friends.',
+    consume = 0,
+    description = 'Use to play chess with a nearby player. Place it, then use E to open and choose side.',
     server = {
-        export = 'cdev_chess.useChessBoard',
-    },
+        export = 'cdev_chess.useChessBoard'
+    }
 },
 ```
 
