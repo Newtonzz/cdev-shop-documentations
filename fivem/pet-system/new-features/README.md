@@ -79,3 +79,16 @@ You can update your resources inside [Portal CFX](https://portal.cfx.re/)
 {% content-ref url="custom-currency-in-pet-shop.md" %}
 [custom-currency-in-pet-shop.md](custom-currency-in-pet-shop.md)
 {% endcontent-ref %}
+
+{% hint style="danger" %}
+For the new features to work correctly, the resources listed below must be updated to the versions indicated.\
+**cdev\_pets**  <mark style="color:yellow;">^3.4.7</mark>
+
+**xsound**  <mark style="color:yellow;">^1.1.0 (Optional)</mark>\
+\
+You can update your resources inside [Portal CFX](https://portal.cfx.re/)
+{% endhint %}
+
+{% content-ref url="custom-sounds-for-pets-vocalization.md" %}
+[custom-sounds-for-pets-vocalization.md](custom-sounds-for-pets-vocalization.md)
+{% endcontent-ref %}
