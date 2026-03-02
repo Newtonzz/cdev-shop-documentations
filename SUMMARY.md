@@ -40,6 +40,7 @@
     * [🗺️ Show Blip on Map](fivem/pet-system/new-features/show-blip-on-map.md)
     * [🏃‍♂️ Pet Movement & Follow System](fivem/pet-system/new-features/pet-movement-and-follow-system.md)
     * [🐩 Pet Place Preview](fivem/pet-system/new-features/pet-place-preview.md)
+    * [💎 Custom Currency in Pet Shop](fivem/pet-system/new-features/custom-currency-in-pet-shop.md)
   * [Item Configuration](fivem/pet-system/item-configuration.md)
   * [VIP Configuration](fivem/pet-system/vip-configuration.md)
   * [Pet Shop Configuration](fivem/pet-system/pet-shop-configuration.md)

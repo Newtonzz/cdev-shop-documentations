@@ -66,3 +66,16 @@ You can update your resources inside [Portal CFX](https://portal.cfx.re/)
 {% content-ref url="pet-place-preview.md" %}
 [pet-place-preview.md](pet-place-preview.md)
 {% endcontent-ref %}
+
+{% hint style="danger" %}
+For the new features to work correctly, the resources listed below must be updated to the versions indicated.\
+**cdev\_pets**  <mark style="color:yellow;">^3.4.5</mark>
+
+**cdev\_lib**  <mark style="color:yellow;">^2.7.3</mark>\
+\
+You can update your resources inside [Portal CFX](https://portal.cfx.re/)
+{% endhint %}
+
+{% content-ref url="custom-currency-in-pet-shop.md" %}
+[custom-currency-in-pet-shop.md](custom-currency-in-pet-shop.md)
+{% endcontent-ref %}
