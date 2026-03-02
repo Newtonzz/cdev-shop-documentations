@@ -71,7 +71,7 @@ add_ace identifier.license:xxxxxxxxxxxx cdev_chess.admin allow
 
 Once all other steps are completed, open your `server.cfg` & add `ensure cdev_chess` to the very **bottom** of your resource start list (after oxmysql, your framework, inventory, and target if used). Finally, perform a full server restart. Failure to perform a full restart after installation will cause errors.
 
-<div align="left"><figure><img src="../../.gitbook/assets/image.png" alt=""><figcaption></figcaption></figure></div>
+<div align="left"><figure><img src="../../.gitbook/assets/image (2).png" alt=""><figcaption></figcaption></figure></div>
 
 {% hint style="success" %}
 **Note: Once completed, use the command `/chessranking` in-game to open the leaderboard, or use the chess board item to place a board and play!**
