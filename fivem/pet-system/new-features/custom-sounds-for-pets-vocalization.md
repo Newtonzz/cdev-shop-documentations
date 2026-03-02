@@ -173,6 +173,14 @@ If you leave it **`nil`**, the system uses the native sound (when the category h
 
 <details>
 
+<summary><strong>Q:</strong> How can I play these sounds?</summary>
+
+A: The sounds are triggered <mark style="color:yellow;">automatically</mark> based on the pet’s actions. The **Bark** and **Sniff** systems are only enabled when the pet is of type <mark style="color:yellow;">**K9**</mark>. If the pet is a K9, you can use the target or drawtext interaction to trigger the sound.
+
+</details>
+
+<details>
+
 <summary><strong>Q: What happens if I don’t install xsound?</strong></summary>
 
 A: Nothing breaks. The system checks if the `xsound` resource is `started`. If it isn’t, custom sounds are skipped and only native sounds are used (or none for cat/BigCat when they have no natives).
