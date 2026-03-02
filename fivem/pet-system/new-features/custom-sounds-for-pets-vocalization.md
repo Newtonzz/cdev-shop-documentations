@@ -169,6 +169,17 @@ If you leave it **`nil`**, the system uses the native sound (when the category h
 
 ***
 
+#### 🔊 Vocal Radius Sound Play
+
+{% hint style="warning" %}
+You can modify the distance at which players will hear the custom sounds. By default, it is set to a **40-meter radius**, which is recommended. However, if you want to change it, simply open the file `config.lua` located at `cdev_pets > public > config > config.lua` (line 32).
+{% endhint %}
+
+```lua
+-- Max distance (meters) for players to hear custom vocal (Meow/Bark, happiness, mood, etc.) when synced; only players within this radius receive the sound
+VocalSyncRadius = 40.0,
+```
+
 #### ❓ Frequently Asked Questions
 
 <details>
