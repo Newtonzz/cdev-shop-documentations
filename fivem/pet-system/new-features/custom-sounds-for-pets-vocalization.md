@@ -2,6 +2,22 @@
 
 ## &#x20;🎤 Custom Sounds for Pets <a href="#pet-transfer-system" id="pet-transfer-system"></a>
 
+{% hint style="danger" %}
+**Attention: This custom sounds (vocalization) system will not work for certain&#x20;**<mark style="color:red;">**actions**</mark>**&#x20;for some animals such as (**<mark style="color:yellow;">**Lion, Tiger, Capybara, Puma**</mark>**) because the models were made based on dogs to function correctly with our system. Bellow the table from actions not will change the sound.**
+{% endhint %}
+
+| Actions               | Work / Not Work | Detail                                              |
+| --------------------- | --------------- | --------------------------------------------------- |
+| Cuddle                | ⛔ Not work      | Keeps making dog sounds                             |
+| Following             | ⛔ Not work      | Keeps making dog sounds wehn follow/running         |
+| Bump                  | ⛔ Not work      | Keeps making dog sounds                             |
+| Bark while running    | ⛔ Not work      | Keeps making dog sounds                             |
+| Bark K9               | ✅ Work          | After you use Bark K9 interaction with other player |
+| Whine                 | ✅ Work          | Sad, hungry, thirsty, and low on health             |
+| Growl                 | ✅ Work          | Hungry and angry                                    |
+| Agitated              | ✅ Work          | **Playing and happy**                               |
+| Idle Sounds (Panting) | ⛔ Not work      | Keeps making dog sounds                             |
+
 {% hint style="success" %}
 **NEW FEATURE!** This feature is fully compatible with existing shops. Old shops will maintain their pet placed by default.
 {% endhint %}
