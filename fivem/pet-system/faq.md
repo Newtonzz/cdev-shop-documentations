@@ -1050,6 +1050,60 @@ Press the <mark style="color:yellow;">F8</mark> key to open the Client console i
 
 <figure><img src="../../.gitbook/assets/image (8) (1).png" alt=""><figcaption></figcaption></figure>
 
+## &#x20;How can I remove some clothes from the stream folder and the store?
+
+***
+
+{% hint style="danger" %}
+**Attention:** Removing clothes/accessories from the _stream_ folder may cause issues with pets that already have the removed clothing or accessory.
+{% endhint %}
+
+{% hint style="info" %}
+**Note:** It is only recommended to remove them if you are really running out of space in **txdStore** and want to use the pets.
+{% endhint %}
+
+{% hint style="warning" %}
+**Below is the list of stream/textures for each category.**\
+**Attention:** Do not delete files that contain <mark style="color:yellow;">**^head / ^head\_diff**</mark>, <mark style="color:yellow;">**^lowr / ^lowr\_diff**</mark>, or <mark style="color:yellow;">**^hair / ^hair\_diff**</mark>.
+{% endhint %}
+
+| Category                     | Component Number  | Stream names / Texture                                                                       |
+| ---------------------------- | ----------------- | -------------------------------------------------------------------------------------------- |
+| Collar                       | 8                 | <p>cdev_xxx_xxx^accs_xxx_u.ydd (Model)<br>cdev_xxx_xxx^accs_diff_xxx_x_uni.ytd (Texture)</p> |
+| Mask / Tie (Collar Category) | 1 - Maks, 8 - Tie | <p>cdev_xxx_xxx^berd_xxx_u.ydd (Model)<br>cdev_xxx_xxx^berd_diff_xxx_x_uni.ytd (Texture)</p> |
+| Shoes                        | 6                 | <p>cdev_xxx_xxx^feet_xxx_u.ydd (Model)<br>cdev_xxx_xxx^feet_diff_xxx_x_uni.ytd (Texture)</p> |
+| Head                         | 9                 | <p>cdev_xxx_xxx^task_xxx_u.ydd (Model)<br>cdev_xxx_xxx^task_diff_xxx_x_uni.ytd (Texture)</p> |
+| Glasses                      | 7                 | <p>cdev_xxx_xxx^teef_xxx_u.ydd (Model)<br>cdev_xxx_xxx^teef_diff_xxx_x_uni.ytd (Texture)</p> |
+| Clothes                      | 3                 | <p>cdev_xxx_xxx^uppr_xxx_u.ydd (Model)<br>cdev_xxx_xxx^uppr_diff_xxx_x_uni.ytd (Texture)</p> |
+| Patch                        | 1                 | <p>cdev_xxx_xxx^berd_002_u.ydd (Model)<br>cdev_xxx_xxx^berd_diff_002_x_uni.ytd (Texture)</p> |
+
+#### 1 - Identifying the clothing you want to remove.
+
+1.2 - First, we will open the store and choose an accessory. In this case, I will choose the <mark style="color:yellow;">Red Air One Shoes</mark>.
+
+<div align="left"><figure><img src="../../.gitbook/assets/image (19).png" alt=""><figcaption></figcaption></figure></div>
+
+1.3 - Now we will identify which stream represents the <mark style="color:yellow;">Red Air One Shoes</mark>.\
+We already know, according to the table above, that it is among the stream files `cdev_xxx_xxx^feet_xxx` because it belongs to the <mark style="color:yellow;">Shoes</mark> category.
+
+So, open the **`items.lua`** file located at **`cdev_pets > public > config > items.lua`** and search for **“Red Air One Shoes.”**
+
+```lua
+data = {
+    component = 6, -- This is just type of acessrioes from ped
+    drawable = 7, -- This is number of the model so cdev_dog_rott^feet_007_u.ydd
+    texture = 0, -- This is the texture color so 0 -> A  cdev_dog_rott^feet_diff_007_a_uni.ytd
+},
+```
+
+1.4 - **So we found that the drawable number is 7**, which is the model, and the **texture is 0**, which represents letters.\
+For example: **0 → A, 1 → B, ...**
+
+Therefore, the **model and texture for the Red Air One Shoes** would be:
+
+**`cdev_dog_rott^feet_007_u.ydd`**\
+&#xNAN;**`cdev_dog_rott^feet_diff_007_a_uni.ytd`**
+
 ## Where are the images from shop of the pets, clothes, and accessories located ?
 
 ***

@@ -124,6 +124,8 @@
     * [⚡ Speed Control System](fivem/emote-menu/new-features/speed-control-system.md)
 * [🧏 cDev ASL (American Sign Language)](fivem/cdev-asl-american-sign-language.md)
 * [🎴 cDev cOne](fivem/cdev-cone/README.md)
+  * [🔥 (NEW) Features](fivem/cdev-cone/new-features/README.md)
+    * [Rework Cdev One (Better Experience)](fivem/cdev-cone/new-features/rework-cdev-one-better-experience.md)
   * [Admin Commands](fivem/cdev-cone/admin-commands.md)
   * [Exports](fivem/cdev-cone/exports.md)
   * [Installation Guide OX Inventory](fivem/cdev-cone/installation-guide-ox-inventory.md)
