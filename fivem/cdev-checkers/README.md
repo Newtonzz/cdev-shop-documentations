@@ -51,7 +51,7 @@ icon: grid-4
   * **DrawText Mode** — Floating 3D text with key press interaction (e.g., `[E] Play Checkers`)
   * **Target Mode** — Integration with `ox_target` or `qb-target`
   * &#x20;Includes customizable labels, icons, key bindings, sync radius, and performance-based rescan settings.
-* **⏱ Timer Support:** Optional chess clock system with configurable time controls and **Fischer increment** support per match.
+* **⏱ Timer Support:** Optional checkers clock system with configurable time controls and **Fischer increment** support per match.
 * **🎨 Customization:** Players can personalize their profile with a custom display name and avatar URL, along with configurable match time settings.
 * **🎨 Customization Themes:** Server owners can personalize their UI themes using the default themes or create their own custom theme.
 * **🛠 Admin Tools:** Includes a `/checkersadmin` panel to manage placed boards, teleport to active tables, and remove boards when needed.
