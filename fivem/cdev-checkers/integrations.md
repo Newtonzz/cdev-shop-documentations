@@ -29,12 +29,12 @@ Auto-detection is enabled by default for seamless setup.
 
 ## 🎒 Inventories
 
-| Inventory            | Status             | Notes                                                                   |
-| -------------------- | ------------------ | ----------------------------------------------------------------------- |
-| **ox\_inventory**    | ✅ Fully Supported  | Use `server.export = 'cdev_checkers.useChessBoard'` for the board item. |
-| **qb-inventory**     | ✅ Fully Supported  | Useable item registered automatically.                                  |
-| **qs-inventory**     | ✅ Fully Supported  | Useable item registered automatically.                                  |
-| **Custom Inventory** | ⚠️ Bridge Required | Implement via `public/bridge/inventory/`.                               |
+| Inventory            | Status             | Notes                                                                      |
+| -------------------- | ------------------ | -------------------------------------------------------------------------- |
+| **ox\_inventory**    | ✅ Fully Supported  | Use `server.export = 'cdev_checkers.useCheckersBoard'` for the board item. |
+| **qb-inventory**     | ✅ Fully Supported  | Useable item registered automatically.                                     |
+| **qs-inventory**     | ✅ Fully Supported  | Useable item registered automatically.                                     |
+| **Custom Inventory** | ⚠️ Bridge Required | Implement via `public/bridge/inventory/`.                                  |
 
 ***
 
