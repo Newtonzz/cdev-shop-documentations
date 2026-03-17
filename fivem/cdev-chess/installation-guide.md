@@ -180,7 +180,7 @@ The item name must match `ChessConfig.Item.name` (default: `chess_board`). Follo
 
 <figure><img src="../../.gitbook/assets/FiveM_GTAProcess_GqIW1LATE7.gif" alt=""><figcaption></figcaption></figure>
 
-#### Mathing Settings (Only For White Piece Player)
+#### Matching Settings (Only For White Piece Player)
 
 <figure><img src="../../.gitbook/assets/FiveM_GTAProcess_FfMdDXvDEe.gif" alt=""><figcaption></figcaption></figure>
 

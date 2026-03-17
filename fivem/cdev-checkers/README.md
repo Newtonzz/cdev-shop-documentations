@@ -1,0 +1,87 @@
+---
+icon: grid-4
+---
+
+# cDev Checkers
+
+<figure><img src="../../.gitbook/assets/Cdev checkers.png" alt=""><figcaption></figcaption></figure>
+
+## Introduction
+
+{% hint style="info" %}
+**CDEV Checkers, Physical checkers with ELO ranking and multi-framework support for FiveM.**
+
+**Play checkers in the world using placed boards, compete on the leaderboard, and climb the ranks with a full ELO rating system. Supports QBox, QBCore, ESX Legacy, and multiple inventories.**
+{% endhint %}
+
+## Purchase the Script
+
+{% embed url="https://fivem.cdev.shop/package/7340742" %}
+
+## Showcase
+
+**Video Soon**
+
+## **Features**
+
+<details>
+
+<summary>Features List</summary>
+
+* &#x20;🏁Customized and Optimized Checkers Board and Checkers Pieces Props with the Highest Quality
+* 🔃 **Promotion Piece:** Complete automatically system regular piece reaches the last row on the opponent’s side. it is automatically promoted to a **king**, gaining the ability to move both forward and backward.
+* 🏁 **Physical Checkers Boards** — Place checkers boards in the world using the `checkers_board` item or via admin commands.
+* 🎮 Pre-Game Lobby screen where players can review match details before starting , displays player names, ratings, selected sides, leadborad, player settings and match settings.
+*   🏆 ELO Rating & Badge System
+
+    Competitive rating system based on the **ELO formula**, with fully configurable settings.
+
+    Players start with a default rating and gain or lose points after each match according to the configured **K-Factor**. Ratings are clamped within defined minimum and maximum limits to ensure balance.
+
+    The system also includes:
+
+    * 🎖 **Rank Badges** based on rating thresholds (e.g., GM, IM, Expert, Beginner)
+    * 🎨 Custom badge colors displayed in the UI
+    * 📊 Visual rating and informations from game display in match panel and in-game HUD
+    * ⚙️ Fully configurable rating values and progression
+*   **🔌 Multi-Framework Compatibility s**upports **QBox (qbx\_core), QBCore, and ESX Legacy** with automatic framework detection.
+
+    Also integrates with multiple inventory, target, and notification systems, with configurable fallback options if auto-detection fails.
+* 🎯 Flexible Interaction Modes Configurable board interaction system supporting:
+  * **DrawText Mode** — Floating 3D text with key press interaction (e.g., `[E] Play Checkers`)
+  * **Target Mode** — Integration with `ox_target` or `qb-target`
+  * &#x20;Includes customizable labels, icons, key bindings, sync radius, and performance-based rescan settings.
+* **⏱ Timer Support:** Optional chess clock system with configurable time controls and **Fischer increment** support per match.
+* **🎨 Customization:** Players can personalize their profile with a custom display name and avatar URL, along with configurable match time settings.
+* **🎨 Customization Themes:** Server owners can personalize their UI themes using the default themes or create their own custom theme.
+* **🛠 Admin Tools:** Includes a `/checkersadmin` panel to manage placed boards, teleport to active tables, and remove boards when needed.
+
+</details>
+
+## Installation Guide & Others
+
+{% content-ref url="installation-guide.md" %}
+[installation-guide.md](installation-guide.md)
+{% endcontent-ref %}
+
+{% content-ref url="configurations.md" %}
+[configurations.md](configurations.md)
+{% endcontent-ref %}
+
+{% content-ref url="commands.md" %}
+[commands.md](commands.md)
+{% endcontent-ref %}
+
+{% content-ref url="exports/" %}
+[exports](exports/)
+{% endcontent-ref %}
+
+{% content-ref url="integrations.md" %}
+[integrations.md](integrations.md)
+{% endcontent-ref %}
+
+{% content-ref url="faqs.md" %}
+[faqs.md](faqs.md)
+{% endcontent-ref %}
+
+***

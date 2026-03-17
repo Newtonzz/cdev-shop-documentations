@@ -145,6 +145,16 @@
     * [Server](fivem/cdev-chess/exports/server.md)
   * [Integrations](fivem/cdev-chess/integrations.md)
   * [FAQs](fivem/cdev-chess/faqs.md)
+* [cDev Checkers](fivem/cdev-checkers/README.md)
+  * [⚙️ Installation Guide](fivem/cdev-checkers/installation-guide.md)
+  * [Configurations](fivem/cdev-checkers/configurations.md)
+  * [Commands](fivem/cdev-checkers/commands.md)
+  * [Exports](fivem/cdev-checkers/exports/README.md)
+    * [Shared](fivem/cdev-checkers/exports/shared.md)
+    * [Client](fivem/cdev-checkers/exports/client.md)
+    * [Server](fivem/cdev-checkers/exports/server.md)
+  * [Integrations](fivem/cdev-checkers/integrations.md)
+  * [FAQs](fivem/cdev-checkers/faqs.md)
 
 ***
 
