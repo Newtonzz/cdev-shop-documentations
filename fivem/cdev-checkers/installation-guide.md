@@ -67,7 +67,7 @@ add_ace identifier.license:xxxxxxxxxxxx cdev_checkers.admin allow
 
 Once all other steps are completed, open your `server.cfg` & add `ensure cdev_checkers` to the very **bottom** of your resource start list (after oxmysql, your framework, inventory, and target if used). Finally, perform a full server restart. Failure to perform a full restart after installation will cause errors.
 
-<div align="left"><figure><img src="../../.gitbook/assets/image.png" alt=""><figcaption></figcaption></figure></div>
+<div align="left"><figure><img src="../../.gitbook/assets/image (3).png" alt=""><figcaption></figcaption></figure></div>
 
 {% hint style="success" %}
 **Note: Once completed, use the command `/checkersranking` in-game to open the leaderboard, or use the checkers board item to place a board and play!**
