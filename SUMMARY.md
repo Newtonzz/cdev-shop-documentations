@@ -156,7 +156,8 @@
     * [Server](fivem/cdev-checkers/exports/server.md)
   * [Integrations](fivem/cdev-checkers/integrations.md)
   * [FAQs](fivem/cdev-checkers/faqs.md)
-* [🐴 cDev Horse Shop (RedM)](fivem/cdev-horse-shop-redm.md)
+* [🐴 cDev Horse Shop (RedM)](fivem/cdev-horse-shop-redm/README.md)
+  * [⚙️ Installation Guide](fivem/cdev-horse-shop-redm/installation-guide.md)
 
 ***
 

@@ -20,7 +20,7 @@ icon: game-board
 
 ## Showcase
 
-**Video Soon**
+{% embed url="https://youtu.be/WZJrdbc9Kbg" %}
 
 ## **Features**
 
