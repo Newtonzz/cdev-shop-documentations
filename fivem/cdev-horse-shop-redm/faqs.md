@@ -145,4 +145,20 @@ On **first start**, the resource creates (if not present), among others:
 
 </details>
 
+<details>
+
+<summary><strong>🧩 Can I sell add-on / custom streamed horses?</strong></summary>
+
+**Yes.** Add a row to **`cdev_horseshop_catalog`** with the add-on’s **`model`** string (exact spawn name), plus `label`, `price`, optional `image_url`, etc.
+
+**Requirements:**
+
+* The **streaming pack** resource must be **running** so clients load the model; start it **before** `cdev_horseshop` if needed.
+* If preview/showroom/placement fails with **invalid model**, the client doesn’t see the ped in the game yet — fix stream order or the model name.
+* After purchase, **VORP stables** (or your **`HorseDeliveryExport`**) must accept that **`modelname`** — some stables scripts whitelist models; extend or use a custom export if yours does.
+
+Full step-by-step: Configurations → Catalog & add-on (custom) horses.
+
+</details>
+
 ***
