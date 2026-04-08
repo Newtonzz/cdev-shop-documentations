@@ -127,6 +127,8 @@ Note: When everything is installed, run `/horseshopcreate` in-game to start crea
 
 <pre><code><strong>/myshops
 </strong></code></pre>
+
+<figure><img src="../../.gitbook/assets/RedM_GTAProcess_vOJPKNNzuG.gif" alt=""><figcaption></figcaption></figure>
 {% endtab %}
 
 {% tab title="Server Admin" %}
