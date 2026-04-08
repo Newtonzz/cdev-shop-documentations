@@ -12,6 +12,8 @@
 
 ## Purchase the Script
 
+{% embed url="https://fivem.cdev.shop/package/7382701" %}
+
 ## Showcase
 
 **Video Soon**
