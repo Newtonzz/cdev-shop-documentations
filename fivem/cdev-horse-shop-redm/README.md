@@ -48,7 +48,9 @@ hidden: true
 
 ## Installation Guide & Others
 
-
+{% content-ref url="installation-guide.md" %}
+[installation-guide.md](installation-guide.md)
+{% endcontent-ref %}
 
 
 

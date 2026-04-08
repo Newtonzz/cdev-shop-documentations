@@ -96,6 +96,8 @@ Note: When everything is installed, run `/horseshopcreate` in-game to start crea
 ```
 /horseshopcreate
 ```
+
+<figure><img src="../../.gitbook/assets/Cerating+Shop+(1).gif" alt=""><figcaption></figcaption></figure>
 {% endtab %}
 
 {% tab title="Manager" %}
@@ -105,7 +107,7 @@ Note: When everything is installed, run `/horseshopcreate` in-game to start crea
 
 ### Buying Horse From Supplier
 
-
+<figure><img src="../../.gitbook/assets/Buying+a+Horse.gif" alt=""><figcaption></figcaption></figure>
 
 ### Place horse in Showroom
 
@@ -134,13 +136,13 @@ Note: When everything is installed, run `/horseshopcreate` in-game to start crea
 /horseshopmanager
 ```
 
-
+<figure><img src="../../.gitbook/assets/RedM_GTAProcess_mwTIOr9h5p.gif" alt=""><figcaption></figcaption></figure>
 {% endtab %}
 
 {% tab title="Client" %}
 ### Buying a horse and Preview
 
-
+<figure><img src="../../.gitbook/assets/Bying+a+Horse+And+Preview.gif" alt=""><figcaption></figcaption></figure>
 {% endtab %}
 {% endtabs %}
 {% endstep %}
