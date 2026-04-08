@@ -158,6 +158,10 @@
   * [FAQs](fivem/cdev-checkers/faqs.md)
 * [🐴 cDev Horse Shop (RedM)](fivem/cdev-horse-shop-redm/README.md)
   * [⚙️ Installation Guide](fivem/cdev-horse-shop-redm/installation-guide.md)
+  * [Configurations](fivem/cdev-horse-shop-redm/configurations.md)
+  * [Commands](fivem/cdev-horse-shop-redm/commands.md)
+  * [Integrations](fivem/cdev-horse-shop-redm/integrations.md)
+  * [FAQs](fivem/cdev-horse-shop-redm/faqs.md)
 
 ***
 

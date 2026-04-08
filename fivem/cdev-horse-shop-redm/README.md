@@ -1,7 +1,3 @@
----
-hidden: true
----
-
 # 🐴 cDev Horse Shop (RedM)
 
 <figure><img src="../../.gitbook/assets/RedM cowboy and horse shop scene.png" alt=""><figcaption></figcaption></figure>
