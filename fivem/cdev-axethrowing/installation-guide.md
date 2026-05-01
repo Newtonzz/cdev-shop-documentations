@@ -6,8 +6,6 @@ description: Step by step instructions to install this resource
 
 {% stepper %}
 {% step %}
-<figure><img src="../../.gitbook/assets/FiveM_cl2_GTAProcess_H9ICb9eaDR (1).gif" alt=""><figcaption></figcaption></figure>
-
 ### Install (or update) dependencies and optional
 
 {% hint style="danger" %}
