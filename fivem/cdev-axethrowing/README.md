@@ -12,7 +12,7 @@
 
 ## Purchase the Script
 
-{% embed url="https://fivem.cdev.shop/package/7299719" %}
+{% embed url="https://fivem.cdev.shop/package/7422517" %}
 
 ## Showcase
 
