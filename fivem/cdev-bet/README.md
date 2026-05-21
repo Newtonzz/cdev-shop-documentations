@@ -12,7 +12,7 @@ Browse real sports markets (1 · X · 2), build singles or express slips, track 
 
 ## Purchase the Script
 
-<mark style="color:$primary;">**Live on Website Shop Soon**</mark>
+{% embed url="https://fivem.cdev.shop/package/7458477" %}
 
 ## Showcase
 
