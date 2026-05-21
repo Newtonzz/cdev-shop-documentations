@@ -1,6 +1,6 @@
 # 🎲 cDev Bet
 
-<figure><img src="../../.gitbook/assets/Cdev Bet Image.jpeg" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/Cdev Image Upadate.png" alt=""><figcaption></figcaption></figure>
 
 ## Introduction
 
