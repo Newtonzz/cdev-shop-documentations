@@ -200,6 +200,47 @@ exports.cdev_pets:spawnPet(petId, customCoordinates)
 * Loads the pet's model and customization settings.
 * Adds the pet to the client's pet manager and sets up necessary interactions.
 
+#### QuickActionFollow
+
+**Description:**\
+Toggles follow/stay on the player's spawned owned pet from external menus (radial, custom UI). Uses the same logic as the in-game follow quick action but always targets `ownedPet` and skips the player whistle animation. Recommended for `qb-radialmenu`, `ox_lib` radial, and similar integrations.
+
+Export Statement:
+
+```lua
+exports("QuickActionFollow", function() onQuickActionFollow(true) end)
+```
+
+Usage:
+
+```lua
+exports['cdev_pets']:QuickActionFollow()
+```
+
+**Parameters:**\
+None
+
+**Returns:**\
+None
+
+**Functionality:**
+
+* Resolves the pet as `PetManagerClient.ownedPet` (or `currentPetTarget` if no owned pet is out).
+* Validates `CanDrawQuickActions()` (requires `Keybinds.Enabled = true` in config, pet within `Range`, player on foot, etc.).
+* If the pet is not following: triggers server callback `cdev_pets:attemptFollow`; on success, starts follow without player whistle animation.
+* If the pet is already following: sets the pet to stay (`Idle`).
+* Handles attack stand-down and bed/dead states the same way as the default follow keybind.
+* Does nothing if no valid pet, cooldown is active, or conditions are not met (no error thrown).
+
+Config requirements:
+
+* `PublicSharedPetsConfig.Keybinds.Enabled` must be `true` (even when using only a radial menu).
+* Pet must be spawned and within `PublicSharedPetsConfig.Range` (default `5.0`).
+
+Related events (alternative to this export):
+
+* `TriggerEvent('cdev_pets:quickAction:follow')` — same handler; may play player whistle animation when not called via this export.
+
 ***
 
 ### Server-Side Exports
