@@ -167,6 +167,193 @@ local canExit = exports.cdev_pets:CanExitVehicle(vehicle)
 
 ***
 
+#### `cdev_pets:onTargetPlaceVehicle`
+
+Places the player's spawned owned pet into a vehicle seat.
+
+**Trigger (client):**
+
+```lua
+TriggerEvent('cdev_pets:onTargetPlaceVehicle', {
+    entity = vehicle, -- vehicle entity handle
+    payload = {
+        door = 1,                  -- seat/door index used by cdev_pets
+        doorname = 'seat_pside_f', -- vehicle bone name
+    },
+})
+```
+
+**Payload fields:**
+
+| Field              | Type     | Description                          |
+| ------------------ | -------- | ------------------------------------ |
+| `entity`           | `number` | Vehicle entity handle.               |
+| `payload.door`     | `number` | Door/seat index: `1`, `2`, or `3`.   |
+| `payload.doorname` | `string` | Vehicle bone name (see table below). |
+
+**Supported seat bones:**
+
+| `doorname`     | `door` | Seat                |
+| -------------- | ------ | ------------------- |
+| `seat_pside_f` | `1`    | Front passenger     |
+| `seat_dside_r` | `2`    | Rear driver side    |
+| `seat_pside_r` | `3`    | Rear passenger side |
+
+**What happens internally:**
+
+1. Resolves `PetManagerClient.ownedPet` (pet must be spawned and out).
+2. Checks the pet is within **10 meters** of the player.
+3. Calls server callback `cdev_pets:attemptVehicle` (e.g. stamina / tired checks).
+4. On success, runs `pet:EnterVehicle(entity, door, doorname)`.
+
+**Returns:** None (failures are handled silently or via in-game notifications from `cdev_pets`).
+
+***
+
+#### `cdev_pets:onTargetTakeVehicle`
+
+Removes the player's pet from a vehicle.
+
+**Trigger (client):**
+
+```lua
+TriggerEvent('cdev_pets:onTargetTakeVehicle', {
+    entity = vehicle, -- vehicle entity handle the pet is in
+})
+```
+
+**Requirements:**
+
+* Pet must be spawned (`ownedPet` exists).
+* Pet state must be `VEHICLE`.
+* Pet must be attached to the given `entity`.
+
+**What happens internally:**
+
+* Calls `pet:Idle()`, which plays the exit animation and detaches the pet.
+
+**Returns:** None.
+
+***
+
+#### Example client-side code using the pet interaction events and vehicle exports.
+
+Add this to **your** resource's client script example inside your `qbx_radialmenu` (not inside `cdev_pets`):
+
+```lua
+-- Seat bones used by cdev_pets for vehicle placement
+local PET_VEHICLE_BONES = {
+    seat_pside_f = 1, -- front passenger
+    seat_dside_r = 2, -- rear driver side
+    seat_pside_r = 3, -- rear passenger side
+}
+
+--- Returns the closest vehicle to the player within maxDistance meters.
+local function getClosestVehicle(maxDistance)
+    local ped = PlayerPedId()
+    local coords = GetEntityCoords(ped)
+    return GetClosestVehicle(coords.x, coords.y, coords.z, maxDistance or 5.0, 0, 71)
+end
+
+--- Finds the nearest valid seat bone on a vehicle to the player.
+local function getClosestVehicleSeatBone(vehicle, maxBoneDistance)
+    local ped = PlayerPedId()
+    local playerCoords = GetEntityCoords(ped)
+    local closestBone, closestDistance
+
+    for boneName in pairs(PET_VEHICLE_BONES) do
+        local boneIndex = GetEntityBoneIndexByName(vehicle, boneName)
+        if boneIndex ~= -1 then
+            local boneCoords = GetWorldPositionOfEntityBone(vehicle, boneIndex)
+            local distance = #(playerCoords - boneCoords)
+            if not closestDistance or distance < closestDistance then
+                closestBone = boneName
+                closestDistance = distance
+            end
+        end
+    end
+
+    if closestBone and closestDistance <= (maxBoneDistance or 5.0) then
+        return closestBone, PET_VEHICLE_BONES[closestBone]
+    end
+end
+
+--- Put the player's pet into the closest nearby vehicle (standalone).
+function PutPetInClosestVehicle()
+    if GetResourceState('cdev_pets') ~= 'started' then
+        print('[pets] cdev_pets is not running')
+        return false
+    end
+
+    local vehicle = getClosestVehicle(5.0)
+    if vehicle == 0 or not DoesEntityExist(vehicle) then
+        print('[pets] No vehicle nearby')
+        return false
+    end
+
+    if not exports.cdev_pets:CanEnterVehicle(vehicle) then
+        print('[pets] Pet cannot enter this vehicle')
+        return false
+    end
+
+    local boneName, doorIndex = getClosestVehicleSeatBone(vehicle, 5.0)
+    if not boneName then
+        print('[pets] No valid seat bone found on this vehicle')
+        return false
+    end
+
+    TriggerEvent('cdev_pets:onTargetPlaceVehicle', {
+        entity = vehicle,
+        payload = {
+            door = doorIndex,
+            doorname = boneName,
+        },
+    })
+
+    return true
+end
+
+--- Remove the player's pet from the closest nearby vehicle (standalone).
+function RemovePetFromClosestVehicle()
+    if GetResourceState('cdev_pets') ~= 'started' then
+        print('[pets] cdev_pets is not running')
+        return false
+    end
+
+    local vehicle = getClosestVehicle(5.0)
+    if vehicle == 0 or not DoesEntityExist(vehicle) then
+        print('[pets] No vehicle nearby')
+        return false
+    end
+
+    if not exports.cdev_pets:CanExitVehicle(vehicle) then
+        print('[pets] Pet cannot exit this vehicle right now')
+        return false
+    end
+
+    TriggerEvent('cdev_pets:onTargetTakeVehicle', {
+        entity = vehicle,
+    })
+
+    return true
+end
+
+-- Optional: expose as net events so a radial menu can call them by name
+RegisterNetEvent('my_pets:client:putInVehicle', PutPetInClosestVehicle)
+RegisterNetEvent('my_pets:client:removeFromVehicle', RemovePetFromClosestVehicle)
+```
+
+**Usage from anywhere on the client:**
+
+```lua
+PutPetInClosestVehicle()
+RemovePetFromClosestVehicle()
+```
+
+Replace `print()` with your notification system if desired.
+
+***
+
 #### spawnPet
 
 **Description:**\
