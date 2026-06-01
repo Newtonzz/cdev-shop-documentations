@@ -2,6 +2,27 @@
 description: Get insight on what we offer for 12.99 on our Tebex!
 cover: ../.gitbook/assets/Screenshot_18[1].png
 coverY: 26
+layout:
+  width: default
+  cover:
+    visible: true
+    size: hero
+  title:
+    visible: true
+  description:
+    visible: true
+  tableOfContents:
+    visible: true
+  outline:
+    visible: true
+  pagination:
+    visible: true
+  metadata:
+    visible: true
+  tags:
+    visible: true
+  actions:
+    visible: true
 ---
 
 # 🐶 Preview Subscription Pack

@@ -167,7 +167,7 @@ local canExit = exports.cdev_pets:CanExitVehicle(vehicle)
 
 ***
 
-#### `cdev_pets:onTargetPlaceVehicle`
+#### cdev\_pets:onTargetPlaceVehicle
 
 Places the player's spawned owned pet into a vehicle seat.
 
@@ -210,7 +210,7 @@ TriggerEvent('cdev_pets:onTargetPlaceVehicle', {
 
 ***
 
-#### `cdev_pets:onTargetTakeVehicle`
+#### cdev\_pets:onTargetTakeVehicle
 
 Removes the player's pet from a vehicle.
 
@@ -233,6 +233,14 @@ TriggerEvent('cdev_pets:onTargetTakeVehicle', {
 * Calls `pet:Idle()`, which plays the exit animation and detaches the pet.
 
 **Returns:** None.
+
+***
+
+#### QBX\_radialmenu Example
+
+{% content-ref url="how-setup-qbx_radialmenu.md" %}
+[how-setup-qbx\_radialmenu.md](how-setup-qbx_radialmenu.md)
+{% endcontent-ref %}
 
 ***
 
