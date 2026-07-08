@@ -57,3 +57,45 @@ Needs.registerOnUpdate(
 ```
 
 ***
+
+#### Actions menu (client-side)
+
+Opens the same menu as the **O** key (pee, poop, shower, sleep, etc.). Useful for custom menus (ESX, ox\_lib, radial menus, etc.).
+
+```lua
+exports['cdev_needs']:openActionsMenu()    -- open menu, returns true if opened
+exports['cdev_needs']:closeActionsMenu() -- close menu, returns true if it was open
+exports['cdev_needs']:toggleActionsMenu() -- same as pressing O
+exports['cdev_needs']:isActionsMenuOpen()  -- returns boolean
+```
+
+**Example (custom menu button):**
+
+```lua
+RegisterCommand('myneeds', function()
+    local opened = exports['cdev_needs']:openActionsMenu()
+    if not opened then
+        print('Could not open needs menu (dead or already open)')
+    end
+end, false)
+```
+
+**Example (another resource):**
+
+```lua
+if GetResourceState('cdev_needs') == 'started' then
+    exports['cdev_needs']:openActionsMenu()
+end
+```
+
+***
+
+#### Action lock (client-side)
+
+Prevents the player from starting needs actions (useful during cutscenes, minigames, etc.).
+
+```lua
+exports['cdev_needs']:isLocked()           -- returns boolean
+exports['cdev_needs']:setActionLocked(true)  -- lock actions
+exports['cdev_needs']:setActionLocked(false) -- unlock actions
+```
