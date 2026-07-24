@@ -40,6 +40,8 @@ Creating a `[cdev]` subfolder under `resources` is optional, but recommended.
 {% endhint %}
 
 **If you have not already, create a folder named `[cdev]` in your server resources directory. Extract this script into that folder.**
+
+<div align="left"><figure><img src="../../.gitbook/assets/explorer_TakdKEIfaa.gif" alt=""><figcaption></figcaption></figure></div>
 {% endstep %}
 
 {% step %}
@@ -73,12 +75,7 @@ Framework admins (QB admin/god, Qbox admin, ESX admin/superadmin) are also accep
 
 Add `ensure cdev_mapeditor` **after** `oxmysql` (and after your framework if you use one). Then do a **full server restart**.
 
-```cfg
-ensure oxmysql
-ensure framework ( E.g qb-core )
-ensure cdev_propshot ## IF YOU HAVE Package
-ensure cdev_mapeditor
-```
+<div align="left"><figure><img src="../../.gitbook/assets/image (28).png" alt=""><figcaption></figcaption></figure></div>
 
 {% hint style="success" %}
 On first start the resource creates all MySQL tables automatically. You do not need to import an SQL file.
@@ -91,5 +88,7 @@ In-game, open the editor with **`/mapeditor`** or **F7**.
 {% hint style="danger" %}
 Custom framework or notify stacks: read Configurations and Integrations and adjust `Bridge` plus files under `public/bridge/`.
 {% endhint %}
+
+<figure><img src="../../.gitbook/assets/FiveM_b3751_GTAProcess_xlpR9rPVJH.gif" alt=""><figcaption></figcaption></figure>
 {% endstep %}
 {% endstepper %}

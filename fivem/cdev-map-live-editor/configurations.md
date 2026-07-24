@@ -4,11 +4,7 @@ icon: wrench
 
 # Configurations
 
-## Configurations
-
-### Configuration
-
-All day to day server settings live in one shared file. You do not need to edit escrowed Lua for normal setup.
+All day to day server settings live in one shared file.
 
 {% hint style="warning" %}
 Restart the resource after config changes. Some options may need a full server restart.
@@ -16,11 +12,10 @@ Restart the resource after config changes. Some options may need a full server r
 
 #### File location
 
-| Item       | Value                                                              |
-| ---------- | ------------------------------------------------------------------ |
-| Path       | `public/shared/config.lua`                                         |
-| Scope      | Shared on client and server (`shared_scripts` in `fxmanifest.lua`) |
-| Table name | `MapEditorConfig`                                                  |
+| Item       | Value                      |
+| ---------- | -------------------------- |
+| Path       | `public/shared/config.lua` |
+| Table name | `MapEditorConfig`          |
 
 Server only permissions and webhook live in `public/server/config.lua` (`MapEditorServerConfig`).
 
@@ -39,18 +34,7 @@ Server only permissions and webhook live in `public/server/config.lua` (`MapEdit
 
 #### Quick reference
 
-| Section      | Keys                                                           |
-| ------------ | -------------------------------------------------------------- |
-| General      | `Debug`, `Locale`, `Command`, `Keybind`                        |
-| Camera       | `Camera.*`                                                     |
-| Placement    | `Placement.*`, `Snap.*`, `ObjectDefaults.*`                    |
-| Tools        | `Brush`, `AreaFill`, `Array`, `AreaDelete`, `Eraser`, `Lights` |
-| Live / world | `LiveSync.*`, `Runtime.*`                                      |
-| Catalog      | `Catalog.*`, `CustomProps`                                     |
-| Limits       | `Limits.*`                                                     |
-| Bridge       | `Bridge.Framework`                                             |
-| Hotkeys      | `Keys.*`                                                       |
-| Server       | `MapEditorServerConfig.Permissions`, `Webhook`                 |
+<table data-search="false"><thead><tr><th>Section</th><th>Keys</th></tr></thead><tbody><tr><td>General</td><td><code>Debug</code>, <code>Locale</code>, <code>Command</code>, <code>Keybind</code></td></tr><tr><td>Camera</td><td><code>Camera.*</code></td></tr><tr><td>Placement</td><td><code>Placement.*</code>, <code>Snap.*</code>, <code>ObjectDefaults.*</code></td></tr><tr><td>Tools</td><td><code>Brush</code>, <code>AreaFill</code>, <code>Array</code>, <code>AreaDelete</code>, <code>Eraser</code>, <code>Lights</code></td></tr><tr><td>Live / world</td><td><code>LiveSync.*</code>, <code>Runtime.*</code></td></tr><tr><td>Catalog</td><td><code>Catalog.*</code>, <code>CustomProps</code></td></tr><tr><td>Limits</td><td><code>Limits.*</code></td></tr><tr><td>Bridge</td><td><code>Bridge.Framework</code></td></tr><tr><td>Hotkeys</td><td><code>Keys.*</code></td></tr><tr><td>Server</td><td><code>MapEditorServerConfig.Permissions</code>, <code>Webhook</code></td></tr></tbody></table>
 
 ***
 
@@ -67,15 +51,7 @@ Server only permissions and webhook live in `public/server/config.lua` (`MapEdit
 
 #### Camera (`Camera`)
 
-| Option            | Type     | Default | Description                              |
-| ----------------- | -------- | ------- | ---------------------------------------- |
-| `moveSpeed`       | `number` | `14.0`  | Base freecam speed                       |
-| `fastMultiplier`  | `number` | `6.0`   | Held with Shift                          |
-| `slowMultiplier`  | `number` | `0.25`  | Held with Alt                            |
-| `pixelLookBase`   | `number` | `0.12`  | RMB look sensitivity with cursor visible |
-| `controlLookBase` | `number` | `8.0`   | Look while cursor is locked (noclip)     |
-| `fov`             | `number` | `50.0`  | Field of view                            |
-| `maxPitch`        | `number` | `85.0`  | Pitch clamp                              |
+<table data-search="false"><thead><tr><th>Option</th><th>Type</th><th>Default</th><th>Description</th></tr></thead><tbody><tr><td><code>moveSpeed</code></td><td><code>number</code></td><td><code>14.0</code></td><td>Base freecam speed</td></tr><tr><td><code>fastMultiplier</code></td><td><code>number</code></td><td><code>6.0</code></td><td>Held with Shift</td></tr><tr><td><code>slowMultiplier</code></td><td><code>number</code></td><td><code>0.25</code></td><td>Held with Alt</td></tr><tr><td><code>pixelLookBase</code></td><td><code>number</code></td><td><code>0.12</code></td><td>RMB look sensitivity with cursor visible</td></tr><tr><td><code>controlLookBase</code></td><td><code>number</code></td><td><code>8.0</code></td><td>Look while cursor is locked (noclip)</td></tr><tr><td><code>fov</code></td><td><code>number</code></td><td><code>50.0</code></td><td>Field of view</td></tr><tr><td><code>maxPitch</code></td><td><code>number</code></td><td><code>85.0</code></td><td>Pitch clamp</td></tr></tbody></table>
 
 ***
 
@@ -117,17 +93,7 @@ Server only permissions and webhook live in `public/server/config.lua` (`MapEdit
 
 Used when the editor is closed and a map is live in the world.
 
-| Option                          | Default       | Description                                            |
-| ------------------------------- | ------------- | ------------------------------------------------------ |
-| `spawnRadius` / `despawnRadius` | `150` / `180` | Create vs park hysteresis (despawn should stay larger) |
-| `despawnDelayMs`                | `5000`        | Wait before parking to soft-cache                      |
-| `entityCacheMax`                | `96`          | Soft-cache LRU size                                    |
-| `nearWaitMs` / `idleWaitMs`     | `150` / `750` | Stream thread sleeps                                   |
-| `maxSpawnsPerTick`              | `8`           | CreateObject budget per tick                           |
-| `showLoadToast`                 | `true`        | Toast while the map bundle downloads                   |
-| `showObjectsToast`              | `true`        | Toast while objects spawn or revive near you           |
-| `showUnloadToast`               | `true`        | Toast while objects park after leaving the radius      |
-| `showHideApplyToast`            | `true`        | Toast when world hides are stamped on area enter       |
+<table data-search="false"><thead><tr><th>Option</th><th>Default</th><th>Description</th></tr></thead><tbody><tr><td><code>spawnRadius</code> / <code>despawnRadius</code></td><td><code>150</code> / <code>180</code></td><td>Create vs park hysteresis (despawn should stay larger)</td></tr><tr><td><code>despawnDelayMs</code></td><td><code>5000</code></td><td>Wait before parking to soft-cache</td></tr><tr><td><code>entityCacheMax</code></td><td><code>96</code></td><td>Soft-cache LRU size</td></tr><tr><td><code>nearWaitMs</code> / <code>idleWaitMs</code></td><td><code>150</code> / <code>750</code></td><td>Stream thread sleeps</td></tr><tr><td><code>maxSpawnsPerTick</code></td><td><code>8</code></td><td>CreateObject budget per tick</td></tr><tr><td><code>showLoadToast</code></td><td><code>true</code></td><td>Toast while the map bundle downloads</td></tr><tr><td><code>showObjectsToast</code></td><td><code>true</code></td><td>Toast while objects spawn or revive near you</td></tr><tr><td><code>showUnloadToast</code></td><td><code>true</code></td><td>Toast while objects park after leaving the radius</td></tr><tr><td><code>showHideApplyToast</code></td><td><code>true</code></td><td>Toast when world hides are stamped on area enter</td></tr></tbody></table>
 
 Set the toast flags to `false` in production if you want a quieter HUD.
 

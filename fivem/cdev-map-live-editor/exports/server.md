@@ -4,8 +4,6 @@ icon: database
 
 # Server
 
-### Server exports
-
 Call from server-side scripts only. Pass a valid player server id (`source`) when the export needs a player.
 
 ***

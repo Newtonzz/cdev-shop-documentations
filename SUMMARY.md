@@ -183,6 +183,7 @@
   * [Installation Guide](fivem/cdev-map-live-editor/installation-guide.md)
   * [Configurations](fivem/cdev-map-live-editor/configurations.md)
   * [Commands](fivem/cdev-map-live-editor/commands.md)
+  * [Propshot Tools](fivem/cdev-map-live-editor/propshot-tools.md)
   * [Exports](fivem/cdev-map-live-editor/exports/README.md)
     * [Shared](fivem/cdev-map-live-editor/exports/shared.md)
     * [Client](fivem/cdev-map-live-editor/exports/client.md)

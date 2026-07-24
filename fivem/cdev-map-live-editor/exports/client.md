@@ -4,8 +4,6 @@ icon: user-hair
 
 # Client
 
-### Client exports
-
 Call from client-side scripts only (local player).
 
 ***

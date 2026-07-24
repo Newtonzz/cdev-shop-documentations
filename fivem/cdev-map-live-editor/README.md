@@ -1,11 +1,10 @@
 ---
-hidden: true
 icon: shapes
 ---
 
 # cDev Map Live Editor
 
-
+<figure><img src="../../.gitbook/assets/cdev-map-live-editor-banner.png" alt=""><figcaption></figcaption></figure>
 
 ### Introduction
 
@@ -14,6 +13,16 @@ cDev Map Live Editor is an in-game map builder for FiveM. Place and edit props w
 {% endhint %}
 
 ### Purchase the Script
+
+{% hint style="danger" %}
+**Attention:** We offer three different editions:
+
+1. **cDev MapEditor only**
+2. **cDev MapEditor + cDev PropShot Bundle**
+3. **cDev PropShot only**
+
+Please make sure you choose the edition that best fits your needs before completing your purchase.
+{% endhint %}
 
 {% embed url="https://fivem.cdev.shop/" %}
 
@@ -64,6 +73,10 @@ cDev Map Live Editor is an in-game map builder for FiveM. Place and edit props w
 
 {% content-ref url="commands.md" %}
 [commands.md](commands.md)
+{% endcontent-ref %}
+
+{% content-ref url="propshot-tools.md" %}
+[propshot-tools.md](propshot-tools.md)
 {% endcontent-ref %}
 
 {% content-ref url="exports/" %}

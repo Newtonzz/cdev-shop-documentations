@@ -4,11 +4,11 @@ icon: lightbulb-gear
 
 # Integrations
 
-## Integrations
-
 **Supported integrations**
 
-> If a resource is not listed below, it is not officially supported out of the box. Custom stacks can be adapted under **`public/bridge/`**.
+{% hint style="info" %}
+If a resource is not listed below, it is not officially supported out of the box. Custom stacks can be adapted under **`public/bridge/`**.
+{% endhint %}
 
 ***
 

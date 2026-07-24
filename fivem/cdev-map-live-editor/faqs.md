@@ -91,16 +91,6 @@ icon: messages-question
 
 <details>
 
-<summary>Where is Export / Publish / YMAP?</summary>
-
-* That flow was removed. Maps stay in MySQL and stream at runtime.
-* Use **Save**, optional **Auto Sync**, and **Go Live** in the Maps panel.
-* There is no `exports/<map_name>/` folder for standalone map packs.
-
-</details>
-
-<details>
-
 <summary>PropShot button missing</summary>
 
 * Start `cdev_propshot` and restart or reopen the map editor.
