@@ -285,7 +285,7 @@ Yes, it’s possible to add a pet <mark style="color:yellow;">Add-on</mark> or e
 
 ⚠ <mark style="color:yellow;">**The file name (the animal’s photo) must match exactly the**</mark> <mark style="color:red;">**KEY**</mark>**&#x20;**<mark style="color:yellow;">**variable name defined in**</mark>**&#x20;**<kbd>**cdev\_pets > public > config > shop.lua**</kbd><mark style="color:yellow;">**.**</mark>
 
-**Add the photo in the&#x20;**<mark style="color:yellow;">**cdev\_lib**</mark>**&#x20;resource under the path:&#x20;**<kbd>**cdev\_lib > nui > dist > pets > inventory**</kbd>**.**
+**Add the photo in the&#x20;**<mark style="color:yellow;">**cdev\_lib**</mark>**&#x20;resource under the path:&#x20;**<kbd>**cdev\_pets > html > pets > > inventory**</kbd>**.**
 {% endstep %}
 
 {% step %}
