@@ -16,8 +16,9 @@ Ideal for servers with pet systems featuring inventories and animations, providi
 
 * 🐾 Secure pet ownership transfers with validations
 * 💰 Managing optional transfer fees between players
-*  🎮 Enhancing player interaction with pet trading features
-*  🔔 Clear notifications and Discord logging for auditing
+*
+
+🎮 Enhancing player interaction with pet trading features \* 🔔 Clear notifications and Discord logging for auditing
 
 ***
 
@@ -35,8 +36,6 @@ Ideal for servers with pet systems featuring inventories and animations, providi
 * ✅ **Discord Logging** – All transfer actions, successes, failures, and declines are logged
 * ✅ **Robust Server-Side Validation** – Validations happen server-side to prevent cheating or desyncs
 * ✅ **Flexible Configuration** – Easily enable/disable system and adjust fee
-
-
 
 ***
 
@@ -153,7 +152,7 @@ Recipient receives a popup with:
 {% tab title="💰 Transfer Fee (Charge) System" %}
 #### Overview
 
-<figure><img src="../../../.gitbook/assets/FiveM_GTAProcess_Q9YLUdH3mU (1).gif" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/FiveM_GTAProcess_Q9YLUdH3mU.gif" alt=""><figcaption></figcaption></figure>
 
 {% hint style="success" %}
 Add a realistic economic layer to pet transfers with the optional transfer fee system!\
@@ -213,7 +212,7 @@ Bring depth and fairness to your pet trading economy with this intuitive transfe
 {% hint style="warning" %}
 **File Location:** `public/config/config.lua`\
 **Section:** `After PedShop`\
-**Restart Required:** Yes both resources first >  (`restart cdev_lib`) and after ( `ensure cdev_pets)`
+**Restart Required:** Yes both resources first > (`restart cdev_lib`) and after ( `ensure cdev_pets)`
 {% endhint %}
 
 #### Permission Configuration
@@ -252,7 +251,7 @@ Bring depth and fairness to your pet trading economy with this intuitive transfe
 
 ***
 
-### ❓  Frequently Asked Questions (FAQ)
+### ❓ Frequently Asked Questions (FAQ)
 
 <details>
 

@@ -131,7 +131,7 @@ When you receive an invite, a modal appears showing:
 
 #### Accepting an Invite
 
-<figure><img src="../../../.gitbook/assets/Accepting and Check Group Invite (1).gif" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/Accepting and Check Group Invite.gif" alt=""><figcaption></figcaption></figure>
 
 1. Press **K** (or click "Accept")
 2. You join the group instantly
@@ -140,7 +140,7 @@ When you receive an invite, a modal appears showing:
 
 #### During Animation
 
-<figure><img src="../../../.gitbook/assets/Group Receive (1).gif" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/Group Receive.gif" alt=""><figcaption></figcaption></figure>
 
 When the leader plays an animation:
 
@@ -349,7 +349,7 @@ allowBlockInvites = false -- Force accept all invites
 ```
 
 {% hint style="success" %}
-Recomended: <mark style="color:yellow;">true</mark>  (gives  players control)
+Recomended: <mark style="color:yellow;">true</mark> (gives players control)
 {% endhint %}
 {% endtab %}
 
@@ -426,8 +426,6 @@ Available positions:
 {% endhint %}
 {% endtab %}
 {% endtabs %}
-
-
 
 ***
 

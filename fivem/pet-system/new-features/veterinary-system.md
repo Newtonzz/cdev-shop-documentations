@@ -82,7 +82,7 @@ The **Veterinary System** introduces complete pet healthcare to your server. Vet
 **Attention: Only members with the&#x20;**<mark style="color:red;">**Veterinarian**</mark>**&#x20;role will be able to use these functions — not even the&#x20;**<mark style="color:yellow;">**Boss**</mark>**&#x20;or&#x20;**<mark style="color:yellow;">**Manager**</mark>**&#x20;will have access.**
 {% endhint %}
 
-<figure><img src="../../../.gitbook/assets/FiveM_GTAProcess_6ipuzblSGS-_online-video-cutter.com_ (1).gif" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/FiveM_GTAProcess_6ipuzblSGS-_online-video-cutter.com_.gif" alt=""><figcaption></figcaption></figure>
 {% endtab %}
 
 {% tab title="For Pet Owners" %}
@@ -210,7 +210,7 @@ The **Veterinary System** introduces complete pet healthcare to your server. Vet
 
 **To access veterinary features:**
 
-*   Grade:&#x20;
+*   Grade:
 
     ```lua
     VETERINARY = 25,
@@ -231,7 +231,7 @@ The **Veterinary System** introduces complete pet healthcare to your server. Vet
 **Section:** `PlayerShop.Veterinary`<br>
 
 **Debug Modes Enable:** Yes (`cdev_lib > public > config > config.lua` and `cdev_pets > public > config > config.lua`)\
-**Restart Required:** Yes both resources first >  (`restart cdev_lib`) and after ( `ensure cdev_pets)`
+**Restart Required:** Yes both resources first > (`restart cdev_lib`) and after ( `ensure cdev_pets)`
 {% endhint %}
 
 #### Complete Configuration Structure
@@ -479,7 +479,7 @@ duration = 5000,       -- Animation duration in ms (5 seconds)
 
 **Alternative Animations:**
 
-**Clipboard Examination:**&#x20;
+**Clipboard Examination:**
 
 ```lua
 TableTreatmentAnim = {

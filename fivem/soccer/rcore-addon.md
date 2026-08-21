@@ -16,12 +16,12 @@ Set the below config to **true**
     },
 ```
 
-### Step 2 (Optional): Configure the Achievements file located: cdev\_soccer/addons/rcore\_stats/config.lua&#x20;
+### Step 2 (Optional): Configure the Achievements file located: cdev\_soccer/addons/rcore\_stats/config.lua
 
 You can adjust the achievement titles and such here.
 
 ## Previews
 
-<div><figure><img src="../../.gitbook/assets/image (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1).png" alt=""><figcaption></figcaption></figure> <figure><img src="../../.gitbook/assets/image2 (1).png" alt=""><figcaption></figcaption></figure></div>
+<div><figure><img src="../../.gitbook/assets/image (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1).png" alt=""><figcaption></figcaption></figure> <figure><img src="../../.gitbook/assets/image2.png" alt=""><figcaption></figcaption></figure></div>
 
-<div><figure><img src="../../.gitbook/assets/image3 (1).png" alt=""><figcaption></figcaption></figure> <figure><img src="../../.gitbook/assets/image4 (1).png" alt=""><figcaption></figcaption></figure> <figure><img src="../../.gitbook/assets/image5 (1).png" alt=""><figcaption></figcaption></figure></div>
+<div><figure><img src="../../.gitbook/assets/image3.png" alt=""><figcaption></figcaption></figure> <figure><img src="../../.gitbook/assets/image4.png" alt=""><figcaption></figcaption></figure> <figure><img src="../../.gitbook/assets/image5.png" alt=""><figcaption></figcaption></figure></div>

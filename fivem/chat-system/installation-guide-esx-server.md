@@ -41,7 +41,7 @@ hidden: true
 
 **Below is an example screenshot showing the correct folder structure:**
 
-![](<../../.gitbook/assets/image (1) (1) (1) (1) (1) (1) (1) (1) (1).png>)
+![](<../../.gitbook/assets/image (1) (1) (1) (1) (1) (1) (1) (1).png>)
 {% endstep %}
 
 {% step %}
@@ -53,9 +53,9 @@ It is essential to follow the correct startup order to ensure proper functionali
 
 **➤ Step 1:** Inside the **server.cfg** file, look for the line `set resources_useSystemChat = true` and change **true** to **false**.
 
-![](<../../.gitbook/assets/Sem título (1).png>)
+![](<../../.gitbook/assets/Sem título.png>)
 
-**➤ Step 2:**  Add the ACE permission `add_ace group.admin cdev_chat.manager allow` so that you can control the chat as an admin, placing it <mark style="color:yellow;">bellow</mark> the `add_ace group.admin command.quit deny` line, just like shown in the picture below.![](<../../.gitbook/assets/Sem título (2).png>)
+**➤ Step 2:** Add the ACE permission `add_ace group.admin cdev_chat.manager allow` so that you can control the chat as an admin, placing it <mark style="color:yellow;">bellow</mark> the `add_ace group.admin command.quit deny` line, just like shown in the picture below.![](<../../.gitbook/assets/Sem título (2).png>)
 
 **➤ Step 3:** Remove the line `ensure chat`, and if you have it, also remove the line `ensure chat-theme-gtao`.
 
@@ -68,7 +68,7 @@ It is essential to follow the correct startup order to ensure proper functionali
 ### Deleting default chat resources
 
 {% hint style="danger" %}
-&#x20;Inside your server’s **resources** folder, use the Windows search bar to look for **chat** and delete all of them except **cdev\_chat**, as showbelow.
+Inside your server’s **resources** folder, use the Windows search bar to look for **chat** and delete all of them except **cdev\_chat**, as showbelow.
 {% endhint %}
 
 ```lua
@@ -97,15 +97,15 @@ For the cdev\_chat and the connection between your <mark style="color:yellow;">f
 {% step %}
 ### Cdev\_chat Configuration
 
-**➤ Step 1:** Open the <mark style="color:yellow;">config.lua</mark> file located in the folder **`[cdev] > cdev_chat > public > config > config.lua`**&#x20;
+**➤ Step 1:** Open the <mark style="color:yellow;">config.lua</mark> file located in the folder **`[cdev] > cdev_chat > public > config > config.lua`**
 
-**➤ Step 2:**  On line <mark style="color:yellow;">58</mark>, you’ll see a setting called `UseFallbackIcons = false`. Change **false** to **true**, so it becomes `UseFallbackIcons = true`.
+**➤ Step 2:** On line <mark style="color:yellow;">58</mark>, you’ll see a setting called `UseFallbackIcons = false`. Change **false** to **true**, so it becomes `UseFallbackIcons = true`.
 
 **➤ Step 3:** If you want to add more icons, follow the step-by-step instructions below.
 
 <mark style="color:red;">To add new icons:</mark>\
-&#x20;<mark style="color:red;">-</mark> Drop your .svg files in `cdev_chat/data/icons` \
-&#x20;<mark style="color:red;">-</mark> Open the file: `cdev_chat/public/config/config.lua`
+<mark style="color:red;">-</mark> Drop your .svg files in `cdev_chat/data/icons`\
+<mark style="color:red;">-</mark> Open the file: `cdev_chat/public/config/config.lua`
 
 **On line 59, add new icon example:**
 

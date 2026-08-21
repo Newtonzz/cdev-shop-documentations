@@ -72,7 +72,7 @@ For the game system and the connection between your <mark style="color:yellow;">
 
 <div align="left"><figure><img src="../../.gitbook/assets/image (1) (1) (1) (1) (1) (1) (1) (1) (1) (1).png" alt=""><figcaption></figcaption></figure></div>
 
-➤ Step 2: <mark style="color:red;">**As in the case of**</mark>**&#x20;**<mark style="color:yellow;">**QBox**</mark><mark style="color:red;">**, we use**</mark>**&#x20;`ox_lib`&#x20;**<mark style="color:red;">**to mark the**</mark>**&#x20;**<mark style="color:yellow;">**zones**</mark><mark style="color:red;">**, it is necessary to enable the**</mark>**&#x20;`ox_lib`** <mark style="color:$success;">**dependency**</mark>**&#x20;**<mark style="color:red;">**inside the**</mark>**&#x20;**<mark style="color:yellow;">**fxmanifest.lua**</mark>**&#x20;**<mark style="color:red;">**file located in the**</mark>**&#x20;**<mark style="color:yellow;">**cdev\_soccer**</mark>**&#x20;**<mark style="color:red;">**folder. Leave the file exactly as shown in the picture bellow.**</mark>
+➤ Step 2: <mark style="color:red;">**As in the case of**</mark> <mark style="color:yellow;">**QBox**</mark><mark style="color:red;">**, we use**</mark> **`ox_lib`** <mark style="color:red;">**to mark the**</mark> <mark style="color:yellow;">**zones**</mark><mark style="color:red;">**, it is necessary to enable the**</mark> **`ox_lib`** <mark style="color:$success;">**dependency**</mark> <mark style="color:red;">**inside the**</mark> <mark style="color:yellow;">**fxmanifest.lua**</mark> <mark style="color:red;">**file located in the**</mark> <mark style="color:yellow;">**cdev\_soccer**</mark> <mark style="color:red;">**folder. Leave the file exactly as shown in the picture bellow.**</mark>
 
 <div align="left"><figure><img src="../../.gitbook/assets/image (2) (1) (1) (1) (1) (1) (1).png" alt=""><figcaption></figcaption></figure></div>
 {% endstep %}
@@ -82,7 +82,6 @@ For the game system and the connection between your <mark style="color:yellow;">
 
 **Location Default Field:** `vec4(770.54, -214.28, 66.11, 322.44)`
 
-<figure><img src="../../.gitbook/assets/FiveM_GTAProcess_3PhcGEZBei (online-video-cutter.com) (1).gif" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/FiveM_GTAProcess_3PhcGEZBei (online-video-cutter.com).gif" alt=""><figcaption></figcaption></figure>
 {% endstep %}
 {% endstepper %}
-
