@@ -16,6 +16,8 @@ Place a 32-space world board, sit 2–4 players (or one human vs AI), buy cities
 
 ### Purchase the Script
 
+{% embed url="https://fivem.cdev.shop/products?product=7684699" %}
+
 ### Showcase Video
 
 <mark style="color:$warning;">Soon</mark>
