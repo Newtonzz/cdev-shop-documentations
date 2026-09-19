@@ -34,7 +34,7 @@ Place a 32-space world board, sit 2–4 players (or one human vs AI), buy cities
 * 💎 **VIP Currency Bridge** — Real mode can charge `vip` via `public/bridge/vip/server.lua` (default Qbox/QB `crypto`).
 * 🏠 **Cities, Beaches & Hotels** — Buy land, build houses, hotels on cities, house 1 on paradise beaches. Full color set doubles rent. After paying rent on a rival **city**, you can repurchase it (not beaches, not hotels).
 * 🃏 **Luck Cards** — Chance spaces draw from an equal-weight deck. Host can use Default or Custom cards. Holdable cards (rent ×2, rent ÷2, Freed from Lost Island, Protection) play on your turn.
-* 🏝️ **Lost Island, Tax & Specials** — Three doubles or landing on the island space sends you to Lost Island. Tax charges **10%** of cash + property value (configurable). World Championships and World Tour pay/collect fixed amounts.
+* 🏝️ **Lost Island, Tax & Specials** — Three doubles or landing on the island space sends you to Lost Island. Tax charges **10%** of cash + property value (configurable). World Championships collects 50,000 from each other player. World Tour lets you pick any other space and travel there.
 * 🤖 **AI Opponents** — NPC bots with configurable names, ped models, think delay, and buy/upgrade aggression. Used in Singleplayer and as fillers in Fun/Real.
 * 🏆 **Rating & Badge System** — Competitive points (default 1000–6000) with win / loss / forfeit deltas and rank badges (Rookie → Grandmaster). Fun and Real change rating. Singleplayer does not.
 * 📊 **Gaming Hub** — Profile (display name + avatar), paginated ranking, match history, money stats, and in-hub rules via `/citytourgaming`.
