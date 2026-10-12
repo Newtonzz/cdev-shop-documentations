@@ -123,6 +123,8 @@
   * [🆕 (NEW) Features](fivem/emote-menu/new-features/README.md)
     * [🎭Group Animation System](fivem/emote-menu/new-features/group-animation-system.md)
     * [⚡ Speed Control System](fivem/emote-menu/new-features/speed-control-system.md)
+  * [Integrations](fivem/emote-menu/integrations/README.md)
+    * [TGIANN Phone Accessories](fivem/emote-menu/integrations/tgiann-phone-accessories.md)
 * [🧏 cDev ASL (American Sign Language)](fivem/cdev-asl-american-sign-language/README.md)
   * [💡 New Features & Rework](fivem/cdev-asl-american-sign-language/new-features-and-rework.md)
 * [cDev Citytour](fivem/cdev-citytour/README.md)
